@@ -1,0 +1,474 @@
+{
+    "issues": {
+        "errors": [],
+        "warnings": [
+            {
+                "key": "TSV_IMPROPER_NA",
+                "severity": "warning",
+                "reason": "A proper way of labeling missing values is \"n/a\".",
+                "files": [
+                    {
+                        "key": "TSV_IMPROPER_NA",
+                        "code": 24,
+                        "file": {
+                            "name": "sub-01_task-rsvp_events.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds004816/sub-01/eeg/sub-01_task-rsvp_events.tsv",
+                            "relativePath": "/sub-01/eeg/sub-01_task-rsvp_events.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 717705290,
+                                "size": 436712,
+                                "blocks": 856,
+                                "atimeMs": 1710540982437.0078,
+                                "mtimeMs": 1709319432653.5256,
+                                "ctimeMs": 1709322919070.406,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T22:16:22.437Z",
+                                "mtime": "2024-03-01T18:57:12.654Z",
+                                "ctime": "2024-03-01T19:55:19.070Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "row 11: 17.128\t0.2\t10\t0\t1\t9\t10\t7\t1\t0\t0\t0\tstim008_stimuli_original_animals_fish_4.png\tB\tNaN\t63.3974859784939\t1\t63.4046556965041\t63.6046585734584",
+                        "line": 12,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Missing value at column # 15",
+                        "helpUrl": "https://neurostars.org/search?q=TSV_IMPROPER_NA"
+                    },
+                    {
+                        "key": "TSV_IMPROPER_NA",
+                        "code": 24,
+                        "file": {
+                            "name": "sub-02_task-rsvp_events.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds004816/sub-02/eeg/sub-02_task-rsvp_events.tsv",
+                            "relativePath": "/sub-02/eeg/sub-02_task-rsvp_events.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 717705297,
+                                "size": 435441,
+                                "blocks": 856,
+                                "atimeMs": 1710540982473.0076,
+                                "mtimeMs": 1709319432657.5256,
+                                "ctimeMs": 1709322919070.406,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T22:16:22.473Z",
+                                "mtime": "2024-03-01T18:57:12.658Z",
+                                "ctime": "2024-03-01T19:55:19.070Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "row 14: 89.54\t0.2\t13\t0\t0\t38\t13\t8\t1\t0\t0\t0\tstim009_stimuli_original_vehicles_boats_1.png\tB\tNaN\t60.4044405987952\t1\t60.2126737508224\t60.4126779443468",
+                        "line": 15,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Missing value at column # 15",
+                        "helpUrl": "https://neurostars.org/search?q=TSV_IMPROPER_NA"
+                    },
+                    {
+                        "key": "TSV_IMPROPER_NA",
+                        "code": 24,
+                        "file": {
+                            "name": "sub-03_task-rsvp_events.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds004816/sub-03/eeg/sub-03_task-rsvp_events.tsv",
+                            "relativePath": "/sub-03/eeg/sub-03_task-rsvp_events.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 717705304,
+                                "size": 435691,
+                                "blocks": 856,
+                                "atimeMs": 1710540982493.0076,
+                                "mtimeMs": 1709319432657.5256,
+                                "ctimeMs": 1709322919070.406,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T22:16:22.493Z",
+                                "mtime": "2024-03-01T18:57:12.658Z",
+                                "ctime": "2024-03-01T19:55:19.070Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "row 15: 81.441\t0.2\t14\t0\t1\t37\t14\t8\t15\t0\t0\t0\tstim009_stimuli_original_vehicles_boats_1.png\tY\tNaN\t62.7063276350382\t1\t62.5145464023226\t62.714528653014",
+                        "line": 16,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Missing value at column # 15",
+                        "helpUrl": "https://neurostars.org/search?q=TSV_IMPROPER_NA"
+                    },
+                    {
+                        "key": "TSV_IMPROPER_NA",
+                        "code": 24,
+                        "file": {
+                            "name": "sub-04_task-rsvp_events.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds004816/sub-04/eeg/sub-04_task-rsvp_events.tsv",
+                            "relativePath": "/sub-04/eeg/sub-04_task-rsvp_events.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 717705311,
+                                "size": 435490,
+                                "blocks": 856,
+                                "atimeMs": 1710540982521.0073,
+                                "mtimeMs": 1709319432661.5256,
+                                "ctimeMs": 1709322919070.406,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T22:16:22.521Z",
+                                "mtime": "2024-03-01T18:57:12.662Z",
+                                "ctime": "2024-03-01T19:55:19.070Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "row 11: 57.104\t0.2\t10\t0\t0\t6\t10\t6\t3\t0\t0\t0\tstim007_stimuli_original_animals_fish_3.png\tD\tNaN\t29.9296943800291\t0\t29.7379307015799\t29.9379158779047",
+                        "line": 12,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Missing value at column # 15",
+                        "helpUrl": "https://neurostars.org/search?q=TSV_IMPROPER_NA"
+                    },
+                    {
+                        "key": "TSV_IMPROPER_NA",
+                        "code": 24,
+                        "file": {
+                            "name": "sub-05_task-rsvp_events.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds004816/sub-05/eeg/sub-05_task-rsvp_events.tsv",
+                            "relativePath": "/sub-05/eeg/sub-05_task-rsvp_events.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 717705318,
+                                "size": 435452,
+                                "blocks": 856,
+                                "atimeMs": 1710540982553.007,
+                                "mtimeMs": 1709319432661.5256,
+                                "ctimeMs": 1709322919070.406,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T22:16:22.553Z",
+                                "mtime": "2024-03-01T18:57:12.662Z",
+                                "ctime": "2024-03-01T19:55:19.070Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "row 25: 85.746\t0.2\t24\t0\t0\t38\t24\t6\t14\t0\t0\t0\tstim007_stimuli_original_animals_fish_3.png\tV\tNaN\t63.7586308539612\t0\t63.7660611902829\t63.9660829381319",
+                        "line": 26,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Missing value at column # 15",
+                        "helpUrl": "https://neurostars.org/search?q=TSV_IMPROPER_NA"
+                    },
+                    {
+                        "key": "TSV_IMPROPER_NA",
+                        "code": 24,
+                        "file": {
+                            "name": "sub-06_task-rsvp_events.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds004816/sub-06/eeg/sub-06_task-rsvp_events.tsv",
+                            "relativePath": "/sub-06/eeg/sub-06_task-rsvp_events.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 717705325,
+                                "size": 434795,
+                                "blocks": 856,
+                                "atimeMs": 1710540982573.007,
+                                "mtimeMs": 1709319432665.5256,
+                                "ctimeMs": 1709322919074.406,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T22:16:22.573Z",
+                                "mtime": "2024-03-01T18:57:12.666Z",
+                                "ctime": "2024-03-01T19:55:19.074Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "row 10: 15.941\t0.2\t9\t0\t0\t14\t9\t0\t15\t0\t0\t0\tstim001_stimuli_original_animals_birds_1.png\tY\tNaN\t38.0121027003042\t1\t38.0193765109871\t38.2193626626395",
+                        "line": 11,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Missing value at column # 15",
+                        "helpUrl": "https://neurostars.org/search?q=TSV_IMPROPER_NA"
+                    },
+                    {
+                        "key": "TSV_IMPROPER_NA",
+                        "code": 24,
+                        "file": {
+                            "name": "sub-07_task-rsvp_events.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds004816/sub-07/eeg/sub-07_task-rsvp_events.tsv",
+                            "relativePath": "/sub-07/eeg/sub-07_task-rsvp_events.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 717705332,
+                                "size": 436805,
+                                "blocks": 856,
+                                "atimeMs": 1710540982605.0068,
+                                "mtimeMs": 1709319432665.5256,
+                                "ctimeMs": 1709322919074.406,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T22:16:22.605Z",
+                                "mtime": "2024-03-01T18:57:12.666Z",
+                                "ctime": "2024-03-01T19:55:19.074Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "row 12: 71.783\t0.2\t11\t0\t0\t25\t11\t3\t9\t0\t0\t0\tstim004_stimuli_original_animals_birds_4.png\tL\tNaN\t90.1551756841363\t1\t89.9634007904679\t90.1634071783628",
+                        "line": 13,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Missing value at column # 15",
+                        "helpUrl": "https://neurostars.org/search?q=TSV_IMPROPER_NA"
+                    }
+                ],
+                "additionalFileCount": 0,
+                "helpUrl": "https://neurostars.org/search?q=TSV_IMPROPER_NA",
+                "code": 24
+            },
+            {
+                "key": "INCONSISTENT_SUBJECTS",
+                "severity": "warning",
+                "reason": "Not all subjects contain the same files. Each subject should contain the same number of files with the same naming unless some files are known to be missing.",
+                "files": [
+                    {
+                        "key": "INCONSISTENT_SUBJECTS",
+                        "code": 38,
+                        "file": {
+                            "relativePath": "/sub-08/eeg/sub-08_task-rsvp_events.tsv",
+                            "webkitRelativePath": "/sub-08/eeg/sub-08_task-rsvp_events.tsv",
+                            "name": "sub-08_task-rsvp_events.tsv",
+                            "path": "/sub-08/eeg/sub-08_task-rsvp_events.tsv"
+                        },
+                        "evidence": "Subject: sub-08; Missing file: sub-08_task-rsvp_events.tsv",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "This file is missing for subject sub-08, but is present for at least one other subject.",
+                        "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_SUBJECTS"
+                    },
+                    {
+                        "key": "INCONSISTENT_SUBJECTS",
+                        "code": 38,
+                        "file": {
+                            "relativePath": "/sub-09/eeg/sub-09_task-rsvp_events.tsv",
+                            "webkitRelativePath": "/sub-09/eeg/sub-09_task-rsvp_events.tsv",
+                            "name": "sub-09_task-rsvp_events.tsv",
+                            "path": "/sub-09/eeg/sub-09_task-rsvp_events.tsv"
+                        },
+                        "evidence": "Subject: sub-09; Missing file: sub-09_task-rsvp_events.tsv",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "This file is missing for subject sub-09, but is present for at least one other subject.",
+                        "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_SUBJECTS"
+                    }
+                ],
+                "additionalFileCount": 0,
+                "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_SUBJECTS",
+                "code": 38
+            },
+            {
+                "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                "severity": "warning",
+                "reason": "Tabular file contains custom columns not described in a data dictionary",
+                "files": [
+                    {
+                        "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                        "code": 82,
+                        "file": {
+                            "name": "participants.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds004816/participants.tsv",
+                            "relativePath": "/participants.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 717687444,
+                                "size": 383,
+                                "blocks": 8,
+                                "atimeMs": 1710540982429.0078,
+                                "mtimeMs": 1709319432649.5256,
+                                "ctimeMs": 1709322919054.406,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T22:16:22.429Z",
+                                "mtime": "2024-03-01T18:57:12.650Z",
+                                "ctime": "2024-03-01T19:55:19.054Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Columns: date, age, handedness, gender, native_speaker not defined, please define in: /participants.json",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Tabular file contains custom columns not described in a data dictionary",
+                        "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION"
+                    }
+                ],
+                "additionalFileCount": 0,
+                "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                "code": 82
+            }
+        ],
+        "ignored": [
+            {
+                "key": "NO_T1W",
+                "severity": "ignore",
+                "reason": "Dataset does not contain any T1w scans.",
+                "files": [
+                    {
+                        "key": "NO_T1W",
+                        "code": 53,
+                        "file": null,
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "ignore",
+                        "reason": "Dataset does not contain any T1w scans.",
+                        "helpUrl": "https://neurostars.org/search?q=NO_T1W"
+                    }
+                ],
+                "additionalFileCount": 0,
+                "helpUrl": "https://neurostars.org/search?q=NO_T1W",
+                "code": 53
+            }
+        ]
+    },
+    "summary": {
+        "sessions": [],
+        "subjects": [
+            "01",
+            "02",
+            "03",
+            "04",
+            "05",
+            "06",
+            "07",
+            "08",
+            "09",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20"
+        ],
+        "subjectMetadata": [
+            {
+                "participantId": "01",
+                "age": 22
+            },
+            {
+                "participantId": "02",
+                "age": 20
+            },
+            {
+                "participantId": "03",
+                "age": 19
+            },
+            {
+                "participantId": "04",
+                "age": 25
+            },
+            {
+                "participantId": "05",
+                "age": 25
+            },
+            {
+                "participantId": "06",
+                "age": 24
+            },
+            {
+                "participantId": "07",
+                "age": 22
+            },
+            {
+                "participantId": "08",
+                "age": 33
+            },
+            {
+                "participantId": "09",
+                "age": 38
+            },
+            {
+                "participantId": "10",
+                "age": 41
+            },
+            {
+                "participantId": "11",
+                "age": 20
+            },
+            {
+                "participantId": "12",
+                "age": 30
+            },
+            {
+                "participantId": "13",
+                "age": 21
+            },
+            {
+                "participantId": "14",
+                "age": 21
+            },
+            {
+                "participantId": "15",
+                "age": 21
+            }
+        ],
+        "tasks": [
+            "rsvp"
+        ],
+        "modalities": [
+            "EEG"
+        ],
+        "secondaryModalities": [],
+        "totalFiles": 84,
+        "size": 9731821456,
+        "dataProcessed": false,
+        "pet": null,
+        "dataTypes": [
+            "eeg",
+            "events"
+        ]
+    }
+}

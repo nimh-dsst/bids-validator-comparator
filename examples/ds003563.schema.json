@@ -1,0 +1,100 @@
+{
+    "issues": [
+        {
+            "key": "TOO_FEW_AUTHORS",
+            "severity": "warning",
+            "reason": "The 'Authors' field of 'dataset_description.json' should contain an array of values -\nwith one author per value.\nThis was triggered based on the presence of only one author field.\nPlease ignore if all contributors are already properly listed.\n",
+            "files": [
+                {
+                    "name": "dataset_description.json",
+                    "path": "/dataset_description.json",
+                    "evidence": "schema.rules.checks.hints.TooFewAuthors"
+                }
+            ]
+        }
+    ],
+    "summary": {
+        "sessions": [
+            "3978",
+            "3754",
+            "1908",
+            "3512",
+            "3697",
+            "3681",
+            "4284",
+            "0551",
+            "3970",
+            "4463",
+            "3589",
+            "3282",
+            "4262",
+            "3844",
+            "0553",
+            "4169",
+            "3206",
+            "3777",
+            "3083",
+            "1629",
+            "0559",
+            "3991",
+            "4496",
+            "3675",
+            "4088",
+            "4240",
+            "4296",
+            "1212",
+            "3555",
+            "3637",
+            "5124",
+            "3668",
+            "4046",
+            "0571",
+            "4703",
+            "4486",
+            "1462",
+            "1454",
+            "4265",
+            "1789",
+            "4521",
+            "4267",
+            "0481",
+            "1686",
+            "3466",
+            "4712",
+            "4221",
+            "4223",
+            "4263",
+            "0499",
+            "1639",
+            "4239",
+            "4058",
+            "5233",
+            "1706",
+            "4244",
+            "2449",
+            "4081",
+            "3503",
+            "2103",
+            "3964"
+        ],
+        "subjects": [
+            "yv98"
+        ],
+        "subjectMetadata": [],
+        "tasks": [],
+        "modalities": [
+            "MRI"
+        ],
+        "secondaryModalities": [
+            "MRI_Structural"
+        ],
+        "totalFiles": 335,
+        "size": 8816982029,
+        "dataProcessed": false,
+        "pet": {},
+        "dataTypes": [
+            "anat"
+        ],
+        "schemaVersion": "0.7.3-dev"
+    }
+}

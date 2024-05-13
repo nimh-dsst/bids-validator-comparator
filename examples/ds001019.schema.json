@@ -1,0 +1,76 @@
+{
+    "issues": [
+        {
+            "key": "TOO_FEW_AUTHORS",
+            "severity": "warning",
+            "reason": "The 'Authors' field of 'dataset_description.json' should contain an array of values -\nwith one author per value.\nThis was triggered based on the presence of only one author field.\nPlease ignore if all contributors are already properly listed.\n",
+            "files": [
+                {
+                    "name": "dataset_description.json",
+                    "path": "/dataset_description.json",
+                    "evidence": "schema.rules.checks.hints.TooFewAuthors"
+                }
+            ]
+        }
+    ],
+    "summary": {
+        "sessions": [],
+        "subjects": [
+            "01",
+            "29",
+            "11",
+            "23",
+            "06",
+            "21",
+            "31",
+            "26",
+            "05",
+            "32",
+            "10",
+            "15",
+            "25",
+            "17",
+            "22",
+            "37",
+            "24",
+            "34",
+            "33",
+            "16",
+            "19",
+            "09",
+            "38",
+            "28",
+            "13",
+            "03",
+            "12",
+            "07",
+            "02",
+            "18",
+            "20",
+            "27",
+            "04",
+            "08",
+            "14"
+        ],
+        "subjectMetadata": [],
+        "tasks": [
+            "navlearn"
+        ],
+        "modalities": [
+            "MRI"
+        ],
+        "secondaryModalities": [
+            "MRI_Functional",
+            "MRI_Structural"
+        ],
+        "totalFiles": 213,
+        "size": 52824277377,
+        "dataProcessed": false,
+        "pet": {},
+        "dataTypes": [
+            "func",
+            "anat"
+        ],
+        "schemaVersion": "0.7.3-dev"
+    }
+}

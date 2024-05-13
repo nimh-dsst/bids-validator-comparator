@@ -1,0 +1,160 @@
+{
+    "issues": [
+        {
+            "key": "TOO_FEW_AUTHORS",
+            "severity": "warning",
+            "reason": "The 'Authors' field of 'dataset_description.json' should contain an array of values -\nwith one author per value.\nThis was triggered based on the presence of only one author field.\nPlease ignore if all contributors are already properly listed.\n",
+            "files": [
+                {
+                    "name": "dataset_description.json",
+                    "path": "/dataset_description.json",
+                    "evidence": "schema.rules.checks.hints.TooFewAuthors"
+                }
+            ]
+        },
+        {
+            "key": "EVENTS_TSV_MISSING",
+            "severity": "warning",
+            "reason": "Task scans should have a corresponding 'events.tsv' file.\nIf this is a resting state scan you can ignore this warning or rename the task to include the word \"rest\".\n",
+            "files": [
+                {
+                    "name": "task-rsvp_eeg.json",
+                    "path": "/task-rsvp_eeg.json",
+                    "evidence": "schema.rules.checks.events.EventsMissing"
+                },
+                {
+                    "name": "sub-09_task-rsvp_eeg.vmrk",
+                    "path": "/sub-09/eeg/sub-09_task-rsvp_eeg.vmrk",
+                    "evidence": "schema.rules.checks.events.EventsMissing"
+                },
+                {
+                    "name": "sub-09_task-rsvp_eeg.vhdr",
+                    "path": "/sub-09/eeg/sub-09_task-rsvp_eeg.vhdr",
+                    "evidence": "schema.rules.checks.events.EventsMissing"
+                },
+                {
+                    "name": "sub-09_task-rsvp_eeg.eeg",
+                    "path": "/sub-09/eeg/sub-09_task-rsvp_eeg.eeg",
+                    "evidence": "schema.rules.checks.events.EventsMissing"
+                },
+                {
+                    "name": "sub-08_task-rsvp_eeg.eeg",
+                    "path": "/sub-08/eeg/sub-08_task-rsvp_eeg.eeg",
+                    "evidence": "schema.rules.checks.events.EventsMissing"
+                },
+                {
+                    "name": "sub-08_task-rsvp_eeg.vhdr",
+                    "path": "/sub-08/eeg/sub-08_task-rsvp_eeg.vhdr",
+                    "evidence": "schema.rules.checks.events.EventsMissing"
+                },
+                {
+                    "name": "sub-08_task-rsvp_eeg.vmrk",
+                    "path": "/sub-08/eeg/sub-08_task-rsvp_eeg.vmrk",
+                    "evidence": "schema.rules.checks.events.EventsMissing"
+                }
+            ]
+        }
+    ],
+    "summary": {
+        "sessions": [],
+        "subjects": [
+            "01",
+            "11",
+            "06",
+            "05",
+            "10",
+            "15",
+            "17",
+            "16",
+            "19",
+            "09",
+            "13",
+            "03",
+            "12",
+            "07",
+            "02",
+            "18",
+            "20",
+            "04",
+            "08",
+            "14"
+        ],
+        "subjectMetadata": [
+            {
+                "participantId": "01",
+                "age": 22
+            },
+            {
+                "participantId": "02",
+                "age": 20
+            },
+            {
+                "participantId": "03",
+                "age": 19
+            },
+            {
+                "participantId": "04",
+                "age": 25
+            },
+            {
+                "participantId": "05",
+                "age": 25
+            },
+            {
+                "participantId": "06",
+                "age": 24
+            },
+            {
+                "participantId": "07",
+                "age": 22
+            },
+            {
+                "participantId": "08",
+                "age": 33
+            },
+            {
+                "participantId": "09",
+                "age": 38
+            },
+            {
+                "participantId": "10",
+                "age": 41
+            },
+            {
+                "participantId": "11",
+                "age": 20
+            },
+            {
+                "participantId": "12",
+                "age": 30
+            },
+            {
+                "participantId": "13",
+                "age": 21
+            },
+            {
+                "participantId": "14",
+                "age": 21
+            },
+            {
+                "participantId": "15",
+                "age": 21
+            }
+        ],
+        "tasks": [
+            "rsvp"
+        ],
+        "modalities": [
+            "EEG"
+        ],
+        "secondaryModalities": [],
+        "totalFiles": 83,
+        "size": 9731821456,
+        "dataProcessed": false,
+        "pet": {},
+        "dataTypes": [
+            "eeg"
+        ],
+        "schemaVersion": "0.7.3-dev"
+    }
+}

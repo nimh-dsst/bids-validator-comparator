@@ -1,0 +1,387 @@
+{
+    "legacy_version": {
+        "cmd": "bids-validator --version",
+        "cmd_return_code": 0,
+        "cmd_time_seconds": 0.5830180644989014,
+        "stdout": "1.14.2\n",
+        "stderr": "\nreal\t0m0.578s\nuser\t0m0.523s\nsys\t0m0.045s\n",
+        "unix_time": {
+            "real": "0m0.578s",
+            "user": "0m0.523s",
+            "sys": "0m0.045s"
+        }
+    },
+    "schema_version": {
+        "cmd": "~/repo/bids-validator/bids-validator/bids-validator-deno --version",
+        "cmd_return_code": 0,
+        "cmd_time_seconds": 0.7346675395965576,
+        "stdout": "\u001b[1mbids-validator\u001b[22m \u001b[94malpha\u001b[39m\n",
+        "stderr": "\nreal\t0m0.731s\nuser\t0m0.156s\nsys\t0m0.076s\n",
+        "unix_time": {
+            "real": "0m0.731s",
+            "user": "0m0.156s",
+            "sys": "0m0.076s"
+        }
+    },
+    "datalad_version": {
+        "cmd": "datalad --version",
+        "cmd_return_code": 0,
+        "cmd_time_seconds": 0.2509040832519531,
+        "stdout": "datalad 0.19.6\n",
+        "stderr": "\nreal\t0m0.246s\nuser\t0m0.172s\nsys\t0m0.048s\n",
+        "unix_time": {
+            "real": "0m0.246s",
+            "user": "0m0.172s",
+            "sys": "0m0.048s"
+        }
+    },
+    "gitannex_version": {
+        "cmd": "git-annex version",
+        "cmd_return_code": 0,
+        "cmd_time_seconds": 0.03290843963623047,
+        "stdout": "git-annex version: 10.20240227-1~ndall+1\nbuild flags: Assistant Webapp Pairing Inotify DBus DesktopNotify TorrentParser MagicMime Benchmark Feeds Testsuite S3 WebDAV\ndependency versions: aws-0.22.1 bloomfilter-2.0.1.0 cryptonite-0.29 DAV-1.3.4 feed-1.3.2.1 ghc-9.0.2 http-client-0.7.13.1 persistent-sqlite-2.13.1.0 torrent-10000.1.1 uuid-1.3.15 yesod-1.6.2.1\nkey/value backends: SHA256E SHA256 SHA512E SHA512 SHA224E SHA224 SHA384E SHA384 SHA3_256E SHA3_256 SHA3_512E SHA3_512 SHA3_224E SHA3_224 SHA3_384E SHA3_384 SKEIN256E SKEIN256 SKEIN512E SKEIN512 BLAKE2B256E BLAKE2B256 BLAKE2B512E BLAKE2B512 BLAKE2B160E BLAKE2B160 BLAKE2B224E BLAKE2B224 BLAKE2B384E BLAKE2B384 BLAKE2BP512E BLAKE2BP512 BLAKE2S256E BLAKE2S256 BLAKE2S160E BLAKE2S160 BLAKE2S224E BLAKE2S224 BLAKE2SP256E BLAKE2SP256 BLAKE2SP224E BLAKE2SP224 SHA1E SHA1 MD5E MD5 WORM URL X*\nremote types: git gcrypt p2p S3 bup directory rsync web bittorrent webdav adb tahoe glacier ddar git-lfs httpalso borg hook external\noperating system: linux x86_64\nsupported repository versions: 8 9 10\nupgrade supported from repository versions: 0 1 2 3 4 5 6 7 8 9 10\n",
+        "stderr": "\nreal\t0m0.029s\nuser\t0m0.020s\nsys\t0m0.002s\n",
+        "unix_time": {
+            "real": "0m0.029s",
+            "user": "0m0.020s",
+            "sys": "0m0.002s"
+        }
+    },
+    "node_version": {
+        "cmd": "node --version",
+        "cmd_return_code": 0,
+        "cmd_time_seconds": 0.014646291732788086,
+        "stdout": "v18.17.1\n",
+        "stderr": "\nreal\t0m0.009s\nuser\t0m0.004s\nsys\t0m0.005s\n",
+        "unix_time": {
+            "real": "0m0.009s",
+            "user": "0m0.004s",
+            "sys": "0m0.005s"
+        }
+    },
+    "jq_version": {
+        "cmd": "jq --version",
+        "cmd_return_code": 0,
+        "cmd_time_seconds": 0.0073604583740234375,
+        "stdout": "jq-1.6\n",
+        "stderr": "\nreal\t0m0.002s\nuser\t0m0.002s\nsys\t0m0.000s\n",
+        "unix_time": {
+            "real": "0m0.002s",
+            "user": "0m0.002s",
+            "sys": "0m0.000s"
+        }
+    },
+    "legacy": {
+        "cmd": "bids-validator /mnt/nfs/lever/data/openneuro/ds003563 --json",
+        "cmd_return_code": 3,
+        "cmd_time_seconds": 1.1624717712402344,
+        "stdout": "\u001b[31mUnhandled rejection (\u001b[39m\n\u001b[31m  reason: TypeError: Cannot read properties of undefined (reading 'length')\u001b[39m\n\u001b[31m    at fileArrayToObject (/mnt/nfs/home4T8/earlea/.nvm/versions/node/v18.17.1/lib/node_modules/bids-validator/dist/commonjs/cli.js:84347:33)\u001b[39m\n\u001b[31m    at Object.readDir (/mnt/nfs/home4T8/earlea/.nvm/versions/node/v18.17.1/lib/node_modules/bids-validator/dist/commonjs/cli.js:84342:17)\u001b[39m\n\u001b[31m    at async /mnt/nfs/home4T8/earlea/.nvm/versions/node/v18.17.1/lib/node_modules/bids-validator/dist/commonjs/cli.js:133911:21\u001b[39m\n\u001b[31m).\u001b[39m\n\u001b[31m\u001b[39m\n",
+        "stderr": "(node:1679244) Warning: Closing directory handle on garbage collection\n(Use `node --trace-warnings ...` to show where the warning was created)\n\nreal\t0m1.158s\nuser\t0m0.706s\nsys\t0m0.137s\n",
+        "unix_time": {
+            "real": "0m1.158s",
+            "user": "0m0.706s",
+            "sys": "0m0.137s"
+        }
+    },
+    "schema": {
+        "cmd": "~/repo/bids-validator/bids-validator/bids-validator-deno /mnt/nfs/lever/data/openneuro/ds003563 --json",
+        "cmd_return_code": 0,
+        "cmd_time_seconds": 11.00266718864441,
+        "stderr": "\nreal\t0m10.998s\nuser\t0m4.620s\nsys\t0m2.753s\n",
+        "unix_time": {
+            "real": "0m10.998s",
+            "user": "0m4.620s",
+            "sys": "0m2.753s"
+        }
+    },
+    "datalad_get": [
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds003563 /mnt/nfs/lever/data/openneuro/ds003563/.bidsignore --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 0.5009527206420898,
+            "stdout": "",
+            "stderr": "\nreal\t0m0.497s\nuser\t0m0.332s\nsys\t0m0.123s\n",
+            "unix_time": {
+                "real": "0m0.497s",
+                "user": "0m0.332s",
+                "sys": "0m0.123s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds003563 /mnt/nfs/lever/data/openneuro/ds003563/CHANGES --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 0.5892326831817627,
+            "stdout": "",
+            "stderr": "\nreal\t0m0.584s\nuser\t0m0.365s\nsys\t0m0.073s\n",
+            "unix_time": {
+                "real": "0m0.584s",
+                "user": "0m0.365s",
+                "sys": "0m0.073s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds003563 /mnt/nfs/lever/data/openneuro/ds003563/README --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 0.6452438831329346,
+            "stdout": "",
+            "stderr": "\nreal\t0m0.640s\nuser\t0m0.349s\nsys\t0m0.112s\n",
+            "unix_time": {
+                "real": "0m0.640s",
+                "user": "0m0.349s",
+                "sys": "0m0.112s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds003563 /mnt/nfs/lever/data/openneuro/ds003563/.git/annex/objects/86/26/MD5E-s6131--921d30c3a6c1afb4ef6770a3062f51f4.md/MD5E-s6131--921d30c3a6c1afb4ef6770a3062f51f4.md --recursive",
+            "cmd_return_code": 1,
+            "cmd_time_seconds": 0.4083974361419678,
+            "stdout": "get(impossible): .git/annex/objects/86/26/MD5E-s6131--921d30c3a6c1afb4ef6770a3062f51f4.md/MD5E-s6131--921d30c3a6c1afb4ef6770a3062f51f4.md [path does not exist]\n",
+            "stderr": "\nreal\t0m0.405s\nuser\t0m0.306s\nsys\t0m0.075s\n",
+            "unix_time": {
+                "real": "0m0.405s",
+                "user": "0m0.306s",
+                "sys": "0m0.075s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds003563 /mnt/nfs/lever/data/openneuro/ds003563/.git/annex/objects/vv/30/MD5E-s552--5fd0cfcf0fc5a023d00f9b3a34c1aeef.md/MD5E-s552--5fd0cfcf0fc5a023d00f9b3a34c1aeef.md --recursive",
+            "cmd_return_code": 1,
+            "cmd_time_seconds": 0.6269645690917969,
+            "stdout": "get(impossible): .git/annex/objects/vv/30/MD5E-s552--5fd0cfcf0fc5a023d00f9b3a34c1aeef.md/MD5E-s552--5fd0cfcf0fc5a023d00f9b3a34c1aeef.md [path does not exist]\n",
+            "stderr": "\nreal\t0m0.623s\nuser\t0m0.290s\nsys\t0m0.068s\n",
+            "unix_time": {
+                "real": "0m0.623s",
+                "user": "0m0.290s",
+                "sys": "0m0.068s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds003563 /mnt/nfs/lever/data/openneuro/ds003563/.git/annex/objects/6p/0g/MD5E-s351--7bb738a35a5e8ae0c033d17634636c7b.md/MD5E-s351--7bb738a35a5e8ae0c033d17634636c7b.md --recursive",
+            "cmd_return_code": 1,
+            "cmd_time_seconds": 0.39012837409973145,
+            "stdout": "get(impossible): .git/annex/objects/6p/0g/MD5E-s351--7bb738a35a5e8ae0c033d17634636c7b.md/MD5E-s351--7bb738a35a5e8ae0c033d17634636c7b.md [path does not exist]\n",
+            "stderr": "\nreal\t0m0.385s\nuser\t0m0.287s\nsys\t0m0.065s\n",
+            "unix_time": {
+                "real": "0m0.385s",
+                "user": "0m0.287s",
+                "sys": "0m0.065s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds003563 /mnt/nfs/lever/data/openneuro/ds003563/.git/annex/objects/j4/Pk/MD5E-s344--734cc3e46e711c8faa92febc34c11263.md/MD5E-s344--734cc3e46e711c8faa92febc34c11263.md --recursive",
+            "cmd_return_code": 1,
+            "cmd_time_seconds": 0.4112100601196289,
+            "stdout": "get(impossible): .git/annex/objects/j4/Pk/MD5E-s344--734cc3e46e711c8faa92febc34c11263.md/MD5E-s344--734cc3e46e711c8faa92febc34c11263.md [path does not exist]\n",
+            "stderr": "\nreal\t0m0.406s\nuser\t0m0.285s\nsys\t0m0.105s\n",
+            "unix_time": {
+                "real": "0m0.406s",
+                "user": "0m0.285s",
+                "sys": "0m0.105s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds003563 /mnt/nfs/lever/data/openneuro/ds003563/.git/annex/objects/vv/30/MD5E-s552--5fd0cfcf0fc5a023d00f9b3a34c1aeef.md/MD5E-s552--5fd0cfcf0fc5a023d00f9b3a34c1aeef.md --recursive",
+            "cmd_return_code": 1,
+            "cmd_time_seconds": 0.7333278656005859,
+            "stdout": "get(impossible): .git/annex/objects/vv/30/MD5E-s552--5fd0cfcf0fc5a023d00f9b3a34c1aeef.md/MD5E-s552--5fd0cfcf0fc5a023d00f9b3a34c1aeef.md [path does not exist]\n",
+            "stderr": "\nreal\t0m0.730s\nuser\t0m0.313s\nsys\t0m0.051s\n",
+            "unix_time": {
+                "real": "0m0.730s",
+                "user": "0m0.313s",
+                "sys": "0m0.051s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds003563 /mnt/nfs/lever/data/openneuro/ds003563/.git/annex/objects/Gz/65/MD5E-s910--c320bfde4efeaa74b3709430dd2d1a09.md/MD5E-s910--c320bfde4efeaa74b3709430dd2d1a09.md --recursive",
+            "cmd_return_code": 1,
+            "cmd_time_seconds": 0.3782460689544678,
+            "stdout": "get(impossible): .git/annex/objects/Gz/65/MD5E-s910--c320bfde4efeaa74b3709430dd2d1a09.md/MD5E-s910--c320bfde4efeaa74b3709430dd2d1a09.md [path does not exist]\n",
+            "stderr": "\nreal\t0m0.375s\nuser\t0m0.291s\nsys\t0m0.079s\n",
+            "unix_time": {
+                "real": "0m0.375s",
+                "user": "0m0.291s",
+                "sys": "0m0.079s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds003563 /mnt/nfs/lever/data/openneuro/ds003563/.git/annex/objects/4Z/KX/MD5E-s358--6163d04be1c3279e0908826edfc65094.md/MD5E-s358--6163d04be1c3279e0908826edfc65094.md --recursive",
+            "cmd_return_code": 1,
+            "cmd_time_seconds": 0.49065685272216797,
+            "stdout": "get(impossible): .git/annex/objects/4Z/KX/MD5E-s358--6163d04be1c3279e0908826edfc65094.md/MD5E-s358--6163d04be1c3279e0908826edfc65094.md [path does not exist]\n",
+            "stderr": "\nreal\t0m0.485s\nuser\t0m0.326s\nsys\t0m0.077s\n",
+            "unix_time": {
+                "real": "0m0.485s",
+                "user": "0m0.326s",
+                "sys": "0m0.077s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds003563 /mnt/nfs/lever/data/openneuro/ds003563/.git/annex/objects/mM/6x/MD5E-s332--2fcb6898dcd39c61f18bff5baa80b357.md/MD5E-s332--2fcb6898dcd39c61f18bff5baa80b357.md --recursive",
+            "cmd_return_code": 1,
+            "cmd_time_seconds": 0.5169053077697754,
+            "stdout": "get(impossible): .git/annex/objects/mM/6x/MD5E-s332--2fcb6898dcd39c61f18bff5baa80b357.md/MD5E-s332--2fcb6898dcd39c61f18bff5baa80b357.md [path does not exist]\n",
+            "stderr": "\nreal\t0m0.513s\nuser\t0m0.270s\nsys\t0m0.081s\n",
+            "unix_time": {
+                "real": "0m0.513s",
+                "user": "0m0.270s",
+                "sys": "0m0.081s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds003563 /mnt/nfs/lever/data/openneuro/ds003563/.git/annex/objects/30/jf/MD5E-s309--1d5f3f8bee3bdcd7d55e48cac1755670.md/MD5E-s309--1d5f3f8bee3bdcd7d55e48cac1755670.md --recursive",
+            "cmd_return_code": 1,
+            "cmd_time_seconds": 0.3501284122467041,
+            "stdout": "get(impossible): .git/annex/objects/30/jf/MD5E-s309--1d5f3f8bee3bdcd7d55e48cac1755670.md/MD5E-s309--1d5f3f8bee3bdcd7d55e48cac1755670.md [path does not exist]\n",
+            "stderr": "\nreal\t0m0.345s\nuser\t0m0.274s\nsys\t0m0.054s\n",
+            "unix_time": {
+                "real": "0m0.345s",
+                "user": "0m0.274s",
+                "sys": "0m0.054s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds003563 /mnt/nfs/lever/data/openneuro/ds003563/.git/annex/objects/69/Kg/MD5E-s336--5550fe99b0479e96a41f7f2dda4beccf.md/MD5E-s336--5550fe99b0479e96a41f7f2dda4beccf.md --recursive",
+            "cmd_return_code": 1,
+            "cmd_time_seconds": 0.3963336944580078,
+            "stdout": "get(impossible): .git/annex/objects/69/Kg/MD5E-s336--5550fe99b0479e96a41f7f2dda4beccf.md/MD5E-s336--5550fe99b0479e96a41f7f2dda4beccf.md [path does not exist]\n",
+            "stderr": "\nreal\t0m0.393s\nuser\t0m0.300s\nsys\t0m0.081s\n",
+            "unix_time": {
+                "real": "0m0.393s",
+                "user": "0m0.300s",
+                "sys": "0m0.081s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds003563 /mnt/nfs/lever/data/openneuro/ds003563/.git/annex/objects/10/PQ/MD5E-s404--5069c955a7c061f9fac8c98d3a498a78.md/MD5E-s404--5069c955a7c061f9fac8c98d3a498a78.md --recursive",
+            "cmd_return_code": 1,
+            "cmd_time_seconds": 0.5248711109161377,
+            "stdout": "get(impossible): .git/annex/objects/10/PQ/MD5E-s404--5069c955a7c061f9fac8c98d3a498a78.md/MD5E-s404--5069c955a7c061f9fac8c98d3a498a78.md [path does not exist]\n",
+            "stderr": "\nreal\t0m0.521s\nuser\t0m0.300s\nsys\t0m0.067s\n",
+            "unix_time": {
+                "real": "0m0.521s",
+                "user": "0m0.300s",
+                "sys": "0m0.067s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds003563 /mnt/nfs/lever/data/openneuro/ds003563/.git/annex/objects/xV/KM/MD5E-s663--3ffe1be7a3a7cec11fbff24724d7577a.md/MD5E-s663--3ffe1be7a3a7cec11fbff24724d7577a.md --recursive",
+            "cmd_return_code": 1,
+            "cmd_time_seconds": 0.3978450298309326,
+            "stdout": "get(impossible): .git/annex/objects/xV/KM/MD5E-s663--3ffe1be7a3a7cec11fbff24724d7577a.md/MD5E-s663--3ffe1be7a3a7cec11fbff24724d7577a.md [path does not exist]\n",
+            "stderr": "\nreal\t0m0.394s\nuser\t0m0.253s\nsys\t0m0.084s\n",
+            "unix_time": {
+                "real": "0m0.394s",
+                "user": "0m0.253s",
+                "sys": "0m0.084s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds003563 /mnt/nfs/lever/data/openneuro/ds003563/.git/annex/objects/4F/Fm/MD5E-s444--1fd01cf5889fa212316d000dcd77980b.md/MD5E-s444--1fd01cf5889fa212316d000dcd77980b.md --recursive",
+            "cmd_return_code": 1,
+            "cmd_time_seconds": 0.387376070022583,
+            "stdout": "get(impossible): .git/annex/objects/4F/Fm/MD5E-s444--1fd01cf5889fa212316d000dcd77980b.md/MD5E-s444--1fd01cf5889fa212316d000dcd77980b.md [path does not exist]\n",
+            "stderr": "\nreal\t0m0.383s\nuser\t0m0.293s\nsys\t0m0.081s\n",
+            "unix_time": {
+                "real": "0m0.383s",
+                "user": "0m0.293s",
+                "sys": "0m0.081s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds003563 /mnt/nfs/lever/data/openneuro/ds003563/.git/annex/objects/Xp/jv/MD5E-s497--ae9334f16b6414a25151cf877cae1d2d.md/MD5E-s497--ae9334f16b6414a25151cf877cae1d2d.md --recursive",
+            "cmd_return_code": 1,
+            "cmd_time_seconds": 0.4685194492340088,
+            "stdout": "get(impossible): .git/annex/objects/Xp/jv/MD5E-s497--ae9334f16b6414a25151cf877cae1d2d.md/MD5E-s497--ae9334f16b6414a25151cf877cae1d2d.md [path does not exist]\n",
+            "stderr": "\nreal\t0m0.464s\nuser\t0m0.366s\nsys\t0m0.039s\n",
+            "unix_time": {
+                "real": "0m0.464s",
+                "user": "0m0.366s",
+                "sys": "0m0.039s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds003563 /mnt/nfs/lever/data/openneuro/ds003563/dataset_description.json --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 0.49278926849365234,
+            "stdout": "",
+            "stderr": "\nreal\t0m0.489s\nuser\t0m0.340s\nsys\t0m0.065s\n",
+            "unix_time": {
+                "real": "0m0.489s",
+                "user": "0m0.340s",
+                "sys": "0m0.065s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds003563 /mnt/nfs/lever/data/openneuro/ds003563/protocols --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 2.1838321685791016,
+            "stdout": "get(ok): protocols/sub-yv98_ses-3512+3555+3589+3637+3681_T1_250um.pdf (file) [from s3-PUBLIC...]\nget(ok): protocols/sub-yv98_ses-3777_T1T2_450um.pdf (file) [from s3-PUBLIC...]\nget(ok): protocols/sub-yv98_ses-3942_ToF_150um.pdf (file) [from s3-PUBLIC...]\nget(ok): protocols/sub-yv98_ses-4284+4291+4295+4297_DTI_800um.pdf (file) [from s3-PUBLIC...]\nget(ok): protocols/sub-yv98_ses-4288+4137_QSM_330um.pdf (file) [from s3-PUBLIC...]\nget(ok): protocols/sub-yv98_ses-4496_T1_back-to-back_700um.pdf (file) [from s3-PUBLIC...]\nget(ok): protocols/sub-yv98_ses-5124_rsfMRI_1800um.pdf (file) [from s3-PUBLIC...]\nget(ok): protocols/sub-yv98_ses-5233_T1&T2_700um.pdf (file) [from s3-PUBLIC...]\nget(ok): protocols (directory)\naction summary:\n  get (ok: 9)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds003563) to get /mnt/nfs/lever/data/openneuro/ds003563/protocols \n\nreal\t0m2.172s\nuser\t0m0.698s\nsys\t0m0.345s\n",
+            "unix_time": {
+                "real": "0m2.172s",
+                "user": "0m0.698s",
+                "sys": "0m0.345s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds003563 /mnt/nfs/lever/data/openneuro/ds003563/rawdata --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 2454.187709569931,
+            "stdout": "get(ok): rawdata/sub-yv98/ses-4496/meas_MID19_hmT10_7iso_FA5_1_UseAutoAlign_CreatePoslock_FID39533.dat (file) [from s3-PUBLIC...]\nget(ok): rawdata/sub-yv98/ses-4496/meas_MID21_hmT10_7iso_FA5_2_UseCreate_FID39535.dat (file) [from s3-PUBLIC...]\nget(ok): rawdata/sub-yv98/ses-4496/meas_MID22_hmT10_7iso_FA5_3_UseCreate_FID39536.dat (file) [from s3-PUBLIC...]\nget(ok): rawdata/sub-yv98/ses-4496/meas_MID23_hmT10_7iso_FA5_4_UseCreate_FID39537.dat (file) [from s3-PUBLIC...]\nget(ok): rawdata/sub-yv98/ses-4496/meas_MID24_hmT10_7iso_FA1_1_UseCreate_FID39538.dat (file) [from s3-PUBLIC...]\nget(ok): rawdata/sub-yv98/ses-4496/meas_MID25_hmT10_7iso_FA1_2_UseCreate_FID39539.dat (file) [from s3-PUBLIC...]\nget(ok): rawdata/sub-yv98/ses-4496/meas_MID26_hmT10_7iso_FA1_3_UseCreate_FID39540.dat (file) [from s3-PUBLIC...]\nget(ok): rawdata/sub-yv98/ses-4496/meas_MID27_hmT10_7iso_FA1_4_UseCreate_FID39541.dat (file) [from s3-PUBLIC...]\nget(ok): rawdata/sub-yv98/ses-4496/meas_MID28_hmT10_7iso_FA0_Noise_FID39542.dat (file) [from s3-PUBLIC...]\nget(ok): rawdata (directory)\naction summary:\n  get (ok: 10)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds003563) to get /mnt/nfs/lever/data/openneuro/ds003563/rawdata \n\nreal\t40m54.183s\nuser\t36m48.760s\nsys\t2m6.829s\n",
+            "unix_time": {
+                "real": "40m54.183s",
+                "user": "36m48.760s",
+                "sys": "2m6.829s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds003563 /mnt/nfs/lever/data/openneuro/ds003563/scripts --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 1.9963433742523193,
+            "stdout": "get(ok): scripts/antsIntrasubjectAverage.sh (file) [from s3-PUBLIC...]\nget(ok): scripts/antsRegistrationSciData.sh (file) [from s3-PUBLIC...]\nget(ok): scripts/antsRegistrationSciData_averageDTI.sh (file) [from s3-PUBLIC...]\nget(ok): scripts/biasfieldCorrection.tar (file) [from s3-PUBLIC...]\nget(ok): scripts/weightedAverage_DTIslabs.m (file) [from s3-PUBLIC...]\nget(ok): scripts (directory)\naction summary:\n  get (ok: 6)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds003563) to get /mnt/nfs/lever/data/openneuro/ds003563/scripts \n\nreal\t0m1.990s\nuser\t0m0.670s\nsys\t0m0.278s\n",
+            "unix_time": {
+                "real": "0m1.990s",
+                "user": "0m0.670s",
+                "sys": "0m0.278s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds003563 /mnt/nfs/lever/data/openneuro/ds003563/sourcedata --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 20.003191709518433,
+            "stdout": "get(ok): sourcedata/sub-yv98/ses-4284/GEWNavi00N.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4284/GEWNavi01N.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4284/GEWNavi02N.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4284/GEWNavi03N.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4284/GEWNavi04N.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4284/GEWNavi05N.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4284/GEWNavi06N.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4284/GEWNavi07N.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4284/GEWNavi08N.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4284/GEWNavi09N.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4284/GEWNavi10N.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4284/GEWNavi11N.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4284/GEWNavi12N.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4284/bvec_bval.txt (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4284/yv98_Slab1.bmp (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4291/GEWNavi00N.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4291/GEWNavi01N.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4291/GEWNavi02N.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4291/GEWNavi03N.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4291/GEWNavi04N.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4291/GEWNavi05N.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4291/GEWNavi06N.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4291/GEWNavi07N.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4291/GEWNavi08N.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4291/GEWNavi09N.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4291/GEWNavi10N.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4291/GEWNavi11N.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4291/GEWNavi12N.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4291/bvec_bval.txt (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4291/yv98_Slab2.bmp (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4295/GEWNavi00N.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4295/GEWNavi01N.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4295/GEWNavi02N.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4295/GEWNavi03N.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4295/GEWNavi04N.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4295/GEWNavi05N.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4295/GEWNavi06N.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4295/GEWNavi07N.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4295/GEWNavi08N.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4295/GEWNavi09N.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4295/GEWNavi10N.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4295/GEWNavi11N.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4295/GEWNavi12N.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4295/bvec_bval.txt (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4295/yv98_Slab3.bmp (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4297/GEWNavi00N.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4297/GEWNavi01N.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4297/GEWNavi02N.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4297/GEWNavi03N.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4297/GEWNavi04N.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4297/GEWNavi05N.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4297/GEWNavi06N.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4297/GEWNavi07N.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4297/GEWNavi08N.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4297/GEWNavi09N.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4297/GEWNavi10N.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4297/GEWNavi11N.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4297/GEWNavi12N.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4297/bvec_bval.txt (file) [from s3-PUBLIC...]\nget(ok): sourcedata/sub-yv98/ses-4297/yv98_Slab4.bmp (file) [from s3-PUBLIC...]\nget(ok): sourcedata (directory)\naction summary:\n  get (ok: 61)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds003563) to get /mnt/nfs/lever/data/openneuro/ds003563/sourcedata \n\nreal\t0m20.000s\nuser\t0m7.971s\nsys\t0m0.947s\n",
+            "unix_time": {
+                "real": "0m20.000s",
+                "user": "0m7.971s",
+                "sys": "0m0.947s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds003563 /mnt/nfs/lever/data/openneuro/ds003563/sub-yv98 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 1397.0946304798126,
+            "stdout": "get(ok): sub-yv98/ses-0481/anat/sub-yv98_ses-0481_DIV.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-0481/anat/sub-yv98_ses-0481_PD.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-0481/anat/sub-yv98_ses-0481_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-0499/anat/sub-yv98_ses-0499_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-0551/anat/sub-yv98_ses-0551_run-01_PD.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-0551/anat/sub-yv98_ses-0551_run-01_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-0551/anat/sub-yv98_ses-0551_run-02_PD.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-0551/anat/sub-yv98_ses-0551_run-02_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-0553/anat/sub-yv98_ses-0553_run-01_PD.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-0553/anat/sub-yv98_ses-0553_run-01_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-0553/anat/sub-yv98_ses-0553_run-02_PD.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-0553/anat/sub-yv98_ses-0553_run-02_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-0559/anat/sub-yv98_ses-0559_PD.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-0559/anat/sub-yv98_ses-0559_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-0571/anat/sub-yv98_ses-0571_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-1212/anat/sub-yv98_ses-1212_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-1454/anat/sub-yv98_ses-1454_PD.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-1454/anat/sub-yv98_ses-1454_run-01_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-1454/anat/sub-yv98_ses-1454_run-02_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-1454/anat/sub-yv98_ses-1454_run-03_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-1462/anat/sub-yv98_ses-1462_run-01_PD.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-1462/anat/sub-yv98_ses-1462_run-01_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-1462/anat/sub-yv98_ses-1462_run-02_PD.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-1462/anat/sub-yv98_ses-1462_run-02_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-1629/anat/sub-yv98_ses-1629_PD.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-1629/anat/sub-yv98_ses-1629_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-1639/anat/sub-yv98_ses-1639_run-01_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-1639/anat/sub-yv98_ses-1639_run-02_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-1686/anat/sub-yv98_ses-1686_PD.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-1686/anat/sub-yv98_ses-1686_run-01_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-1686/anat/sub-yv98_ses-1686_run-02_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-1706/anat/sub-yv98_ses-1706_PD.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-1706/anat/sub-yv98_ses-1706_run-01_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-1706/anat/sub-yv98_ses-1706_run-02_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-1706/anat/sub-yv98_ses-1706_run-03_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-1706/anat/sub-yv98_ses-1706_run-04_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-1789/anat/sub-yv98_ses-1789_run-01_PD.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-1789/anat/sub-yv98_ses-1789_run-01_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-1789/anat/sub-yv98_ses-1789_run-02_PD.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-1789/anat/sub-yv98_ses-1789_run-02_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-1908/anat/sub-yv98_ses-1908_run-01_PD.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-1908/anat/sub-yv98_ses-1908_run-01_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-1908/anat/sub-yv98_ses-1908_run-02_PD.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-1908/anat/sub-yv98_ses-1908_run-02_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-2103/anat/sub-yv98_ses-2103_PD.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-2103/anat/sub-yv98_ses-2103_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-2449/anat/sub-yv98_ses-2449_run-01_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-2449/anat/sub-yv98_ses-2449_run-02_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-2449/anat/sub-yv98_ses-2449_run-03_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-2449/anat/sub-yv98_ses-2449_run-04_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-3083/anat/sub-yv98_ses-3083_PD.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-3083/anat/sub-yv98_ses-3083_run-01_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-3083/anat/sub-yv98_ses-3083_run-02_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-3083/anat/sub-yv98_ses-3083_run-03_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-3206/anat/sub-yv98_ses-3206_run-01_PD.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-3206/anat/sub-yv98_ses-3206_run-01_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-3206/anat/sub-yv98_ses-3206_run-02_PD.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-3206/anat/sub-yv98_ses-3206_run-02_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-3282/anat/sub-yv98_ses-3282_run-01_PD.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-3282/anat/sub-yv98_ses-3282_run-01_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-3282/anat/sub-yv98_ses-3282_run-02_PD.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-3282/anat/sub-yv98_ses-3282_run-02_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-3466/anat/sub-yv98_ses-3466_run-01_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-3466/anat/sub-yv98_ses-3466_run-02_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-3503/anat/sub-yv98_ses-3503_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-3512/anat/sub-yv98_ses-3512_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-3555/anat/sub-yv98_ses-3555_PD.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-3555/anat/sub-yv98_ses-3555_run-01_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-3555/anat/sub-yv98_ses-3555_run-02_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-3568/anat/sub-yv98_ses-3568_ToF.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-3589/anat/sub-yv98_ses-3589_PD.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-3589/anat/sub-yv98_ses-3589_run-01_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-3589/anat/sub-yv98_ses-3589_run-02_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-3637/anat/sub-yv98_ses-3637_PD.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-3637/anat/sub-yv98_ses-3637_run-01_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-3637/anat/sub-yv98_ses-3637_run-02_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-3668/anat/sub-yv98_ses-3668_PD.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-3675/anat/sub-yv98_ses-3675_PD.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-3675/anat/sub-yv98_ses-3675_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-3681/anat/sub-yv98_ses-3681_run-01_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-3681/anat/sub-yv98_ses-3681_run-02_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-3697/anat/sub-yv98_ses-3697_run-01_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-3697/anat/sub-yv98_ses-3697_run-02_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-3754/anat/sub-yv98_ses-3754_run-01_PD.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-3754/anat/sub-yv98_ses-3754_run-01_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-3754/anat/sub-yv98_ses-3754_run-02_PD.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-3754/anat/sub-yv98_ses-3754_run-02_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-3777/anat/sub-yv98_ses-3777_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-3777/anat/sub-yv98_ses-3777_T2w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-3844/anat/sub-yv98_ses-3844_run-01_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-3844/anat/sub-yv98_ses-3844_run-02_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-3943/anat/sub-yv98_ses-3943_ToF.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-3964/anat/sub-yv98_ses-3964_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-3970/anat/sub-yv98_ses-3970_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-3978/anat/sub-yv98_ses-3978_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-3991/anat/sub-yv98_ses-3991_run-01_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-3991/anat/sub-yv98_ses-3991_run-02_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-3991/anat/sub-yv98_ses-3991_run-03_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-3991/anat/sub-yv98_ses-3991_run-04_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-3991/anat/sub-yv98_ses-3991_run-05_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-3991/anat/sub-yv98_ses-3991_run-06_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4046/anat/sub-yv98_ses-4046_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4058/anat/sub-yv98_ses-4058_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4075/anat/sub-yv98_ses-4075_MP2RAGE_DIV.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4075/anat/sub-yv98_ses-4075_MP2RAGE_INV1.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4075/anat/sub-yv98_ses-4075_MP2RAGE_INV1_PHS.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4075/anat/sub-yv98_ses-4075_MP2RAGE_INV2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4075/anat/sub-yv98_ses-4075_MP2RAGE_INV2_PHS.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4075/anat/sub-yv98_ses-4075_MP2RAGE_T1.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4075/anat/sub-yv98_ses-4075_MP2RAGE_UNI-DEN.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4075/anat/sub-yv98_ses-4075_MP2RAGE_UNI.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4081/anat/sub-yv98_ses-4081_MP2RAGE_DIV.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4081/anat/sub-yv98_ses-4081_MP2RAGE_INV1.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4081/anat/sub-yv98_ses-4081_MP2RAGE_INV1_PHS.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4081/anat/sub-yv98_ses-4081_MP2RAGE_INV2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4081/anat/sub-yv98_ses-4081_MP2RAGE_INV2_PHS.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4081/anat/sub-yv98_ses-4081_MP2RAGE_T1.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4081/anat/sub-yv98_ses-4081_MP2RAGE_UNI-DEN.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4081/anat/sub-yv98_ses-4081_MP2RAGE_UNI.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4081/anat/sub-yv98_ses-4081_PD.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4081/anat/sub-yv98_ses-4081_run-01_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4081/anat/sub-yv98_ses-4081_run-02_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4082/anat/sub-yv98_ses-4082_MP2RAGE_DIV.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4082/anat/sub-yv98_ses-4082_MP2RAGE_INV1.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4082/anat/sub-yv98_ses-4082_MP2RAGE_INV1_PHS.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4082/anat/sub-yv98_ses-4082_MP2RAGE_INV2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4082/anat/sub-yv98_ses-4082_MP2RAGE_INV2_PHS.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4082/anat/sub-yv98_ses-4082_MP2RAGE_T1.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4082/anat/sub-yv98_ses-4082_MP2RAGE_UNI-DEN.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4082/anat/sub-yv98_ses-4082_MP2RAGE_UNI.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4088/anat/sub-yv98_ses-4088_QSM_magn.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4088/anat/sub-yv98_ses-4088_QSM_magn_uncombined.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4088/anat/sub-yv98_ses-4088_QSM_phase.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4088/anat/sub-yv98_ses-4088_QSM_phase_uncombined.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4088/anat/sub-yv98_ses-4088_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4137/anat/sub-yv98_ses-4137_QSM_magn.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4137/anat/sub-yv98_ses-4137_QSM_magn_uncombined.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4137/anat/sub-yv98_ses-4137_QSM_phase.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4137/anat/sub-yv98_ses-4137_QSM_phase_uncombined.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4169/anat/sub-yv98_ses-4169_run-01_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4169/anat/sub-yv98_ses-4169_run-02_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4169/anat/sub-yv98_ses-4169_run-03_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4169/anat/sub-yv98_ses-4169_run-04_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4169/anat/sub-yv98_ses-4169_run-05_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4169/anat/sub-yv98_ses-4169_run-06_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4169/anat/sub-yv98_ses-4169_run-07_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4221/anat/sub-yv98_ses-4221_run-01_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4221/anat/sub-yv98_ses-4221_run-02_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4221/anat/sub-yv98_ses-4221_run-03_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4223/anat/sub-yv98_ses-4223_run-01_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4223/anat/sub-yv98_ses-4223_run-02_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4223/anat/sub-yv98_ses-4223_run-03_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4223/anat/sub-yv98_ses-4223_run-04_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4223/anat/sub-yv98_ses-4223_run-05_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4223/anat/sub-yv98_ses-4223_run-06_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4223/anat/sub-yv98_ses-4223_run-07_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4239/anat/sub-yv98_ses-4239_run-01_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4239/anat/sub-yv98_ses-4239_run-02_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4240/anat/sub-yv98_ses-4240_run-01_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4240/anat/sub-yv98_ses-4240_run-02_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4240/anat/sub-yv98_ses-4240_run-03_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4244/anat/sub-yv98_ses-4244_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4262/anat/sub-yv98_ses-4262_run-01_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4262/anat/sub-yv98_ses-4262_run-02_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4263/anat/sub-yv98_ses-4263_run-01_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4263/anat/sub-yv98_ses-4263_run-02_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4265/anat/sub-yv98_ses-4265_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4267/anat/sub-yv98_ses-4267_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4284/anat/sub-yv98_ses-4284_PD.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4284/anat/sub-yv98_ses-4284_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4284/dwi/sub-yv98_ses-4284_dwi.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4291/dwi/sub-yv98_ses-4291_dwi.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4295/dwi/sub-yv98_ses-4295_dwi.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4296/anat/sub-yv98_ses-4296_PD.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4296/anat/sub-yv98_ses-4296_run-01_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4296/anat/sub-yv98_ses-4296_run-02_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4296/anat/sub-yv98_ses-4296_run-03_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4297/dwi/sub-yv98_ses-4297_dwi.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4463/anat/sub-yv98_ses-4463_Noise.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4463/anat/sub-yv98_ses-4463_run-01_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4463/anat/sub-yv98_ses-4463_run-02_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4463/anat/sub-yv98_ses-4463_run-03_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4463/anat/sub-yv98_ses-4463_run-04_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4463/anat/sub-yv98_ses-4463_run-05_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4463/anat/sub-yv98_ses-4463_run-06_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4463/anat/sub-yv98_ses-4463_run-07_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4463/anat/sub-yv98_ses-4463_run-08_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4486/anat/sub-yv98_ses-4486_run-01_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4486/anat/sub-yv98_ses-4486_run-02_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4496/anat/sub-yv98_ses-4496_Noise.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4496/anat/sub-yv98_ses-4496_run-01_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4496/anat/sub-yv98_ses-4496_run-02_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4496/anat/sub-yv98_ses-4496_run-03_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4496/anat/sub-yv98_ses-4496_run-04_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4496/anat/sub-yv98_ses-4496_run-05_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4496/anat/sub-yv98_ses-4496_run-06_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4496/anat/sub-yv98_ses-4496_run-07_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4496/anat/sub-yv98_ses-4496_run-08_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4521/anat/sub-yv98_ses-4521_run-01_PD.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4521/anat/sub-yv98_ses-4521_run-01_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4521/anat/sub-yv98_ses-4521_run-02_PD.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4521/anat/sub-yv98_ses-4521_run-02_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4703/anat/sub-yv98_ses-4703_run-01_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4703/anat/sub-yv98_ses-4703_run-02_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-4712/anat/sub-yv98_ses-4712_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-5124/anat/sub-yv98_ses-5124_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-5124/fmri/sub-yv98_ses-5124_rsfMRI.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-5124/fmri/sub-yv98_ses-5124_rsfMRI_DiCo.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-5124/physio/yv98_5124_restingstate.txt (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-5233/anat/sub-yv98_ses-5233_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98/ses-5233/anat/sub-yv98_ses-5233_T2w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-yv98 (directory)\naction summary:\n  get (ok: 212)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds003563) to get /mnt/nfs/lever/data/openneuro/ds003563/sub-yv98 \n\nreal\t23m17.091s\nuser\t20m15.600s\nsys\t1m6.082s\n",
+            "unix_time": {
+                "real": "23m17.091s",
+                "user": "20m15.600s",
+                "sys": "1m6.082s"
+            }
+        }
+    ],
+    "datalad_remove": {
+        "cmd": "datalad remove -d /mnt/nfs/lever/data/openneuro/ds003563 /mnt/nfs/lever/data/openneuro/ds003563 --recursive",
+        "cmd_return_code": 0,
+        "cmd_time_seconds": 89.35536623001099,
+        "stdout": "drop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\nuninstall(ok): . (dataset)\naction summary:\n  drop (ok: 289)\n  uninstall (ok: 1)\n",
+        "stderr": "\nreal\t1m29.352s\nuser\t0m14.952s\nsys\t0m14.846s\n",
+        "unix_time": {
+            "real": "1m29.352s",
+            "user": "0m14.952s",
+            "sys": "0m14.846s"
+        }
+    }
+}

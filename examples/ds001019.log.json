@@ -1,0 +1,602 @@
+{
+    "legacy_version": {
+        "cmd": "bids-validator --version",
+        "cmd_return_code": 0,
+        "cmd_time_seconds": 0.5807099342346191,
+        "stdout": "1.14.2\n",
+        "stderr": "\nreal\t0m0.576s\nuser\t0m0.507s\nsys\t0m0.078s\n",
+        "unix_time": {
+            "real": "0m0.576s",
+            "user": "0m0.507s",
+            "sys": "0m0.078s"
+        }
+    },
+    "schema_version": {
+        "cmd": "~/repo/bids-validator/bids-validator/bids-validator-deno --version",
+        "cmd_return_code": 0,
+        "cmd_time_seconds": 0.730109691619873,
+        "stdout": "\u001b[1mbids-validator\u001b[22m \u001b[94malpha\u001b[39m\n",
+        "stderr": "\nreal\t0m0.725s\nuser\t0m0.159s\nsys\t0m0.122s\n",
+        "unix_time": {
+            "real": "0m0.725s",
+            "user": "0m0.159s",
+            "sys": "0m0.122s"
+        }
+    },
+    "datalad_version": {
+        "cmd": "datalad --version",
+        "cmd_return_code": 0,
+        "cmd_time_seconds": 0.21378135681152344,
+        "stdout": "datalad 0.19.6\n",
+        "stderr": "\nreal\t0m0.210s\nuser\t0m0.149s\nsys\t0m0.052s\n",
+        "unix_time": {
+            "real": "0m0.210s",
+            "user": "0m0.149s",
+            "sys": "0m0.052s"
+        }
+    },
+    "gitannex_version": {
+        "cmd": "git-annex version",
+        "cmd_return_code": 0,
+        "cmd_time_seconds": 0.02675151824951172,
+        "stdout": "git-annex version: 10.20240227-1~ndall+1\nbuild flags: Assistant Webapp Pairing Inotify DBus DesktopNotify TorrentParser MagicMime Benchmark Feeds Testsuite S3 WebDAV\ndependency versions: aws-0.22.1 bloomfilter-2.0.1.0 cryptonite-0.29 DAV-1.3.4 feed-1.3.2.1 ghc-9.0.2 http-client-0.7.13.1 persistent-sqlite-2.13.1.0 torrent-10000.1.1 uuid-1.3.15 yesod-1.6.2.1\nkey/value backends: SHA256E SHA256 SHA512E SHA512 SHA224E SHA224 SHA384E SHA384 SHA3_256E SHA3_256 SHA3_512E SHA3_512 SHA3_224E SHA3_224 SHA3_384E SHA3_384 SKEIN256E SKEIN256 SKEIN512E SKEIN512 BLAKE2B256E BLAKE2B256 BLAKE2B512E BLAKE2B512 BLAKE2B160E BLAKE2B160 BLAKE2B224E BLAKE2B224 BLAKE2B384E BLAKE2B384 BLAKE2BP512E BLAKE2BP512 BLAKE2S256E BLAKE2S256 BLAKE2S160E BLAKE2S160 BLAKE2S224E BLAKE2S224 BLAKE2SP256E BLAKE2SP256 BLAKE2SP224E BLAKE2SP224 SHA1E SHA1 MD5E MD5 WORM URL X*\nremote types: git gcrypt p2p S3 bup directory rsync web bittorrent webdav adb tahoe glacier ddar git-lfs httpalso borg hook external\noperating system: linux x86_64\nsupported repository versions: 8 9 10\nupgrade supported from repository versions: 0 1 2 3 4 5 6 7 8 9 10\n",
+        "stderr": "\nreal\t0m0.023s\nuser\t0m0.014s\nsys\t0m0.001s\n",
+        "unix_time": {
+            "real": "0m0.023s",
+            "user": "0m0.014s",
+            "sys": "0m0.001s"
+        }
+    },
+    "node_version": {
+        "cmd": "node --version",
+        "cmd_return_code": 0,
+        "cmd_time_seconds": 0.010925531387329102,
+        "stdout": "v18.17.1\n",
+        "stderr": "\nreal\t0m0.007s\nuser\t0m0.004s\nsys\t0m0.003s\n",
+        "unix_time": {
+            "real": "0m0.007s",
+            "user": "0m0.004s",
+            "sys": "0m0.003s"
+        }
+    },
+    "jq_version": {
+        "cmd": "jq --version",
+        "cmd_return_code": 0,
+        "cmd_time_seconds": 0.003500223159790039,
+        "stdout": "jq-1.6\n",
+        "stderr": "\nreal\t0m0.001s\nuser\t0m0.001s\nsys\t0m0.000s\n",
+        "unix_time": {
+            "real": "0m0.001s",
+            "user": "0m0.001s",
+            "sys": "0m0.000s"
+        }
+    },
+    "legacy": {
+        "cmd": "bids-validator /mnt/nfs/lever/data/openneuro/ds001019 --json",
+        "cmd_return_code": 0,
+        "cmd_time_seconds": 2.6886024475097656,
+        "stderr": "(node:3541283) Warning: Closing directory handle on garbage collection\n(Use `node --trace-warnings ...` to show where the warning was created)\n\nreal\t0m2.686s\nuser\t0m1.056s\nsys\t0m5.806s\n",
+        "unix_time": {
+            "real": "0m2.686s",
+            "user": "0m1.056s",
+            "sys": "0m5.806s"
+        }
+    },
+    "schema": {
+        "cmd": "~/repo/bids-validator/bids-validator/bids-validator-deno /mnt/nfs/lever/data/openneuro/ds001019 --json",
+        "cmd_return_code": 0,
+        "cmd_time_seconds": 1.7437584400177002,
+        "stderr": "\nreal\t0m1.739s\nuser\t0m1.174s\nsys\t0m0.296s\n",
+        "unix_time": {
+            "real": "0m1.739s",
+            "user": "0m1.174s",
+            "sys": "0m0.296s"
+        }
+    },
+    "datalad_get": [
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds001019 /mnt/nfs/lever/data/openneuro/ds001019/.bidsignore --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 0.594257116317749,
+            "stdout": "",
+            "stderr": "\nreal\t0m0.588s\nuser\t0m0.422s\nsys\t0m0.121s\n",
+            "unix_time": {
+                "real": "0m0.588s",
+                "user": "0m0.422s",
+                "sys": "0m0.121s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds001019 /mnt/nfs/lever/data/openneuro/ds001019/CHANGES --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 0.4560880661010742,
+            "stdout": "",
+            "stderr": "\nreal\t0m0.451s\nuser\t0m0.340s\nsys\t0m0.110s\n",
+            "unix_time": {
+                "real": "0m0.451s",
+                "user": "0m0.340s",
+                "sys": "0m0.110s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds001019 /mnt/nfs/lever/data/openneuro/ds001019/dataset_description.json --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 0.47811031341552734,
+            "stdout": "",
+            "stderr": "\nreal\t0m0.473s\nuser\t0m0.323s\nsys\t0m0.132s\n",
+            "unix_time": {
+                "real": "0m0.473s",
+                "user": "0m0.323s",
+                "sys": "0m0.132s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds001019 /mnt/nfs/lever/data/openneuro/ds001019/func_regressors_all --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 0.5223591327667236,
+            "stdout": "",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds001019) to get /mnt/nfs/lever/data/openneuro/ds001019/func_regressors_all \n\nreal\t0m0.518s\nuser\t0m0.340s\nsys\t0m0.149s\n",
+            "unix_time": {
+                "real": "0m0.518s",
+                "user": "0m0.340s",
+                "sys": "0m0.149s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds001019 /mnt/nfs/lever/data/openneuro/ds001019/sub-01 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 143.22307300567627,
+            "stdout": "get(ok): sub-01/anat/sub-01_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-01/func/sub-01_task-navlearn_run-1_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-01/func/sub-01_task-navlearn_run-2_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-01/func/sub-01_task-navlearn_run-3_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-01/func/sub-01_task-navlearn_run-4_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-01/func/sub-01_task-navlearn_run-5_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-01 (directory)\naction summary:\n  get (ok: 7)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds001019) to get /mnt/nfs/lever/data/openneuro/ds001019/sub-01 \n\nreal\t2m23.219s\nuser\t0m18.190s\nsys\t0m8.239s\n",
+            "unix_time": {
+                "real": "2m23.219s",
+                "user": "0m18.190s",
+                "sys": "0m8.239s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds001019 /mnt/nfs/lever/data/openneuro/ds001019/sub-02 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 133.54021334648132,
+            "stdout": "get(ok): sub-02/anat/sub-02_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-02/func/sub-02_task-navlearn_run-1_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-02/func/sub-02_task-navlearn_run-2_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-02/func/sub-02_task-navlearn_run-3_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-02/func/sub-02_task-navlearn_run-4_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-02/func/sub-02_task-navlearn_run-5_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-02 (directory)\naction summary:\n  get (ok: 7)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds001019) to get /mnt/nfs/lever/data/openneuro/ds001019/sub-02 \n\nreal\t2m13.535s\nuser\t0m24.658s\nsys\t0m10.618s\n",
+            "unix_time": {
+                "real": "2m13.535s",
+                "user": "0m24.658s",
+                "sys": "0m10.618s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds001019 /mnt/nfs/lever/data/openneuro/ds001019/sub-03 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 141.2100350856781,
+            "stdout": "get(ok): sub-03/anat/sub-03_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-03/func/sub-03_task-navlearn_run-1_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-03/func/sub-03_task-navlearn_run-2_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-03/func/sub-03_task-navlearn_run-3_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-03/func/sub-03_task-navlearn_run-4_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-03/func/sub-03_task-navlearn_run-5_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-03 (directory)\naction summary:\n  get (ok: 7)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds001019) to get /mnt/nfs/lever/data/openneuro/ds001019/sub-03 \n\nreal\t2m21.204s\nuser\t0m23.775s\nsys\t0m10.658s\n",
+            "unix_time": {
+                "real": "2m21.204s",
+                "user": "0m23.775s",
+                "sys": "0m10.658s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds001019 /mnt/nfs/lever/data/openneuro/ds001019/sub-04 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 144.17467665672302,
+            "stdout": "get(ok): sub-04/anat/sub-04_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-04/func/sub-04_task-navlearn_run-1_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-04/func/sub-04_task-navlearn_run-2_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-04/func/sub-04_task-navlearn_run-3_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-04/func/sub-04_task-navlearn_run-4_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-04/func/sub-04_task-navlearn_run-5_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-04 (directory)\naction summary:\n  get (ok: 7)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds001019) to get /mnt/nfs/lever/data/openneuro/ds001019/sub-04 \n\nreal\t2m24.169s\nuser\t0m20.166s\nsys\t0m8.951s\n",
+            "unix_time": {
+                "real": "2m24.169s",
+                "user": "0m20.166s",
+                "sys": "0m8.951s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds001019 /mnt/nfs/lever/data/openneuro/ds001019/sub-05 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 143.03849482536316,
+            "stdout": "get(ok): sub-05/anat/sub-05_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-05/func/sub-05_task-navlearn_run-1_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-05/func/sub-05_task-navlearn_run-2_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-05/func/sub-05_task-navlearn_run-3_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-05/func/sub-05_task-navlearn_run-4_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-05/func/sub-05_task-navlearn_run-5_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-05 (directory)\naction summary:\n  get (ok: 7)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds001019) to get /mnt/nfs/lever/data/openneuro/ds001019/sub-05 \n\nreal\t2m23.033s\nuser\t0m20.850s\nsys\t0m9.324s\n",
+            "unix_time": {
+                "real": "2m23.033s",
+                "user": "0m20.850s",
+                "sys": "0m9.324s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds001019 /mnt/nfs/lever/data/openneuro/ds001019/sub-06 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 121.13810658454895,
+            "stdout": "get(ok): sub-06/anat/sub-06_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-06/func/sub-06_task-navlearn_run-1_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-06/func/sub-06_task-navlearn_run-2_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-06/func/sub-06_task-navlearn_run-3_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-06/func/sub-06_task-navlearn_run-4_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-06/func/sub-06_task-navlearn_run-5_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-06 (directory)\naction summary:\n  get (ok: 7)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds001019) to get /mnt/nfs/lever/data/openneuro/ds001019/sub-06 \n\nreal\t2m1.133s\nuser\t0m20.262s\nsys\t0m9.030s\n",
+            "unix_time": {
+                "real": "2m1.133s",
+                "user": "0m20.262s",
+                "sys": "0m9.030s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds001019 /mnt/nfs/lever/data/openneuro/ds001019/sub-07 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 128.30504512786865,
+            "stdout": "get(ok): sub-07/anat/sub-07_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-07/func/sub-07_task-navlearn_run-1_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-07/func/sub-07_task-navlearn_run-2_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-07/func/sub-07_task-navlearn_run-3_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-07/func/sub-07_task-navlearn_run-4_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-07/func/sub-07_task-navlearn_run-5_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-07 (directory)\naction summary:\n  get (ok: 7)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds001019) to get /mnt/nfs/lever/data/openneuro/ds001019/sub-07 \n\nreal\t2m8.300s\nuser\t0m20.903s\nsys\t0m9.652s\n",
+            "unix_time": {
+                "real": "2m8.300s",
+                "user": "0m20.903s",
+                "sys": "0m9.652s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds001019 /mnt/nfs/lever/data/openneuro/ds001019/sub-08 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 131.74186372756958,
+            "stdout": "get(ok): sub-08/anat/sub-08_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-08/func/sub-08_task-navlearn_run-1_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-08/func/sub-08_task-navlearn_run-2_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-08/func/sub-08_task-navlearn_run-3_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-08/func/sub-08_task-navlearn_run-4_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-08/func/sub-08_task-navlearn_run-5_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-08 (directory)\naction summary:\n  get (ok: 7)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds001019) to get /mnt/nfs/lever/data/openneuro/ds001019/sub-08 \n\nreal\t2m11.736s\nuser\t0m18.531s\nsys\t0m8.441s\n",
+            "unix_time": {
+                "real": "2m11.736s",
+                "user": "0m18.531s",
+                "sys": "0m8.441s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds001019 /mnt/nfs/lever/data/openneuro/ds001019/sub-09 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 131.6842019557953,
+            "stdout": "get(ok): sub-09/anat/sub-09_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-09/func/sub-09_task-navlearn_run-1_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-09/func/sub-09_task-navlearn_run-2_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-09/func/sub-09_task-navlearn_run-3_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-09/func/sub-09_task-navlearn_run-4_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-09/func/sub-09_task-navlearn_run-5_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-09 (directory)\naction summary:\n  get (ok: 7)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds001019) to get /mnt/nfs/lever/data/openneuro/ds001019/sub-09 \n\nreal\t2m11.678s\nuser\t0m21.567s\nsys\t0m9.627s\n",
+            "unix_time": {
+                "real": "2m11.678s",
+                "user": "0m21.567s",
+                "sys": "0m9.627s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds001019 /mnt/nfs/lever/data/openneuro/ds001019/sub-10 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 134.38887858390808,
+            "stdout": "get(ok): sub-10/anat/sub-10_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-10/func/sub-10_task-navlearn_run-1_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-10/func/sub-10_task-navlearn_run-2_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-10/func/sub-10_task-navlearn_run-3_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-10/func/sub-10_task-navlearn_run-4_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-10/func/sub-10_task-navlearn_run-5_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-10 (directory)\naction summary:\n  get (ok: 7)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds001019) to get /mnt/nfs/lever/data/openneuro/ds001019/sub-10 \n\nreal\t2m14.384s\nuser\t0m23.157s\nsys\t0m10.065s\n",
+            "unix_time": {
+                "real": "2m14.384s",
+                "user": "0m23.157s",
+                "sys": "0m10.065s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds001019 /mnt/nfs/lever/data/openneuro/ds001019/sub-11 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 117.14681649208069,
+            "stdout": "get(ok): sub-11/anat/sub-11_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-11/func/sub-11_task-navlearn_run-1_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-11/func/sub-11_task-navlearn_run-2_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-11/func/sub-11_task-navlearn_run-3_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-11/func/sub-11_task-navlearn_run-4_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-11/func/sub-11_task-navlearn_run-5_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-11 (directory)\naction summary:\n  get (ok: 7)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds001019) to get /mnt/nfs/lever/data/openneuro/ds001019/sub-11 \n\nreal\t1m57.141s\nuser\t0m19.752s\nsys\t0m9.135s\n",
+            "unix_time": {
+                "real": "1m57.141s",
+                "user": "0m19.752s",
+                "sys": "0m9.135s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds001019 /mnt/nfs/lever/data/openneuro/ds001019/sub-12 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 147.35584950447083,
+            "stdout": "get(ok): sub-12/anat/sub-12_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-12/func/sub-12_task-navlearn_run-1_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-12/func/sub-12_task-navlearn_run-2_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-12/func/sub-12_task-navlearn_run-3_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-12/func/sub-12_task-navlearn_run-4_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-12/func/sub-12_task-navlearn_run-5_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-12 (directory)\naction summary:\n  get (ok: 7)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds001019) to get /mnt/nfs/lever/data/openneuro/ds001019/sub-12 \n\nreal\t2m27.350s\nuser\t0m22.247s\nsys\t0m10.478s\n",
+            "unix_time": {
+                "real": "2m27.350s",
+                "user": "0m22.247s",
+                "sys": "0m10.478s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds001019 /mnt/nfs/lever/data/openneuro/ds001019/sub-13 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 126.40272426605225,
+            "stdout": "get(ok): sub-13/anat/sub-13_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-13/func/sub-13_task-navlearn_run-1_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-13/func/sub-13_task-navlearn_run-2_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-13/func/sub-13_task-navlearn_run-3_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-13/func/sub-13_task-navlearn_run-4_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-13/func/sub-13_task-navlearn_run-5_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-13 (directory)\naction summary:\n  get (ok: 7)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds001019) to get /mnt/nfs/lever/data/openneuro/ds001019/sub-13 \n\nreal\t2m6.398s\nuser\t0m19.319s\nsys\t0m8.964s\n",
+            "unix_time": {
+                "real": "2m6.398s",
+                "user": "0m19.319s",
+                "sys": "0m8.964s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds001019 /mnt/nfs/lever/data/openneuro/ds001019/sub-14 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 138.39751362800598,
+            "stdout": "get(ok): sub-14/anat/sub-14_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-14/func/sub-14_task-navlearn_run-1_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-14/func/sub-14_task-navlearn_run-2_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-14/func/sub-14_task-navlearn_run-3_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-14/func/sub-14_task-navlearn_run-4_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-14/func/sub-14_task-navlearn_run-5_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-14 (directory)\naction summary:\n  get (ok: 7)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds001019) to get /mnt/nfs/lever/data/openneuro/ds001019/sub-14 \n\nreal\t2m18.394s\nuser\t0m13.276s\nsys\t0m6.126s\n",
+            "unix_time": {
+                "real": "2m18.394s",
+                "user": "0m13.276s",
+                "sys": "0m6.126s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds001019 /mnt/nfs/lever/data/openneuro/ds001019/sub-15 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 138.90667366981506,
+            "stdout": "get(ok): sub-15/anat/sub-15_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-15/func/sub-15_task-navlearn_run-1_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-15/func/sub-15_task-navlearn_run-2_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-15/func/sub-15_task-navlearn_run-3_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-15/func/sub-15_task-navlearn_run-4_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-15/func/sub-15_task-navlearn_run-5_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-15 (directory)\naction summary:\n  get (ok: 7)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds001019) to get /mnt/nfs/lever/data/openneuro/ds001019/sub-15 \n\nreal\t2m18.903s\nuser\t0m14.253s\nsys\t0m6.452s\n",
+            "unix_time": {
+                "real": "2m18.903s",
+                "user": "0m14.253s",
+                "sys": "0m6.452s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds001019 /mnt/nfs/lever/data/openneuro/ds001019/sub-16 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 139.89263916015625,
+            "stdout": "get(ok): sub-16/anat/sub-16_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-16/func/sub-16_task-navlearn_run-1_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-16/func/sub-16_task-navlearn_run-2_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-16/func/sub-16_task-navlearn_run-3_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-16/func/sub-16_task-navlearn_run-4_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-16/func/sub-16_task-navlearn_run-5_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-16 (directory)\naction summary:\n  get (ok: 7)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds001019) to get /mnt/nfs/lever/data/openneuro/ds001019/sub-16 \n\nreal\t2m19.888s\nuser\t0m14.383s\nsys\t0m6.715s\n",
+            "unix_time": {
+                "real": "2m19.888s",
+                "user": "0m14.383s",
+                "sys": "0m6.715s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds001019 /mnt/nfs/lever/data/openneuro/ds001019/sub-17 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 137.90344667434692,
+            "stdout": "get(ok): sub-17/anat/sub-17_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-17/func/sub-17_task-navlearn_run-1_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-17/func/sub-17_task-navlearn_run-2_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-17/func/sub-17_task-navlearn_run-3_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-17/func/sub-17_task-navlearn_run-4_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-17/func/sub-17_task-navlearn_run-5_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-17 (directory)\naction summary:\n  get (ok: 7)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds001019) to get /mnt/nfs/lever/data/openneuro/ds001019/sub-17 \n\nreal\t2m17.900s\nuser\t0m15.727s\nsys\t0m7.180s\n",
+            "unix_time": {
+                "real": "2m17.900s",
+                "user": "0m15.727s",
+                "sys": "0m7.180s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds001019 /mnt/nfs/lever/data/openneuro/ds001019/sub-18 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 145.48491311073303,
+            "stdout": "get(ok): sub-18/anat/sub-18_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-18/func/sub-18_task-navlearn_run-1_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-18/func/sub-18_task-navlearn_run-2_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-18/func/sub-18_task-navlearn_run-3_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-18/func/sub-18_task-navlearn_run-4_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-18/func/sub-18_task-navlearn_run-5_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-18 (directory)\naction summary:\n  get (ok: 7)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds001019) to get /mnt/nfs/lever/data/openneuro/ds001019/sub-18 \n\nreal\t2m25.481s\nuser\t0m13.786s\nsys\t0m6.741s\n",
+            "unix_time": {
+                "real": "2m25.481s",
+                "user": "0m13.786s",
+                "sys": "0m6.741s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds001019 /mnt/nfs/lever/data/openneuro/ds001019/sub-19 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 152.44503140449524,
+            "stdout": "get(ok): sub-19/anat/sub-19_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-19/func/sub-19_task-navlearn_run-1_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-19/func/sub-19_task-navlearn_run-2_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-19/func/sub-19_task-navlearn_run-3_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-19/func/sub-19_task-navlearn_run-4_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-19/func/sub-19_task-navlearn_run-5_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-19 (directory)\naction summary:\n  get (ok: 7)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds001019) to get /mnt/nfs/lever/data/openneuro/ds001019/sub-19 \n\nreal\t2m32.442s\nuser\t0m18.252s\nsys\t0m9.626s\n",
+            "unix_time": {
+                "real": "2m32.442s",
+                "user": "0m18.252s",
+                "sys": "0m9.626s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds001019 /mnt/nfs/lever/data/openneuro/ds001019/sub-20 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 153.19491171836853,
+            "stdout": "get(ok): sub-20/anat/sub-20_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-20/func/sub-20_task-navlearn_run-1_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-20/func/sub-20_task-navlearn_run-2_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-20/func/sub-20_task-navlearn_run-3_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-20/func/sub-20_task-navlearn_run-4_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-20/func/sub-20_task-navlearn_run-5_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-20 (directory)\naction summary:\n  get (ok: 7)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds001019) to get /mnt/nfs/lever/data/openneuro/ds001019/sub-20 \n\nreal\t2m33.191s\nuser\t0m16.128s\nsys\t0m7.382s\n",
+            "unix_time": {
+                "real": "2m33.191s",
+                "user": "0m16.128s",
+                "sys": "0m7.382s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds001019 /mnt/nfs/lever/data/openneuro/ds001019/sub-21 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 159.79413723945618,
+            "stdout": "get(ok): sub-21/anat/sub-21_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-21/func/sub-21_task-navlearn_run-1_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-21/func/sub-21_task-navlearn_run-2_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-21/func/sub-21_task-navlearn_run-3_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-21/func/sub-21_task-navlearn_run-4_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-21/func/sub-21_task-navlearn_run-5_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-21 (directory)\naction summary:\n  get (ok: 7)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds001019) to get /mnt/nfs/lever/data/openneuro/ds001019/sub-21 \n\nreal\t2m39.790s\nuser\t0m15.014s\nsys\t0m6.794s\n",
+            "unix_time": {
+                "real": "2m39.790s",
+                "user": "0m15.014s",
+                "sys": "0m6.794s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds001019 /mnt/nfs/lever/data/openneuro/ds001019/sub-22 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 123.50029754638672,
+            "stdout": "get(ok): sub-22/anat/sub-22_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-22/func/sub-22_task-navlearn_run-1_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-22/func/sub-22_task-navlearn_run-2_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-22/func/sub-22_task-navlearn_run-3_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-22/func/sub-22_task-navlearn_run-4_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-22/func/sub-22_task-navlearn_run-5_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-22 (directory)\naction summary:\n  get (ok: 7)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds001019) to get /mnt/nfs/lever/data/openneuro/ds001019/sub-22 \n\nreal\t2m3.497s\nuser\t0m14.766s\nsys\t0m7.343s\n",
+            "unix_time": {
+                "real": "2m3.497s",
+                "user": "0m14.766s",
+                "sys": "0m7.343s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds001019 /mnt/nfs/lever/data/openneuro/ds001019/sub-23 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 129.57450580596924,
+            "stdout": "get(ok): sub-23/anat/sub-23_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-23/func/sub-23_task-navlearn_run-1_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-23/func/sub-23_task-navlearn_run-2_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-23/func/sub-23_task-navlearn_run-3_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-23/func/sub-23_task-navlearn_run-4_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-23/func/sub-23_task-navlearn_run-5_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-23 (directory)\naction summary:\n  get (ok: 7)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds001019) to get /mnt/nfs/lever/data/openneuro/ds001019/sub-23 \n\nreal\t2m9.571s\nuser\t0m15.839s\nsys\t0m7.726s\n",
+            "unix_time": {
+                "real": "2m9.571s",
+                "user": "0m15.839s",
+                "sys": "0m7.726s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds001019 /mnt/nfs/lever/data/openneuro/ds001019/sub-24 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 127.04559683799744,
+            "stdout": "get(ok): sub-24/anat/sub-24_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-24/func/sub-24_task-navlearn_run-1_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-24/func/sub-24_task-navlearn_run-2_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-24/func/sub-24_task-navlearn_run-3_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-24/func/sub-24_task-navlearn_run-4_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-24/func/sub-24_task-navlearn_run-5_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-24 (directory)\naction summary:\n  get (ok: 7)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds001019) to get /mnt/nfs/lever/data/openneuro/ds001019/sub-24 \n\nreal\t2m7.042s\nuser\t0m15.888s\nsys\t0m7.613s\n",
+            "unix_time": {
+                "real": "2m7.042s",
+                "user": "0m15.888s",
+                "sys": "0m7.613s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds001019 /mnt/nfs/lever/data/openneuro/ds001019/sub-25 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 145.4313941001892,
+            "stdout": "get(ok): sub-25/anat/sub-25_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-25/func/sub-25_task-navlearn_run-1_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-25/func/sub-25_task-navlearn_run-2_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-25/func/sub-25_task-navlearn_run-3_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-25/func/sub-25_task-navlearn_run-4_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-25/func/sub-25_task-navlearn_run-5_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-25 (directory)\naction summary:\n  get (ok: 7)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds001019) to get /mnt/nfs/lever/data/openneuro/ds001019/sub-25 \n\nreal\t2m25.428s\nuser\t0m14.309s\nsys\t0m6.608s\n",
+            "unix_time": {
+                "real": "2m25.428s",
+                "user": "0m14.309s",
+                "sys": "0m6.608s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds001019 /mnt/nfs/lever/data/openneuro/ds001019/sub-26 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 138.7910192012787,
+            "stdout": "get(ok): sub-26/anat/sub-26_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-26/func/sub-26_task-navlearn_run-1_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-26/func/sub-26_task-navlearn_run-2_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-26/func/sub-26_task-navlearn_run-3_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-26/func/sub-26_task-navlearn_run-4_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-26/func/sub-26_task-navlearn_run-5_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-26 (directory)\naction summary:\n  get (ok: 7)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds001019) to get /mnt/nfs/lever/data/openneuro/ds001019/sub-26 \n\nreal\t2m18.788s\nuser\t0m14.436s\nsys\t0m6.622s\n",
+            "unix_time": {
+                "real": "2m18.788s",
+                "user": "0m14.436s",
+                "sys": "0m6.622s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds001019 /mnt/nfs/lever/data/openneuro/ds001019/sub-27 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 164.1329436302185,
+            "stdout": "get(ok): sub-27/anat/sub-27_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-27/func/sub-27_task-navlearn_run-1_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-27/func/sub-27_task-navlearn_run-2_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-27/func/sub-27_task-navlearn_run-3_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-27/func/sub-27_task-navlearn_run-4_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-27/func/sub-27_task-navlearn_run-5_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-27 (directory)\naction summary:\n  get (ok: 7)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds001019) to get /mnt/nfs/lever/data/openneuro/ds001019/sub-27 \n\nreal\t2m44.128s\nuser\t0m15.652s\nsys\t0m7.051s\n",
+            "unix_time": {
+                "real": "2m44.128s",
+                "user": "0m15.652s",
+                "sys": "0m7.051s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds001019 /mnt/nfs/lever/data/openneuro/ds001019/sub-28 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 124.14168906211853,
+            "stdout": "get(ok): sub-28/anat/sub-28_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-28/func/sub-28_task-navlearn_run-1_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-28/func/sub-28_task-navlearn_run-2_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-28/func/sub-28_task-navlearn_run-3_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-28/func/sub-28_task-navlearn_run-4_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-28/func/sub-28_task-navlearn_run-5_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-28 (directory)\naction summary:\n  get (ok: 7)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds001019) to get /mnt/nfs/lever/data/openneuro/ds001019/sub-28 \n\nreal\t2m4.138s\nuser\t0m15.089s\nsys\t0m7.853s\n",
+            "unix_time": {
+                "real": "2m4.138s",
+                "user": "0m15.089s",
+                "sys": "0m7.853s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds001019 /mnt/nfs/lever/data/openneuro/ds001019/sub-29 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 147.88491535186768,
+            "stdout": "get(ok): sub-29/anat/sub-29_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-29/func/sub-29_task-navlearn_run-1_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-29/func/sub-29_task-navlearn_run-2_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-29/func/sub-29_task-navlearn_run-3_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-29/func/sub-29_task-navlearn_run-4_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-29/func/sub-29_task-navlearn_run-5_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-29 (directory)\naction summary:\n  get (ok: 7)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds001019) to get /mnt/nfs/lever/data/openneuro/ds001019/sub-29 \n\nreal\t2m27.882s\nuser\t0m14.493s\nsys\t0m6.956s\n",
+            "unix_time": {
+                "real": "2m27.882s",
+                "user": "0m14.493s",
+                "sys": "0m6.956s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds001019 /mnt/nfs/lever/data/openneuro/ds001019/sub-31 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 155.62913990020752,
+            "stdout": "get(ok): sub-31/anat/sub-31_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-31/func/sub-31_task-navlearn_run-1_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-31/func/sub-31_task-navlearn_run-2_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-31/func/sub-31_task-navlearn_run-3_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-31/func/sub-31_task-navlearn_run-4_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-31/func/sub-31_task-navlearn_run-5_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-31 (directory)\naction summary:\n  get (ok: 7)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds001019) to get /mnt/nfs/lever/data/openneuro/ds001019/sub-31 \n\nreal\t2m35.625s\nuser\t0m16.144s\nsys\t0m8.004s\n",
+            "unix_time": {
+                "real": "2m35.625s",
+                "user": "0m16.144s",
+                "sys": "0m8.004s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds001019 /mnt/nfs/lever/data/openneuro/ds001019/sub-32 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 141.19341564178467,
+            "stdout": "get(ok): sub-32/anat/sub-32_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-32/func/sub-32_task-navlearn_run-1_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-32/func/sub-32_task-navlearn_run-2_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-32/func/sub-32_task-navlearn_run-3_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-32/func/sub-32_task-navlearn_run-4_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-32/func/sub-32_task-navlearn_run-5_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-32 (directory)\naction summary:\n  get (ok: 7)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds001019) to get /mnt/nfs/lever/data/openneuro/ds001019/sub-32 \n\nreal\t2m21.190s\nuser\t0m15.318s\nsys\t0m7.490s\n",
+            "unix_time": {
+                "real": "2m21.190s",
+                "user": "0m15.318s",
+                "sys": "0m7.490s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds001019 /mnt/nfs/lever/data/openneuro/ds001019/sub-33 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 133.59446001052856,
+            "stdout": "get(ok): sub-33/anat/sub-33_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-33/func/sub-33_task-navlearn_run-1_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-33/func/sub-33_task-navlearn_run-2_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-33/func/sub-33_task-navlearn_run-3_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-33/func/sub-33_task-navlearn_run-4_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-33/func/sub-33_task-navlearn_run-5_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-33 (directory)\naction summary:\n  get (ok: 7)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds001019) to get /mnt/nfs/lever/data/openneuro/ds001019/sub-33 \n\nreal\t2m13.590s\nuser\t0m14.833s\nsys\t0m7.313s\n",
+            "unix_time": {
+                "real": "2m13.590s",
+                "user": "0m14.833s",
+                "sys": "0m7.313s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds001019 /mnt/nfs/lever/data/openneuro/ds001019/sub-34 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 143.89388251304626,
+            "stdout": "get(ok): sub-34/anat/sub-34_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-34/func/sub-34_task-navlearn_run-1_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-34/func/sub-34_task-navlearn_run-2_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-34/func/sub-34_task-navlearn_run-3_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-34/func/sub-34_task-navlearn_run-4_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-34/func/sub-34_task-navlearn_run-5_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-34 (directory)\naction summary:\n  get (ok: 7)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds001019) to get /mnt/nfs/lever/data/openneuro/ds001019/sub-34 \n\nreal\t2m23.890s\nuser\t0m14.903s\nsys\t0m6.435s\n",
+            "unix_time": {
+                "real": "2m23.890s",
+                "user": "0m14.903s",
+                "sys": "0m6.435s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds001019 /mnt/nfs/lever/data/openneuro/ds001019/sub-37 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 117.36179900169373,
+            "stdout": "get(ok): sub-37/anat/sub-37_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-37/func/sub-37_task-navlearn_run-1_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-37/func/sub-37_task-navlearn_run-2_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-37/func/sub-37_task-navlearn_run-3_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-37/func/sub-37_task-navlearn_run-4_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-37/func/sub-37_task-navlearn_run-5_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-37 (directory)\naction summary:\n  get (ok: 7)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds001019) to get /mnt/nfs/lever/data/openneuro/ds001019/sub-37 \n\nreal\t1m57.358s\nuser\t0m13.702s\nsys\t0m6.465s\n",
+            "unix_time": {
+                "real": "1m57.358s",
+                "user": "0m13.702s",
+                "sys": "0m6.465s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds001019 /mnt/nfs/lever/data/openneuro/ds001019/sub-38 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 114.37751364707947,
+            "stdout": "get(ok): sub-38/anat/sub-38_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-38/func/sub-38_task-navlearn_run-1_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-38/func/sub-38_task-navlearn_run-2_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-38/func/sub-38_task-navlearn_run-3_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-38/func/sub-38_task-navlearn_run-4_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-38/func/sub-38_task-navlearn_run-5_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-38 (directory)\naction summary:\n  get (ok: 7)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds001019) to get /mnt/nfs/lever/data/openneuro/ds001019/sub-38 \n\nreal\t1m54.374s\nuser\t0m14.659s\nsys\t0m6.805s\n",
+            "unix_time": {
+                "real": "1m54.374s",
+                "user": "0m14.659s",
+                "sys": "0m6.805s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds001019 /mnt/nfs/lever/data/openneuro/ds001019/task-navlearn_bold.json --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 0.5198171138763428,
+            "stdout": "",
+            "stderr": "\nreal\t0m0.516s\nuser\t0m0.339s\nsys\t0m0.060s\n",
+            "unix_time": {
+                "real": "0m0.516s",
+                "user": "0m0.339s",
+                "sys": "0m0.060s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds001019 /mnt/nfs/lever/data/openneuro/ds001019/task-navlearn_events.tsv --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 0.47675013542175293,
+            "stdout": "",
+            "stderr": "\nreal\t0m0.468s\nuser\t0m0.350s\nsys\t0m0.095s\n",
+            "unix_time": {
+                "real": "0m0.468s",
+                "user": "0m0.350s",
+                "sys": "0m0.095s"
+            }
+        }
+    ],
+    "datalad_remove": {
+        "cmd": "datalad remove -d /mnt/nfs/lever/data/openneuro/ds001019 /mnt/nfs/lever/data/openneuro/ds001019 --recursive",
+        "cmd_return_code": 0,
+        "cmd_time_seconds": 20.375559329986572,
+        "stdout": "drop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\nuninstall(ok): . (dataset)\naction summary:\n  drop (ok: 210)\n  uninstall (ok: 1)\n",
+        "stderr": "\nreal\t0m20.372s\nuser\t0m1.997s\nsys\t0m1.562s\n",
+        "unix_time": {
+            "real": "0m20.372s",
+            "user": "0m1.997s",
+            "sys": "0m1.562s"
+        }
+    }
+}

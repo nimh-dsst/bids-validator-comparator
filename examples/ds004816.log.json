@@ -1,0 +1,434 @@
+{
+    "legacy_version": {
+        "cmd": "bids-validator --version",
+        "cmd_return_code": 0,
+        "cmd_time_seconds": 0.546008825302124,
+        "stdout": "1.14.2\n",
+        "stderr": "\nreal\t0m0.542s\nuser\t0m0.516s\nsys\t0m0.055s\n",
+        "unix_time": {
+            "real": "0m0.542s",
+            "user": "0m0.516s",
+            "sys": "0m0.055s"
+        }
+    },
+    "schema_version": {
+        "cmd": "~/repo/bids-validator/bids-validator/bids-validator-deno --version",
+        "cmd_return_code": 0,
+        "cmd_time_seconds": 0.7720732688903809,
+        "stdout": "\u001b[1mbids-validator\u001b[22m \u001b[94malpha\u001b[39m\n",
+        "stderr": "\nreal\t0m0.768s\nuser\t0m0.195s\nsys\t0m0.121s\n",
+        "unix_time": {
+            "real": "0m0.768s",
+            "user": "0m0.195s",
+            "sys": "0m0.121s"
+        }
+    },
+    "datalad_version": {
+        "cmd": "datalad --version",
+        "cmd_return_code": 0,
+        "cmd_time_seconds": 0.2933535575866699,
+        "stdout": "datalad 0.19.6\n",
+        "stderr": "\nreal\t0m0.290s\nuser\t0m0.206s\nsys\t0m0.061s\n",
+        "unix_time": {
+            "real": "0m0.290s",
+            "user": "0m0.206s",
+            "sys": "0m0.061s"
+        }
+    },
+    "gitannex_version": {
+        "cmd": "git-annex version",
+        "cmd_return_code": 0,
+        "cmd_time_seconds": 0.034409284591674805,
+        "stdout": "git-annex version: 10.20240227-1~ndall+1\nbuild flags: Assistant Webapp Pairing Inotify DBus DesktopNotify TorrentParser MagicMime Benchmark Feeds Testsuite S3 WebDAV\ndependency versions: aws-0.22.1 bloomfilter-2.0.1.0 cryptonite-0.29 DAV-1.3.4 feed-1.3.2.1 ghc-9.0.2 http-client-0.7.13.1 persistent-sqlite-2.13.1.0 torrent-10000.1.1 uuid-1.3.15 yesod-1.6.2.1\nkey/value backends: SHA256E SHA256 SHA512E SHA512 SHA224E SHA224 SHA384E SHA384 SHA3_256E SHA3_256 SHA3_512E SHA3_512 SHA3_224E SHA3_224 SHA3_384E SHA3_384 SKEIN256E SKEIN256 SKEIN512E SKEIN512 BLAKE2B256E BLAKE2B256 BLAKE2B512E BLAKE2B512 BLAKE2B160E BLAKE2B160 BLAKE2B224E BLAKE2B224 BLAKE2B384E BLAKE2B384 BLAKE2BP512E BLAKE2BP512 BLAKE2S256E BLAKE2S256 BLAKE2S160E BLAKE2S160 BLAKE2S224E BLAKE2S224 BLAKE2SP256E BLAKE2SP256 BLAKE2SP224E BLAKE2SP224 SHA1E SHA1 MD5E MD5 WORM URL X*\nremote types: git gcrypt p2p S3 bup directory rsync web bittorrent webdav adb tahoe glacier ddar git-lfs httpalso borg hook external\noperating system: linux x86_64\nsupported repository versions: 8 9 10\nupgrade supported from repository versions: 0 1 2 3 4 5 6 7 8 9 10\n",
+        "stderr": "\nreal\t0m0.030s\nuser\t0m0.016s\nsys\t0m0.010s\n",
+        "unix_time": {
+            "real": "0m0.030s",
+            "user": "0m0.016s",
+            "sys": "0m0.010s"
+        }
+    },
+    "node_version": {
+        "cmd": "node --version",
+        "cmd_return_code": 0,
+        "cmd_time_seconds": 0.014197111129760742,
+        "stdout": "v18.17.1\n",
+        "stderr": "\nreal\t0m0.010s\nuser\t0m0.000s\nsys\t0m0.010s\n",
+        "unix_time": {
+            "real": "0m0.010s",
+            "user": "0m0.000s",
+            "sys": "0m0.010s"
+        }
+    },
+    "jq_version": {
+        "cmd": "jq --version",
+        "cmd_return_code": 0,
+        "cmd_time_seconds": 0.006058454513549805,
+        "stdout": "jq-1.6\n",
+        "stderr": "\nreal\t0m0.002s\nuser\t0m0.000s\nsys\t0m0.002s\n",
+        "unix_time": {
+            "real": "0m0.002s",
+            "user": "0m0.000s",
+            "sys": "0m0.002s"
+        }
+    },
+    "legacy": {
+        "cmd": "bids-validator /mnt/nfs/lever/data/openneuro/ds004816 --json",
+        "cmd_return_code": 0,
+        "cmd_time_seconds": 1.397749423980713,
+        "stderr": "(node:886572) Warning: Closing directory handle on garbage collection\n(Use `node --trace-warnings ...` to show where the warning was created)\n\nreal\t0m1.394s\nuser\t0m1.368s\nsys\t0m0.199s\n",
+        "unix_time": {
+            "real": "0m1.394s",
+            "user": "0m1.368s",
+            "sys": "0m0.199s"
+        }
+    },
+    "schema": {
+        "cmd": "~/repo/bids-validator/bids-validator/bids-validator-deno /mnt/nfs/lever/data/openneuro/ds004816 --json",
+        "cmd_return_code": 0,
+        "cmd_time_seconds": 2.3213140964508057,
+        "stderr": "\nreal\t0m2.317s\nuser\t0m1.967s\nsys\t0m0.370s\n",
+        "unix_time": {
+            "real": "0m2.317s",
+            "user": "0m1.967s",
+            "sys": "0m0.370s"
+        }
+    },
+    "datalad_get": [
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds004816 /mnt/nfs/lever/data/openneuro/ds004816/.bidsignore --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 0.6007535457611084,
+            "stdout": "",
+            "stderr": "\nreal\t0m0.596s\nuser\t0m0.426s\nsys\t0m0.120s\n",
+            "unix_time": {
+                "real": "0m0.596s",
+                "user": "0m0.426s",
+                "sys": "0m0.120s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds004816 /mnt/nfs/lever/data/openneuro/ds004816/CHANGES --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 0.44995832443237305,
+            "stdout": "",
+            "stderr": "\nreal\t0m0.446s\nuser\t0m0.336s\nsys\t0m0.109s\n",
+            "unix_time": {
+                "real": "0m0.446s",
+                "user": "0m0.336s",
+                "sys": "0m0.109s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds004816 /mnt/nfs/lever/data/openneuro/ds004816/README --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 0.48032426834106445,
+            "stdout": "",
+            "stderr": "\nreal\t0m0.476s\nuser\t0m0.350s\nsys\t0m0.102s\n",
+            "unix_time": {
+                "real": "0m0.476s",
+                "user": "0m0.350s",
+                "sys": "0m0.102s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds004816 /mnt/nfs/lever/data/openneuro/ds004816/dataset_description.json --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 0.46614623069763184,
+            "stdout": "",
+            "stderr": "\nreal\t0m0.462s\nuser\t0m0.320s\nsys\t0m0.123s\n",
+            "unix_time": {
+                "real": "0m0.462s",
+                "user": "0m0.320s",
+                "sys": "0m0.123s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds004816 /mnt/nfs/lever/data/openneuro/ds004816/participants.tsv --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 0.5457141399383545,
+            "stdout": "",
+            "stderr": "\nreal\t0m0.542s\nuser\t0m0.405s\nsys\t0m0.132s\n",
+            "unix_time": {
+                "real": "0m0.542s",
+                "user": "0m0.405s",
+                "sys": "0m0.132s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds004816 /mnt/nfs/lever/data/openneuro/ds004816/sub-01 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 19.95473051071167,
+            "stdout": "get(ok): sub-01/eeg/sub-01_task-rsvp_eeg.eeg (file) [from s3-PUBLIC...]\nget(ok): sub-01/eeg/sub-01_task-rsvp_eeg.vhdr (file) [from s3-PUBLIC...]\nget(ok): sub-01/eeg/sub-01_task-rsvp_eeg.vmrk (file) [from s3-PUBLIC...]\nget(ok): sub-01/eeg/sub-01_task-rsvp_events.csv (file) [from s3-PUBLIC...]\nget(ok): sub-01 (directory)\naction summary:\n  get (ok: 5)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds004816) to get /mnt/nfs/lever/data/openneuro/ds004816/sub-01 \n\nreal\t0m19.950s\nuser\t0m17.115s\nsys\t0m1.381s\n",
+            "unix_time": {
+                "real": "0m19.950s",
+                "user": "0m17.115s",
+                "sys": "0m1.381s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds004816 /mnt/nfs/lever/data/openneuro/ds004816/sub-02 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 20.433531045913696,
+            "stdout": "get(ok): sub-02/eeg/sub-02_task-rsvp_eeg.eeg (file) [from s3-PUBLIC...]\nget(ok): sub-02/eeg/sub-02_task-rsvp_eeg.vhdr (file) [from s3-PUBLIC...]\nget(ok): sub-02/eeg/sub-02_task-rsvp_eeg.vmrk (file) [from s3-PUBLIC...]\nget(ok): sub-02/eeg/sub-02_task-rsvp_events.csv (file) [from s3-PUBLIC...]\nget(ok): sub-02 (directory)\naction summary:\n  get (ok: 5)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds004816) to get /mnt/nfs/lever/data/openneuro/ds004816/sub-02 \n\nreal\t0m20.429s\nuser\t0m17.547s\nsys\t0m1.298s\n",
+            "unix_time": {
+                "real": "0m20.429s",
+                "user": "0m17.547s",
+                "sys": "0m1.298s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds004816 /mnt/nfs/lever/data/openneuro/ds004816/sub-03 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 20.91568160057068,
+            "stdout": "get(ok): sub-03/eeg/sub-03_task-rsvp_eeg.eeg (file) [from s3-PUBLIC...]\nget(ok): sub-03/eeg/sub-03_task-rsvp_eeg.vhdr (file) [from s3-PUBLIC...]\nget(ok): sub-03/eeg/sub-03_task-rsvp_eeg.vmrk (file) [from s3-PUBLIC...]\nget(ok): sub-03/eeg/sub-03_task-rsvp_events.csv (file) [from s3-PUBLIC...]\nget(ok): sub-03 (directory)\naction summary:\n  get (ok: 5)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds004816) to get /mnt/nfs/lever/data/openneuro/ds004816/sub-03 \n\nreal\t0m20.911s\nuser\t0m18.462s\nsys\t0m1.068s\n",
+            "unix_time": {
+                "real": "0m20.911s",
+                "user": "0m18.462s",
+                "sys": "0m1.068s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds004816 /mnt/nfs/lever/data/openneuro/ds004816/sub-04 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 19.47062349319458,
+            "stdout": "get(ok): sub-04/eeg/sub-04_task-rsvp_eeg.eeg (file) [from s3-PUBLIC...]\nget(ok): sub-04/eeg/sub-04_task-rsvp_eeg.vhdr (file) [from s3-PUBLIC...]\nget(ok): sub-04/eeg/sub-04_task-rsvp_eeg.vmrk (file) [from s3-PUBLIC...]\nget(ok): sub-04/eeg/sub-04_task-rsvp_events.csv (file) [from s3-PUBLIC...]\nget(ok): sub-04 (directory)\naction summary:\n  get (ok: 5)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds004816) to get /mnt/nfs/lever/data/openneuro/ds004816/sub-04 \n\nreal\t0m19.466s\nuser\t0m17.023s\nsys\t0m1.090s\n",
+            "unix_time": {
+                "real": "0m19.466s",
+                "user": "0m17.023s",
+                "sys": "0m1.090s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds004816 /mnt/nfs/lever/data/openneuro/ds004816/sub-05 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 20.39197015762329,
+            "stdout": "get(ok): sub-05/eeg/sub-05_task-rsvp_eeg.eeg (file) [from s3-PUBLIC...]\nget(ok): sub-05/eeg/sub-05_task-rsvp_eeg.vhdr (file) [from s3-PUBLIC...]\nget(ok): sub-05/eeg/sub-05_task-rsvp_eeg.vmrk (file) [from s3-PUBLIC...]\nget(ok): sub-05/eeg/sub-05_task-rsvp_events.csv (file) [from s3-PUBLIC...]\nget(ok): sub-05 (directory)\naction summary:\n  get (ok: 5)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds004816) to get /mnt/nfs/lever/data/openneuro/ds004816/sub-05 \n\nreal\t0m20.388s\nuser\t0m17.330s\nsys\t0m1.410s\n",
+            "unix_time": {
+                "real": "0m20.388s",
+                "user": "0m17.330s",
+                "sys": "0m1.410s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds004816 /mnt/nfs/lever/data/openneuro/ds004816/sub-06 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 19.553081274032593,
+            "stdout": "get(ok): sub-06/eeg/sub-06_task-rsvp_eeg.eeg (file) [from s3-PUBLIC...]\nget(ok): sub-06/eeg/sub-06_task-rsvp_eeg.vhdr (file) [from s3-PUBLIC...]\nget(ok): sub-06/eeg/sub-06_task-rsvp_eeg.vmrk (file) [from s3-PUBLIC...]\nget(ok): sub-06/eeg/sub-06_task-rsvp_events.csv (file) [from s3-PUBLIC...]\nget(ok): sub-06 (directory)\naction summary:\n  get (ok: 5)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds004816) to get /mnt/nfs/lever/data/openneuro/ds004816/sub-06 \n\nreal\t0m19.549s\nuser\t0m17.101s\nsys\t0m1.021s\n",
+            "unix_time": {
+                "real": "0m19.549s",
+                "user": "0m17.101s",
+                "sys": "0m1.021s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds004816 /mnt/nfs/lever/data/openneuro/ds004816/sub-07 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 21.390183448791504,
+            "stdout": "get(ok): sub-07/eeg/sub-07_task-rsvp_eeg.eeg (file) [from s3-PUBLIC...]\nget(ok): sub-07/eeg/sub-07_task-rsvp_eeg.vhdr (file) [from s3-PUBLIC...]\nget(ok): sub-07/eeg/sub-07_task-rsvp_eeg.vmrk (file) [from s3-PUBLIC...]\nget(ok): sub-07/eeg/sub-07_task-rsvp_events.csv (file) [from s3-PUBLIC...]\nget(ok): sub-07 (directory)\naction summary:\n  get (ok: 5)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds004816) to get /mnt/nfs/lever/data/openneuro/ds004816/sub-07 \n\nreal\t0m21.386s\nuser\t0m18.289s\nsys\t0m1.408s\n",
+            "unix_time": {
+                "real": "0m21.386s",
+                "user": "0m18.289s",
+                "sys": "0m1.408s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds004816 /mnt/nfs/lever/data/openneuro/ds004816/sub-08 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 19.600962162017822,
+            "stdout": "get(ok): sub-08/eeg/sub-08_task-rsvp_eeg.eeg (file) [from s3-PUBLIC...]\nget(ok): sub-08/eeg/sub-08_task-rsvp_eeg.vhdr (file) [from s3-PUBLIC...]\nget(ok): sub-08/eeg/sub-08_task-rsvp_eeg.vmrk (file) [from s3-PUBLIC...]\nget(ok): sub-08/eeg/sub-08_task-rsvp_events.csv (file) [from s3-PUBLIC...]\nget(ok): sub-08 (directory)\naction summary:\n  get (ok: 5)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds004816) to get /mnt/nfs/lever/data/openneuro/ds004816/sub-08 \n\nreal\t0m19.597s\nuser\t0m16.974s\nsys\t0m1.080s\n",
+            "unix_time": {
+                "real": "0m19.597s",
+                "user": "0m16.974s",
+                "sys": "0m1.080s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds004816 /mnt/nfs/lever/data/openneuro/ds004816/sub-09 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 19.44617986679077,
+            "stdout": "get(ok): sub-09/eeg/sub-09_task-rsvp_eeg.eeg (file) [from s3-PUBLIC...]\nget(ok): sub-09/eeg/sub-09_task-rsvp_eeg.vhdr (file) [from s3-PUBLIC...]\nget(ok): sub-09/eeg/sub-09_task-rsvp_eeg.vmrk (file) [from s3-PUBLIC...]\nget(ok): sub-09/eeg/sub-09_task-rsvp_events.csv (file) [from s3-PUBLIC...]\nget(ok): sub-09 (directory)\naction summary:\n  get (ok: 5)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds004816) to get /mnt/nfs/lever/data/openneuro/ds004816/sub-09 \n\nreal\t0m19.441s\nuser\t0m16.669s\nsys\t0m1.296s\n",
+            "unix_time": {
+                "real": "0m19.441s",
+                "user": "0m16.669s",
+                "sys": "0m1.296s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds004816 /mnt/nfs/lever/data/openneuro/ds004816/sub-10 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 24.52288317680359,
+            "stdout": "get(ok): sub-10/eeg/sub-10_task-rsvp_eeg.eeg (file) [from s3-PUBLIC...]\nget(ok): sub-10/eeg/sub-10_task-rsvp_eeg.vhdr (file) [from s3-PUBLIC...]\nget(ok): sub-10/eeg/sub-10_task-rsvp_eeg.vmrk (file) [from s3-PUBLIC...]\nget(ok): sub-10/eeg/sub-10_task-rsvp_events.csv (file) [from s3-PUBLIC...]\nget(ok): sub-10 (directory)\naction summary:\n  get (ok: 5)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds004816) to get /mnt/nfs/lever/data/openneuro/ds004816/sub-10 \n\nreal\t0m24.519s\nuser\t0m20.893s\nsys\t0m1.623s\n",
+            "unix_time": {
+                "real": "0m24.519s",
+                "user": "0m20.893s",
+                "sys": "0m1.623s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds004816 /mnt/nfs/lever/data/openneuro/ds004816/sub-11 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 20.356607675552368,
+            "stdout": "get(ok): sub-11/eeg/sub-11_task-rsvp_eeg.eeg (file) [from s3-PUBLIC...]\nget(ok): sub-11/eeg/sub-11_task-rsvp_eeg.vhdr (file) [from s3-PUBLIC...]\nget(ok): sub-11/eeg/sub-11_task-rsvp_eeg.vmrk (file) [from s3-PUBLIC...]\nget(ok): sub-11/eeg/sub-11_task-rsvp_events.csv (file) [from s3-PUBLIC...]\nget(ok): sub-11 (directory)\naction summary:\n  get (ok: 5)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds004816) to get /mnt/nfs/lever/data/openneuro/ds004816/sub-11 \n\nreal\t0m20.352s\nuser\t0m17.649s\nsys\t0m1.128s\n",
+            "unix_time": {
+                "real": "0m20.352s",
+                "user": "0m17.649s",
+                "sys": "0m1.128s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds004816 /mnt/nfs/lever/data/openneuro/ds004816/sub-12 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 19.917371034622192,
+            "stdout": "get(ok): sub-12/eeg/sub-12_task-rsvp_eeg.eeg (file) [from s3-PUBLIC...]\nget(ok): sub-12/eeg/sub-12_task-rsvp_eeg.vhdr (file) [from s3-PUBLIC...]\nget(ok): sub-12/eeg/sub-12_task-rsvp_eeg.vmrk (file) [from s3-PUBLIC...]\nget(ok): sub-12/eeg/sub-12_task-rsvp_events.csv (file) [from s3-PUBLIC...]\nget(ok): sub-12 (directory)\naction summary:\n  get (ok: 5)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds004816) to get /mnt/nfs/lever/data/openneuro/ds004816/sub-12 \n\nreal\t0m19.913s\nuser\t0m17.349s\nsys\t0m0.993s\n",
+            "unix_time": {
+                "real": "0m19.913s",
+                "user": "0m17.349s",
+                "sys": "0m0.993s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds004816 /mnt/nfs/lever/data/openneuro/ds004816/sub-13 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 21.65003800392151,
+            "stdout": "get(ok): sub-13/eeg/sub-13_task-rsvp_eeg.eeg (file) [from s3-PUBLIC...]\nget(ok): sub-13/eeg/sub-13_task-rsvp_eeg.vhdr (file) [from s3-PUBLIC...]\nget(ok): sub-13/eeg/sub-13_task-rsvp_eeg.vmrk (file) [from s3-PUBLIC...]\nget(ok): sub-13 (directory)\naction summary:\n  get (ok: 4)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds004816) to get /mnt/nfs/lever/data/openneuro/ds004816/sub-13 \n\nreal\t0m21.646s\nuser\t0m18.868s\nsys\t0m1.277s\n",
+            "unix_time": {
+                "real": "0m21.646s",
+                "user": "0m18.868s",
+                "sys": "0m1.277s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds004816 /mnt/nfs/lever/data/openneuro/ds004816/sub-14 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 20.785155296325684,
+            "stdout": "get(ok): sub-14/eeg/sub-14_task-rsvp_eeg.eeg (file) [from s3-PUBLIC...]\nget(ok): sub-14/eeg/sub-14_task-rsvp_eeg.vhdr (file) [from s3-PUBLIC...]\nget(ok): sub-14/eeg/sub-14_task-rsvp_eeg.vmrk (file) [from s3-PUBLIC...]\nget(ok): sub-14/eeg/sub-14_task-rsvp_events.csv (file) [from s3-PUBLIC...]\nget(ok): sub-14 (directory)\naction summary:\n  get (ok: 5)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds004816) to get /mnt/nfs/lever/data/openneuro/ds004816/sub-14 \n\nreal\t0m20.781s\nuser\t0m18.019s\nsys\t0m1.060s\n",
+            "unix_time": {
+                "real": "0m20.781s",
+                "user": "0m18.019s",
+                "sys": "0m1.060s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds004816 /mnt/nfs/lever/data/openneuro/ds004816/sub-15 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 22.7489173412323,
+            "stdout": "get(ok): sub-15/eeg/sub-15_task-rsvp_eeg.eeg (file) [from s3-PUBLIC...]\nget(ok): sub-15/eeg/sub-15_task-rsvp_eeg.vhdr (file) [from s3-PUBLIC...]\nget(ok): sub-15/eeg/sub-15_task-rsvp_eeg.vmrk (file) [from s3-PUBLIC...]\nget(ok): sub-15/eeg/sub-15_task-rsvp_events.csv (file) [from s3-PUBLIC...]\nget(ok): sub-15 (directory)\naction summary:\n  get (ok: 5)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds004816) to get /mnt/nfs/lever/data/openneuro/ds004816/sub-15 \n\nreal\t0m22.745s\nuser\t0m19.483s\nsys\t0m1.623s\n",
+            "unix_time": {
+                "real": "0m22.745s",
+                "user": "0m19.483s",
+                "sys": "0m1.623s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds004816 /mnt/nfs/lever/data/openneuro/ds004816/sub-16 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 20.801870584487915,
+            "stdout": "get(ok): sub-16/eeg/sub-16_task-rsvp_eeg.eeg (file) [from s3-PUBLIC...]\nget(ok): sub-16/eeg/sub-16_task-rsvp_eeg.vhdr (file) [from s3-PUBLIC...]\nget(ok): sub-16/eeg/sub-16_task-rsvp_eeg.vmrk (file) [from s3-PUBLIC...]\nget(ok): sub-16/eeg/sub-16_task-rsvp_events.csv (file) [from s3-PUBLIC...]\nget(ok): sub-16 (directory)\naction summary:\n  get (ok: 5)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds004816) to get /mnt/nfs/lever/data/openneuro/ds004816/sub-16 \n\nreal\t0m20.797s\nuser\t0m18.226s\nsys\t0m1.283s\n",
+            "unix_time": {
+                "real": "0m20.797s",
+                "user": "0m18.226s",
+                "sys": "0m1.283s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds004816 /mnt/nfs/lever/data/openneuro/ds004816/sub-17 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 21.630451679229736,
+            "stdout": "get(ok): sub-17/eeg/sub-17_task-rsvp_eeg.eeg (file) [from s3-PUBLIC...]\nget(ok): sub-17/eeg/sub-17_task-rsvp_eeg.vhdr (file) [from s3-PUBLIC...]\nget(ok): sub-17/eeg/sub-17_task-rsvp_eeg.vmrk (file) [from s3-PUBLIC...]\nget(ok): sub-17/eeg/sub-17_task-rsvp_events.csv (file) [from s3-PUBLIC...]\nget(ok): sub-17 (directory)\naction summary:\n  get (ok: 5)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds004816) to get /mnt/nfs/lever/data/openneuro/ds004816/sub-17 \n\nreal\t0m21.626s\nuser\t0m18.845s\nsys\t0m1.081s\n",
+            "unix_time": {
+                "real": "0m21.626s",
+                "user": "0m18.845s",
+                "sys": "0m1.081s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds004816 /mnt/nfs/lever/data/openneuro/ds004816/sub-18 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 23.719123601913452,
+            "stdout": "get(ok): sub-18/eeg/sub-18_task-rsvp_eeg.eeg (file) [from s3-PUBLIC...]\nget(ok): sub-18/eeg/sub-18_task-rsvp_eeg.vhdr (file) [from s3-PUBLIC...]\nget(ok): sub-18/eeg/sub-18_task-rsvp_eeg.vmrk (file) [from s3-PUBLIC...]\nget(ok): sub-18/eeg/sub-18_task-rsvp_events.csv (file) [from s3-PUBLIC...]\nget(ok): sub-18 (directory)\naction summary:\n  get (ok: 5)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds004816) to get /mnt/nfs/lever/data/openneuro/ds004816/sub-18 \n\nreal\t0m23.715s\nuser\t0m20.515s\nsys\t0m1.526s\n",
+            "unix_time": {
+                "real": "0m23.715s",
+                "user": "0m20.515s",
+                "sys": "0m1.526s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds004816 /mnt/nfs/lever/data/openneuro/ds004816/sub-19 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 23.37899684906006,
+            "stdout": "get(ok): sub-19/eeg/sub-19_task-rsvp_eeg.eeg (file) [from s3-PUBLIC...]\nget(ok): sub-19/eeg/sub-19_task-rsvp_eeg.vhdr (file) [from s3-PUBLIC...]\nget(ok): sub-19/eeg/sub-19_task-rsvp_eeg.vmrk (file) [from s3-PUBLIC...]\nget(ok): sub-19/eeg/sub-19_task-rsvp_events.csv (file) [from s3-PUBLIC...]\nget(ok): sub-19 (directory)\naction summary:\n  get (ok: 5)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds004816) to get /mnt/nfs/lever/data/openneuro/ds004816/sub-19 \n\nreal\t0m23.375s\nuser\t0m19.915s\nsys\t0m1.581s\n",
+            "unix_time": {
+                "real": "0m23.375s",
+                "user": "0m19.915s",
+                "sys": "0m1.581s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds004816 /mnt/nfs/lever/data/openneuro/ds004816/sub-20 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 23.275255918502808,
+            "stdout": "get(ok): sub-20/eeg/sub-20_task-rsvp_eeg.eeg (file) [from s3-PUBLIC...]\nget(ok): sub-20/eeg/sub-20_task-rsvp_eeg.vhdr (file) [from s3-PUBLIC...]\nget(ok): sub-20/eeg/sub-20_task-rsvp_eeg.vmrk (file) [from s3-PUBLIC...]\nget(ok): sub-20/eeg/sub-20_task-rsvp_events.csv (file) [from s3-PUBLIC...]\nget(ok): sub-20 (directory)\naction summary:\n  get (ok: 5)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds004816) to get /mnt/nfs/lever/data/openneuro/ds004816/sub-20 \n\nreal\t0m23.271s\nuser\t0m19.917s\nsys\t0m1.551s\n",
+            "unix_time": {
+                "real": "0m23.271s",
+                "user": "0m19.917s",
+                "sys": "0m1.551s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds004816 /mnt/nfs/lever/data/openneuro/ds004816/task-rsvp_eeg.json --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 0.5296919345855713,
+            "stdout": "",
+            "stderr": "\nreal\t0m0.525s\nuser\t0m0.379s\nsys\t0m0.106s\n",
+            "unix_time": {
+                "real": "0m0.525s",
+                "user": "0m0.379s",
+                "sys": "0m0.106s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds004816 /mnt/nfs/lever/data/openneuro/ds004816/task-rsvp_events.json --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 0.5334818363189697,
+            "stdout": "",
+            "stderr": "\nreal\t0m0.529s\nuser\t0m0.418s\nsys\t0m0.113s\n",
+            "unix_time": {
+                "real": "0m0.529s",
+                "user": "0m0.418s",
+                "sys": "0m0.113s"
+            }
+        }
+    ],
+    "datalad_remove": {
+        "cmd": "datalad remove -d /mnt/nfs/lever/data/openneuro/ds004816 /mnt/nfs/lever/data/openneuro/ds004816 --recursive",
+        "cmd_return_code": 0,
+        "cmd_time_seconds": 10.15096139907837,
+        "stdout": "drop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\nuninstall(ok): . (dataset)\naction summary:\n  drop (ok: 79)\n  uninstall (ok: 1)\n",
+        "stderr": "\nreal\t0m10.146s\nuser\t0m2.054s\nsys\t0m2.243s\n",
+        "unix_time": {
+            "real": "0m10.146s",
+            "user": "0m2.054s",
+            "sys": "0m2.243s"
+        }
+    }
+}
