@@ -1,0 +1,150 @@
+{
+    "issues": [
+        {
+            "key": "TOO_FEW_AUTHORS",
+            "severity": "warning",
+            "reason": "The 'Authors' field of 'dataset_description.json' should contain an array of values -\nwith one author per value.\nThis was triggered based on the presence of only one author field.\nPlease ignore if all contributors are already properly listed.\n",
+            "files": [
+                {
+                    "name": "dataset_description.json",
+                    "path": "/dataset_description.json",
+                    "evidence": "schema.rules.checks.hints.TooFewAuthors"
+                }
+            ]
+        },
+        {
+            "key": "EVENTS_TSV_MISSING",
+            "severity": "warning",
+            "reason": "Task scans should have a corresponding 'events.tsv' file.\nIf this is a resting state scan you can ignore this warning or rename the task to include the word \"rest\".\n",
+            "files": [
+                {
+                    "name": "task-mixedgamblestask_bold.json",
+                    "path": "/task-mixedgamblestask_bold.json",
+                    "evidence": "schema.rules.checks.events.EventsMissing"
+                }
+            ]
+        }
+    ],
+    "summary": {
+        "sessions": [],
+        "subjects": [
+            "01",
+            "11",
+            "06",
+            "05",
+            "10",
+            "15",
+            "16",
+            "09",
+            "13",
+            "03",
+            "12",
+            "07",
+            "02",
+            "04",
+            "08",
+            "14"
+        ],
+        "subjectMetadata": [
+            {
+                "participantId": "01",
+                "age": 28,
+                "sex": "M"
+            },
+            {
+                "participantId": "02",
+                "age": 21,
+                "sex": "F"
+            },
+            {
+                "participantId": "03",
+                "age": 27,
+                "sex": "F"
+            },
+            {
+                "participantId": "04",
+                "age": 25,
+                "sex": "M"
+            },
+            {
+                "participantId": "05",
+                "age": 20,
+                "sex": "F"
+            },
+            {
+                "participantId": "06",
+                "age": 20,
+                "sex": "M"
+            },
+            {
+                "participantId": "07",
+                "age": 24,
+                "sex": "F"
+            },
+            {
+                "participantId": "08",
+                "age": 25,
+                "sex": "M"
+            },
+            {
+                "participantId": "09",
+                "age": 19,
+                "sex": "F"
+            },
+            {
+                "participantId": "10",
+                "age": 20,
+                "sex": "M"
+            },
+            {
+                "participantId": "11",
+                "age": 20,
+                "sex": "M"
+            },
+            {
+                "participantId": "12",
+                "age": 21,
+                "sex": "M"
+            },
+            {
+                "participantId": "13",
+                "age": 22,
+                "sex": "F"
+            },
+            {
+                "participantId": "14",
+                "age": 19,
+                "sex": "F"
+            },
+            {
+                "participantId": "15",
+                "age": 20,
+                "sex": "F"
+            },
+            {
+                "participantId": "16",
+                "age": 22,
+                "sex": "M"
+            }
+        ],
+        "tasks": [
+            "mixed-gambles task"
+        ],
+        "modalities": [
+            "MRI"
+        ],
+        "secondaryModalities": [
+            "MRI_Functional",
+            "MRI_Structural"
+        ],
+        "totalFiles": 132,
+        "size": 1898145134,
+        "dataProcessed": false,
+        "pet": {},
+        "dataTypes": [
+            "func",
+            "anat"
+        ],
+        "schemaVersion": "0.7.3-dev"
+    }
+}

@@ -1,0 +1,398 @@
+{
+    "legacy_version": {
+        "cmd": "bids-validator --version",
+        "cmd_return_code": 0,
+        "cmd_time_seconds": 0.4778738021850586,
+        "stdout": "1.14.2\n",
+        "stderr": "\nreal\t0m0.474s\nuser\t0m0.468s\nsys\t0m0.035s\n",
+        "unix_time": {
+            "real": "0m0.474s",
+            "user": "0m0.468s",
+            "sys": "0m0.035s"
+        }
+    },
+    "schema_version": {
+        "cmd": "~/repo/bids-validator/bids-validator/bids-validator-deno --version",
+        "cmd_return_code": 0,
+        "cmd_time_seconds": 0.7670941352844238,
+        "stdout": "\u001b[1mbids-validator\u001b[22m \u001b[94malpha\u001b[39m\n",
+        "stderr": "\nreal\t0m0.763s\nuser\t0m0.178s\nsys\t0m0.134s\n",
+        "unix_time": {
+            "real": "0m0.763s",
+            "user": "0m0.178s",
+            "sys": "0m0.134s"
+        }
+    },
+    "datalad_version": {
+        "cmd": "datalad --version",
+        "cmd_return_code": 0,
+        "cmd_time_seconds": 0.2981429100036621,
+        "stdout": "datalad 0.19.6\n",
+        "stderr": "\nreal\t0m0.294s\nuser\t0m0.194s\nsys\t0m0.074s\n",
+        "unix_time": {
+            "real": "0m0.294s",
+            "user": "0m0.194s",
+            "sys": "0m0.074s"
+        }
+    },
+    "gitannex_version": {
+        "cmd": "git-annex version",
+        "cmd_return_code": 0,
+        "cmd_time_seconds": 0.03479790687561035,
+        "stdout": "git-annex version: 10.20240227-1~ndall+1\nbuild flags: Assistant Webapp Pairing Inotify DBus DesktopNotify TorrentParser MagicMime Benchmark Feeds Testsuite S3 WebDAV\ndependency versions: aws-0.22.1 bloomfilter-2.0.1.0 cryptonite-0.29 DAV-1.3.4 feed-1.3.2.1 ghc-9.0.2 http-client-0.7.13.1 persistent-sqlite-2.13.1.0 torrent-10000.1.1 uuid-1.3.15 yesod-1.6.2.1\nkey/value backends: SHA256E SHA256 SHA512E SHA512 SHA224E SHA224 SHA384E SHA384 SHA3_256E SHA3_256 SHA3_512E SHA3_512 SHA3_224E SHA3_224 SHA3_384E SHA3_384 SKEIN256E SKEIN256 SKEIN512E SKEIN512 BLAKE2B256E BLAKE2B256 BLAKE2B512E BLAKE2B512 BLAKE2B160E BLAKE2B160 BLAKE2B224E BLAKE2B224 BLAKE2B384E BLAKE2B384 BLAKE2BP512E BLAKE2BP512 BLAKE2S256E BLAKE2S256 BLAKE2S160E BLAKE2S160 BLAKE2S224E BLAKE2S224 BLAKE2SP256E BLAKE2SP256 BLAKE2SP224E BLAKE2SP224 SHA1E SHA1 MD5E MD5 WORM URL X*\nremote types: git gcrypt p2p S3 bup directory rsync web bittorrent webdav adb tahoe glacier ddar git-lfs httpalso borg hook external\noperating system: linux x86_64\nsupported repository versions: 8 9 10\nupgrade supported from repository versions: 0 1 2 3 4 5 6 7 8 9 10\n",
+        "stderr": "\nreal\t0m0.030s\nuser\t0m0.021s\nsys\t0m0.006s\n",
+        "unix_time": {
+            "real": "0m0.030s",
+            "user": "0m0.021s",
+            "sys": "0m0.006s"
+        }
+    },
+    "node_version": {
+        "cmd": "node --version",
+        "cmd_return_code": 0,
+        "cmd_time_seconds": 0.01528477668762207,
+        "stdout": "v18.17.1\n",
+        "stderr": "\nreal\t0m0.011s\nuser\t0m0.000s\nsys\t0m0.011s\n",
+        "unix_time": {
+            "real": "0m0.011s",
+            "user": "0m0.000s",
+            "sys": "0m0.011s"
+        }
+    },
+    "jq_version": {
+        "cmd": "jq --version",
+        "cmd_return_code": 0,
+        "cmd_time_seconds": 0.005815982818603516,
+        "stdout": "jq-1.6\n",
+        "stderr": "\nreal\t0m0.002s\nuser\t0m0.000s\nsys\t0m0.002s\n",
+        "unix_time": {
+            "real": "0m0.002s",
+            "user": "0m0.000s",
+            "sys": "0m0.002s"
+        }
+    },
+    "legacy": {
+        "cmd": "bids-validator /mnt/nfs/lever/data/openneuro/ds000002 --json",
+        "cmd_return_code": 1,
+        "cmd_time_seconds": 1.520951271057129,
+        "stderr": "(node:2432999) Warning: Closing directory handle on garbage collection\n(Use `node --trace-warnings ...` to show where the warning was created)\n\nreal\t0m1.517s\nuser\t0m1.409s\nsys\t0m0.617s\n",
+        "unix_time": {
+            "real": "0m1.517s",
+            "user": "0m1.409s",
+            "sys": "0m0.617s"
+        }
+    },
+    "schema": {
+        "cmd": "~/repo/bids-validator/bids-validator/bids-validator-deno /mnt/nfs/lever/data/openneuro/ds000002 --json",
+        "cmd_return_code": 0,
+        "cmd_time_seconds": 1.9800007343292236,
+        "stderr": "\nreal\t0m1.975s\nuser\t0m1.510s\nsys\t0m0.351s\n",
+        "unix_time": {
+            "real": "0m1.975s",
+            "user": "0m1.510s",
+            "sys": "0m0.351s"
+        }
+    },
+    "datalad_get": [
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000002 /mnt/nfs/lever/data/openneuro/ds000002/CHANGES --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 0.6139359474182129,
+            "stdout": "",
+            "stderr": "\nreal\t0m0.609s\nuser\t0m0.406s\nsys\t0m0.145s\n",
+            "unix_time": {
+                "real": "0m0.609s",
+                "user": "0m0.406s",
+                "sys": "0m0.145s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000002 /mnt/nfs/lever/data/openneuro/ds000002/README --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 0.44878602027893066,
+            "stdout": "",
+            "stderr": "\nreal\t0m0.444s\nuser\t0m0.325s\nsys\t0m0.118s\n",
+            "unix_time": {
+                "real": "0m0.444s",
+                "user": "0m0.325s",
+                "sys": "0m0.118s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000002 /mnt/nfs/lever/data/openneuro/ds000002/dataset_description.json --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 0.48537659645080566,
+            "stdout": "",
+            "stderr": "\nreal\t0m0.481s\nuser\t0m0.331s\nsys\t0m0.118s\n",
+            "unix_time": {
+                "real": "0m0.481s",
+                "user": "0m0.331s",
+                "sys": "0m0.118s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000002 /mnt/nfs/lever/data/openneuro/ds000002/participants.tsv --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 0.460080623626709,
+            "stdout": "",
+            "stderr": "\nreal\t0m0.456s\nuser\t0m0.337s\nsys\t0m0.109s\n",
+            "unix_time": {
+                "real": "0m0.456s",
+                "user": "0m0.337s",
+                "sys": "0m0.109s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000002 /mnt/nfs/lever/data/openneuro/ds000002/sub-01 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 8.457378149032593,
+            "stdout": "get(ok): sub-01/anat/sub-01_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-01/anat/sub-01_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-01/func/sub-01_task-deterministicclassification_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-01/func/sub-01_task-deterministicclassification_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-01/func/sub-01_task-mixedeventrelatedprobe_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-01/func/sub-01_task-mixedeventrelatedprobe_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-01/func/sub-01_task-probabilisticclassification_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-01/func/sub-01_task-probabilisticclassification_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-01 (directory)\naction summary:\n  get (ok: 9)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds000002) to get /mnt/nfs/lever/data/openneuro/ds000002/sub-01 \n\nreal\t0m8.452s\nuser\t0m6.025s\nsys\t0m0.547s\n",
+            "unix_time": {
+                "real": "0m8.452s",
+                "user": "0m6.025s",
+                "sys": "0m0.547s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000002 /mnt/nfs/lever/data/openneuro/ds000002/sub-02 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 7.999975681304932,
+            "stdout": "get(ok): sub-02/anat/sub-02_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-02/func/sub-02_task-deterministicclassification_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-02/func/sub-02_task-deterministicclassification_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-02/func/sub-02_task-mixedeventrelatedprobe_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-02/func/sub-02_task-mixedeventrelatedprobe_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-02/func/sub-02_task-probabilisticclassification_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-02/func/sub-02_task-probabilisticclassification_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-02 (directory)\naction summary:\n  get (ok: 8)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds000002) to get /mnt/nfs/lever/data/openneuro/ds000002/sub-02 \n\nreal\t0m7.996s\nuser\t0m5.760s\nsys\t0m0.555s\n",
+            "unix_time": {
+                "real": "0m7.996s",
+                "user": "0m5.760s",
+                "sys": "0m0.555s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000002 /mnt/nfs/lever/data/openneuro/ds000002/sub-03 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 8.353533029556274,
+            "stdout": "get(ok): sub-03/anat/sub-03_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-03/anat/sub-03_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-03/func/sub-03_task-deterministicclassification_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-03/func/sub-03_task-deterministicclassification_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-03/func/sub-03_task-mixedeventrelatedprobe_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-03/func/sub-03_task-mixedeventrelatedprobe_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-03/func/sub-03_task-probabilisticclassification_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-03/func/sub-03_task-probabilisticclassification_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-03 (directory)\naction summary:\n  get (ok: 9)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds000002) to get /mnt/nfs/lever/data/openneuro/ds000002/sub-03 \n\nreal\t0m8.349s\nuser\t0m5.899s\nsys\t0m0.568s\n",
+            "unix_time": {
+                "real": "0m8.349s",
+                "user": "0m5.899s",
+                "sys": "0m0.568s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000002 /mnt/nfs/lever/data/openneuro/ds000002/sub-04 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 9.167091369628906,
+            "stdout": "get(ok): sub-04/anat/sub-04_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-04/anat/sub-04_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-04/func/sub-04_task-deterministicclassification_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-04/func/sub-04_task-deterministicclassification_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-04/func/sub-04_task-mixedeventrelatedprobe_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-04/func/sub-04_task-mixedeventrelatedprobe_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-04/func/sub-04_task-probabilisticclassification_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-04/func/sub-04_task-probabilisticclassification_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-04 (directory)\naction summary:\n  get (ok: 9)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds000002) to get /mnt/nfs/lever/data/openneuro/ds000002/sub-04 \n\nreal\t0m9.163s\nuser\t0m6.713s\nsys\t0m0.536s\n",
+            "unix_time": {
+                "real": "0m9.163s",
+                "user": "0m6.713s",
+                "sys": "0m0.536s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000002 /mnt/nfs/lever/data/openneuro/ds000002/sub-05 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 9.349335670471191,
+            "stdout": "get(ok): sub-05/anat/sub-05_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-05/anat/sub-05_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-05/func/sub-05_task-deterministicclassification_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-05/func/sub-05_task-deterministicclassification_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-05/func/sub-05_task-mixedeventrelatedprobe_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-05/func/sub-05_task-mixedeventrelatedprobe_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-05/func/sub-05_task-probabilisticclassification_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-05/func/sub-05_task-probabilisticclassification_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-05 (directory)\naction summary:\n  get (ok: 9)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds000002) to get /mnt/nfs/lever/data/openneuro/ds000002/sub-05 \n\nreal\t0m9.345s\nuser\t0m6.756s\nsys\t0m0.575s\n",
+            "unix_time": {
+                "real": "0m9.345s",
+                "user": "0m6.756s",
+                "sys": "0m0.575s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000002 /mnt/nfs/lever/data/openneuro/ds000002/sub-06 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 9.521712064743042,
+            "stdout": "get(ok): sub-06/anat/sub-06_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-06/anat/sub-06_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-06/func/sub-06_task-deterministicclassification_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-06/func/sub-06_task-deterministicclassification_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-06/func/sub-06_task-mixedeventrelatedprobe_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-06/func/sub-06_task-mixedeventrelatedprobe_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-06/func/sub-06_task-probabilisticclassification_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-06/func/sub-06_task-probabilisticclassification_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-06 (directory)\naction summary:\n  get (ok: 9)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds000002) to get /mnt/nfs/lever/data/openneuro/ds000002/sub-06 \n\nreal\t0m9.518s\nuser\t0m7.018s\nsys\t0m0.586s\n",
+            "unix_time": {
+                "real": "0m9.518s",
+                "user": "0m7.018s",
+                "sys": "0m0.586s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000002 /mnt/nfs/lever/data/openneuro/ds000002/sub-07 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 9.468749046325684,
+            "stdout": "get(ok): sub-07/anat/sub-07_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-07/anat/sub-07_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-07/func/sub-07_task-deterministicclassification_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-07/func/sub-07_task-deterministicclassification_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-07/func/sub-07_task-mixedeventrelatedprobe_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-07/func/sub-07_task-mixedeventrelatedprobe_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-07/func/sub-07_task-probabilisticclassification_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-07/func/sub-07_task-probabilisticclassification_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-07 (directory)\naction summary:\n  get (ok: 9)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds000002) to get /mnt/nfs/lever/data/openneuro/ds000002/sub-07 \n\nreal\t0m9.464s\nuser\t0m6.795s\nsys\t0m0.657s\n",
+            "unix_time": {
+                "real": "0m9.464s",
+                "user": "0m6.795s",
+                "sys": "0m0.657s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000002 /mnt/nfs/lever/data/openneuro/ds000002/sub-08 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 9.340377569198608,
+            "stdout": "get(ok): sub-08/anat/sub-08_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-08/anat/sub-08_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-08/func/sub-08_task-deterministicclassification_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-08/func/sub-08_task-deterministicclassification_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-08/func/sub-08_task-mixedeventrelatedprobe_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-08/func/sub-08_task-mixedeventrelatedprobe_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-08/func/sub-08_task-probabilisticclassification_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-08/func/sub-08_task-probabilisticclassification_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-08 (directory)\naction summary:\n  get (ok: 9)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds000002) to get /mnt/nfs/lever/data/openneuro/ds000002/sub-08 \n\nreal\t0m9.336s\nuser\t0m6.763s\nsys\t0m0.659s\n",
+            "unix_time": {
+                "real": "0m9.336s",
+                "user": "0m6.763s",
+                "sys": "0m0.659s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000002 /mnt/nfs/lever/data/openneuro/ds000002/sub-09 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 10.036469459533691,
+            "stdout": "get(ok): sub-09/anat/sub-09_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-09/anat/sub-09_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-09/func/sub-09_task-deterministicclassification_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-09/func/sub-09_task-deterministicclassification_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-09/func/sub-09_task-mixedeventrelatedprobe_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-09/func/sub-09_task-mixedeventrelatedprobe_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-09/func/sub-09_task-probabilisticclassification_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-09/func/sub-09_task-probabilisticclassification_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-09 (directory)\naction summary:\n  get (ok: 9)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds000002) to get /mnt/nfs/lever/data/openneuro/ds000002/sub-09 \n\nreal\t0m10.032s\nuser\t0m7.079s\nsys\t0m0.624s\n",
+            "unix_time": {
+                "real": "0m10.032s",
+                "user": "0m7.079s",
+                "sys": "0m0.624s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000002 /mnt/nfs/lever/data/openneuro/ds000002/sub-10 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 9.547284126281738,
+            "stdout": "get(ok): sub-10/anat/sub-10_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-10/anat/sub-10_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-10/func/sub-10_task-deterministicclassification_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-10/func/sub-10_task-deterministicclassification_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-10/func/sub-10_task-mixedeventrelatedprobe_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-10/func/sub-10_task-mixedeventrelatedprobe_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-10/func/sub-10_task-probabilisticclassification_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-10/func/sub-10_task-probabilisticclassification_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-10 (directory)\naction summary:\n  get (ok: 9)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds000002) to get /mnt/nfs/lever/data/openneuro/ds000002/sub-10 \n\nreal\t0m9.543s\nuser\t0m6.908s\nsys\t0m0.538s\n",
+            "unix_time": {
+                "real": "0m9.543s",
+                "user": "0m6.908s",
+                "sys": "0m0.538s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000002 /mnt/nfs/lever/data/openneuro/ds000002/sub-11 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 9.748075008392334,
+            "stdout": "get(ok): sub-11/anat/sub-11_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-11/anat/sub-11_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-11/func/sub-11_task-deterministicclassification_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-11/func/sub-11_task-deterministicclassification_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-11/func/sub-11_task-mixedeventrelatedprobe_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-11/func/sub-11_task-mixedeventrelatedprobe_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-11/func/sub-11_task-probabilisticclassification_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-11/func/sub-11_task-probabilisticclassification_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-11 (directory)\naction summary:\n  get (ok: 9)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds000002) to get /mnt/nfs/lever/data/openneuro/ds000002/sub-11 \n\nreal\t0m9.744s\nuser\t0m7.095s\nsys\t0m0.540s\n",
+            "unix_time": {
+                "real": "0m9.744s",
+                "user": "0m7.095s",
+                "sys": "0m0.540s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000002 /mnt/nfs/lever/data/openneuro/ds000002/sub-12 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 9.542282104492188,
+            "stdout": "get(ok): sub-12/anat/sub-12_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-12/anat/sub-12_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-12/func/sub-12_task-deterministicclassification_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-12/func/sub-12_task-deterministicclassification_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-12/func/sub-12_task-mixedeventrelatedprobe_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-12/func/sub-12_task-mixedeventrelatedprobe_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-12/func/sub-12_task-probabilisticclassification_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-12/func/sub-12_task-probabilisticclassification_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-12 (directory)\naction summary:\n  get (ok: 9)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds000002) to get /mnt/nfs/lever/data/openneuro/ds000002/sub-12 \n\nreal\t0m9.538s\nuser\t0m6.840s\nsys\t0m0.602s\n",
+            "unix_time": {
+                "real": "0m9.538s",
+                "user": "0m6.840s",
+                "sys": "0m0.602s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000002 /mnt/nfs/lever/data/openneuro/ds000002/sub-13 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 9.61067533493042,
+            "stdout": "get(ok): sub-13/anat/sub-13_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-13/anat/sub-13_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-13/func/sub-13_task-deterministicclassification_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-13/func/sub-13_task-deterministicclassification_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-13/func/sub-13_task-mixedeventrelatedprobe_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-13/func/sub-13_task-mixedeventrelatedprobe_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-13/func/sub-13_task-probabilisticclassification_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-13/func/sub-13_task-probabilisticclassification_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-13 (directory)\naction summary:\n  get (ok: 9)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds000002) to get /mnt/nfs/lever/data/openneuro/ds000002/sub-13 \n\nreal\t0m9.606s\nuser\t0m7.032s\nsys\t0m0.591s\n",
+            "unix_time": {
+                "real": "0m9.606s",
+                "user": "0m7.032s",
+                "sys": "0m0.591s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000002 /mnt/nfs/lever/data/openneuro/ds000002/sub-14 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 9.595319509506226,
+            "stdout": "get(ok): sub-14/anat/sub-14_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-14/anat/sub-14_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-14/func/sub-14_task-deterministicclassification_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-14/func/sub-14_task-deterministicclassification_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-14/func/sub-14_task-mixedeventrelatedprobe_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-14/func/sub-14_task-mixedeventrelatedprobe_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-14/func/sub-14_task-probabilisticclassification_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-14/func/sub-14_task-probabilisticclassification_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-14 (directory)\naction summary:\n  get (ok: 9)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds000002) to get /mnt/nfs/lever/data/openneuro/ds000002/sub-14 \n\nreal\t0m9.591s\nuser\t0m6.796s\nsys\t0m0.699s\n",
+            "unix_time": {
+                "real": "0m9.591s",
+                "user": "0m6.796s",
+                "sys": "0m0.699s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000002 /mnt/nfs/lever/data/openneuro/ds000002/sub-15 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 9.606799364089966,
+            "stdout": "get(ok): sub-15/anat/sub-15_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-15/anat/sub-15_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-15/func/sub-15_task-deterministicclassification_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-15/func/sub-15_task-deterministicclassification_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-15/func/sub-15_task-mixedeventrelatedprobe_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-15/func/sub-15_task-mixedeventrelatedprobe_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-15/func/sub-15_task-probabilisticclassification_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-15/func/sub-15_task-probabilisticclassification_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-15 (directory)\naction summary:\n  get (ok: 9)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds000002) to get /mnt/nfs/lever/data/openneuro/ds000002/sub-15 \n\nreal\t0m9.602s\nuser\t0m6.834s\nsys\t0m0.592s\n",
+            "unix_time": {
+                "real": "0m9.602s",
+                "user": "0m6.834s",
+                "sys": "0m0.592s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000002 /mnt/nfs/lever/data/openneuro/ds000002/sub-16 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 9.945630550384521,
+            "stdout": "get(ok): sub-16/anat/sub-16_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-16/anat/sub-16_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-16/func/sub-16_task-deterministicclassification_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-16/func/sub-16_task-deterministicclassification_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-16/func/sub-16_task-mixedeventrelatedprobe_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-16/func/sub-16_task-mixedeventrelatedprobe_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-16/func/sub-16_task-probabilisticclassification_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-16/func/sub-16_task-probabilisticclassification_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-16 (directory)\naction summary:\n  get (ok: 9)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds000002) to get /mnt/nfs/lever/data/openneuro/ds000002/sub-16 \n\nreal\t0m9.941s\nuser\t0m7.054s\nsys\t0m0.682s\n",
+            "unix_time": {
+                "real": "0m9.941s",
+                "user": "0m7.054s",
+                "sys": "0m0.682s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000002 /mnt/nfs/lever/data/openneuro/ds000002/sub-17 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 9.577247619628906,
+            "stdout": "get(ok): sub-17/anat/sub-17_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-17/anat/sub-17_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-17/func/sub-17_task-deterministicclassification_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-17/func/sub-17_task-deterministicclassification_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-17/func/sub-17_task-mixedeventrelatedprobe_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-17/func/sub-17_task-mixedeventrelatedprobe_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-17/func/sub-17_task-probabilisticclassification_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-17/func/sub-17_task-probabilisticclassification_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-17 (directory)\naction summary:\n  get (ok: 9)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds000002) to get /mnt/nfs/lever/data/openneuro/ds000002/sub-17 \n\nreal\t0m9.573s\nuser\t0m6.945s\nsys\t0m0.634s\n",
+            "unix_time": {
+                "real": "0m9.573s",
+                "user": "0m6.945s",
+                "sys": "0m0.634s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000002 /mnt/nfs/lever/data/openneuro/ds000002/task-deterministicclassification_bold.json --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 0.5903646945953369,
+            "stdout": "",
+            "stderr": "\nreal\t0m0.586s\nuser\t0m0.374s\nsys\t0m0.166s\n",
+            "unix_time": {
+                "real": "0m0.586s",
+                "user": "0m0.374s",
+                "sys": "0m0.166s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000002 /mnt/nfs/lever/data/openneuro/ds000002/task-mixedeventrelatedprobe_bold.json --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 0.5400838851928711,
+            "stdout": "",
+            "stderr": "\nreal\t0m0.536s\nuser\t0m0.385s\nsys\t0m0.147s\n",
+            "unix_time": {
+                "real": "0m0.536s",
+                "user": "0m0.385s",
+                "sys": "0m0.147s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000002 /mnt/nfs/lever/data/openneuro/ds000002/task-probabilisticclassification_bold.json --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 0.5762233734130859,
+            "stdout": "",
+            "stderr": "\nreal\t0m0.572s\nuser\t0m0.383s\nsys\t0m0.149s\n",
+            "unix_time": {
+                "real": "0m0.572s",
+                "user": "0m0.383s",
+                "sys": "0m0.149s"
+            }
+        }
+    ],
+    "datalad_remove": {
+        "cmd": "datalad remove -d /mnt/nfs/lever/data/openneuro/ds000002 /mnt/nfs/lever/data/openneuro/ds000002 --recursive",
+        "cmd_return_code": 0,
+        "cmd_time_seconds": 12.731297016143799,
+        "stdout": "drop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\nuninstall(ok): . (dataset)\naction summary:\n  drop (ok: 135)\n  uninstall (ok: 1)\n",
+        "stderr": "\nreal\t0m12.727s\nuser\t0m2.448s\nsys\t0m2.112s\n",
+        "unix_time": {
+            "real": "0m12.727s",
+            "user": "0m2.448s",
+            "sys": "0m2.112s"
+        }
+    }
+}

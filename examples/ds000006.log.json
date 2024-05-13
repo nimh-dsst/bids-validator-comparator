@@ -1,0 +1,350 @@
+{
+    "legacy_version": {
+        "cmd": "bids-validator --version",
+        "cmd_return_code": 0,
+        "cmd_time_seconds": 0.47987818717956543,
+        "stdout": "1.14.2\n",
+        "stderr": "\nreal\t0m0.476s\nuser\t0m0.434s\nsys\t0m0.071s\n",
+        "unix_time": {
+            "real": "0m0.476s",
+            "user": "0m0.434s",
+            "sys": "0m0.071s"
+        }
+    },
+    "schema_version": {
+        "cmd": "~/repo/bids-validator/bids-validator/bids-validator-deno --version",
+        "cmd_return_code": 0,
+        "cmd_time_seconds": 0.8022589683532715,
+        "stdout": "\u001b[1mbids-validator\u001b[22m \u001b[94malpha\u001b[39m\n",
+        "stderr": "\nreal\t0m0.798s\nuser\t0m0.176s\nsys\t0m0.154s\n",
+        "unix_time": {
+            "real": "0m0.798s",
+            "user": "0m0.176s",
+            "sys": "0m0.154s"
+        }
+    },
+    "datalad_version": {
+        "cmd": "datalad --version",
+        "cmd_return_code": 0,
+        "cmd_time_seconds": 0.2933387756347656,
+        "stdout": "datalad 0.19.6\n",
+        "stderr": "\nreal\t0m0.290s\nuser\t0m0.199s\nsys\t0m0.066s\n",
+        "unix_time": {
+            "real": "0m0.290s",
+            "user": "0m0.199s",
+            "sys": "0m0.066s"
+        }
+    },
+    "gitannex_version": {
+        "cmd": "git-annex version",
+        "cmd_return_code": 0,
+        "cmd_time_seconds": 0.03407001495361328,
+        "stdout": "git-annex version: 10.20240227-1~ndall+1\nbuild flags: Assistant Webapp Pairing Inotify DBus DesktopNotify TorrentParser MagicMime Benchmark Feeds Testsuite S3 WebDAV\ndependency versions: aws-0.22.1 bloomfilter-2.0.1.0 cryptonite-0.29 DAV-1.3.4 feed-1.3.2.1 ghc-9.0.2 http-client-0.7.13.1 persistent-sqlite-2.13.1.0 torrent-10000.1.1 uuid-1.3.15 yesod-1.6.2.1\nkey/value backends: SHA256E SHA256 SHA512E SHA512 SHA224E SHA224 SHA384E SHA384 SHA3_256E SHA3_256 SHA3_512E SHA3_512 SHA3_224E SHA3_224 SHA3_384E SHA3_384 SKEIN256E SKEIN256 SKEIN512E SKEIN512 BLAKE2B256E BLAKE2B256 BLAKE2B512E BLAKE2B512 BLAKE2B160E BLAKE2B160 BLAKE2B224E BLAKE2B224 BLAKE2B384E BLAKE2B384 BLAKE2BP512E BLAKE2BP512 BLAKE2S256E BLAKE2S256 BLAKE2S160E BLAKE2S160 BLAKE2S224E BLAKE2S224 BLAKE2SP256E BLAKE2SP256 BLAKE2SP224E BLAKE2SP224 SHA1E SHA1 MD5E MD5 WORM URL X*\nremote types: git gcrypt p2p S3 bup directory rsync web bittorrent webdav adb tahoe glacier ddar git-lfs httpalso borg hook external\noperating system: linux x86_64\nsupported repository versions: 8 9 10\nupgrade supported from repository versions: 0 1 2 3 4 5 6 7 8 9 10\n",
+        "stderr": "\nreal\t0m0.030s\nuser\t0m0.013s\nsys\t0m0.014s\n",
+        "unix_time": {
+            "real": "0m0.030s",
+            "user": "0m0.013s",
+            "sys": "0m0.014s"
+        }
+    },
+    "node_version": {
+        "cmd": "node --version",
+        "cmd_return_code": 0,
+        "cmd_time_seconds": 0.014797449111938477,
+        "stdout": "v18.17.1\n",
+        "stderr": "\nreal\t0m0.011s\nuser\t0m0.004s\nsys\t0m0.007s\n",
+        "unix_time": {
+            "real": "0m0.011s",
+            "user": "0m0.004s",
+            "sys": "0m0.007s"
+        }
+    },
+    "jq_version": {
+        "cmd": "jq --version",
+        "cmd_return_code": 0,
+        "cmd_time_seconds": 0.005580425262451172,
+        "stdout": "jq-1.6\n",
+        "stderr": "\nreal\t0m0.002s\nuser\t0m0.002s\nsys\t0m0.000s\n",
+        "unix_time": {
+            "real": "0m0.002s",
+            "user": "0m0.002s",
+            "sys": "0m0.000s"
+        }
+    },
+    "legacy": {
+        "cmd": "bids-validator /mnt/nfs/lever/data/openneuro/ds000006 --json",
+        "cmd_return_code": 1,
+        "cmd_time_seconds": 1.8440792560577393,
+        "stderr": "(node:2848421) Warning: Closing directory handle on garbage collection\n(Use `node --trace-warnings ...` to show where the warning was created)\n\nreal\t0m1.840s\nuser\t0m1.665s\nsys\t0m0.964s\n",
+        "unix_time": {
+            "real": "0m1.840s",
+            "user": "0m1.665s",
+            "sys": "0m0.964s"
+        }
+    },
+    "schema": {
+        "cmd": "~/repo/bids-validator/bids-validator/bids-validator-deno /mnt/nfs/lever/data/openneuro/ds000006 --json",
+        "cmd_return_code": 0,
+        "cmd_time_seconds": 2.606504440307617,
+        "stderr": "\nreal\t0m2.601s\nuser\t0m2.063s\nsys\t0m0.399s\n",
+        "unix_time": {
+            "real": "0m2.601s",
+            "user": "0m2.063s",
+            "sys": "0m0.399s"
+        }
+    },
+    "datalad_get": [
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000006 /mnt/nfs/lever/data/openneuro/ds000006/CHANGES --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 0.6203896999359131,
+            "stdout": "",
+            "stderr": "\nreal\t0m0.616s\nuser\t0m0.389s\nsys\t0m0.172s\n",
+            "unix_time": {
+                "real": "0m0.616s",
+                "user": "0m0.389s",
+                "sys": "0m0.172s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000006 /mnt/nfs/lever/data/openneuro/ds000006/README --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 0.5394468307495117,
+            "stdout": "",
+            "stderr": "\nreal\t0m0.535s\nuser\t0m0.395s\nsys\t0m0.141s\n",
+            "unix_time": {
+                "real": "0m0.535s",
+                "user": "0m0.395s",
+                "sys": "0m0.141s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000006 /mnt/nfs/lever/data/openneuro/ds000006/dataset_description.json --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 0.6071083545684814,
+            "stdout": "",
+            "stderr": "\nreal\t0m0.603s\nuser\t0m0.443s\nsys\t0m0.118s\n",
+            "unix_time": {
+                "real": "0m0.603s",
+                "user": "0m0.443s",
+                "sys": "0m0.118s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000006 /mnt/nfs/lever/data/openneuro/ds000006/participants.tsv --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 0.5342745780944824,
+            "stdout": "",
+            "stderr": "\nreal\t0m0.530s\nuser\t0m0.365s\nsys\t0m0.167s\n",
+            "unix_time": {
+                "real": "0m0.530s",
+                "user": "0m0.365s",
+                "sys": "0m0.167s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000006 /mnt/nfs/lever/data/openneuro/ds000006/sub-01 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 15.892030239105225,
+            "stdout": "get(ok): sub-01/ses-retest/anat/sub-01_ses-retest_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-01/ses-retest/anat/sub-01_ses-retest_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-01/ses-retest/func/sub-01_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-01/ses-retest/func/sub-01_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-01/ses-retest/func/sub-01_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-01/ses-retest/func/sub-01_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-01/ses-retest/func/sub-01_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-01/ses-retest/func/sub-01_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-01/ses-test/anat/sub-01_ses-test_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-01/ses-test/anat/sub-01_ses-test_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-01/ses-test/func/sub-01_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-01/ses-test/func/sub-01_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-01/ses-test/func/sub-01_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-01/ses-test/func/sub-01_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-01/ses-test/func/sub-01_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-01/ses-test/func/sub-01_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-01 (directory)\naction summary:\n  get (ok: 17)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds000006) to get /mnt/nfs/lever/data/openneuro/ds000006/sub-01 \n\nreal\t0m15.888s\nuser\t0m11.530s\nsys\t0m0.881s\n",
+            "unix_time": {
+                "real": "0m15.888s",
+                "user": "0m11.530s",
+                "sys": "0m0.881s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000006 /mnt/nfs/lever/data/openneuro/ds000006/sub-02 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 14.458428621292114,
+            "stdout": "get(ok): sub-02/ses-retest/anat/sub-02_ses-retest_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-02/ses-retest/anat/sub-02_ses-retest_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-02/ses-retest/func/sub-02_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-02/ses-retest/func/sub-02_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-02/ses-retest/func/sub-02_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-02/ses-retest/func/sub-02_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-02/ses-test/anat/sub-02_ses-test_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-02/ses-test/anat/sub-02_ses-test_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-02/ses-test/func/sub-02_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-02/ses-test/func/sub-02_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-02/ses-test/func/sub-02_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-02/ses-test/func/sub-02_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-02/ses-test/func/sub-02_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-02/ses-test/func/sub-02_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-02 (directory)\naction summary:\n  get (ok: 15)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds000006) to get /mnt/nfs/lever/data/openneuro/ds000006/sub-02 \n\nreal\t0m14.454s\nuser\t0m10.287s\nsys\t0m0.977s\n",
+            "unix_time": {
+                "real": "0m14.454s",
+                "user": "0m10.287s",
+                "sys": "0m0.977s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000006 /mnt/nfs/lever/data/openneuro/ds000006/sub-03 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 16.441203594207764,
+            "stdout": "get(ok): sub-03/ses-retest/anat/sub-03_ses-retest_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-03/ses-retest/anat/sub-03_ses-retest_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-03/ses-retest/func/sub-03_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-03/ses-retest/func/sub-03_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-03/ses-retest/func/sub-03_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-03/ses-retest/func/sub-03_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-03/ses-retest/func/sub-03_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-03/ses-retest/func/sub-03_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-03/ses-test/anat/sub-03_ses-test_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-03/ses-test/anat/sub-03_ses-test_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-03/ses-test/func/sub-03_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-03/ses-test/func/sub-03_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-03/ses-test/func/sub-03_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-03/ses-test/func/sub-03_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-03/ses-test/func/sub-03_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-03 (directory)\naction summary:\n  get (ok: 16)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds000006) to get /mnt/nfs/lever/data/openneuro/ds000006/sub-03 \n\nreal\t0m16.438s\nuser\t0m11.973s\nsys\t0m0.933s\n",
+            "unix_time": {
+                "real": "0m16.438s",
+                "user": "0m11.973s",
+                "sys": "0m0.933s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000006 /mnt/nfs/lever/data/openneuro/ds000006/sub-04 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 17.110500812530518,
+            "stdout": "get(ok): sub-04/ses-retest/anat/sub-04_ses-retest_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-04/ses-retest/anat/sub-04_ses-retest_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-04/ses-retest/func/sub-04_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-04/ses-retest/func/sub-04_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-04/ses-retest/func/sub-04_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-04/ses-retest/func/sub-04_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-04/ses-retest/func/sub-04_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-04/ses-retest/func/sub-04_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-04/ses-test/anat/sub-04_ses-test_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-04/ses-test/anat/sub-04_ses-test_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-04/ses-test/func/sub-04_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-04/ses-test/func/sub-04_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-04/ses-test/func/sub-04_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-04/ses-test/func/sub-04_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-04/ses-test/func/sub-04_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-04/ses-test/func/sub-04_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-04 (directory)\naction summary:\n  get (ok: 17)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds000006) to get /mnt/nfs/lever/data/openneuro/ds000006/sub-04 \n\nreal\t0m17.106s\nuser\t0m12.597s\nsys\t0m1.087s\n",
+            "unix_time": {
+                "real": "0m17.106s",
+                "user": "0m12.597s",
+                "sys": "0m1.087s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000006 /mnt/nfs/lever/data/openneuro/ds000006/sub-05 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 16.801237106323242,
+            "stdout": "get(ok): sub-05/ses-retest/anat/sub-05_ses-retest_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-05/ses-retest/anat/sub-05_ses-retest_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-05/ses-retest/func/sub-05_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-05/ses-retest/func/sub-05_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-05/ses-retest/func/sub-05_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-05/ses-retest/func/sub-05_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-05/ses-retest/func/sub-05_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-05/ses-retest/func/sub-05_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-05/ses-test/anat/sub-05_ses-test_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-05/ses-test/anat/sub-05_ses-test_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-05/ses-test/func/sub-05_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-05/ses-test/func/sub-05_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-05/ses-test/func/sub-05_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-05/ses-test/func/sub-05_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-05/ses-test/func/sub-05_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-05 (directory)\naction summary:\n  get (ok: 16)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds000006) to get /mnt/nfs/lever/data/openneuro/ds000006/sub-05 \n\nreal\t0m16.797s\nuser\t0m12.722s\nsys\t0m0.907s\n",
+            "unix_time": {
+                "real": "0m16.797s",
+                "user": "0m12.722s",
+                "sys": "0m0.907s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000006 /mnt/nfs/lever/data/openneuro/ds000006/sub-06 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 16.427457332611084,
+            "stdout": "get(ok): sub-06/ses-retest/anat/sub-06_ses-retest_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-06/ses-retest/anat/sub-06_ses-retest_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-06/ses-retest/func/sub-06_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-06/ses-retest/func/sub-06_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-06/ses-retest/func/sub-06_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-06/ses-retest/func/sub-06_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-06/ses-retest/func/sub-06_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-06/ses-retest/func/sub-06_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-06/ses-test/anat/sub-06_ses-test_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-06/ses-test/anat/sub-06_ses-test_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-06/ses-test/func/sub-06_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-06/ses-test/func/sub-06_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-06/ses-test/func/sub-06_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-06/ses-test/func/sub-06_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-06/ses-test/func/sub-06_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-06 (directory)\naction summary:\n  get (ok: 16)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds000006) to get /mnt/nfs/lever/data/openneuro/ds000006/sub-06 \n\nreal\t0m16.423s\nuser\t0m11.616s\nsys\t0m1.121s\n",
+            "unix_time": {
+                "real": "0m16.423s",
+                "user": "0m11.616s",
+                "sys": "0m1.121s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000006 /mnt/nfs/lever/data/openneuro/ds000006/sub-07 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 17.11129903793335,
+            "stdout": "get(ok): sub-07/ses-retest/anat/sub-07_ses-retest_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-07/ses-retest/anat/sub-07_ses-retest_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-07/ses-retest/func/sub-07_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-07/ses-retest/func/sub-07_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-07/ses-retest/func/sub-07_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-07/ses-retest/func/sub-07_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-07/ses-retest/func/sub-07_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-07/ses-retest/func/sub-07_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-07/ses-test/anat/sub-07_ses-test_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-07/ses-test/anat/sub-07_ses-test_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-07/ses-test/func/sub-07_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-07/ses-test/func/sub-07_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-07/ses-test/func/sub-07_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-07/ses-test/func/sub-07_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-07/ses-test/func/sub-07_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-07 (directory)\naction summary:\n  get (ok: 16)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds000006) to get /mnt/nfs/lever/data/openneuro/ds000006/sub-07 \n\nreal\t0m17.108s\nuser\t0m11.912s\nsys\t0m1.177s\n",
+            "unix_time": {
+                "real": "0m17.108s",
+                "user": "0m11.912s",
+                "sys": "0m1.177s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000006 /mnt/nfs/lever/data/openneuro/ds000006/sub-08 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 18.079092025756836,
+            "stdout": "get(ok): sub-08/ses-retest/anat/sub-08_ses-retest_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-08/ses-retest/anat/sub-08_ses-retest_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-08/ses-retest/func/sub-08_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-08/ses-retest/func/sub-08_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-08/ses-retest/func/sub-08_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-08/ses-retest/func/sub-08_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-08/ses-retest/func/sub-08_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-08/ses-retest/func/sub-08_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-08/ses-test/anat/sub-08_ses-test_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-08/ses-test/anat/sub-08_ses-test_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-08/ses-test/func/sub-08_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-08/ses-test/func/sub-08_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-08/ses-test/func/sub-08_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-08/ses-test/func/sub-08_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-08/ses-test/func/sub-08_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-08/ses-test/func/sub-08_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-08 (directory)\naction summary:\n  get (ok: 17)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds000006) to get /mnt/nfs/lever/data/openneuro/ds000006/sub-08 \n\nreal\t0m18.075s\nuser\t0m13.287s\nsys\t0m0.968s\n",
+            "unix_time": {
+                "real": "0m18.075s",
+                "user": "0m13.287s",
+                "sys": "0m0.968s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000006 /mnt/nfs/lever/data/openneuro/ds000006/sub-09 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 17.478071928024292,
+            "stdout": "get(ok): sub-09/ses-retest/anat/sub-09_ses-retest_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-09/ses-retest/anat/sub-09_ses-retest_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-09/ses-retest/func/sub-09_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-09/ses-retest/func/sub-09_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-09/ses-retest/func/sub-09_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-09/ses-retest/func/sub-09_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-09/ses-retest/func/sub-09_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-09/ses-retest/func/sub-09_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-09/ses-test/anat/sub-09_ses-test_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-09/ses-test/anat/sub-09_ses-test_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-09/ses-test/func/sub-09_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-09/ses-test/func/sub-09_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-09/ses-test/func/sub-09_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-09/ses-test/func/sub-09_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-09/ses-test/func/sub-09_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-09/ses-test/func/sub-09_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-09 (directory)\naction summary:\n  get (ok: 17)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds000006) to get /mnt/nfs/lever/data/openneuro/ds000006/sub-09 \n\nreal\t0m17.474s\nuser\t0m12.826s\nsys\t0m1.109s\n",
+            "unix_time": {
+                "real": "0m17.474s",
+                "user": "0m12.826s",
+                "sys": "0m1.109s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000006 /mnt/nfs/lever/data/openneuro/ds000006/sub-10 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 18.752585887908936,
+            "stdout": "get(ok): sub-10/ses-retest/anat/sub-10_ses-retest_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-10/ses-retest/anat/sub-10_ses-retest_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-10/ses-retest/func/sub-10_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-10/ses-retest/func/sub-10_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-10/ses-retest/func/sub-10_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-10/ses-retest/func/sub-10_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-10/ses-retest/func/sub-10_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-10/ses-retest/func/sub-10_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-10/ses-test/anat/sub-10_ses-test_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-10/ses-test/anat/sub-10_ses-test_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-10/ses-test/func/sub-10_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-10/ses-test/func/sub-10_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-10/ses-test/func/sub-10_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-10/ses-test/func/sub-10_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-10/ses-test/func/sub-10_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-10/ses-test/func/sub-10_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-10 (directory)\naction summary:\n  get (ok: 17)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds000006) to get /mnt/nfs/lever/data/openneuro/ds000006/sub-10 \n\nreal\t0m18.749s\nuser\t0m13.837s\nsys\t0m0.989s\n",
+            "unix_time": {
+                "real": "0m18.749s",
+                "user": "0m13.837s",
+                "sys": "0m0.989s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000006 /mnt/nfs/lever/data/openneuro/ds000006/sub-11 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 18.331915140151978,
+            "stdout": "get(ok): sub-11/ses-retest/anat/sub-11_ses-retest_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-11/ses-retest/anat/sub-11_ses-retest_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-11/ses-retest/func/sub-11_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-11/ses-retest/func/sub-11_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-11/ses-retest/func/sub-11_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-11/ses-retest/func/sub-11_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-11/ses-retest/func/sub-11_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-11/ses-retest/func/sub-11_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-11/ses-test/anat/sub-11_ses-test_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-11/ses-test/anat/sub-11_ses-test_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-11/ses-test/func/sub-11_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-11/ses-test/func/sub-11_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-11/ses-test/func/sub-11_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-11/ses-test/func/sub-11_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-11/ses-test/func/sub-11_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-11/ses-test/func/sub-11_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-11 (directory)\naction summary:\n  get (ok: 17)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds000006) to get /mnt/nfs/lever/data/openneuro/ds000006/sub-11 \n\nreal\t0m18.327s\nuser\t0m13.329s\nsys\t0m1.293s\n",
+            "unix_time": {
+                "real": "0m18.327s",
+                "user": "0m13.329s",
+                "sys": "0m1.293s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000006 /mnt/nfs/lever/data/openneuro/ds000006/sub-12 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 17.588674783706665,
+            "stdout": "get(ok): sub-12/ses-retest/anat/sub-12_ses-retest_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-12/ses-retest/anat/sub-12_ses-retest_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-12/ses-retest/func/sub-12_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-12/ses-retest/func/sub-12_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-12/ses-retest/func/sub-12_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-12/ses-retest/func/sub-12_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-12/ses-retest/func/sub-12_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-12/ses-retest/func/sub-12_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-12/ses-test/anat/sub-12_ses-test_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-12/ses-test/anat/sub-12_ses-test_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-12/ses-test/func/sub-12_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-12/ses-test/func/sub-12_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-12/ses-test/func/sub-12_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-12/ses-test/func/sub-12_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-12/ses-test/func/sub-12_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-12/ses-test/func/sub-12_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-12 (directory)\naction summary:\n  get (ok: 17)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds000006) to get /mnt/nfs/lever/data/openneuro/ds000006/sub-12 \n\nreal\t0m17.584s\nuser\t0m13.202s\nsys\t0m0.900s\n",
+            "unix_time": {
+                "real": "0m17.584s",
+                "user": "0m13.202s",
+                "sys": "0m0.900s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000006 /mnt/nfs/lever/data/openneuro/ds000006/sub-13 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 18.879020929336548,
+            "stdout": "get(ok): sub-13/ses-retest/anat/sub-13_ses-retest_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-13/ses-retest/anat/sub-13_ses-retest_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-13/ses-retest/func/sub-13_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-13/ses-retest/func/sub-13_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-13/ses-retest/func/sub-13_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-13/ses-retest/func/sub-13_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-13/ses-retest/func/sub-13_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-13/ses-retest/func/sub-13_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-13/ses-test/anat/sub-13_ses-test_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-13/ses-test/anat/sub-13_ses-test_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-13/ses-test/func/sub-13_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-13/ses-test/func/sub-13_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-13/ses-test/func/sub-13_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-13/ses-test/func/sub-13_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-13/ses-test/func/sub-13_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-13/ses-test/func/sub-13_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-13 (directory)\naction summary:\n  get (ok: 17)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds000006) to get /mnt/nfs/lever/data/openneuro/ds000006/sub-13 \n\nreal\t0m18.875s\nuser\t0m13.942s\nsys\t0m0.902s\n",
+            "unix_time": {
+                "real": "0m18.875s",
+                "user": "0m13.942s",
+                "sys": "0m0.902s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000006 /mnt/nfs/lever/data/openneuro/ds000006/sub-14 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 17.715834140777588,
+            "stdout": "get(ok): sub-14/ses-retest/anat/sub-14_ses-retest_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-14/ses-retest/anat/sub-14_ses-retest_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-14/ses-retest/func/sub-14_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-14/ses-retest/func/sub-14_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-14/ses-retest/func/sub-14_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-14/ses-retest/func/sub-14_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-14/ses-retest/func/sub-14_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-14/ses-retest/func/sub-14_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-14/ses-test/anat/sub-14_ses-test_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-14/ses-test/anat/sub-14_ses-test_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-14/ses-test/func/sub-14_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-14/ses-test/func/sub-14_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-14/ses-test/func/sub-14_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-14/ses-test/func/sub-14_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-14/ses-test/func/sub-14_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-14/ses-test/func/sub-14_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-14 (directory)\naction summary:\n  get (ok: 17)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds000006) to get /mnt/nfs/lever/data/openneuro/ds000006/sub-14 \n\nreal\t0m17.711s\nuser\t0m13.156s\nsys\t0m1.171s\n",
+            "unix_time": {
+                "real": "0m17.711s",
+                "user": "0m13.156s",
+                "sys": "0m1.171s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000006 /mnt/nfs/lever/data/openneuro/ds000006/task-livingnonlivingdecisionwithplainormirrorreversedtext_bold.json --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 0.5868573188781738,
+            "stdout": "",
+            "stderr": "\nreal\t0m0.582s\nuser\t0m0.399s\nsys\t0m0.140s\n",
+            "unix_time": {
+                "real": "0m0.582s",
+                "user": "0m0.399s",
+                "sys": "0m0.140s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000006 /mnt/nfs/lever/data/openneuro/ds000006/task-livingnonlivingdecisionwithplainormirrorreversedtext_events.json --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 0.45381641387939453,
+            "stdout": "",
+            "stderr": "\nreal\t0m0.448s\nuser\t0m0.328s\nsys\t0m0.123s\n",
+            "unix_time": {
+                "real": "0m0.448s",
+                "user": "0m0.328s",
+                "sys": "0m0.123s"
+            }
+        }
+    ],
+    "datalad_remove": {
+        "cmd": "datalad remove -d /mnt/nfs/lever/data/openneuro/ds000006 /mnt/nfs/lever/data/openneuro/ds000006 --recursive",
+        "cmd_return_code": 0,
+        "cmd_time_seconds": 19.156943321228027,
+        "stdout": "drop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\nuninstall(ok): . (dataset)\naction summary:\n  drop (ok: 218)\n  uninstall (ok: 1)\n",
+        "stderr": "\nreal\t0m19.154s\nuser\t0m3.366s\nsys\t0m3.059s\n",
+        "unix_time": {
+            "real": "0m19.154s",
+            "user": "0m3.366s",
+            "sys": "0m3.059s"
+        }
+    }
+}

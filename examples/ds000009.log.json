@@ -1,0 +1,530 @@
+{
+    "legacy_version": {
+        "cmd": "bids-validator --version",
+        "cmd_return_code": 0,
+        "cmd_time_seconds": 0.5683190822601318,
+        "stdout": "1.14.2\n",
+        "stderr": "\nreal\t0m0.565s\nuser\t0m0.514s\nsys\t0m0.081s\n",
+        "unix_time": {
+            "real": "0m0.565s",
+            "user": "0m0.514s",
+            "sys": "0m0.081s"
+        }
+    },
+    "schema_version": {
+        "cmd": "~/repo/bids-validator/bids-validator/bids-validator-deno --version",
+        "cmd_return_code": 0,
+        "cmd_time_seconds": 0.7857310771942139,
+        "stdout": "\u001b[1mbids-validator\u001b[22m \u001b[94malpha\u001b[39m\n",
+        "stderr": "\nreal\t0m0.781s\nuser\t0m0.159s\nsys\t0m0.169s\n",
+        "unix_time": {
+            "real": "0m0.781s",
+            "user": "0m0.159s",
+            "sys": "0m0.169s"
+        }
+    },
+    "datalad_version": {
+        "cmd": "datalad --version",
+        "cmd_return_code": 0,
+        "cmd_time_seconds": 0.2927279472351074,
+        "stdout": "datalad 0.19.6\n",
+        "stderr": "\nreal\t0m0.288s\nuser\t0m0.204s\nsys\t0m0.056s\n",
+        "unix_time": {
+            "real": "0m0.288s",
+            "user": "0m0.204s",
+            "sys": "0m0.056s"
+        }
+    },
+    "gitannex_version": {
+        "cmd": "git-annex version",
+        "cmd_return_code": 0,
+        "cmd_time_seconds": 0.034133195877075195,
+        "stdout": "git-annex version: 10.20240227-1~ndall+1\nbuild flags: Assistant Webapp Pairing Inotify DBus DesktopNotify TorrentParser MagicMime Benchmark Feeds Testsuite S3 WebDAV\ndependency versions: aws-0.22.1 bloomfilter-2.0.1.0 cryptonite-0.29 DAV-1.3.4 feed-1.3.2.1 ghc-9.0.2 http-client-0.7.13.1 persistent-sqlite-2.13.1.0 torrent-10000.1.1 uuid-1.3.15 yesod-1.6.2.1\nkey/value backends: SHA256E SHA256 SHA512E SHA512 SHA224E SHA224 SHA384E SHA384 SHA3_256E SHA3_256 SHA3_512E SHA3_512 SHA3_224E SHA3_224 SHA3_384E SHA3_384 SKEIN256E SKEIN256 SKEIN512E SKEIN512 BLAKE2B256E BLAKE2B256 BLAKE2B512E BLAKE2B512 BLAKE2B160E BLAKE2B160 BLAKE2B224E BLAKE2B224 BLAKE2B384E BLAKE2B384 BLAKE2BP512E BLAKE2BP512 BLAKE2S256E BLAKE2S256 BLAKE2S160E BLAKE2S160 BLAKE2S224E BLAKE2S224 BLAKE2SP256E BLAKE2SP256 BLAKE2SP224E BLAKE2SP224 SHA1E SHA1 MD5E MD5 WORM URL X*\nremote types: git gcrypt p2p S3 bup directory rsync web bittorrent webdav adb tahoe glacier ddar git-lfs httpalso borg hook external\noperating system: linux x86_64\nsupported repository versions: 8 9 10\nupgrade supported from repository versions: 0 1 2 3 4 5 6 7 8 9 10\n",
+        "stderr": "\nreal\t0m0.030s\nuser\t0m0.019s\nsys\t0m0.007s\n",
+        "unix_time": {
+            "real": "0m0.030s",
+            "user": "0m0.019s",
+            "sys": "0m0.007s"
+        }
+    },
+    "node_version": {
+        "cmd": "node --version",
+        "cmd_return_code": 0,
+        "cmd_time_seconds": 0.014078617095947266,
+        "stdout": "v18.17.1\n",
+        "stderr": "\nreal\t0m0.010s\nuser\t0m0.010s\nsys\t0m0.000s\n",
+        "unix_time": {
+            "real": "0m0.010s",
+            "user": "0m0.010s",
+            "sys": "0m0.000s"
+        }
+    },
+    "jq_version": {
+        "cmd": "jq --version",
+        "cmd_return_code": 0,
+        "cmd_time_seconds": 0.004375934600830078,
+        "stdout": "jq-1.6\n",
+        "stderr": "\nreal\t0m0.002s\nuser\t0m0.002s\nsys\t0m0.000s\n",
+        "unix_time": {
+            "real": "0m0.002s",
+            "user": "0m0.002s",
+            "sys": "0m0.000s"
+        }
+    },
+    "legacy": {
+        "cmd": "bids-validator /mnt/nfs/lever/data/openneuro/ds000009 --json",
+        "cmd_return_code": 1,
+        "cmd_time_seconds": 2.2856812477111816,
+        "stderr": "(node:3278266) Warning: Closing directory handle on garbage collection\n(Use `node --trace-warnings ...` to show where the warning was created)\n\nreal\t0m2.282s\nuser\t0m1.931s\nsys\t0m1.289s\n",
+        "unix_time": {
+            "real": "0m2.282s",
+            "user": "0m1.931s",
+            "sys": "0m1.289s"
+        }
+    },
+    "schema": {
+        "cmd": "~/repo/bids-validator/bids-validator/bids-validator-deno /mnt/nfs/lever/data/openneuro/ds000009 --json",
+        "cmd_return_code": 0,
+        "cmd_time_seconds": 3.9605188369750977,
+        "stderr": "\nreal\t0m3.956s\nuser\t0m3.404s\nsys\t0m0.582s\n",
+        "unix_time": {
+            "real": "0m3.956s",
+            "user": "0m3.404s",
+            "sys": "0m0.582s"
+        }
+    },
+    "datalad_get": [
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000009 /mnt/nfs/lever/data/openneuro/ds000009/CHANGES --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 0.6220517158508301,
+            "stdout": "",
+            "stderr": "\nreal\t0m0.617s\nuser\t0m0.425s\nsys\t0m0.144s\n",
+            "unix_time": {
+                "real": "0m0.617s",
+                "user": "0m0.425s",
+                "sys": "0m0.144s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000009 /mnt/nfs/lever/data/openneuro/ds000009/README --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 0.5552375316619873,
+            "stdout": "",
+            "stderr": "\nreal\t0m0.552s\nuser\t0m0.423s\nsys\t0m0.127s\n",
+            "unix_time": {
+                "real": "0m0.552s",
+                "user": "0m0.423s",
+                "sys": "0m0.127s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000009 /mnt/nfs/lever/data/openneuro/ds000009/T1w.json --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 0.5970478057861328,
+            "stdout": "",
+            "stderr": "\nreal\t0m0.593s\nuser\t0m0.410s\nsys\t0m0.141s\n",
+            "unix_time": {
+                "real": "0m0.593s",
+                "user": "0m0.410s",
+                "sys": "0m0.141s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000009 /mnt/nfs/lever/data/openneuro/ds000009/dataset_description.json --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 0.4595673084259033,
+            "stdout": "",
+            "stderr": "\nreal\t0m0.455s\nuser\t0m0.326s\nsys\t0m0.128s\n",
+            "unix_time": {
+                "real": "0m0.455s",
+                "user": "0m0.326s",
+                "sys": "0m0.128s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000009 /mnt/nfs/lever/data/openneuro/ds000009/dwi.json --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 0.49304676055908203,
+            "stdout": "",
+            "stderr": "\nreal\t0m0.489s\nuser\t0m0.354s\nsys\t0m0.103s\n",
+            "unix_time": {
+                "real": "0m0.489s",
+                "user": "0m0.354s",
+                "sys": "0m0.103s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000009 /mnt/nfs/lever/data/openneuro/ds000009/inplaneT2.json --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 0.4709608554840088,
+            "stdout": "",
+            "stderr": "\nreal\t0m0.467s\nuser\t0m0.348s\nsys\t0m0.106s\n",
+            "unix_time": {
+                "real": "0m0.467s",
+                "user": "0m0.348s",
+                "sys": "0m0.106s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000009 /mnt/nfs/lever/data/openneuro/ds000009/participants.tsv --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 0.45844411849975586,
+            "stdout": "",
+            "stderr": "\nreal\t0m0.454s\nuser\t0m0.298s\nsys\t0m0.151s\n",
+            "unix_time": {
+                "real": "0m0.454s",
+                "user": "0m0.298s",
+                "sys": "0m0.151s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000009 /mnt/nfs/lever/data/openneuro/ds000009/sub-01 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 11.970277070999146,
+            "stdout": "get(ok): sub-01/anat/sub-01_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-01/anat/sub-01_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-01/dwi/sub-01_dwi.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-01/func/sub-01_task-balloonanalogrisktask_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-01/func/sub-01_task-discounting_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-01/func/sub-01_task-emotionalregulation_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-01/func/sub-01_task-emotionalregulation_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-01/func/sub-01_task-stopsignal_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-01/func/sub-01_task-stopsignal_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-01 (directory)\naction summary:\n  get (ok: 10)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds000009) to get /mnt/nfs/lever/data/openneuro/ds000009/sub-01 \n\nreal\t0m11.966s\nuser\t0m9.377s\nsys\t0m0.784s\n",
+            "unix_time": {
+                "real": "0m11.966s",
+                "user": "0m9.377s",
+                "sys": "0m0.784s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000009 /mnt/nfs/lever/data/openneuro/ds000009/sub-02 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 12.864144563674927,
+            "stdout": "get(ok): sub-02/anat/sub-02_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-02/anat/sub-02_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-02/dwi/sub-02_dwi.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-02/func/sub-02_task-balloonanalogrisktask_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-02/func/sub-02_task-discounting_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-02/func/sub-02_task-emotionalregulation_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-02/func/sub-02_task-emotionalregulation_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-02/func/sub-02_task-stopsignal_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-02/func/sub-02_task-stopsignal_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-02 (directory)\naction summary:\n  get (ok: 10)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds000009) to get /mnt/nfs/lever/data/openneuro/ds000009/sub-02 \n\nreal\t0m12.860s\nuser\t0m9.854s\nsys\t0m0.849s\n",
+            "unix_time": {
+                "real": "0m12.860s",
+                "user": "0m9.854s",
+                "sys": "0m0.849s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000009 /mnt/nfs/lever/data/openneuro/ds000009/sub-03 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 13.187914371490479,
+            "stdout": "get(ok): sub-03/anat/sub-03_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-03/anat/sub-03_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-03/dwi/sub-03_dwi.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-03/func/sub-03_task-balloonanalogrisktask_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-03/func/sub-03_task-discounting_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-03/func/sub-03_task-emotionalregulation_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-03/func/sub-03_task-emotionalregulation_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-03/func/sub-03_task-stopsignal_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-03/func/sub-03_task-stopsignal_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-03 (directory)\naction summary:\n  get (ok: 10)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds000009) to get /mnt/nfs/lever/data/openneuro/ds000009/sub-03 \n\nreal\t0m13.183s\nuser\t0m10.123s\nsys\t0m0.886s\n",
+            "unix_time": {
+                "real": "0m13.183s",
+                "user": "0m10.123s",
+                "sys": "0m0.886s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000009 /mnt/nfs/lever/data/openneuro/ds000009/sub-04 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 12.721914052963257,
+            "stdout": "get(ok): sub-04/anat/sub-04_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-04/anat/sub-04_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-04/dwi/sub-04_dwi.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-04/func/sub-04_task-balloonanalogrisktask_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-04/func/sub-04_task-discounting_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-04/func/sub-04_task-emotionalregulation_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-04/func/sub-04_task-emotionalregulation_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-04/func/sub-04_task-stopsignal_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-04/func/sub-04_task-stopsignal_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-04 (directory)\naction summary:\n  get (ok: 10)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds000009) to get /mnt/nfs/lever/data/openneuro/ds000009/sub-04 \n\nreal\t0m12.717s\nuser\t0m10.085s\nsys\t0m0.619s\n",
+            "unix_time": {
+                "real": "0m12.717s",
+                "user": "0m10.085s",
+                "sys": "0m0.619s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000009 /mnt/nfs/lever/data/openneuro/ds000009/sub-05 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 11.739414930343628,
+            "stdout": "get(ok): sub-05/anat/sub-05_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-05/anat/sub-05_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-05/dwi/sub-05_dwi.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-05/func/sub-05_task-balloonanalogrisktask_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-05/func/sub-05_task-discounting_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-05/func/sub-05_task-emotionalregulation_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-05/func/sub-05_task-emotionalregulation_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-05/func/sub-05_task-stopsignal_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-05/func/sub-05_task-stopsignal_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-05 (directory)\naction summary:\n  get (ok: 10)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds000009) to get /mnt/nfs/lever/data/openneuro/ds000009/sub-05 \n\nreal\t0m11.735s\nuser\t0m8.880s\nsys\t0m0.896s\n",
+            "unix_time": {
+                "real": "0m11.735s",
+                "user": "0m8.880s",
+                "sys": "0m0.896s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000009 /mnt/nfs/lever/data/openneuro/ds000009/sub-06 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 13.123560667037964,
+            "stdout": "get(ok): sub-06/anat/sub-06_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-06/anat/sub-06_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-06/dwi/sub-06_dwi.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-06/func/sub-06_task-balloonanalogrisktask_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-06/func/sub-06_task-discounting_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-06/func/sub-06_task-emotionalregulation_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-06/func/sub-06_task-emotionalregulation_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-06/func/sub-06_task-stopsignal_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-06/func/sub-06_task-stopsignal_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-06 (directory)\naction summary:\n  get (ok: 10)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds000009) to get /mnt/nfs/lever/data/openneuro/ds000009/sub-06 \n\nreal\t0m13.119s\nuser\t0m10.174s\nsys\t0m0.755s\n",
+            "unix_time": {
+                "real": "0m13.119s",
+                "user": "0m10.174s",
+                "sys": "0m0.755s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000009 /mnt/nfs/lever/data/openneuro/ds000009/sub-07 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 12.61562728881836,
+            "stdout": "get(ok): sub-07/anat/sub-07_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-07/anat/sub-07_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-07/dwi/sub-07_dwi.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-07/func/sub-07_task-balloonanalogrisktask_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-07/func/sub-07_task-discounting_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-07/func/sub-07_task-emotionalregulation_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-07/func/sub-07_task-emotionalregulation_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-07/func/sub-07_task-stopsignal_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-07/func/sub-07_task-stopsignal_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-07 (directory)\naction summary:\n  get (ok: 10)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds000009) to get /mnt/nfs/lever/data/openneuro/ds000009/sub-07 \n\nreal\t0m12.611s\nuser\t0m9.923s\nsys\t0m0.949s\n",
+            "unix_time": {
+                "real": "0m12.611s",
+                "user": "0m9.923s",
+                "sys": "0m0.949s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000009 /mnt/nfs/lever/data/openneuro/ds000009/sub-09 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 13.383183002471924,
+            "stdout": "get(ok): sub-09/anat/sub-09_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-09/anat/sub-09_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-09/dwi/sub-09_dwi.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-09/func/sub-09_task-balloonanalogrisktask_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-09/func/sub-09_task-discounting_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-09/func/sub-09_task-emotionalregulation_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-09/func/sub-09_task-emotionalregulation_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-09/func/sub-09_task-stopsignal_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-09/func/sub-09_task-stopsignal_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-09 (directory)\naction summary:\n  get (ok: 10)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds000009) to get /mnt/nfs/lever/data/openneuro/ds000009/sub-09 \n\nreal\t0m13.379s\nuser\t0m10.169s\nsys\t0m0.974s\n",
+            "unix_time": {
+                "real": "0m13.379s",
+                "user": "0m10.169s",
+                "sys": "0m0.974s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000009 /mnt/nfs/lever/data/openneuro/ds000009/sub-10 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 12.319920063018799,
+            "stdout": "get(ok): sub-10/anat/sub-10_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-10/anat/sub-10_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-10/dwi/sub-10_dwi.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-10/func/sub-10_task-balloonanalogrisktask_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-10/func/sub-10_task-discounting_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-10/func/sub-10_task-emotionalregulation_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-10/func/sub-10_task-emotionalregulation_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-10/func/sub-10_task-stopsignal_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-10/func/sub-10_task-stopsignal_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-10 (directory)\naction summary:\n  get (ok: 10)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds000009) to get /mnt/nfs/lever/data/openneuro/ds000009/sub-10 \n\nreal\t0m12.315s\nuser\t0m9.714s\nsys\t0m0.810s\n",
+            "unix_time": {
+                "real": "0m12.315s",
+                "user": "0m9.714s",
+                "sys": "0m0.810s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000009 /mnt/nfs/lever/data/openneuro/ds000009/sub-11 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 12.58771824836731,
+            "stdout": "get(ok): sub-11/anat/sub-11_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-11/anat/sub-11_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-11/dwi/sub-11_dwi.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-11/func/sub-11_task-balloonanalogrisktask_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-11/func/sub-11_task-discounting_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-11/func/sub-11_task-emotionalregulation_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-11/func/sub-11_task-emotionalregulation_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-11/func/sub-11_task-stopsignal_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-11/func/sub-11_task-stopsignal_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-11 (directory)\naction summary:\n  get (ok: 10)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds000009) to get /mnt/nfs/lever/data/openneuro/ds000009/sub-11 \n\nreal\t0m12.583s\nuser\t0m9.711s\nsys\t0m0.832s\n",
+            "unix_time": {
+                "real": "0m12.583s",
+                "user": "0m9.711s",
+                "sys": "0m0.832s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000009 /mnt/nfs/lever/data/openneuro/ds000009/sub-12 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 12.398741245269775,
+            "stdout": "get(ok): sub-12/anat/sub-12_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-12/anat/sub-12_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-12/dwi/sub-12_dwi.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-12/func/sub-12_task-balloonanalogrisktask_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-12/func/sub-12_task-discounting_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-12/func/sub-12_task-emotionalregulation_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-12/func/sub-12_task-emotionalregulation_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-12/func/sub-12_task-stopsignal_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-12/func/sub-12_task-stopsignal_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-12 (directory)\naction summary:\n  get (ok: 10)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds000009) to get /mnt/nfs/lever/data/openneuro/ds000009/sub-12 \n\nreal\t0m12.394s\nuser\t0m9.590s\nsys\t0m0.847s\n",
+            "unix_time": {
+                "real": "0m12.394s",
+                "user": "0m9.590s",
+                "sys": "0m0.847s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000009 /mnt/nfs/lever/data/openneuro/ds000009/sub-13 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 12.983448505401611,
+            "stdout": "get(ok): sub-13/anat/sub-13_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-13/anat/sub-13_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-13/dwi/sub-13_dwi.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-13/func/sub-13_task-balloonanalogrisktask_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-13/func/sub-13_task-discounting_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-13/func/sub-13_task-emotionalregulation_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-13/func/sub-13_task-emotionalregulation_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-13/func/sub-13_task-stopsignal_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-13/func/sub-13_task-stopsignal_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-13 (directory)\naction summary:\n  get (ok: 10)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds000009) to get /mnt/nfs/lever/data/openneuro/ds000009/sub-13 \n\nreal\t0m12.979s\nuser\t0m9.799s\nsys\t0m0.997s\n",
+            "unix_time": {
+                "real": "0m12.979s",
+                "user": "0m9.799s",
+                "sys": "0m0.997s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000009 /mnt/nfs/lever/data/openneuro/ds000009/sub-14 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 13.220920085906982,
+            "stdout": "get(ok): sub-14/anat/sub-14_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-14/anat/sub-14_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-14/dwi/sub-14_dwi.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-14/func/sub-14_task-balloonanalogrisktask_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-14/func/sub-14_task-discounting_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-14/func/sub-14_task-emotionalregulation_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-14/func/sub-14_task-emotionalregulation_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-14/func/sub-14_task-stopsignal_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-14/func/sub-14_task-stopsignal_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-14 (directory)\naction summary:\n  get (ok: 10)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds000009) to get /mnt/nfs/lever/data/openneuro/ds000009/sub-14 \n\nreal\t0m13.216s\nuser\t0m10.352s\nsys\t0m0.730s\n",
+            "unix_time": {
+                "real": "0m13.216s",
+                "user": "0m10.352s",
+                "sys": "0m0.730s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000009 /mnt/nfs/lever/data/openneuro/ds000009/sub-16 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 12.6585373878479,
+            "stdout": "get(ok): sub-16/anat/sub-16_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-16/anat/sub-16_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-16/dwi/sub-16_dwi.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-16/func/sub-16_task-balloonanalogrisktask_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-16/func/sub-16_task-discounting_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-16/func/sub-16_task-emotionalregulation_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-16/func/sub-16_task-emotionalregulation_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-16/func/sub-16_task-stopsignal_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-16/func/sub-16_task-stopsignal_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-16 (directory)\naction summary:\n  get (ok: 10)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds000009) to get /mnt/nfs/lever/data/openneuro/ds000009/sub-16 \n\nreal\t0m12.655s\nuser\t0m9.800s\nsys\t0m0.797s\n",
+            "unix_time": {
+                "real": "0m12.655s",
+                "user": "0m9.800s",
+                "sys": "0m0.797s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000009 /mnt/nfs/lever/data/openneuro/ds000009/sub-17 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 12.686803579330444,
+            "stdout": "get(ok): sub-17/anat/sub-17_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-17/anat/sub-17_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-17/dwi/sub-17_dwi.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-17/func/sub-17_task-balloonanalogrisktask_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-17/func/sub-17_task-discounting_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-17/func/sub-17_task-emotionalregulation_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-17/func/sub-17_task-emotionalregulation_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-17/func/sub-17_task-stopsignal_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-17/func/sub-17_task-stopsignal_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-17 (directory)\naction summary:\n  get (ok: 10)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds000009) to get /mnt/nfs/lever/data/openneuro/ds000009/sub-17 \n\nreal\t0m12.682s\nuser\t0m9.593s\nsys\t0m0.769s\n",
+            "unix_time": {
+                "real": "0m12.682s",
+                "user": "0m9.593s",
+                "sys": "0m0.769s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000009 /mnt/nfs/lever/data/openneuro/ds000009/sub-18 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 12.892038583755493,
+            "stdout": "get(ok): sub-18/anat/sub-18_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-18/anat/sub-18_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-18/dwi/sub-18_dwi.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-18/func/sub-18_task-balloonanalogrisktask_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-18/func/sub-18_task-discounting_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-18/func/sub-18_task-emotionalregulation_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-18/func/sub-18_task-emotionalregulation_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-18/func/sub-18_task-stopsignal_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-18/func/sub-18_task-stopsignal_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-18 (directory)\naction summary:\n  get (ok: 10)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds000009) to get /mnt/nfs/lever/data/openneuro/ds000009/sub-18 \n\nreal\t0m12.888s\nuser\t0m9.869s\nsys\t0m0.892s\n",
+            "unix_time": {
+                "real": "0m12.888s",
+                "user": "0m9.869s",
+                "sys": "0m0.892s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000009 /mnt/nfs/lever/data/openneuro/ds000009/sub-20 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 13.012396812438965,
+            "stdout": "get(ok): sub-20/anat/sub-20_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-20/anat/sub-20_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-20/dwi/sub-20_dwi.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-20/func/sub-20_task-balloonanalogrisktask_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-20/func/sub-20_task-discounting_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-20/func/sub-20_task-emotionalregulation_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-20/func/sub-20_task-emotionalregulation_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-20/func/sub-20_task-stopsignal_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-20/func/sub-20_task-stopsignal_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-20 (directory)\naction summary:\n  get (ok: 10)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds000009) to get /mnt/nfs/lever/data/openneuro/ds000009/sub-20 \n\nreal\t0m13.008s\nuser\t0m10.051s\nsys\t0m0.733s\n",
+            "unix_time": {
+                "real": "0m13.008s",
+                "user": "0m10.051s",
+                "sys": "0m0.733s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000009 /mnt/nfs/lever/data/openneuro/ds000009/sub-21 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 12.486992120742798,
+            "stdout": "get(ok): sub-21/anat/sub-21_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-21/anat/sub-21_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-21/dwi/sub-21_dwi.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-21/func/sub-21_task-balloonanalogrisktask_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-21/func/sub-21_task-discounting_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-21/func/sub-21_task-emotionalregulation_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-21/func/sub-21_task-emotionalregulation_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-21/func/sub-21_task-stopsignal_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-21/func/sub-21_task-stopsignal_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-21 (directory)\naction summary:\n  get (ok: 10)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds000009) to get /mnt/nfs/lever/data/openneuro/ds000009/sub-21 \n\nreal\t0m12.483s\nuser\t0m9.703s\nsys\t0m0.811s\n",
+            "unix_time": {
+                "real": "0m12.483s",
+                "user": "0m9.703s",
+                "sys": "0m0.811s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000009 /mnt/nfs/lever/data/openneuro/ds000009/sub-23 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 12.790673732757568,
+            "stdout": "get(ok): sub-23/anat/sub-23_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-23/anat/sub-23_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-23/dwi/sub-23_dwi.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-23/func/sub-23_task-balloonanalogrisktask_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-23/func/sub-23_task-discounting_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-23/func/sub-23_task-emotionalregulation_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-23/func/sub-23_task-emotionalregulation_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-23/func/sub-23_task-stopsignal_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-23/func/sub-23_task-stopsignal_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-23 (directory)\naction summary:\n  get (ok: 10)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds000009) to get /mnt/nfs/lever/data/openneuro/ds000009/sub-23 \n\nreal\t0m12.786s\nuser\t0m9.756s\nsys\t0m0.915s\n",
+            "unix_time": {
+                "real": "0m12.786s",
+                "user": "0m9.756s",
+                "sys": "0m0.915s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000009 /mnt/nfs/lever/data/openneuro/ds000009/sub-24 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 12.39327621459961,
+            "stdout": "get(ok): sub-24/anat/sub-24_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-24/anat/sub-24_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-24/dwi/sub-24_dwi.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-24/func/sub-24_task-balloonanalogrisktask_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-24/func/sub-24_task-discounting_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-24/func/sub-24_task-emotionalregulation_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-24/func/sub-24_task-emotionalregulation_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-24/func/sub-24_task-stopsignal_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-24/func/sub-24_task-stopsignal_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-24 (directory)\naction summary:\n  get (ok: 10)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds000009) to get /mnt/nfs/lever/data/openneuro/ds000009/sub-24 \n\nreal\t0m12.389s\nuser\t0m9.562s\nsys\t0m0.982s\n",
+            "unix_time": {
+                "real": "0m12.389s",
+                "user": "0m9.562s",
+                "sys": "0m0.982s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000009 /mnt/nfs/lever/data/openneuro/ds000009/sub-25 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 12.690702438354492,
+            "stdout": "get(ok): sub-25/anat/sub-25_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-25/anat/sub-25_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-25/dwi/sub-25_dwi.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-25/func/sub-25_task-balloonanalogrisktask_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-25/func/sub-25_task-discounting_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-25/func/sub-25_task-emotionalregulation_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-25/func/sub-25_task-emotionalregulation_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-25/func/sub-25_task-stopsignal_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-25/func/sub-25_task-stopsignal_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-25 (directory)\naction summary:\n  get (ok: 10)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds000009) to get /mnt/nfs/lever/data/openneuro/ds000009/sub-25 \n\nreal\t0m12.686s\nuser\t0m9.811s\nsys\t0m0.758s\n",
+            "unix_time": {
+                "real": "0m12.686s",
+                "user": "0m9.811s",
+                "sys": "0m0.758s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000009 /mnt/nfs/lever/data/openneuro/ds000009/sub-26 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 12.361104726791382,
+            "stdout": "get(ok): sub-26/anat/sub-26_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-26/anat/sub-26_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-26/dwi/sub-26_dwi.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-26/func/sub-26_task-balloonanalogrisktask_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-26/func/sub-26_task-discounting_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-26/func/sub-26_task-emotionalregulation_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-26/func/sub-26_task-emotionalregulation_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-26/func/sub-26_task-stopsignal_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-26/func/sub-26_task-stopsignal_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-26 (directory)\naction summary:\n  get (ok: 10)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds000009) to get /mnt/nfs/lever/data/openneuro/ds000009/sub-26 \n\nreal\t0m12.357s\nuser\t0m9.481s\nsys\t0m0.767s\n",
+            "unix_time": {
+                "real": "0m12.357s",
+                "user": "0m9.481s",
+                "sys": "0m0.767s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000009 /mnt/nfs/lever/data/openneuro/ds000009/sub-28 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 12.008766889572144,
+            "stdout": "get(ok): sub-28/anat/sub-28_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-28/anat/sub-28_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-28/dwi/sub-28_dwi.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-28/func/sub-28_task-balloonanalogrisktask_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-28/func/sub-28_task-discounting_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-28/func/sub-28_task-emotionalregulation_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-28/func/sub-28_task-emotionalregulation_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-28/func/sub-28_task-stopsignal_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-28/func/sub-28_task-stopsignal_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-28 (directory)\naction summary:\n  get (ok: 10)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds000009) to get /mnt/nfs/lever/data/openneuro/ds000009/sub-28 \n\nreal\t0m12.004s\nuser\t0m9.048s\nsys\t0m0.766s\n",
+            "unix_time": {
+                "real": "0m12.004s",
+                "user": "0m9.048s",
+                "sys": "0m0.766s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000009 /mnt/nfs/lever/data/openneuro/ds000009/sub-29 --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 13.189971208572388,
+            "stdout": "get(ok): sub-29/anat/sub-29_T1w.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-29/anat/sub-29_inplaneT2.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-29/dwi/sub-29_dwi.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-29/func/sub-29_task-balloonanalogrisktask_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-29/func/sub-29_task-discounting_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-29/func/sub-29_task-emotionalregulation_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-29/func/sub-29_task-emotionalregulation_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-29/func/sub-29_task-stopsignal_run-01_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-29/func/sub-29_task-stopsignal_run-02_bold.nii.gz (file) [from s3-PUBLIC...]\nget(ok): sub-29 (directory)\naction summary:\n  get (ok: 10)\n",
+            "stderr": "[INFO] Ensuring presence of Dataset(/mnt/nfs/lever/data/openneuro/ds000009) to get /mnt/nfs/lever/data/openneuro/ds000009/sub-29 \n\nreal\t0m13.185s\nuser\t0m10.281s\nsys\t0m0.769s\n",
+            "unix_time": {
+                "real": "0m13.185s",
+                "user": "0m10.281s",
+                "sys": "0m0.769s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000009 /mnt/nfs/lever/data/openneuro/ds000009/task-balloonanalogrisktask_bold.json --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 0.5971460342407227,
+            "stdout": "",
+            "stderr": "\nreal\t0m0.593s\nuser\t0m0.443s\nsys\t0m0.113s\n",
+            "unix_time": {
+                "real": "0m0.593s",
+                "user": "0m0.443s",
+                "sys": "0m0.113s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000009 /mnt/nfs/lever/data/openneuro/ds000009/task-discounting_bold.json --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 0.5455961227416992,
+            "stdout": "",
+            "stderr": "\nreal\t0m0.541s\nuser\t0m0.388s\nsys\t0m0.152s\n",
+            "unix_time": {
+                "real": "0m0.541s",
+                "user": "0m0.388s",
+                "sys": "0m0.152s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000009 /mnt/nfs/lever/data/openneuro/ds000009/task-emotionalregulation_bold.json --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 0.59110426902771,
+            "stdout": "",
+            "stderr": "\nreal\t0m0.587s\nuser\t0m0.400s\nsys\t0m0.142s\n",
+            "unix_time": {
+                "real": "0m0.587s",
+                "user": "0m0.400s",
+                "sys": "0m0.142s"
+            }
+        },
+        {
+            "cmd": "datalad get -d /mnt/nfs/lever/data/openneuro/ds000009 /mnt/nfs/lever/data/openneuro/ds000009/task-stopsignal_bold.json --recursive",
+            "cmd_return_code": 0,
+            "cmd_time_seconds": 0.4592278003692627,
+            "stdout": "",
+            "stderr": "\nreal\t0m0.455s\nuser\t0m0.329s\nsys\t0m0.123s\n",
+            "unix_time": {
+                "real": "0m0.455s",
+                "user": "0m0.329s",
+                "sys": "0m0.123s"
+            }
+        }
+    ],
+    "datalad_remove": {
+        "cmd": "datalad remove -d /mnt/nfs/lever/data/openneuro/ds000009 /mnt/nfs/lever/data/openneuro/ds000009 --recursive",
+        "cmd_return_code": 0,
+        "cmd_time_seconds": 21.654661417007446,
+        "stdout": "drop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\ndrop(ok): . (key)\nuninstall(ok): . (dataset)\naction summary:\n  drop (ok: 216)\n  uninstall (ok: 1)\n",
+        "stderr": "\nreal\t0m21.650s\nuser\t0m4.259s\nsys\t0m3.779s\n",
+        "unix_time": {
+            "real": "0m21.650s",
+            "user": "0m4.259s",
+            "sys": "0m3.779s"
+        }
+    }
+}

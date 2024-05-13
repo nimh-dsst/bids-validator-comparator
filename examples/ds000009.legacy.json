@@ -1,0 +1,1625 @@
+{
+    "issues": {
+        "errors": [
+            {
+                "key": "JSON_SCHEMA_VALIDATION_ERROR",
+                "severity": "error",
+                "reason": "Invalid JSON file. The file is not formatted according the schema.",
+                "files": [
+                    {
+                        "key": "JSON_SCHEMA_VALIDATION_ERROR",
+                        "code": 55,
+                        "file": {
+                            "name": "dataset_description.json",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000009/dataset_description.json",
+                            "relativePath": "/dataset_description.json",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650539080,
+                                "size": 1286,
+                                "blocks": 8,
+                                "atimeMs": 1710529749106.6643,
+                                "mtimeMs": 1709314366157.1467,
+                                "ctimeMs": 1709322765846.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:09.107Z",
+                                "mtime": "2024-03-01T17:32:46.157Z",
+                                "ctime": "2024-03-01T19:52:45.847Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": ".Funding should be array",
+                        "line": null,
+                        "character": null,
+                        "severity": "error",
+                        "reason": "Invalid JSON file. The file is not formatted according the schema.",
+                        "helpUrl": "https://neurostars.org/search?q=JSON_SCHEMA_VALIDATION_ERROR"
+                    },
+                    {
+                        "key": "JSON_SCHEMA_VALIDATION_ERROR",
+                        "code": 55,
+                        "file": {
+                            "name": "sub-01_task-balloonanalogrisktask_bold.json",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000009/sub-01/func/sub-01_task-balloonanalogrisktask_bold.json",
+                            "relativePath": "/sub-01/func/sub-01_task-balloonanalogrisktask_bold.json",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650539420,
+                                "size": 478,
+                                "blocks": 8,
+                                "atimeMs": 1710529749194.6638,
+                                "mtimeMs": 1709314366165.1467,
+                                "ctimeMs": 1709322765854.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:09.195Z",
+                                "mtime": "2024-03-01T17:32:46.165Z",
+                                "ctime": "2024-03-01T19:52:45.855Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": ".CogAtlasID should match format \"uri\"",
+                        "line": null,
+                        "character": null,
+                        "severity": "error",
+                        "reason": "Invalid JSON file. The file is not formatted according the schema.",
+                        "helpUrl": "https://neurostars.org/search?q=JSON_SCHEMA_VALIDATION_ERROR"
+                    },
+                    {
+                        "key": "JSON_SCHEMA_VALIDATION_ERROR",
+                        "code": 55,
+                        "file": {
+                            "name": "sub-01_task-discounting_bold.json",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000009/sub-01/func/sub-01_task-discounting_bold.json",
+                            "relativePath": "/sub-01/func/sub-01_task-discounting_bold.json",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650539423,
+                                "size": 478,
+                                "blocks": 8,
+                                "atimeMs": 1710529749206.6638,
+                                "mtimeMs": 1709314366165.1467,
+                                "ctimeMs": 1709322765854.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:09.207Z",
+                                "mtime": "2024-03-01T17:32:46.165Z",
+                                "ctime": "2024-03-01T19:52:45.855Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": ".CogAtlasID should match format \"uri\"",
+                        "line": null,
+                        "character": null,
+                        "severity": "error",
+                        "reason": "Invalid JSON file. The file is not formatted according the schema.",
+                        "helpUrl": "https://neurostars.org/search?q=JSON_SCHEMA_VALIDATION_ERROR"
+                    },
+                    {
+                        "key": "JSON_SCHEMA_VALIDATION_ERROR",
+                        "code": 55,
+                        "file": {
+                            "name": "sub-01_task-emotionalregulation_run-01_bold.json",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000009/sub-01/func/sub-01_task-emotionalregulation_run-01_bold.json",
+                            "relativePath": "/sub-01/func/sub-01_task-emotionalregulation_run-01_bold.json",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650539426,
+                                "size": 475,
+                                "blocks": 8,
+                                "atimeMs": 1710529749218.6638,
+                                "mtimeMs": 1709314366165.1467,
+                                "ctimeMs": 1709322765854.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:09.219Z",
+                                "mtime": "2024-03-01T17:32:46.165Z",
+                                "ctime": "2024-03-01T19:52:45.855Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": ".CogAtlasID should match format \"uri\"",
+                        "line": null,
+                        "character": null,
+                        "severity": "error",
+                        "reason": "Invalid JSON file. The file is not formatted according the schema.",
+                        "helpUrl": "https://neurostars.org/search?q=JSON_SCHEMA_VALIDATION_ERROR"
+                    },
+                    {
+                        "key": "JSON_SCHEMA_VALIDATION_ERROR",
+                        "code": 55,
+                        "file": {
+                            "name": "sub-01_task-emotionalregulation_run-02_bold.json",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000009/sub-01/func/sub-01_task-emotionalregulation_run-02_bold.json",
+                            "relativePath": "/sub-01/func/sub-01_task-emotionalregulation_run-02_bold.json",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650539429,
+                                "size": 476,
+                                "blocks": 8,
+                                "atimeMs": 1710529749230.6636,
+                                "mtimeMs": 1709314366165.1467,
+                                "ctimeMs": 1709322765854.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:09.231Z",
+                                "mtime": "2024-03-01T17:32:46.165Z",
+                                "ctime": "2024-03-01T19:52:45.855Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": ".CogAtlasID should match format \"uri\"",
+                        "line": null,
+                        "character": null,
+                        "severity": "error",
+                        "reason": "Invalid JSON file. The file is not formatted according the schema.",
+                        "helpUrl": "https://neurostars.org/search?q=JSON_SCHEMA_VALIDATION_ERROR"
+                    },
+                    {
+                        "key": "JSON_SCHEMA_VALIDATION_ERROR",
+                        "code": 55,
+                        "file": {
+                            "name": "sub-01_task-stopsignal_run-01_bold.json",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000009/sub-01/func/sub-01_task-stopsignal_run-01_bold.json",
+                            "relativePath": "/sub-01/func/sub-01_task-stopsignal_run-01_bold.json",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650539432,
+                                "size": 476,
+                                "blocks": 8,
+                                "atimeMs": 1710529749246.6636,
+                                "mtimeMs": 1709314366165.1467,
+                                "ctimeMs": 1709322765854.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:09.247Z",
+                                "mtime": "2024-03-01T17:32:46.165Z",
+                                "ctime": "2024-03-01T19:52:45.855Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": ".CogAtlasID should match format \"uri\"",
+                        "line": null,
+                        "character": null,
+                        "severity": "error",
+                        "reason": "Invalid JSON file. The file is not formatted according the schema.",
+                        "helpUrl": "https://neurostars.org/search?q=JSON_SCHEMA_VALIDATION_ERROR"
+                    },
+                    {
+                        "key": "JSON_SCHEMA_VALIDATION_ERROR",
+                        "code": 55,
+                        "file": {
+                            "name": "sub-01_task-stopsignal_run-02_bold.json",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000009/sub-01/func/sub-01_task-stopsignal_run-02_bold.json",
+                            "relativePath": "/sub-01/func/sub-01_task-stopsignal_run-02_bold.json",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650539435,
+                                "size": 480,
+                                "blocks": 8,
+                                "atimeMs": 1710529749254.6636,
+                                "mtimeMs": 1709314366165.1467,
+                                "ctimeMs": 1709322765854.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:09.255Z",
+                                "mtime": "2024-03-01T17:32:46.165Z",
+                                "ctime": "2024-03-01T19:52:45.855Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": ".CogAtlasID should match format \"uri\"",
+                        "line": null,
+                        "character": null,
+                        "severity": "error",
+                        "reason": "Invalid JSON file. The file is not formatted according the schema.",
+                        "helpUrl": "https://neurostars.org/search?q=JSON_SCHEMA_VALIDATION_ERROR"
+                    },
+                    {
+                        "key": "JSON_SCHEMA_VALIDATION_ERROR",
+                        "code": 55,
+                        "file": {
+                            "name": "sub-02_task-balloonanalogrisktask_bold.json",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000009/sub-02/func/sub-02_task-balloonanalogrisktask_bold.json",
+                            "relativePath": "/sub-02/func/sub-02_task-balloonanalogrisktask_bold.json",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650557447,
+                                "size": 475,
+                                "blocks": 8,
+                                "atimeMs": 1710529749302.6633,
+                                "mtimeMs": 1709314366165.1467,
+                                "ctimeMs": 1709322765854.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:09.303Z",
+                                "mtime": "2024-03-01T17:32:46.165Z",
+                                "ctime": "2024-03-01T19:52:45.855Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": ".CogAtlasID should match format \"uri\"",
+                        "line": null,
+                        "character": null,
+                        "severity": "error",
+                        "reason": "Invalid JSON file. The file is not formatted according the schema.",
+                        "helpUrl": "https://neurostars.org/search?q=JSON_SCHEMA_VALIDATION_ERROR"
+                    },
+                    {
+                        "key": "JSON_SCHEMA_VALIDATION_ERROR",
+                        "code": 55,
+                        "file": {
+                            "name": "sub-02_task-discounting_bold.json",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000009/sub-02/func/sub-02_task-discounting_bold.json",
+                            "relativePath": "/sub-02/func/sub-02_task-discounting_bold.json",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650557450,
+                                "size": 480,
+                                "blocks": 8,
+                                "atimeMs": 1710529749318.6633,
+                                "mtimeMs": 1709314366165.1467,
+                                "ctimeMs": 1709322765854.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:09.319Z",
+                                "mtime": "2024-03-01T17:32:46.165Z",
+                                "ctime": "2024-03-01T19:52:45.855Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": ".CogAtlasID should match format \"uri\"",
+                        "line": null,
+                        "character": null,
+                        "severity": "error",
+                        "reason": "Invalid JSON file. The file is not formatted according the schema.",
+                        "helpUrl": "https://neurostars.org/search?q=JSON_SCHEMA_VALIDATION_ERROR"
+                    },
+                    {
+                        "key": "JSON_SCHEMA_VALIDATION_ERROR",
+                        "code": 55,
+                        "file": {
+                            "name": "sub-02_task-emotionalregulation_run-01_bold.json",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000009/sub-02/func/sub-02_task-emotionalregulation_run-01_bold.json",
+                            "relativePath": "/sub-02/func/sub-02_task-emotionalregulation_run-01_bold.json",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650557453,
+                                "size": 471,
+                                "blocks": 8,
+                                "atimeMs": 1710529749330.6633,
+                                "mtimeMs": 1709314366165.1467,
+                                "ctimeMs": 1709322765854.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:09.331Z",
+                                "mtime": "2024-03-01T17:32:46.165Z",
+                                "ctime": "2024-03-01T19:52:45.855Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": ".CogAtlasID should match format \"uri\"",
+                        "line": null,
+                        "character": null,
+                        "severity": "error",
+                        "reason": "Invalid JSON file. The file is not formatted according the schema.",
+                        "helpUrl": "https://neurostars.org/search?q=JSON_SCHEMA_VALIDATION_ERROR"
+                    }
+                ],
+                "additionalFileCount": 139,
+                "helpUrl": "https://neurostars.org/search?q=JSON_SCHEMA_VALIDATION_ERROR",
+                "code": 55
+            },
+            {
+                "key": "FILENAME_COLUMN",
+                "severity": "error",
+                "reason": "_scans.tsv files must have a 'filename' column.",
+                "files": [
+                    {
+                        "key": "FILENAME_COLUMN",
+                        "code": 68,
+                        "file": {
+                            "name": "sub-02_scans.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000009/sub-02/sub-02_scans.tsv",
+                            "relativePath": "/sub-02/sub-02_scans.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650539439,
+                                "size": 571,
+                                "blocks": 8,
+                                "atimeMs": 1710529749382.663,
+                                "mtimeMs": 1709314366165.1467,
+                                "ctimeMs": 1709322765854.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:09.383Z",
+                                "mtime": "2024-03-01T17:32:46.165Z",
+                                "ctime": "2024-03-01T19:52:45.855Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Column headers: file_name, acq_time",
+                        "line": 1,
+                        "character": null,
+                        "severity": "error",
+                        "reason": "_scans.tsv files must have a 'filename' column.",
+                        "helpUrl": "https://neurostars.org/search?q=FILENAME_COLUMN"
+                    },
+                    {
+                        "key": "FILENAME_COLUMN",
+                        "code": 68,
+                        "file": {
+                            "name": "sub-03_scans.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000009/sub-03/sub-03_scans.tsv",
+                            "relativePath": "/sub-03/sub-03_scans.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650557466,
+                                "size": 571,
+                                "blocks": 8,
+                                "atimeMs": 1710529749498.6626,
+                                "mtimeMs": 1709314366169.1467,
+                                "ctimeMs": 1709322765854.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:09.499Z",
+                                "mtime": "2024-03-01T17:32:46.169Z",
+                                "ctime": "2024-03-01T19:52:45.855Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Column headers: file_name, acq_time",
+                        "line": 1,
+                        "character": null,
+                        "severity": "error",
+                        "reason": "_scans.tsv files must have a 'filename' column.",
+                        "helpUrl": "https://neurostars.org/search?q=FILENAME_COLUMN"
+                    },
+                    {
+                        "key": "FILENAME_COLUMN",
+                        "code": 68,
+                        "file": {
+                            "name": "sub-04_scans.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000009/sub-04/sub-04_scans.tsv",
+                            "relativePath": "/sub-04/sub-04_scans.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650557497,
+                                "size": 571,
+                                "blocks": 8,
+                                "atimeMs": 1710529749606.662,
+                                "mtimeMs": 1709314366169.1467,
+                                "ctimeMs": 1709322765858.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:09.607Z",
+                                "mtime": "2024-03-01T17:32:46.169Z",
+                                "ctime": "2024-03-01T19:52:45.859Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Column headers: file_name, acq_time",
+                        "line": 1,
+                        "character": null,
+                        "severity": "error",
+                        "reason": "_scans.tsv files must have a 'filename' column.",
+                        "helpUrl": "https://neurostars.org/search?q=FILENAME_COLUMN"
+                    },
+                    {
+                        "key": "FILENAME_COLUMN",
+                        "code": 68,
+                        "file": {
+                            "name": "sub-05_scans.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000009/sub-05/sub-05_scans.tsv",
+                            "relativePath": "/sub-05/sub-05_scans.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650557528,
+                                "size": 571,
+                                "blocks": 8,
+                                "atimeMs": 1710529749718.6616,
+                                "mtimeMs": 1709314366169.1467,
+                                "ctimeMs": 1709322765858.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:09.719Z",
+                                "mtime": "2024-03-01T17:32:46.169Z",
+                                "ctime": "2024-03-01T19:52:45.859Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Column headers: file_name, acq_time",
+                        "line": 1,
+                        "character": null,
+                        "severity": "error",
+                        "reason": "_scans.tsv files must have a 'filename' column.",
+                        "helpUrl": "https://neurostars.org/search?q=FILENAME_COLUMN"
+                    },
+                    {
+                        "key": "FILENAME_COLUMN",
+                        "code": 68,
+                        "file": {
+                            "name": "sub-06_scans.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000009/sub-06/sub-06_scans.tsv",
+                            "relativePath": "/sub-06/sub-06_scans.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650557559,
+                                "size": 571,
+                                "blocks": 8,
+                                "atimeMs": 1710529749830.6611,
+                                "mtimeMs": 1709314366169.1467,
+                                "ctimeMs": 1709322765858.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:09.831Z",
+                                "mtime": "2024-03-01T17:32:46.169Z",
+                                "ctime": "2024-03-01T19:52:45.859Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Column headers: file_name, acq_time",
+                        "line": 1,
+                        "character": null,
+                        "severity": "error",
+                        "reason": "_scans.tsv files must have a 'filename' column.",
+                        "helpUrl": "https://neurostars.org/search?q=FILENAME_COLUMN"
+                    },
+                    {
+                        "key": "FILENAME_COLUMN",
+                        "code": 68,
+                        "file": {
+                            "name": "sub-07_scans.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000009/sub-07/sub-07_scans.tsv",
+                            "relativePath": "/sub-07/sub-07_scans.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650557590,
+                                "size": 571,
+                                "blocks": 8,
+                                "atimeMs": 1710529749950.6604,
+                                "mtimeMs": 1709314366169.1467,
+                                "ctimeMs": 1709322765858.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:09.951Z",
+                                "mtime": "2024-03-01T17:32:46.169Z",
+                                "ctime": "2024-03-01T19:52:45.859Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Column headers: file_name, acq_time",
+                        "line": 1,
+                        "character": null,
+                        "severity": "error",
+                        "reason": "_scans.tsv files must have a 'filename' column.",
+                        "helpUrl": "https://neurostars.org/search?q=FILENAME_COLUMN"
+                    },
+                    {
+                        "key": "FILENAME_COLUMN",
+                        "code": 68,
+                        "file": {
+                            "name": "sub-09_scans.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000009/sub-09/sub-09_scans.tsv",
+                            "relativePath": "/sub-09/sub-09_scans.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650557621,
+                                "size": 571,
+                                "blocks": 8,
+                                "atimeMs": 1710529750066.66,
+                                "mtimeMs": 1709314366173.1467,
+                                "ctimeMs": 1709322765858.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:10.067Z",
+                                "mtime": "2024-03-01T17:32:46.173Z",
+                                "ctime": "2024-03-01T19:52:45.859Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Column headers: file_name, acq_time",
+                        "line": 1,
+                        "character": null,
+                        "severity": "error",
+                        "reason": "_scans.tsv files must have a 'filename' column.",
+                        "helpUrl": "https://neurostars.org/search?q=FILENAME_COLUMN"
+                    },
+                    {
+                        "key": "FILENAME_COLUMN",
+                        "code": 68,
+                        "file": {
+                            "name": "sub-10_scans.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000009/sub-10/sub-10_scans.tsv",
+                            "relativePath": "/sub-10/sub-10_scans.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650557652,
+                                "size": 571,
+                                "blocks": 8,
+                                "atimeMs": 1710529750190.6594,
+                                "mtimeMs": 1709314366173.1467,
+                                "ctimeMs": 1709322765858.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:10.191Z",
+                                "mtime": "2024-03-01T17:32:46.173Z",
+                                "ctime": "2024-03-01T19:52:45.859Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Column headers: file_name, acq_time",
+                        "line": 1,
+                        "character": null,
+                        "severity": "error",
+                        "reason": "_scans.tsv files must have a 'filename' column.",
+                        "helpUrl": "https://neurostars.org/search?q=FILENAME_COLUMN"
+                    },
+                    {
+                        "key": "FILENAME_COLUMN",
+                        "code": 68,
+                        "file": {
+                            "name": "sub-11_scans.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000009/sub-11/sub-11_scans.tsv",
+                            "relativePath": "/sub-11/sub-11_scans.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650557683,
+                                "size": 571,
+                                "blocks": 8,
+                                "atimeMs": 1710529750306.659,
+                                "mtimeMs": 1709314366173.1467,
+                                "ctimeMs": 1709322765862.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:10.307Z",
+                                "mtime": "2024-03-01T17:32:46.173Z",
+                                "ctime": "2024-03-01T19:52:45.863Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Column headers: file_name, acq_time",
+                        "line": 1,
+                        "character": null,
+                        "severity": "error",
+                        "reason": "_scans.tsv files must have a 'filename' column.",
+                        "helpUrl": "https://neurostars.org/search?q=FILENAME_COLUMN"
+                    },
+                    {
+                        "key": "FILENAME_COLUMN",
+                        "code": 68,
+                        "file": {
+                            "name": "sub-12_scans.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000009/sub-12/sub-12_scans.tsv",
+                            "relativePath": "/sub-12/sub-12_scans.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650557714,
+                                "size": 571,
+                                "blocks": 8,
+                                "atimeMs": 1710529750418.6584,
+                                "mtimeMs": 1709314366173.1467,
+                                "ctimeMs": 1709322765862.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:10.419Z",
+                                "mtime": "2024-03-01T17:32:46.173Z",
+                                "ctime": "2024-03-01T19:52:45.863Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Column headers: file_name, acq_time",
+                        "line": 1,
+                        "character": null,
+                        "severity": "error",
+                        "reason": "_scans.tsv files must have a 'filename' column.",
+                        "helpUrl": "https://neurostars.org/search?q=FILENAME_COLUMN"
+                    }
+                ],
+                "additionalFileCount": 13,
+                "helpUrl": "https://neurostars.org/search?q=FILENAME_COLUMN",
+                "code": 68
+            }
+        ],
+        "warnings": [
+            {
+                "key": "INCONSISTENT_PARAMETERS",
+                "severity": "warning",
+                "reason": "Not all subjects/sessions/runs have the same scanning parameters.",
+                "files": [
+                    {
+                        "key": "INCONSISTENT_PARAMETERS",
+                        "code": 39,
+                        "file": {
+                            "name": "sub-01_task-balloonanalogrisktask_bold.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000009/sub-01/func/sub-01_task-balloonanalogrisktask_bold.nii.gz",
+                            "relativePath": "/sub-01/func/sub-01_task-balloonanalogrisktask_bold.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650539029,
+                                "size": 39000120,
+                                "blocks": 76176,
+                                "atimeMs": 1710675955934.526,
+                                "mtimeMs": 1710675957370.519,
+                                "ctimeMs": 1710675957390.5188,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-17T11:45:55.935Z",
+                                "mtime": "2024-03-17T11:45:57.371Z",
+                                "ctime": "2024-03-17T11:45:57.391Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": " The most common set of dimensions is: 64,64,34,276 (voxels), This file has the dimensions: 64,64,34,245 (voxels).",
+                        "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_PARAMETERS"
+                    },
+                    {
+                        "key": "INCONSISTENT_PARAMETERS",
+                        "code": 39,
+                        "file": {
+                            "name": "sub-02_task-balloonanalogrisktask_bold.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000009/sub-02/func/sub-02_task-balloonanalogrisktask_bold.nii.gz",
+                            "relativePath": "/sub-02/func/sub-02_task-balloonanalogrisktask_bold.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650539036,
+                                "size": 46857210,
+                                "blocks": 91520,
+                                "atimeMs": 1710675968190.4673,
+                                "mtimeMs": 1710675969946.459,
+                                "ctimeMs": 1710675969966.459,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-17T11:46:08.190Z",
+                                "mtime": "2024-03-17T11:46:09.946Z",
+                                "ctime": "2024-03-17T11:46:09.966Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": " The most common set of dimensions is: 64,64,34,276 (voxels), This file has the dimensions: 64,64,34,286 (voxels).",
+                        "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_PARAMETERS"
+                    },
+                    {
+                        "key": "INCONSISTENT_PARAMETERS",
+                        "code": 39,
+                        "file": {
+                            "name": "sub-03_task-balloonanalogrisktask_bold.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000009/sub-03/func/sub-03_task-balloonanalogrisktask_bold.nii.gz",
+                            "relativePath": "/sub-03/func/sub-03_task-balloonanalogrisktask_bold.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650539047,
+                                "size": 41576904,
+                                "blocks": 81208,
+                                "atimeMs": 1710675981026.4062,
+                                "mtimeMs": 1710675982626.3987,
+                                "ctimeMs": 1710675982642.3984,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-17T11:46:21.026Z",
+                                "mtime": "2024-03-17T11:46:22.626Z",
+                                "ctime": "2024-03-17T11:46:22.642Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": " The most common set of dimensions is: 64,64,34,276 (voxels), This file has the dimensions: 64,64,34,236 (voxels).",
+                        "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_PARAMETERS"
+                    },
+                    {
+                        "key": "INCONSISTENT_PARAMETERS",
+                        "code": 39,
+                        "file": {
+                            "name": "sub-04_task-balloonanalogrisktask_bold.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000009/sub-04/func/sub-04_task-balloonanalogrisktask_bold.nii.gz",
+                            "relativePath": "/sub-04/func/sub-04_task-balloonanalogrisktask_bold.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650539056,
+                                "size": 46903066,
+                                "blocks": 91608,
+                                "atimeMs": 1710675994086.344,
+                                "mtimeMs": 1710675995798.3357,
+                                "ctimeMs": 1710675995814.3357,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-17T11:46:34.086Z",
+                                "mtime": "2024-03-17T11:46:35.798Z",
+                                "ctime": "2024-03-17T11:46:35.814Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": " The most common set of dimensions is: 64,64,34,276 (voxels), This file has the dimensions: 64,64,34,275 (voxels).",
+                        "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_PARAMETERS"
+                    },
+                    {
+                        "key": "INCONSISTENT_PARAMETERS",
+                        "code": 39,
+                        "file": {
+                            "name": "sub-05_dwi.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000009/sub-05/dwi/sub-05_dwi.nii.gz",
+                            "relativePath": "/sub-05/dwi/sub-05_dwi.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650539058,
+                                "size": 7801545,
+                                "blocks": 15240,
+                                "atimeMs": 1710676005486.2896,
+                                "mtimeMs": 1710676005802.288,
+                                "ctimeMs": 1710676005818.288,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-17T11:46:45.486Z",
+                                "mtime": "2024-03-17T11:46:45.802Z",
+                                "ctime": "2024-03-17T11:46:45.818Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": " The most common set of dimensions is: 96,96,50,65 (voxels), This file has the dimensions: 96,96,50,15 (voxels).",
+                        "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_PARAMETERS"
+                    },
+                    {
+                        "key": "INCONSISTENT_PARAMETERS",
+                        "code": 39,
+                        "file": {
+                            "name": "sub-06_task-balloonanalogrisktask_bold.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000009/sub-06/func/sub-06_task-balloonanalogrisktask_bold.nii.gz",
+                            "relativePath": "/sub-06/func/sub-06_task-balloonanalogrisktask_bold.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650539074,
+                                "size": 44357486,
+                                "blocks": 86640,
+                                "atimeMs": 1710676018826.226,
+                                "mtimeMs": 1710676020466.2183,
+                                "ctimeMs": 1710676020482.2183,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-17T11:46:58.826Z",
+                                "mtime": "2024-03-17T11:47:00.466Z",
+                                "ctime": "2024-03-17T11:47:00.482Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": " The most common set of dimensions is: 64,64,34,276 (voxels), This file has the dimensions: 64,64,34,258 (voxels).",
+                        "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_PARAMETERS"
+                    },
+                    {
+                        "key": "INCONSISTENT_PARAMETERS",
+                        "code": 39,
+                        "file": {
+                            "name": "sub-07_task-balloonanalogrisktask_bold.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000009/sub-07/func/sub-07_task-balloonanalogrisktask_bold.nii.gz",
+                            "relativePath": "/sub-07/func/sub-07_task-balloonanalogrisktask_bold.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650539453,
+                                "size": 42750881,
+                                "blocks": 83504,
+                                "atimeMs": 1710676031774.1653,
+                                "mtimeMs": 1710676033346.158,
+                                "ctimeMs": 1710676033358.158,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-17T11:47:11.774Z",
+                                "mtime": "2024-03-17T11:47:13.346Z",
+                                "ctime": "2024-03-17T11:47:13.358Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": " The most common set of dimensions is: 64,64,34,276 (voxels), This file has the dimensions: 64,64,34,246 (voxels).",
+                        "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_PARAMETERS"
+                    },
+                    {
+                        "key": "INCONSISTENT_PARAMETERS",
+                        "code": 39,
+                        "file": {
+                            "name": "sub-09_task-balloonanalogrisktask_bold.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000009/sub-09/func/sub-09_task-balloonanalogrisktask_bold.nii.gz",
+                            "relativePath": "/sub-09/func/sub-09_task-balloonanalogrisktask_bold.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650539462,
+                                "size": 46900144,
+                                "blocks": 91608,
+                                "atimeMs": 1710676044454.106,
+                                "mtimeMs": 1710676046254.0977,
+                                "ctimeMs": 1710676046274.0974,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-17T11:47:24.454Z",
+                                "mtime": "2024-03-17T11:47:26.254Z",
+                                "ctime": "2024-03-17T11:47:26.274Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": " The most common set of dimensions is: 64,64,34,276 (voxels), This file has the dimensions: 64,64,34,269 (voxels).",
+                        "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_PARAMETERS"
+                    },
+                    {
+                        "key": "INCONSISTENT_PARAMETERS",
+                        "code": 39,
+                        "file": {
+                            "name": "sub-10_task-balloonanalogrisktask_bold.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000009/sub-10/func/sub-10_task-balloonanalogrisktask_bold.nii.gz",
+                            "relativePath": "/sub-10/func/sub-10_task-balloonanalogrisktask_bold.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650539471,
+                                "size": 44546355,
+                                "blocks": 87008,
+                                "atimeMs": 1710676057830.0435,
+                                "mtimeMs": 1710676059418.036,
+                                "ctimeMs": 1710676059430.036,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-17T11:47:37.830Z",
+                                "mtime": "2024-03-17T11:47:39.418Z",
+                                "ctime": "2024-03-17T11:47:39.430Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": " The most common set of dimensions is: 64,64,34,276 (voxels), This file has the dimensions: 64,64,34,269 (voxels).",
+                        "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_PARAMETERS"
+                    },
+                    {
+                        "key": "INCONSISTENT_PARAMETERS",
+                        "code": 39,
+                        "file": {
+                            "name": "sub-11_task-balloonanalogrisktask_bold.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000009/sub-11/func/sub-11_task-balloonanalogrisktask_bold.nii.gz",
+                            "relativePath": "/sub-11/func/sub-11_task-balloonanalogrisktask_bold.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650539480,
+                                "size": 44266346,
+                                "blocks": 86464,
+                                "atimeMs": 1710676070097.9858,
+                                "mtimeMs": 1710676071733.9783,
+                                "ctimeMs": 1710676071745.9783,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-17T11:47:50.098Z",
+                                "mtime": "2024-03-17T11:47:51.734Z",
+                                "ctime": "2024-03-17T11:47:51.746Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": " The most common set of dimensions is: 64,64,34,276 (voxels), This file has the dimensions: 64,64,34,266 (voxels).",
+                        "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_PARAMETERS"
+                    }
+                ],
+                "additionalFileCount": 14,
+                "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_PARAMETERS",
+                "code": 39
+            },
+            {
+                "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                "severity": "warning",
+                "reason": "Tabular file contains custom columns not described in a data dictionary",
+                "files": [
+                    {
+                        "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                        "code": 82,
+                        "file": {
+                            "name": "participants.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000009/participants.tsv",
+                            "relativePath": "/participants.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650539083,
+                                "size": 8011,
+                                "blocks": 16,
+                                "atimeMs": 1710529749158.664,
+                                "mtimeMs": 1709314366165.1467,
+                                "ctimeMs": 1709322765846.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:09.159Z",
+                                "mtime": "2024-03-01T17:32:46.165Z",
+                                "ctime": "2024-03-01T19:52:45.847Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Columns: age, sex, m_SSRTquant, m_NumPumps_Avg, m_TotalAmt_Avg, m_NumExplAvg, m_logit_k, m_AN-SN, b_SSRTquant, b_NumPumps_Avg, b_TotalAmt_Avg, b_NumExplAvg, b_k, b_AN-SN, GABS_TOTAL, CARE_ENGAGING-DRUG, CARE_ENGAGING-AGGR/ILLEG, CARE_ENGAGING-SEX, CARE_ENGAGING-DRINKING, CARE_ENGAGING-SPORTS, CARE_ENGAGING-TOTAL, CARE_NEGCONS-DRUG, CARE_NEGCONS-AGGR/ILLEG, CARE_NEGCONS-SEX, CARE_NEGCONS-DRINKING, CARE_NEGCONS-SPORTS, CARE_NEGCONS-TOTAL, CARE_POSCONS-DRUG, CARE_POSCONS-AGGR/ILLEG, CARE_POSCONS-SEX, CARE_POSCONS-DRINKING, CARE_POSCONS-SPORTS, CARE_POSCONS-TOTAL, NEED, FOR, COG_TOTAL, COG, REFLECTION_NUM, CORR, COG.1, REFLECTION_CONFIDENCE, COG.2, REFLECTION_NUM.1, SEEN, SENS, SEEK_BOREDOM, SENS.1, SEEK_DISINHIB, SENS.2, SEEK_EXP, SEEK, SENS.3, SEEK_THRILL, SEEK.1, SENS.4, SEEK_TOTAL, BIS_ATTN, BIS_MOTOR, BIS_NP, BIS_TOTAL, BIS/BAS_BAS-REWRESP, BIS/BAS_BAS-FUNSEEK, BIS/BAS_BAS-DRIVE, BIS/BAS_BAS, TOTAL, BIS/BAS_BIS, DOSPERT_RT-ETH, DOSPERT_RT-FIN, DOSPERT_RT-HLTH/SAF, DOSPERT_RT-REC, DOSPERT_RT-SOC, DOSPERT_RT-TOTAL, DOSPERT_RP-ETH, DOSPERT_RP-FIN, DOSPERT_RP-HLTH/SAF, DOSPERT_RP-REC, DOSPERT_RP-SOC, DOSPERT_RP-TOTAL, DOSPERT_EB-ETH, DOSPERT_EB-FIN, DOSPERT_EB-HLTH/SAF, DOSPERT_EB-REC, DOSPERT_EB-SOC, DOSPERT_EB-TOTAL, PANAS_(Post-Pre)-Interested, PANAS_(Post-Pre)-Distressed, PANAS_(Post-Pre)-Excited, PANAS_(Post-Pre)-Upset, PANAS_(Post-Pre)-Strong not defined, please define in: /participants.json",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Tabular file contains custom columns not described in a data dictionary",
+                        "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION"
+                    },
+                    {
+                        "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                        "code": 82,
+                        "file": {
+                            "name": "sub-01_task-balloonanalogrisktask_events.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000009/sub-01/func/sub-01_task-balloonanalogrisktask_events.tsv",
+                            "relativePath": "/sub-01/func/sub-01_task-balloonanalogrisktask_events.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650539422,
+                                "size": 17298,
+                                "blocks": 40,
+                                "atimeMs": 1710529749198.6638,
+                                "mtimeMs": 1709314366165.1467,
+                                "ctimeMs": 1709322765854.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:09.199Z",
+                                "mtime": "2024-03-01T17:32:46.165Z",
+                                "ctime": "2024-03-01T19:52:45.855Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Columns: reaction_time, trial_number, button_pressed, action, explode_trial, trial_value, trial_cumulative_value, payoff_level, onset_orig, duration_orig, trial_type_orig not defined, please define in: /events.json, /task-balloonanalogrisktask_events.json,/sub-01/sub-01_events.json,/sub-01/sub-01_task-balloonanalogrisktask_events.json,/sub-01/func/sub-01_events.json,/sub-01/func/sub-01_task-balloonanalogrisktask_events.json",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Tabular file contains custom columns not described in a data dictionary",
+                        "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION"
+                    },
+                    {
+                        "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                        "code": 82,
+                        "file": {
+                            "name": "sub-01_task-discounting_events.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000009/sub-01/func/sub-01_task-discounting_events.tsv",
+                            "relativePath": "/sub-01/func/sub-01_task-discounting_events.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650539425,
+                                "size": 12076,
+                                "blocks": 24,
+                                "atimeMs": 1710529749210.6638,
+                                "mtimeMs": 1709314366165.1467,
+                                "ctimeMs": 1709322765854.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:09.211Z",
+                                "mtime": "2024-03-01T17:32:46.165Z",
+                                "ctime": "2024-03-01T19:52:45.855Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Columns: reaction_time, percent_off_trial, immediate_amount, delayed_amount, delay_time_words, delay_time_days, k_this_trial, response_button, response_binarized, onset.plus.rt, onset.plus.stimdur, absolute_time, trialnum, onset_orig, duration_orig, trial_type_orig, easy_par_orig, hard_par_orig not defined, please define in: /events.json, /task-discounting_events.json,/sub-01/sub-01_events.json,/sub-01/sub-01_task-discounting_events.json,/sub-01/func/sub-01_events.json,/sub-01/func/sub-01_task-discounting_events.json",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Tabular file contains custom columns not described in a data dictionary",
+                        "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION"
+                    },
+                    {
+                        "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                        "code": 82,
+                        "file": {
+                            "name": "sub-01_task-emotionalregulation_run-01_events.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000009/sub-01/func/sub-01_task-emotionalregulation_run-01_events.tsv",
+                            "relativePath": "/sub-01/func/sub-01_task-emotionalregulation_run-01_events.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650539428,
+                                "size": 4700,
+                                "blocks": 16,
+                                "atimeMs": 1710529749226.6636,
+                                "mtimeMs": 1709314366165.1467,
+                                "ctimeMs": 1709322765854.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:09.227Z",
+                                "mtime": "2024-03-01T17:32:46.165Z",
+                                "ctime": "2024-03-01T19:52:45.855Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Columns: image_type, image_num, response, reaction_time, trial_num, onset_orig, duration_orig, trial_type_orig, rating_par_orig not defined, please define in: /events.json, /task-emotionalregulation_events.json,/run-01_events.json,/task-emotionalregulation_run-01_events.json,/sub-01/sub-01_events.json,/sub-01/sub-01_task-emotionalregulation_events.json,/sub-01/sub-01_run-01_events.json,/sub-01/sub-01_task-emotionalregulation_run-01_events.json,/sub-01/func/sub-01_events.json,/sub-01/func/sub-01_task-emotionalregulation_events.json,/sub-01/func/sub-01_run-01_events.json,/sub-01/func/sub-01_task-emotionalregulation_run-01_events.json",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Tabular file contains custom columns not described in a data dictionary",
+                        "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION"
+                    },
+                    {
+                        "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                        "code": 82,
+                        "file": {
+                            "name": "sub-01_task-emotionalregulation_run-02_events.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000009/sub-01/func/sub-01_task-emotionalregulation_run-02_events.tsv",
+                            "relativePath": "/sub-01/func/sub-01_task-emotionalregulation_run-02_events.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650539431,
+                                "size": 4699,
+                                "blocks": 16,
+                                "atimeMs": 1710529749238.6636,
+                                "mtimeMs": 1709314366165.1467,
+                                "ctimeMs": 1709322765854.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:09.239Z",
+                                "mtime": "2024-03-01T17:32:46.165Z",
+                                "ctime": "2024-03-01T19:52:45.855Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Columns: image_type, image_num, response, reaction_time, trial_num, onset_orig, duration_orig, trial_type_orig, rating_par_orig not defined, please define in: /events.json, /task-emotionalregulation_events.json,/run-02_events.json,/task-emotionalregulation_run-02_events.json,/sub-01/sub-01_events.json,/sub-01/sub-01_task-emotionalregulation_events.json,/sub-01/sub-01_run-02_events.json,/sub-01/sub-01_task-emotionalregulation_run-02_events.json,/sub-01/func/sub-01_events.json,/sub-01/func/sub-01_task-emotionalregulation_events.json,/sub-01/func/sub-01_run-02_events.json,/sub-01/func/sub-01_task-emotionalregulation_run-02_events.json",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Tabular file contains custom columns not described in a data dictionary",
+                        "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION"
+                    },
+                    {
+                        "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                        "code": 82,
+                        "file": {
+                            "name": "sub-01_task-stopsignal_run-01_events.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000009/sub-01/func/sub-01_task-stopsignal_run-01_events.tsv",
+                            "relativePath": "/sub-01/func/sub-01_task-stopsignal_run-01_events.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650539434,
+                                "size": 15189,
+                                "blocks": 32,
+                                "atimeMs": 1710529749250.6636,
+                                "mtimeMs": 1709314366165.1467,
+                                "ctimeMs": 1709322765854.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:09.251Z",
+                                "mtime": "2024-03-01T17:32:46.165Z",
+                                "ctime": "2024-03-01T19:52:45.855Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Columns: PresentedStimulusArrowDirection, ReactionTime, SubjectResponseButton, SubjectResponseButtonCode, SubjectResponseCorrectness, TrialOutcome, StopSignalDelay, LadderNumber, LadderTime, LadderMovement, TimeCourse, onset_orig, duration_orig, trial_type_orig not defined, please define in: /events.json, /task-stopsignal_events.json,/run-01_events.json,/task-stopsignal_run-01_events.json,/sub-01/sub-01_events.json,/sub-01/sub-01_task-stopsignal_events.json,/sub-01/sub-01_run-01_events.json,/sub-01/sub-01_task-stopsignal_run-01_events.json,/sub-01/func/sub-01_events.json,/sub-01/func/sub-01_task-stopsignal_events.json,/sub-01/func/sub-01_run-01_events.json,/sub-01/func/sub-01_task-stopsignal_run-01_events.json",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Tabular file contains custom columns not described in a data dictionary",
+                        "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION"
+                    },
+                    {
+                        "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                        "code": 82,
+                        "file": {
+                            "name": "sub-01_task-stopsignal_run-02_events.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000009/sub-01/func/sub-01_task-stopsignal_run-02_events.tsv",
+                            "relativePath": "/sub-01/func/sub-01_task-stopsignal_run-02_events.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650539437,
+                                "size": 15300,
+                                "blocks": 32,
+                                "atimeMs": 1710529749262.6636,
+                                "mtimeMs": 1709314366165.1467,
+                                "ctimeMs": 1709322765854.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:09.263Z",
+                                "mtime": "2024-03-01T17:32:46.165Z",
+                                "ctime": "2024-03-01T19:52:45.855Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Columns: PresentedStimulusArrowDirection, ReactionTime, SubjectResponseButton, SubjectResponseButtonCode, SubjectResponseCorrectness, TrialOutcome, StopSignalDelay, LadderNumber, LadderTime, LadderMovement, TimeCourse, onset_orig, duration_orig, trial_type_orig not defined, please define in: /events.json, /task-stopsignal_events.json,/run-02_events.json,/task-stopsignal_run-02_events.json,/sub-01/sub-01_events.json,/sub-01/sub-01_task-stopsignal_events.json,/sub-01/sub-01_run-02_events.json,/sub-01/sub-01_task-stopsignal_run-02_events.json,/sub-01/func/sub-01_events.json,/sub-01/func/sub-01_task-stopsignal_events.json,/sub-01/func/sub-01_run-02_events.json,/sub-01/func/sub-01_task-stopsignal_run-02_events.json",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Tabular file contains custom columns not described in a data dictionary",
+                        "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION"
+                    },
+                    {
+                        "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                        "code": 82,
+                        "file": {
+                            "name": "sub-02_task-balloonanalogrisktask_events.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000009/sub-02/func/sub-02_task-balloonanalogrisktask_events.tsv",
+                            "relativePath": "/sub-02/func/sub-02_task-balloonanalogrisktask_events.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650557449,
+                                "size": 20536,
+                                "blocks": 48,
+                                "atimeMs": 1710529749310.6633,
+                                "mtimeMs": 1709314366165.1467,
+                                "ctimeMs": 1709322765854.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:09.311Z",
+                                "mtime": "2024-03-01T17:32:46.165Z",
+                                "ctime": "2024-03-01T19:52:45.855Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Columns: reaction_time, trial_number, button_pressed, action, explode_trial, trial_value, trial_cumulative_value, payoff_level, onset_orig, duration_orig, trial_type_orig not defined, please define in: /events.json, /task-balloonanalogrisktask_events.json,/sub-02/sub-02_events.json,/sub-02/sub-02_task-balloonanalogrisktask_events.json,/sub-02/func/sub-02_events.json,/sub-02/func/sub-02_task-balloonanalogrisktask_events.json",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Tabular file contains custom columns not described in a data dictionary",
+                        "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION"
+                    },
+                    {
+                        "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                        "code": 82,
+                        "file": {
+                            "name": "sub-02_task-discounting_events.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000009/sub-02/func/sub-02_task-discounting_events.tsv",
+                            "relativePath": "/sub-02/func/sub-02_task-discounting_events.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650557452,
+                                "size": 12193,
+                                "blocks": 24,
+                                "atimeMs": 1710529749322.6633,
+                                "mtimeMs": 1709314366165.1467,
+                                "ctimeMs": 1709322765854.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:09.323Z",
+                                "mtime": "2024-03-01T17:32:46.165Z",
+                                "ctime": "2024-03-01T19:52:45.855Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Columns: reaction_time, percent_off_trial, immediate_amount, delayed_amount, delay_time_words, delay_time_days, k_this_trial, response_button, response_binarized, onset.plus.rt, onset.plus.stimdur, absolute_time, trialnum, onset_orig, duration_orig, trial_type_orig, easy_par_orig, hard_par_orig not defined, please define in: /events.json, /task-discounting_events.json,/sub-02/sub-02_events.json,/sub-02/sub-02_task-discounting_events.json,/sub-02/func/sub-02_events.json,/sub-02/func/sub-02_task-discounting_events.json",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Tabular file contains custom columns not described in a data dictionary",
+                        "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION"
+                    },
+                    {
+                        "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                        "code": 82,
+                        "file": {
+                            "name": "sub-02_task-emotionalregulation_run-01_events.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000009/sub-02/func/sub-02_task-emotionalregulation_run-01_events.tsv",
+                            "relativePath": "/sub-02/func/sub-02_task-emotionalregulation_run-01_events.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650557455,
+                                "size": 4720,
+                                "blocks": 16,
+                                "atimeMs": 1710529749338.663,
+                                "mtimeMs": 1709314366165.1467,
+                                "ctimeMs": 1709322765854.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:09.339Z",
+                                "mtime": "2024-03-01T17:32:46.165Z",
+                                "ctime": "2024-03-01T19:52:45.855Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Columns: image_type, image_num, response, reaction_time, trial_num, onset_orig, duration_orig, trial_type_orig, rating_par_orig not defined, please define in: /events.json, /task-emotionalregulation_events.json,/run-01_events.json,/task-emotionalregulation_run-01_events.json,/sub-02/sub-02_events.json,/sub-02/sub-02_task-emotionalregulation_events.json,/sub-02/sub-02_run-01_events.json,/sub-02/sub-02_task-emotionalregulation_run-01_events.json,/sub-02/func/sub-02_events.json,/sub-02/func/sub-02_task-emotionalregulation_events.json,/sub-02/func/sub-02_run-01_events.json,/sub-02/func/sub-02_task-emotionalregulation_run-01_events.json",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Tabular file contains custom columns not described in a data dictionary",
+                        "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION"
+                    }
+                ],
+                "additionalFileCount": 158,
+                "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                "code": 82
+            }
+        ],
+        "ignored": []
+    },
+    "summary": {
+        "sessions": [],
+        "subjects": [
+            "01",
+            "02",
+            "03",
+            "04",
+            "05",
+            "06",
+            "07",
+            "09",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "16",
+            "17",
+            "18",
+            "20",
+            "21",
+            "23",
+            "24",
+            "25",
+            "26",
+            "28",
+            "29"
+        ],
+        "subjectMetadata": [
+            {
+                "participantId": "01",
+                "age": 20,
+                "sex": "F"
+            },
+            {
+                "participantId": "02",
+                "age": 26,
+                "sex": "F"
+            },
+            {
+                "participantId": "03",
+                "age": 22,
+                "sex": "M"
+            },
+            {
+                "participantId": "04",
+                "age": 19,
+                "sex": "M"
+            },
+            {
+                "participantId": "05",
+                "age": 20,
+                "sex": "F"
+            },
+            {
+                "participantId": "06",
+                "age": 21,
+                "sex": "M"
+            },
+            {
+                "participantId": "07",
+                "age": 21,
+                "sex": "M"
+            },
+            {
+                "participantId": "09",
+                "age": 20,
+                "sex": "M"
+            },
+            {
+                "participantId": "10",
+                "age": 19,
+                "sex": "F"
+            },
+            {
+                "participantId": "11",
+                "age": 19,
+                "sex": "F"
+            },
+            {
+                "participantId": "12",
+                "age": 18,
+                "sex": "M"
+            },
+            {
+                "participantId": "13",
+                "age": 18,
+                "sex": "M"
+            },
+            {
+                "participantId": "14",
+                "age": 19,
+                "sex": "M"
+            },
+            {
+                "participantId": "16",
+                "age": 20,
+                "sex": "M"
+            },
+            {
+                "participantId": "17",
+                "age": 18,
+                "sex": "F"
+            },
+            {
+                "participantId": "18",
+                "age": 22,
+                "sex": "M"
+            },
+            {
+                "participantId": "20",
+                "age": 22,
+                "sex": "M"
+            },
+            {
+                "participantId": "21",
+                "age": 22,
+                "sex": "F"
+            },
+            {
+                "participantId": "23",
+                "age": 33,
+                "sex": "F"
+            },
+            {
+                "participantId": "24",
+                "age": 27,
+                "sex": "F"
+            },
+            {
+                "participantId": "25",
+                "age": 19,
+                "sex": "M"
+            },
+            {
+                "participantId": "26",
+                "age": 19,
+                "sex": "M"
+            },
+            {
+                "participantId": "28",
+                "age": 20,
+                "sex": "F"
+            },
+            {
+                "participantId": "29",
+                "age": 22,
+                "sex": "M"
+            }
+        ],
+        "tasks": [
+            "balloon analog risk task",
+            "discounting",
+            "emotional regulation",
+            "stop signal"
+        ],
+        "modalities": [
+            "MRI"
+        ],
+        "secondaryModalities": [
+            "MRI_Functional",
+            "MRI_Diffusion",
+            "MRI_Structural"
+        ],
+        "totalFiles": 659,
+        "size": 6372717095,
+        "dataProcessed": false,
+        "pet": null,
+        "dataTypes": [
+            "T1w",
+            "inplaneT2",
+            "dwi",
+            "bold",
+            "events"
+        ]
+    }
+}

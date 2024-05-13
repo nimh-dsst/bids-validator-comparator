@@ -1,0 +1,851 @@
+{
+    "issues": {
+        "errors": [],
+        "warnings": [
+            {
+                "key": "SLICE_TIMING_NOT_DEFINED",
+                "severity": "warning",
+                "reason": "You should define 'SliceTiming' for this file. If you don't provide this information slice time correction will not be possible. 'Slice Timing' is the time at which each slice was acquired within each volume (frame) of the acquisition. Slice timing is not slice order -- rather, it is a list of times containing the time (in seconds) of each slice acquisition in relation to the beginning of volume acquisition.",
+                "files": [
+                    {
+                        "key": "SLICE_TIMING_NOT_DEFINED",
+                        "code": 13,
+                        "file": {
+                            "name": "sub-01_task-mixedgamblestask_run-01_bold.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000005/sub-01/func/sub-01_task-mixedgamblestask_run-01_bold.nii.gz",
+                            "relativePath": "/sub-01/func/sub-01_task-mixedgamblestask_run-01_bold.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650465299,
+                                "size": 16511813,
+                                "blocks": 32256,
+                                "atimeMs": 1710630607097.5212,
+                                "mtimeMs": 1710630607853.5178,
+                                "ctimeMs": 1710630607869.5178,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-16T23:10:07.098Z",
+                                "mtime": "2024-03-16T23:10:07.854Z",
+                                "ctime": "2024-03-16T23:10:07.870Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "You should define 'SliceTiming' for this file. If you don't provide this information slice time correction will not be possible. It can be included one of the following locations: /task-mixedgamblestask_bold.json, /task-mixedgamblestask_run-01_bold.json, /sub-01/sub-01_task-mixedgamblestask_bold.json, /sub-01/sub-01_task-mixedgamblestask_run-01_bold.json, /sub-01/func/sub-01_task-mixedgamblestask_bold.json, /sub-01/func/sub-01_task-mixedgamblestask_run-01_bold.json",
+                        "helpUrl": "https://neurostars.org/search?q=SLICE_TIMING_NOT_DEFINED"
+                    },
+                    {
+                        "key": "SLICE_TIMING_NOT_DEFINED",
+                        "code": 13,
+                        "file": {
+                            "name": "sub-01_task-mixedgamblestask_run-02_bold.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000005/sub-01/func/sub-01_task-mixedgamblestask_run-02_bold.nii.gz",
+                            "relativePath": "/sub-01/func/sub-01_task-mixedgamblestask_run-02_bold.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650465304,
+                                "size": 38781466,
+                                "blocks": 75752,
+                                "atimeMs": 1710630608033.517,
+                                "mtimeMs": 1710630609505.5105,
+                                "ctimeMs": 1710630609517.5105,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-16T23:10:08.034Z",
+                                "mtime": "2024-03-16T23:10:09.506Z",
+                                "ctime": "2024-03-16T23:10:09.518Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "You should define 'SliceTiming' for this file. If you don't provide this information slice time correction will not be possible. It can be included one of the following locations: /task-mixedgamblestask_bold.json, /task-mixedgamblestask_run-02_bold.json, /sub-01/sub-01_task-mixedgamblestask_bold.json, /sub-01/sub-01_task-mixedgamblestask_run-02_bold.json, /sub-01/func/sub-01_task-mixedgamblestask_bold.json, /sub-01/func/sub-01_task-mixedgamblestask_run-02_bold.json",
+                        "helpUrl": "https://neurostars.org/search?q=SLICE_TIMING_NOT_DEFINED"
+                    },
+                    {
+                        "key": "SLICE_TIMING_NOT_DEFINED",
+                        "code": 13,
+                        "file": {
+                            "name": "sub-01_task-mixedgamblestask_run-03_bold.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000005/sub-01/func/sub-01_task-mixedgamblestask_run-03_bold.nii.gz",
+                            "relativePath": "/sub-01/func/sub-01_task-mixedgamblestask_run-03_bold.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650465309,
+                                "size": 38858820,
+                                "blocks": 75904,
+                                "atimeMs": 1710630609789.5093,
+                                "mtimeMs": 1710630611241.503,
+                                "ctimeMs": 1710630611257.5027,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-16T23:10:09.790Z",
+                                "mtime": "2024-03-16T23:10:11.242Z",
+                                "ctime": "2024-03-16T23:10:11.258Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "You should define 'SliceTiming' for this file. If you don't provide this information slice time correction will not be possible. It can be included one of the following locations: /task-mixedgamblestask_bold.json, /task-mixedgamblestask_run-03_bold.json, /sub-01/sub-01_task-mixedgamblestask_bold.json, /sub-01/sub-01_task-mixedgamblestask_run-03_bold.json, /sub-01/func/sub-01_task-mixedgamblestask_bold.json, /sub-01/func/sub-01_task-mixedgamblestask_run-03_bold.json",
+                        "helpUrl": "https://neurostars.org/search?q=SLICE_TIMING_NOT_DEFINED"
+                    },
+                    {
+                        "key": "SLICE_TIMING_NOT_DEFINED",
+                        "code": 13,
+                        "file": {
+                            "name": "sub-02_task-mixedgamblestask_run-01_bold.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000005/sub-02/func/sub-02_task-mixedgamblestask_run-01_bold.nii.gz",
+                            "relativePath": "/sub-02/func/sub-02_task-mixedgamblestask_run-01_bold.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650465344,
+                                "size": 38604485,
+                                "blocks": 75400,
+                                "atimeMs": 1710630613337.4934,
+                                "mtimeMs": 1710630614861.4868,
+                                "ctimeMs": 1710630614877.4866,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-16T23:10:13.337Z",
+                                "mtime": "2024-03-16T23:10:14.861Z",
+                                "ctime": "2024-03-16T23:10:14.877Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "You should define 'SliceTiming' for this file. If you don't provide this information slice time correction will not be possible. It can be included one of the following locations: /task-mixedgamblestask_bold.json, /task-mixedgamblestask_run-01_bold.json, /sub-02/sub-02_task-mixedgamblestask_bold.json, /sub-02/sub-02_task-mixedgamblestask_run-01_bold.json, /sub-02/func/sub-02_task-mixedgamblestask_bold.json, /sub-02/func/sub-02_task-mixedgamblestask_run-01_bold.json",
+                        "helpUrl": "https://neurostars.org/search?q=SLICE_TIMING_NOT_DEFINED"
+                    },
+                    {
+                        "key": "SLICE_TIMING_NOT_DEFINED",
+                        "code": 13,
+                        "file": {
+                            "name": "sub-02_task-mixedgamblestask_run-02_bold.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000005/sub-02/func/sub-02_task-mixedgamblestask_run-02_bold.nii.gz",
+                            "relativePath": "/sub-02/func/sub-02_task-mixedgamblestask_run-02_bold.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650465346,
+                                "size": 38622047,
+                                "blocks": 75440,
+                                "atimeMs": 1710630615025.486,
+                                "mtimeMs": 1710630616421.4797,
+                                "ctimeMs": 1710630616441.4797,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-16T23:10:15.025Z",
+                                "mtime": "2024-03-16T23:10:16.421Z",
+                                "ctime": "2024-03-16T23:10:16.441Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "You should define 'SliceTiming' for this file. If you don't provide this information slice time correction will not be possible. It can be included one of the following locations: /task-mixedgamblestask_bold.json, /task-mixedgamblestask_run-02_bold.json, /sub-02/sub-02_task-mixedgamblestask_bold.json, /sub-02/sub-02_task-mixedgamblestask_run-02_bold.json, /sub-02/func/sub-02_task-mixedgamblestask_bold.json, /sub-02/func/sub-02_task-mixedgamblestask_run-02_bold.json",
+                        "helpUrl": "https://neurostars.org/search?q=SLICE_TIMING_NOT_DEFINED"
+                    },
+                    {
+                        "key": "SLICE_TIMING_NOT_DEFINED",
+                        "code": 13,
+                        "file": {
+                            "name": "sub-02_task-mixedgamblestask_run-03_bold.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000005/sub-02/func/sub-02_task-mixedgamblestask_run-03_bold.nii.gz",
+                            "relativePath": "/sub-02/func/sub-02_task-mixedgamblestask_run-03_bold.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650465348,
+                                "size": 38602569,
+                                "blocks": 75400,
+                                "atimeMs": 1710630616577.4792,
+                                "mtimeMs": 1710630618197.472,
+                                "ctimeMs": 1710630618217.472,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-16T23:10:16.577Z",
+                                "mtime": "2024-03-16T23:10:18.197Z",
+                                "ctime": "2024-03-16T23:10:18.217Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "You should define 'SliceTiming' for this file. If you don't provide this information slice time correction will not be possible. It can be included one of the following locations: /task-mixedgamblestask_bold.json, /task-mixedgamblestask_run-03_bold.json, /sub-02/sub-02_task-mixedgamblestask_bold.json, /sub-02/sub-02_task-mixedgamblestask_run-03_bold.json, /sub-02/func/sub-02_task-mixedgamblestask_bold.json, /sub-02/func/sub-02_task-mixedgamblestask_run-03_bold.json",
+                        "helpUrl": "https://neurostars.org/search?q=SLICE_TIMING_NOT_DEFINED"
+                    },
+                    {
+                        "key": "SLICE_TIMING_NOT_DEFINED",
+                        "code": 13,
+                        "file": {
+                            "name": "sub-03_task-mixedgamblestask_run-01_bold.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000005/sub-03/func/sub-03_task-mixedgamblestask_run-01_bold.nii.gz",
+                            "relativePath": "/sub-03/func/sub-03_task-mixedgamblestask_run-01_bold.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650465347,
+                                "size": 37630131,
+                                "blocks": 73504,
+                                "atimeMs": 1710630620161.4631,
+                                "mtimeMs": 1710630621689.4565,
+                                "ctimeMs": 1710630621701.4563,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-16T23:10:20.161Z",
+                                "mtime": "2024-03-16T23:10:21.689Z",
+                                "ctime": "2024-03-16T23:10:21.701Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "You should define 'SliceTiming' for this file. If you don't provide this information slice time correction will not be possible. It can be included one of the following locations: /task-mixedgamblestask_bold.json, /task-mixedgamblestask_run-01_bold.json, /sub-03/sub-03_task-mixedgamblestask_bold.json, /sub-03/sub-03_task-mixedgamblestask_run-01_bold.json, /sub-03/func/sub-03_task-mixedgamblestask_bold.json, /sub-03/func/sub-03_task-mixedgamblestask_run-01_bold.json",
+                        "helpUrl": "https://neurostars.org/search?q=SLICE_TIMING_NOT_DEFINED"
+                    },
+                    {
+                        "key": "SLICE_TIMING_NOT_DEFINED",
+                        "code": 13,
+                        "file": {
+                            "name": "sub-03_task-mixedgamblestask_run-02_bold.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000005/sub-03/func/sub-03_task-mixedgamblestask_run-02_bold.nii.gz",
+                            "relativePath": "/sub-03/func/sub-03_task-mixedgamblestask_run-02_bold.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650465352,
+                                "size": 37567583,
+                                "blocks": 73376,
+                                "atimeMs": 1710630621901.4556,
+                                "mtimeMs": 1710630623261.4495,
+                                "ctimeMs": 1710630623281.4495,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-16T23:10:21.901Z",
+                                "mtime": "2024-03-16T23:10:23.261Z",
+                                "ctime": "2024-03-16T23:10:23.281Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "You should define 'SliceTiming' for this file. If you don't provide this information slice time correction will not be possible. It can be included one of the following locations: /task-mixedgamblestask_bold.json, /task-mixedgamblestask_run-02_bold.json, /sub-03/sub-03_task-mixedgamblestask_bold.json, /sub-03/sub-03_task-mixedgamblestask_run-02_bold.json, /sub-03/func/sub-03_task-mixedgamblestask_bold.json, /sub-03/func/sub-03_task-mixedgamblestask_run-02_bold.json",
+                        "helpUrl": "https://neurostars.org/search?q=SLICE_TIMING_NOT_DEFINED"
+                    },
+                    {
+                        "key": "SLICE_TIMING_NOT_DEFINED",
+                        "code": 13,
+                        "file": {
+                            "name": "sub-03_task-mixedgamblestask_run-03_bold.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000005/sub-03/func/sub-03_task-mixedgamblestask_run-03_bold.nii.gz",
+                            "relativePath": "/sub-03/func/sub-03_task-mixedgamblestask_run-03_bold.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650465354,
+                                "size": 37621379,
+                                "blocks": 73480,
+                                "atimeMs": 1710630623445.4487,
+                                "mtimeMs": 1710630624805.4426,
+                                "ctimeMs": 1710630624821.4426,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-16T23:10:23.445Z",
+                                "mtime": "2024-03-16T23:10:24.805Z",
+                                "ctime": "2024-03-16T23:10:24.821Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "You should define 'SliceTiming' for this file. If you don't provide this information slice time correction will not be possible. It can be included one of the following locations: /task-mixedgamblestask_bold.json, /task-mixedgamblestask_run-03_bold.json, /sub-03/sub-03_task-mixedgamblestask_bold.json, /sub-03/sub-03_task-mixedgamblestask_run-03_bold.json, /sub-03/func/sub-03_task-mixedgamblestask_bold.json, /sub-03/func/sub-03_task-mixedgamblestask_run-03_bold.json",
+                        "helpUrl": "https://neurostars.org/search?q=SLICE_TIMING_NOT_DEFINED"
+                    },
+                    {
+                        "key": "SLICE_TIMING_NOT_DEFINED",
+                        "code": 13,
+                        "file": {
+                            "name": "sub-04_task-mixedgamblestask_run-01_bold.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000005/sub-04/func/sub-04_task-mixedgamblestask_run-01_bold.nii.gz",
+                            "relativePath": "/sub-04/func/sub-04_task-mixedgamblestask_run-01_bold.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650465353,
+                                "size": 39350950,
+                                "blocks": 76864,
+                                "atimeMs": 1710630626925.433,
+                                "mtimeMs": 1710630628549.426,
+                                "ctimeMs": 1710630628561.426,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-16T23:10:26.925Z",
+                                "mtime": "2024-03-16T23:10:28.549Z",
+                                "ctime": "2024-03-16T23:10:28.561Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "You should define 'SliceTiming' for this file. If you don't provide this information slice time correction will not be possible. It can be included one of the following locations: /task-mixedgamblestask_bold.json, /task-mixedgamblestask_run-01_bold.json, /sub-04/sub-04_task-mixedgamblestask_bold.json, /sub-04/sub-04_task-mixedgamblestask_run-01_bold.json, /sub-04/func/sub-04_task-mixedgamblestask_bold.json, /sub-04/func/sub-04_task-mixedgamblestask_run-01_bold.json",
+                        "helpUrl": "https://neurostars.org/search?q=SLICE_TIMING_NOT_DEFINED"
+                    }
+                ],
+                "additionalFileCount": 38,
+                "helpUrl": "https://neurostars.org/search?q=SLICE_TIMING_NOT_DEFINED",
+                "code": 13
+            },
+            {
+                "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                "severity": "warning",
+                "reason": "Tabular file contains custom columns not described in a data dictionary",
+                "files": [
+                    {
+                        "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                        "code": 82,
+                        "file": {
+                            "name": "participants.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000005/participants.tsv",
+                            "relativePath": "/participants.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650465363,
+                                "size": 215,
+                                "blocks": 8,
+                                "atimeMs": 1710529741034.6995,
+                                "mtimeMs": 1709314360941.158,
+                                "ctimeMs": 1709322765778.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:01.035Z",
+                                "mtime": "2024-03-01T17:32:40.941Z",
+                                "ctime": "2024-03-01T19:52:45.779Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Columns: sex, age not defined, please define in: /participants.json",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Tabular file contains custom columns not described in a data dictionary",
+                        "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION"
+                    },
+                    {
+                        "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                        "code": 82,
+                        "file": {
+                            "name": "sub-01_task-mixedgamblestask_run-01_events.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000005/sub-01/func/sub-01_task-mixedgamblestask_run-01_events.tsv",
+                            "relativePath": "/sub-01/func/sub-01_task-mixedgamblestask_run-01_events.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650465443,
+                                "size": 4759,
+                                "blocks": 16,
+                                "atimeMs": 1710529741042.6995,
+                                "mtimeMs": 1709314360941.158,
+                                "ctimeMs": 1709322765782.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:01.043Z",
+                                "mtime": "2024-03-01T17:32:40.941Z",
+                                "ctime": "2024-03-01T19:52:45.783Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Columns: parametric loss, distance from indifference, parametric gain, gain, loss, PTval, respnum, respcat not defined, please define in: /events.json, /task-mixedgamblestask_events.json,/run-01_events.json,/task-mixedgamblestask_run-01_events.json,/sub-01/sub-01_events.json,/sub-01/sub-01_task-mixedgamblestask_events.json,/sub-01/sub-01_run-01_events.json,/sub-01/sub-01_task-mixedgamblestask_run-01_events.json,/sub-01/func/sub-01_events.json,/sub-01/func/sub-01_task-mixedgamblestask_events.json,/sub-01/func/sub-01_run-01_events.json,/sub-01/func/sub-01_task-mixedgamblestask_run-01_events.json",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Tabular file contains custom columns not described in a data dictionary",
+                        "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION"
+                    },
+                    {
+                        "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                        "code": 82,
+                        "file": {
+                            "name": "sub-01_task-mixedgamblestask_run-02_events.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000005/sub-01/func/sub-01_task-mixedgamblestask_run-02_events.tsv",
+                            "relativePath": "/sub-01/func/sub-01_task-mixedgamblestask_run-02_events.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650465445,
+                                "size": 4674,
+                                "blocks": 16,
+                                "atimeMs": 1710529741046.6995,
+                                "mtimeMs": 1709314360941.158,
+                                "ctimeMs": 1709322765782.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:01.047Z",
+                                "mtime": "2024-03-01T17:32:40.941Z",
+                                "ctime": "2024-03-01T19:52:45.783Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Columns: parametric loss, distance from indifference, parametric gain, gain, loss, PTval, respnum, respcat not defined, please define in: /events.json, /task-mixedgamblestask_events.json,/run-02_events.json,/task-mixedgamblestask_run-02_events.json,/sub-01/sub-01_events.json,/sub-01/sub-01_task-mixedgamblestask_events.json,/sub-01/sub-01_run-02_events.json,/sub-01/sub-01_task-mixedgamblestask_run-02_events.json,/sub-01/func/sub-01_events.json,/sub-01/func/sub-01_task-mixedgamblestask_events.json,/sub-01/func/sub-01_run-02_events.json,/sub-01/func/sub-01_task-mixedgamblestask_run-02_events.json",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Tabular file contains custom columns not described in a data dictionary",
+                        "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION"
+                    },
+                    {
+                        "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                        "code": 82,
+                        "file": {
+                            "name": "sub-01_task-mixedgamblestask_run-03_events.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000005/sub-01/func/sub-01_task-mixedgamblestask_run-03_events.tsv",
+                            "relativePath": "/sub-01/func/sub-01_task-mixedgamblestask_run-03_events.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650465447,
+                                "size": 4693,
+                                "blocks": 16,
+                                "atimeMs": 1710529741054.6992,
+                                "mtimeMs": 1709314360941.158,
+                                "ctimeMs": 1709322765782.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:01.055Z",
+                                "mtime": "2024-03-01T17:32:40.941Z",
+                                "ctime": "2024-03-01T19:52:45.783Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Columns: parametric loss, distance from indifference, parametric gain, gain, loss, PTval, respnum, respcat not defined, please define in: /events.json, /task-mixedgamblestask_events.json,/run-03_events.json,/task-mixedgamblestask_run-03_events.json,/sub-01/sub-01_events.json,/sub-01/sub-01_task-mixedgamblestask_events.json,/sub-01/sub-01_run-03_events.json,/sub-01/sub-01_task-mixedgamblestask_run-03_events.json,/sub-01/func/sub-01_events.json,/sub-01/func/sub-01_task-mixedgamblestask_events.json,/sub-01/func/sub-01_run-03_events.json,/sub-01/func/sub-01_task-mixedgamblestask_run-03_events.json",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Tabular file contains custom columns not described in a data dictionary",
+                        "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION"
+                    },
+                    {
+                        "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                        "code": 82,
+                        "file": {
+                            "name": "sub-02_task-mixedgamblestask_run-01_events.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000005/sub-02/func/sub-02_task-mixedgamblestask_run-01_events.tsv",
+                            "relativePath": "/sub-02/func/sub-02_task-mixedgamblestask_run-01_events.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650465454,
+                                "size": 4812,
+                                "blocks": 16,
+                                "atimeMs": 1710529741062.6992,
+                                "mtimeMs": 1709314360941.158,
+                                "ctimeMs": 1709322765782.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:01.063Z",
+                                "mtime": "2024-03-01T17:32:40.941Z",
+                                "ctime": "2024-03-01T19:52:45.783Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Columns: parametric loss, distance from indifference, parametric gain, gain, loss, PTval, respnum, respcat not defined, please define in: /events.json, /task-mixedgamblestask_events.json,/run-01_events.json,/task-mixedgamblestask_run-01_events.json,/sub-02/sub-02_events.json,/sub-02/sub-02_task-mixedgamblestask_events.json,/sub-02/sub-02_run-01_events.json,/sub-02/sub-02_task-mixedgamblestask_run-01_events.json,/sub-02/func/sub-02_events.json,/sub-02/func/sub-02_task-mixedgamblestask_events.json,/sub-02/func/sub-02_run-01_events.json,/sub-02/func/sub-02_task-mixedgamblestask_run-01_events.json",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Tabular file contains custom columns not described in a data dictionary",
+                        "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION"
+                    },
+                    {
+                        "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                        "code": 82,
+                        "file": {
+                            "name": "sub-02_task-mixedgamblestask_run-02_events.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000005/sub-02/func/sub-02_task-mixedgamblestask_run-02_events.tsv",
+                            "relativePath": "/sub-02/func/sub-02_task-mixedgamblestask_run-02_events.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650465456,
+                                "size": 4767,
+                                "blocks": 16,
+                                "atimeMs": 1710529741066.6992,
+                                "mtimeMs": 1709314360941.158,
+                                "ctimeMs": 1709322765782.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:01.067Z",
+                                "mtime": "2024-03-01T17:32:40.941Z",
+                                "ctime": "2024-03-01T19:52:45.783Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Columns: parametric loss, distance from indifference, parametric gain, gain, loss, PTval, respnum, respcat not defined, please define in: /events.json, /task-mixedgamblestask_events.json,/run-02_events.json,/task-mixedgamblestask_run-02_events.json,/sub-02/sub-02_events.json,/sub-02/sub-02_task-mixedgamblestask_events.json,/sub-02/sub-02_run-02_events.json,/sub-02/sub-02_task-mixedgamblestask_run-02_events.json,/sub-02/func/sub-02_events.json,/sub-02/func/sub-02_task-mixedgamblestask_events.json,/sub-02/func/sub-02_run-02_events.json,/sub-02/func/sub-02_task-mixedgamblestask_run-02_events.json",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Tabular file contains custom columns not described in a data dictionary",
+                        "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION"
+                    },
+                    {
+                        "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                        "code": 82,
+                        "file": {
+                            "name": "sub-02_task-mixedgamblestask_run-03_events.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000005/sub-02/func/sub-02_task-mixedgamblestask_run-03_events.tsv",
+                            "relativePath": "/sub-02/func/sub-02_task-mixedgamblestask_run-03_events.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650465458,
+                                "size": 4772,
+                                "blocks": 16,
+                                "atimeMs": 1710529741074.6992,
+                                "mtimeMs": 1709314360941.158,
+                                "ctimeMs": 1709322765782.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:01.075Z",
+                                "mtime": "2024-03-01T17:32:40.941Z",
+                                "ctime": "2024-03-01T19:52:45.783Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Columns: parametric loss, distance from indifference, parametric gain, gain, loss, PTval, respnum, respcat not defined, please define in: /events.json, /task-mixedgamblestask_events.json,/run-03_events.json,/task-mixedgamblestask_run-03_events.json,/sub-02/sub-02_events.json,/sub-02/sub-02_task-mixedgamblestask_events.json,/sub-02/sub-02_run-03_events.json,/sub-02/sub-02_task-mixedgamblestask_run-03_events.json,/sub-02/func/sub-02_events.json,/sub-02/func/sub-02_task-mixedgamblestask_events.json,/sub-02/func/sub-02_run-03_events.json,/sub-02/func/sub-02_task-mixedgamblestask_run-03_events.json",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Tabular file contains custom columns not described in a data dictionary",
+                        "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION"
+                    },
+                    {
+                        "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                        "code": 82,
+                        "file": {
+                            "name": "sub-03_task-mixedgamblestask_run-01_events.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000005/sub-03/func/sub-03_task-mixedgamblestask_run-01_events.tsv",
+                            "relativePath": "/sub-03/func/sub-03_task-mixedgamblestask_run-01_events.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650465465,
+                                "size": 4713,
+                                "blocks": 16,
+                                "atimeMs": 1710529741078.6992,
+                                "mtimeMs": 1709314360941.158,
+                                "ctimeMs": 1709322765782.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:01.079Z",
+                                "mtime": "2024-03-01T17:32:40.941Z",
+                                "ctime": "2024-03-01T19:52:45.783Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Columns: parametric loss, distance from indifference, parametric gain, gain, loss, PTval, respnum, respcat not defined, please define in: /events.json, /task-mixedgamblestask_events.json,/run-01_events.json,/task-mixedgamblestask_run-01_events.json,/sub-03/sub-03_events.json,/sub-03/sub-03_task-mixedgamblestask_events.json,/sub-03/sub-03_run-01_events.json,/sub-03/sub-03_task-mixedgamblestask_run-01_events.json,/sub-03/func/sub-03_events.json,/sub-03/func/sub-03_task-mixedgamblestask_events.json,/sub-03/func/sub-03_run-01_events.json,/sub-03/func/sub-03_task-mixedgamblestask_run-01_events.json",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Tabular file contains custom columns not described in a data dictionary",
+                        "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION"
+                    },
+                    {
+                        "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                        "code": 82,
+                        "file": {
+                            "name": "sub-03_task-mixedgamblestask_run-02_events.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000005/sub-03/func/sub-03_task-mixedgamblestask_run-02_events.tsv",
+                            "relativePath": "/sub-03/func/sub-03_task-mixedgamblestask_run-02_events.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650465467,
+                                "size": 4847,
+                                "blocks": 16,
+                                "atimeMs": 1710529741086.6992,
+                                "mtimeMs": 1709314360941.158,
+                                "ctimeMs": 1709322765782.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:01.087Z",
+                                "mtime": "2024-03-01T17:32:40.941Z",
+                                "ctime": "2024-03-01T19:52:45.783Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Columns: parametric loss, distance from indifference, parametric gain, gain, loss, PTval, respnum, respcat not defined, please define in: /events.json, /task-mixedgamblestask_events.json,/run-02_events.json,/task-mixedgamblestask_run-02_events.json,/sub-03/sub-03_events.json,/sub-03/sub-03_task-mixedgamblestask_events.json,/sub-03/sub-03_run-02_events.json,/sub-03/sub-03_task-mixedgamblestask_run-02_events.json,/sub-03/func/sub-03_events.json,/sub-03/func/sub-03_task-mixedgamblestask_events.json,/sub-03/func/sub-03_run-02_events.json,/sub-03/func/sub-03_task-mixedgamblestask_run-02_events.json",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Tabular file contains custom columns not described in a data dictionary",
+                        "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION"
+                    },
+                    {
+                        "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                        "code": 82,
+                        "file": {
+                            "name": "sub-03_task-mixedgamblestask_run-03_events.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000005/sub-03/func/sub-03_task-mixedgamblestask_run-03_events.tsv",
+                            "relativePath": "/sub-03/func/sub-03_task-mixedgamblestask_run-03_events.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650465469,
+                                "size": 4773,
+                                "blocks": 16,
+                                "atimeMs": 1710529741090.6992,
+                                "mtimeMs": 1709314360941.158,
+                                "ctimeMs": 1709322765782.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:01.091Z",
+                                "mtime": "2024-03-01T17:32:40.941Z",
+                                "ctime": "2024-03-01T19:52:45.783Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Columns: parametric loss, distance from indifference, parametric gain, gain, loss, PTval, respnum, respcat not defined, please define in: /events.json, /task-mixedgamblestask_events.json,/run-03_events.json,/task-mixedgamblestask_run-03_events.json,/sub-03/sub-03_events.json,/sub-03/sub-03_task-mixedgamblestask_events.json,/sub-03/sub-03_run-03_events.json,/sub-03/sub-03_task-mixedgamblestask_run-03_events.json,/sub-03/func/sub-03_events.json,/sub-03/func/sub-03_task-mixedgamblestask_events.json,/sub-03/func/sub-03_run-03_events.json,/sub-03/func/sub-03_task-mixedgamblestask_run-03_events.json",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Tabular file contains custom columns not described in a data dictionary",
+                        "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION"
+                    }
+                ],
+                "additionalFileCount": 39,
+                "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                "code": 82
+            }
+        ],
+        "ignored": []
+    },
+    "summary": {
+        "sessions": [],
+        "subjects": [
+            "01",
+            "02",
+            "03",
+            "04",
+            "05",
+            "06",
+            "07",
+            "08",
+            "09",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16"
+        ],
+        "subjectMetadata": [
+            {
+                "participantId": "01",
+                "age": 28,
+                "sex": "M"
+            },
+            {
+                "participantId": "02",
+                "age": 21,
+                "sex": "F"
+            },
+            {
+                "participantId": "03",
+                "age": 27,
+                "sex": "F"
+            },
+            {
+                "participantId": "04",
+                "age": 25,
+                "sex": "M"
+            },
+            {
+                "participantId": "05",
+                "age": 20,
+                "sex": "F"
+            },
+            {
+                "participantId": "06",
+                "age": 20,
+                "sex": "M"
+            },
+            {
+                "participantId": "07",
+                "age": 24,
+                "sex": "F"
+            },
+            {
+                "participantId": "08",
+                "age": 25,
+                "sex": "M"
+            },
+            {
+                "participantId": "09",
+                "age": 19,
+                "sex": "F"
+            },
+            {
+                "participantId": "10",
+                "age": 20,
+                "sex": "M"
+            },
+            {
+                "participantId": "11",
+                "age": 20,
+                "sex": "M"
+            },
+            {
+                "participantId": "12",
+                "age": 21,
+                "sex": "M"
+            },
+            {
+                "participantId": "13",
+                "age": 22,
+                "sex": "F"
+            },
+            {
+                "participantId": "14",
+                "age": 19,
+                "sex": "F"
+            },
+            {
+                "participantId": "15",
+                "age": 20,
+                "sex": "F"
+            },
+            {
+                "participantId": "16",
+                "age": 22,
+                "sex": "M"
+            }
+        ],
+        "tasks": [
+            "mixed-gambles task"
+        ],
+        "modalities": [
+            "MRI"
+        ],
+        "secondaryModalities": [
+            "MRI_Functional",
+            "MRI_Structural"
+        ],
+        "totalFiles": 133,
+        "size": 1898145134,
+        "dataProcessed": false,
+        "pet": null,
+        "dataTypes": [
+            "T1w",
+            "inplaneT2",
+            "bold",
+            "events"
+        ]
+    }
+}

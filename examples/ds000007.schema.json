@@ -1,0 +1,166 @@
+{
+    "issues": [
+        {
+            "key": "TOO_FEW_AUTHORS",
+            "severity": "warning",
+            "reason": "The 'Authors' field of 'dataset_description.json' should contain an array of values -\nwith one author per value.\nThis was triggered based on the presence of only one author field.\nPlease ignore if all contributors are already properly listed.\n",
+            "files": [
+                {
+                    "name": "dataset_description.json",
+                    "path": "/dataset_description.json",
+                    "evidence": "schema.rules.checks.hints.TooFewAuthors"
+                }
+            ]
+        },
+        {
+            "key": "EVENTS_TSV_MISSING",
+            "severity": "warning",
+            "reason": "Task scans should have a corresponding 'events.tsv' file.\nIf this is a resting state scan you can ignore this warning or rename the task to include the word \"rest\".\n",
+            "files": [
+                {
+                    "name": "task-stopmanual_bold.json",
+                    "path": "/task-stopmanual_bold.json",
+                    "evidence": "schema.rules.checks.events.EventsMissing"
+                },
+                {
+                    "name": "task-stopvocal_bold.json",
+                    "path": "/task-stopvocal_bold.json",
+                    "evidence": "schema.rules.checks.events.EventsMissing"
+                },
+                {
+                    "name": "task-stopword_bold.json",
+                    "path": "/task-stopword_bold.json",
+                    "evidence": "schema.rules.checks.events.EventsMissing"
+                }
+            ]
+        }
+    ],
+    "summary": {
+        "sessions": [],
+        "subjects": [
+            "01",
+            "11",
+            "06",
+            "05",
+            "10",
+            "15",
+            "17",
+            "16",
+            "19",
+            "09",
+            "13",
+            "03",
+            "12",
+            "07",
+            "02",
+            "18",
+            "20",
+            "04",
+            "08",
+            "14"
+        ],
+        "subjectMetadata": [
+            {
+                "participantId": "01",
+                "age": 30
+            },
+            {
+                "participantId": "02",
+                "age": 34
+            },
+            {
+                "participantId": "03",
+                "age": 18
+            },
+            {
+                "participantId": "04",
+                "age": 22
+            },
+            {
+                "participantId": "05",
+                "age": 22
+            },
+            {
+                "participantId": "06",
+                "age": 19
+            },
+            {
+                "participantId": "07",
+                "age": 39
+            },
+            {
+                "participantId": "08",
+                "age": 19
+            },
+            {
+                "participantId": "09",
+                "age": 21
+            },
+            {
+                "participantId": "10",
+                "age": 20
+            },
+            {
+                "participantId": "11",
+                "age": 18
+            },
+            {
+                "participantId": "12",
+                "age": 22
+            },
+            {
+                "participantId": "13",
+                "age": 27
+            },
+            {
+                "participantId": "14",
+                "age": 22
+            },
+            {
+                "participantId": "15",
+                "age": 22
+            },
+            {
+                "participantId": "16",
+                "age": 27
+            },
+            {
+                "participantId": "17",
+                "age": 22
+            },
+            {
+                "participantId": "18",
+                "age": 32
+            },
+            {
+                "participantId": "19",
+                "age": 19
+            },
+            {
+                "participantId": "20",
+                "age": 20
+            }
+        ],
+        "tasks": [
+            "Stop Manual",
+            "Stop Vocal",
+            "Stop Word"
+        ],
+        "modalities": [
+            "MRI"
+        ],
+        "secondaryModalities": [
+            "MRI_Functional",
+            "MRI_Structural"
+        ],
+        "totalFiles": 441,
+        "size": 3499985912,
+        "dataProcessed": false,
+        "pet": {},
+        "dataTypes": [
+            "func",
+            "anat"
+        ],
+        "schemaVersion": "0.7.3-dev"
+    }
+}

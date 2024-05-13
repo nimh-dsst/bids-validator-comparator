@@ -1,0 +1,141 @@
+{
+    "issues": [
+        {
+            "key": "TOO_FEW_AUTHORS",
+            "severity": "warning",
+            "reason": "The 'Authors' field of 'dataset_description.json' should contain an array of values -\nwith one author per value.\nThis was triggered based on the presence of only one author field.\nPlease ignore if all contributors are already properly listed.\n",
+            "files": [
+                {
+                    "name": "dataset_description.json",
+                    "path": "/dataset_description.json",
+                    "evidence": "schema.rules.checks.hints.TooFewAuthors"
+                }
+            ]
+        },
+        {
+            "key": "EVENTS_TSV_MISSING",
+            "severity": "warning",
+            "reason": "Task scans should have a corresponding 'events.tsv' file.\nIf this is a resting state scan you can ignore this warning or rename the task to include the word \"rest\".\n",
+            "files": [
+                {
+                    "name": "task-livingnonlivingdecisionwithplainormirrorreversedtext_bold.json",
+                    "path": "/task-livingnonlivingdecisionwithplainormirrorreversedtext_bold.json",
+                    "evidence": "schema.rules.checks.events.EventsMissing"
+                }
+            ]
+        }
+    ],
+    "summary": {
+        "sessions": [
+            "retest",
+            "test"
+        ],
+        "subjects": [
+            "01",
+            "11",
+            "06",
+            "05",
+            "10",
+            "09",
+            "13",
+            "03",
+            "12",
+            "07",
+            "02",
+            "04",
+            "08",
+            "14"
+        ],
+        "subjectMetadata": [
+            {
+                "participantId": "01",
+                "age": 21,
+                "sex": "F"
+            },
+            {
+                "participantId": "02",
+                "age": 23,
+                "sex": "F"
+            },
+            {
+                "participantId": "03",
+                "age": 19,
+                "sex": "M"
+            },
+            {
+                "participantId": "04",
+                "age": 21,
+                "sex": "M"
+            },
+            {
+                "participantId": "05",
+                "age": 23,
+                "sex": "F"
+            },
+            {
+                "participantId": "06",
+                "age": 21,
+                "sex": "F"
+            },
+            {
+                "participantId": "07",
+                "age": 35,
+                "sex": "F"
+            },
+            {
+                "participantId": "08",
+                "age": 19,
+                "sex": "F"
+            },
+            {
+                "participantId": "09",
+                "age": 22,
+                "sex": "F"
+            },
+            {
+                "participantId": "10",
+                "age": 23,
+                "sex": "M"
+            },
+            {
+                "participantId": "11",
+                "age": 22,
+                "sex": "M"
+            },
+            {
+                "participantId": "12",
+                "age": 26,
+                "sex": "F"
+            },
+            {
+                "participantId": "13",
+                "age": 20,
+                "sex": "M"
+            },
+            {
+                "participantId": "14",
+                "age": 24,
+                "sex": "F"
+            }
+        ],
+        "tasks": [
+            "living-nonliving decision with plain or mirror-reversed text"
+        ],
+        "modalities": [
+            "MRI"
+        ],
+        "secondaryModalities": [
+            "MRI_Functional",
+            "MRI_Structural"
+        ],
+        "totalFiles": 387,
+        "size": 4772279451,
+        "dataProcessed": false,
+        "pet": {},
+        "dataTypes": [
+            "func",
+            "anat"
+        ],
+        "schemaVersion": "0.7.3-dev"
+    }
+}

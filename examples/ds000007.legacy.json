@@ -1,0 +1,1210 @@
+{
+    "issues": {
+        "errors": [
+            {
+                "key": "JSON_SCHEMA_VALIDATION_ERROR",
+                "severity": "error",
+                "reason": "Invalid JSON file. The file is not formatted according the schema.",
+                "files": [
+                    {
+                        "key": "JSON_SCHEMA_VALIDATION_ERROR",
+                        "code": 55,
+                        "file": {
+                            "name": "dataset_description.json",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000007/dataset_description.json",
+                            "relativePath": "/dataset_description.json",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650502373,
+                                "size": 794,
+                                "blocks": 8,
+                                "atimeMs": 1710529744582.6838,
+                                "mtimeMs": 1709314363521.1523,
+                                "ctimeMs": 1709322765822.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:04.583Z",
+                                "mtime": "2024-03-01T17:32:43.521Z",
+                                "ctime": "2024-03-01T19:52:45.823Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": ".Funding should be array",
+                        "line": null,
+                        "character": null,
+                        "severity": "error",
+                        "reason": "Invalid JSON file. The file is not formatted according the schema.",
+                        "helpUrl": "https://neurostars.org/search?q=JSON_SCHEMA_VALIDATION_ERROR"
+                    }
+                ],
+                "additionalFileCount": 0,
+                "helpUrl": "https://neurostars.org/search?q=JSON_SCHEMA_VALIDATION_ERROR",
+                "code": 55
+            }
+        ],
+        "warnings": [
+            {
+                "key": "INCONSISTENT_SUBJECTS",
+                "severity": "warning",
+                "reason": "Not all subjects contain the same files. Each subject should contain the same number of files with the same naming unless some files are known to be missing.",
+                "files": [
+                    {
+                        "key": "INCONSISTENT_SUBJECTS",
+                        "code": 38,
+                        "file": {
+                            "relativePath": "/sub-09/func/sub-09_task-stopvocal_run-1_bold.json",
+                            "webkitRelativePath": "/sub-09/func/sub-09_task-stopvocal_run-1_bold.json",
+                            "name": "sub-09_task-stopvocal_run-1_bold.json",
+                            "path": "/sub-09/func/sub-09_task-stopvocal_run-1_bold.json"
+                        },
+                        "evidence": "Subject: sub-09; Missing file: sub-09_task-stopvocal_run-1_bold.json",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "This file is missing for subject sub-09, but is present for at least one other subject.",
+                        "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_SUBJECTS"
+                    },
+                    {
+                        "key": "INCONSISTENT_SUBJECTS",
+                        "code": 38,
+                        "file": {
+                            "relativePath": "/sub-09/func/sub-09_task-stopvocal_run-1_bold.nii.gz",
+                            "webkitRelativePath": "/sub-09/func/sub-09_task-stopvocal_run-1_bold.nii.gz",
+                            "name": "sub-09_task-stopvocal_run-1_bold.nii.gz",
+                            "path": "/sub-09/func/sub-09_task-stopvocal_run-1_bold.nii.gz"
+                        },
+                        "evidence": "Subject: sub-09; Missing file: sub-09_task-stopvocal_run-1_bold.nii.gz",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "This file is missing for subject sub-09, but is present for at least one other subject.",
+                        "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_SUBJECTS"
+                    },
+                    {
+                        "key": "INCONSISTENT_SUBJECTS",
+                        "code": 38,
+                        "file": {
+                            "relativePath": "/sub-09/func/sub-09_task-stopvocal_run-1_events.tsv",
+                            "webkitRelativePath": "/sub-09/func/sub-09_task-stopvocal_run-1_events.tsv",
+                            "name": "sub-09_task-stopvocal_run-1_events.tsv",
+                            "path": "/sub-09/func/sub-09_task-stopvocal_run-1_events.tsv"
+                        },
+                        "evidence": "Subject: sub-09; Missing file: sub-09_task-stopvocal_run-1_events.tsv",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "This file is missing for subject sub-09, but is present for at least one other subject.",
+                        "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_SUBJECTS"
+                    },
+                    {
+                        "key": "INCONSISTENT_SUBJECTS",
+                        "code": 38,
+                        "file": {
+                            "relativePath": "/sub-09/func/sub-09_task-stopvocal_run-2_bold.json",
+                            "webkitRelativePath": "/sub-09/func/sub-09_task-stopvocal_run-2_bold.json",
+                            "name": "sub-09_task-stopvocal_run-2_bold.json",
+                            "path": "/sub-09/func/sub-09_task-stopvocal_run-2_bold.json"
+                        },
+                        "evidence": "Subject: sub-09; Missing file: sub-09_task-stopvocal_run-2_bold.json",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "This file is missing for subject sub-09, but is present for at least one other subject.",
+                        "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_SUBJECTS"
+                    },
+                    {
+                        "key": "INCONSISTENT_SUBJECTS",
+                        "code": 38,
+                        "file": {
+                            "relativePath": "/sub-09/func/sub-09_task-stopvocal_run-2_bold.nii.gz",
+                            "webkitRelativePath": "/sub-09/func/sub-09_task-stopvocal_run-2_bold.nii.gz",
+                            "name": "sub-09_task-stopvocal_run-2_bold.nii.gz",
+                            "path": "/sub-09/func/sub-09_task-stopvocal_run-2_bold.nii.gz"
+                        },
+                        "evidence": "Subject: sub-09; Missing file: sub-09_task-stopvocal_run-2_bold.nii.gz",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "This file is missing for subject sub-09, but is present for at least one other subject.",
+                        "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_SUBJECTS"
+                    },
+                    {
+                        "key": "INCONSISTENT_SUBJECTS",
+                        "code": 38,
+                        "file": {
+                            "relativePath": "/sub-09/func/sub-09_task-stopvocal_run-2_events.tsv",
+                            "webkitRelativePath": "/sub-09/func/sub-09_task-stopvocal_run-2_events.tsv",
+                            "name": "sub-09_task-stopvocal_run-2_events.tsv",
+                            "path": "/sub-09/func/sub-09_task-stopvocal_run-2_events.tsv"
+                        },
+                        "evidence": "Subject: sub-09; Missing file: sub-09_task-stopvocal_run-2_events.tsv",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "This file is missing for subject sub-09, but is present for at least one other subject.",
+                        "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_SUBJECTS"
+                    },
+                    {
+                        "key": "INCONSISTENT_SUBJECTS",
+                        "code": 38,
+                        "file": {
+                            "relativePath": "/sub-12/func/sub-12_task-stopmanual_run-1_bold.json",
+                            "webkitRelativePath": "/sub-12/func/sub-12_task-stopmanual_run-1_bold.json",
+                            "name": "sub-12_task-stopmanual_run-1_bold.json",
+                            "path": "/sub-12/func/sub-12_task-stopmanual_run-1_bold.json"
+                        },
+                        "evidence": "Subject: sub-12; Missing file: sub-12_task-stopmanual_run-1_bold.json",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "This file is missing for subject sub-12, but is present for at least one other subject.",
+                        "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_SUBJECTS"
+                    }
+                ],
+                "additionalFileCount": 0,
+                "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_SUBJECTS",
+                "code": 38
+            },
+            {
+                "key": "INCONSISTENT_PARAMETERS",
+                "severity": "warning",
+                "reason": "Not all subjects/sessions/runs have the same scanning parameters.",
+                "files": [
+                    {
+                        "key": "INCONSISTENT_PARAMETERS",
+                        "code": 39,
+                        "file": {
+                            "name": "sub-10_task-stopmanual_run-1_bold.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000007/sub-10/func/sub-10_task-stopmanual_run-1_bold.nii.gz",
+                            "relativePath": "/sub-10/func/sub-10_task-stopmanual_run-1_bold.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650521064,
+                                "size": 28578595,
+                                "blocks": 55824,
+                                "atimeMs": 1710645057694.168,
+                                "mtimeMs": 1710645058898.1626,
+                                "ctimeMs": 1710645058910.1624,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-17T03:10:57.694Z",
+                                "mtime": "2024-03-17T03:10:58.898Z",
+                                "ctime": "2024-03-17T03:10:58.910Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": " The most common set of dimensions is: 64,64,33,182 (voxels), This file has the dimensions: 64,64,33,183 (voxels).",
+                        "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_PARAMETERS"
+                    },
+                    {
+                        "key": "INCONSISTENT_PARAMETERS",
+                        "code": 39,
+                        "file": {
+                            "name": "sub-10_task-stopmanual_run-2_bold.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000007/sub-10/func/sub-10_task-stopmanual_run-2_bold.nii.gz",
+                            "relativePath": "/sub-10/func/sub-10_task-stopmanual_run-2_bold.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650521069,
+                                "size": 28625034,
+                                "blocks": 55912,
+                                "atimeMs": 1710645059106.1616,
+                                "mtimeMs": 1710645060210.1565,
+                                "ctimeMs": 1710645060226.1565,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-17T03:10:59.106Z",
+                                "mtime": "2024-03-17T03:11:00.210Z",
+                                "ctime": "2024-03-17T03:11:00.226Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": " The most common set of dimensions is: 64,64,33,182 (voxels), This file has the dimensions: 64,64,33,183 (voxels).",
+                        "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_PARAMETERS"
+                    },
+                    {
+                        "key": "INCONSISTENT_PARAMETERS",
+                        "code": 39,
+                        "file": {
+                            "name": "sub-10_task-stopvocal_run-1_bold.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000007/sub-10/func/sub-10_task-stopvocal_run-1_bold.nii.gz",
+                            "relativePath": "/sub-10/func/sub-10_task-stopvocal_run-1_bold.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650521071,
+                                "size": 28465058,
+                                "blocks": 55600,
+                                "atimeMs": 1710645060414.1558,
+                                "mtimeMs": 1710645061454.151,
+                                "ctimeMs": 1710645061470.151,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-17T03:11:00.414Z",
+                                "mtime": "2024-03-17T03:11:01.454Z",
+                                "ctime": "2024-03-17T03:11:01.470Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": " The most common set of dimensions is: 64,64,33,182 (voxels), This file has the dimensions: 64,64,33,183 (voxels).",
+                        "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_PARAMETERS"
+                    },
+                    {
+                        "key": "INCONSISTENT_PARAMETERS",
+                        "code": 39,
+                        "file": {
+                            "name": "sub-10_task-stopvocal_run-2_bold.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000007/sub-10/func/sub-10_task-stopvocal_run-2_bold.nii.gz",
+                            "relativePath": "/sub-10/func/sub-10_task-stopvocal_run-2_bold.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650521073,
+                                "size": 28457090,
+                                "blocks": 55584,
+                                "atimeMs": 1710645061678.15,
+                                "mtimeMs": 1710645062726.1453,
+                                "ctimeMs": 1710645062754.145,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-17T03:11:01.678Z",
+                                "mtime": "2024-03-17T03:11:02.726Z",
+                                "ctime": "2024-03-17T03:11:02.754Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": " The most common set of dimensions is: 64,64,33,182 (voxels), This file has the dimensions: 64,64,33,183 (voxels).",
+                        "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_PARAMETERS"
+                    },
+                    {
+                        "key": "INCONSISTENT_PARAMETERS",
+                        "code": 39,
+                        "file": {
+                            "name": "sub-10_task-stopword_run-1_bold.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000007/sub-10/func/sub-10_task-stopword_run-1_bold.nii.gz",
+                            "relativePath": "/sub-10/func/sub-10_task-stopword_run-1_bold.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650521075,
+                                "size": 28479053,
+                                "blocks": 55624,
+                                "atimeMs": 1710645062918.1443,
+                                "mtimeMs": 1710645063970.1396,
+                                "ctimeMs": 1710645063982.1396,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-17T03:11:02.918Z",
+                                "mtime": "2024-03-17T03:11:03.970Z",
+                                "ctime": "2024-03-17T03:11:03.982Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": " The most common set of dimensions is: 64,64,33,182 (voxels), This file has the dimensions: 64,64,33,183 (voxels).",
+                        "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_PARAMETERS"
+                    },
+                    {
+                        "key": "INCONSISTENT_PARAMETERS",
+                        "code": 39,
+                        "file": {
+                            "name": "sub-10_task-stopword_run-2_bold.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000007/sub-10/func/sub-10_task-stopword_run-2_bold.nii.gz",
+                            "relativePath": "/sub-10/func/sub-10_task-stopword_run-2_bold.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650521077,
+                                "size": 28548113,
+                                "blocks": 55760,
+                                "atimeMs": 1710645064146.1387,
+                                "mtimeMs": 1710645065230.1338,
+                                "ctimeMs": 1710645065246.1338,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-17T03:11:04.146Z",
+                                "mtime": "2024-03-17T03:11:05.230Z",
+                                "ctime": "2024-03-17T03:11:05.246Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": " The most common set of dimensions is: 64,64,33,182 (voxels), This file has the dimensions: 64,64,33,183 (voxels).",
+                        "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_PARAMETERS"
+                    },
+                    {
+                        "key": "INCONSISTENT_PARAMETERS",
+                        "code": 39,
+                        "file": {
+                            "name": "sub-11_task-stopvocal_run-1_bold.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000007/sub-11/func/sub-11_task-stopvocal_run-1_bold.nii.gz",
+                            "relativePath": "/sub-11/func/sub-11_task-stopvocal_run-1_bold.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650521072,
+                                "size": 27970781,
+                                "blocks": 54632,
+                                "atimeMs": 1710645070238.1113,
+                                "mtimeMs": 1710645071278.1067,
+                                "ctimeMs": 1710645071290.1064,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-17T03:11:10.238Z",
+                                "mtime": "2024-03-17T03:11:11.278Z",
+                                "ctime": "2024-03-17T03:11:11.290Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": " The most common set of dimensions is: 64,64,33,182 (voxels), This file has the dimensions: 64,64,33,183 (voxels).",
+                        "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_PARAMETERS"
+                    },
+                    {
+                        "key": "INCONSISTENT_PARAMETERS",
+                        "code": 39,
+                        "file": {
+                            "name": "sub-11_task-stopvocal_run-2_bold.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000007/sub-11/func/sub-11_task-stopvocal_run-2_bold.nii.gz",
+                            "relativePath": "/sub-11/func/sub-11_task-stopvocal_run-2_bold.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650521074,
+                                "size": 27980163,
+                                "blocks": 54656,
+                                "atimeMs": 1710645071458.1057,
+                                "mtimeMs": 1710645072494.101,
+                                "ctimeMs": 1710645072506.101,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-17T03:11:11.458Z",
+                                "mtime": "2024-03-17T03:11:12.494Z",
+                                "ctime": "2024-03-17T03:11:12.506Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": " The most common set of dimensions is: 64,64,33,182 (voxels), This file has the dimensions: 64,64,33,183 (voxels).",
+                        "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_PARAMETERS"
+                    },
+                    {
+                        "key": "INCONSISTENT_PARAMETERS",
+                        "code": 39,
+                        "file": {
+                            "name": "sub-12_task-stopmanual_run-1_bold.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000007/sub-12/func/sub-12_task-stopmanual_run-1_bold.nii.gz",
+                            "relativePath": "/sub-12/func/sub-12_task-stopmanual_run-1_bold.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650521088,
+                                "size": 28907571,
+                                "blocks": 56464,
+                                "atimeMs": 1710645077106.0803,
+                                "mtimeMs": 1710645078174.0754,
+                                "ctimeMs": 1710645078190.0754,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-17T03:11:17.106Z",
+                                "mtime": "2024-03-17T03:11:18.174Z",
+                                "ctime": "2024-03-17T03:11:18.190Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": " The most common set of dimensions is: 64,64,33,182 (voxels), This file has the dimensions: 64,64,33,183 (voxels).",
+                        "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_PARAMETERS"
+                    },
+                    {
+                        "key": "INCONSISTENT_PARAMETERS",
+                        "code": 39,
+                        "file": {
+                            "name": "sub-12_task-stopmanual_run-2_bold.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000007/sub-12/func/sub-12_task-stopmanual_run-2_bold.nii.gz",
+                            "relativePath": "/sub-12/func/sub-12_task-stopmanual_run-2_bold.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650521090,
+                                "size": 28902764,
+                                "blocks": 56456,
+                                "atimeMs": 1710645078370.0745,
+                                "mtimeMs": 1710645079462.0696,
+                                "ctimeMs": 1710645079474.0696,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-17T03:11:18.370Z",
+                                "mtime": "2024-03-17T03:11:19.462Z",
+                                "ctime": "2024-03-17T03:11:19.474Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": " The most common set of dimensions is: 64,64,33,182 (voxels), This file has the dimensions: 64,64,33,183 (voxels).",
+                        "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_PARAMETERS"
+                    }
+                ],
+                "additionalFileCount": 6,
+                "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_PARAMETERS",
+                "code": 39
+            },
+            {
+                "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                "severity": "warning",
+                "reason": "Tabular file contains custom columns not described in a data dictionary",
+                "files": [
+                    {
+                        "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                        "code": 82,
+                        "file": {
+                            "name": "participants.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000007/participants.tsv",
+                            "relativePath": "/participants.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650502375,
+                                "size": 266,
+                                "blocks": 8,
+                                "atimeMs": 1710529744602.6838,
+                                "mtimeMs": 1709314363521.1523,
+                                "ctimeMs": 1709322765822.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:04.603Z",
+                                "mtime": "2024-03-01T17:32:43.521Z",
+                                "ctime": "2024-03-01T19:52:45.823Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Columns: gender, age not defined, please define in: /participants.json",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Tabular file contains custom columns not described in a data dictionary",
+                        "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION"
+                    },
+                    {
+                        "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                        "code": 82,
+                        "file": {
+                            "name": "sub-01_task-stopmanual_run-1_events.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000007/sub-01/func/sub-01_task-stopmanual_run-1_events.tsv",
+                            "relativePath": "/sub-01/func/sub-01_task-stopmanual_run-1_events.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650502506,
+                                "size": 7052,
+                                "blocks": 16,
+                                "atimeMs": 1710529744626.6838,
+                                "mtimeMs": 1709314363521.1523,
+                                "ctimeMs": 1709322765826.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:04.627Z",
+                                "mtime": "2024-03-01T17:32:43.521Z",
+                                "ctime": "2024-03-01T19:52:45.827Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Columns: TrialType, model, cond, Stimulus, SSD, Response, ReactionTime, CorrectGo, SuccStop not defined, please define in: /events.json, /task-stopmanual_events.json,/run-1_events.json,/task-stopmanual_run-1_events.json,/sub-01/sub-01_events.json,/sub-01/sub-01_task-stopmanual_events.json,/sub-01/sub-01_run-1_events.json,/sub-01/sub-01_task-stopmanual_run-1_events.json,/sub-01/func/sub-01_events.json,/sub-01/func/sub-01_task-stopmanual_events.json,/sub-01/func/sub-01_run-1_events.json,/sub-01/func/sub-01_task-stopmanual_run-1_events.json",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Tabular file contains custom columns not described in a data dictionary",
+                        "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION"
+                    },
+                    {
+                        "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                        "code": 82,
+                        "file": {
+                            "name": "sub-01_task-stopmanual_run-2_events.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000007/sub-01/func/sub-01_task-stopmanual_run-2_events.tsv",
+                            "relativePath": "/sub-01/func/sub-01_task-stopmanual_run-2_events.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650502509,
+                                "size": 7103,
+                                "blocks": 16,
+                                "atimeMs": 1710529744638.6836,
+                                "mtimeMs": 1709314363521.1523,
+                                "ctimeMs": 1709322765826.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:04.639Z",
+                                "mtime": "2024-03-01T17:32:43.521Z",
+                                "ctime": "2024-03-01T19:52:45.827Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Columns: TrialType, model, cond, Stimulus, SSD, Response, ReactionTime, CorrectGo, SuccStop not defined, please define in: /events.json, /task-stopmanual_events.json,/run-2_events.json,/task-stopmanual_run-2_events.json,/sub-01/sub-01_events.json,/sub-01/sub-01_task-stopmanual_events.json,/sub-01/sub-01_run-2_events.json,/sub-01/sub-01_task-stopmanual_run-2_events.json,/sub-01/func/sub-01_events.json,/sub-01/func/sub-01_task-stopmanual_events.json,/sub-01/func/sub-01_run-2_events.json,/sub-01/func/sub-01_task-stopmanual_run-2_events.json",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Tabular file contains custom columns not described in a data dictionary",
+                        "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION"
+                    },
+                    {
+                        "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                        "code": 82,
+                        "file": {
+                            "name": "sub-01_task-stopvocal_run-1_events.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000007/sub-01/func/sub-01_task-stopvocal_run-1_events.tsv",
+                            "relativePath": "/sub-01/func/sub-01_task-stopvocal_run-1_events.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650502512,
+                                "size": 5280,
+                                "blocks": 16,
+                                "atimeMs": 1710529744650.6836,
+                                "mtimeMs": 1709314363521.1523,
+                                "ctimeMs": 1709322765826.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:04.651Z",
+                                "mtime": "2024-03-01T17:32:43.521Z",
+                                "ctime": "2024-03-01T19:52:45.827Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Columns: TrialType, model, cond, SSD not defined, please define in: /events.json, /task-stopvocal_events.json,/run-1_events.json,/task-stopvocal_run-1_events.json,/sub-01/sub-01_events.json,/sub-01/sub-01_task-stopvocal_events.json,/sub-01/sub-01_run-1_events.json,/sub-01/sub-01_task-stopvocal_run-1_events.json,/sub-01/func/sub-01_events.json,/sub-01/func/sub-01_task-stopvocal_events.json,/sub-01/func/sub-01_run-1_events.json,/sub-01/func/sub-01_task-stopvocal_run-1_events.json",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Tabular file contains custom columns not described in a data dictionary",
+                        "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION"
+                    },
+                    {
+                        "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                        "code": 82,
+                        "file": {
+                            "name": "sub-01_task-stopvocal_run-2_events.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000007/sub-01/func/sub-01_task-stopvocal_run-2_events.tsv",
+                            "relativePath": "/sub-01/func/sub-01_task-stopvocal_run-2_events.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650502515,
+                                "size": 5166,
+                                "blocks": 16,
+                                "atimeMs": 1710529744662.6836,
+                                "mtimeMs": 1709314363525.1523,
+                                "ctimeMs": 1709322765826.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:04.663Z",
+                                "mtime": "2024-03-01T17:32:43.525Z",
+                                "ctime": "2024-03-01T19:52:45.827Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Columns: TrialType, model, cond, SSD not defined, please define in: /events.json, /task-stopvocal_events.json,/run-2_events.json,/task-stopvocal_run-2_events.json,/sub-01/sub-01_events.json,/sub-01/sub-01_task-stopvocal_events.json,/sub-01/sub-01_run-2_events.json,/sub-01/sub-01_task-stopvocal_run-2_events.json,/sub-01/func/sub-01_events.json,/sub-01/func/sub-01_task-stopvocal_events.json,/sub-01/func/sub-01_run-2_events.json,/sub-01/func/sub-01_task-stopvocal_run-2_events.json",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Tabular file contains custom columns not described in a data dictionary",
+                        "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION"
+                    },
+                    {
+                        "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                        "code": 82,
+                        "file": {
+                            "name": "sub-01_task-stopword_run-1_events.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000007/sub-01/func/sub-01_task-stopword_run-1_events.tsv",
+                            "relativePath": "/sub-01/func/sub-01_task-stopword_run-1_events.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650502518,
+                                "size": 5153,
+                                "blocks": 16,
+                                "atimeMs": 1710529744678.6836,
+                                "mtimeMs": 1709314363525.1523,
+                                "ctimeMs": 1709322765826.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:04.679Z",
+                                "mtime": "2024-03-01T17:32:43.525Z",
+                                "ctime": "2024-03-01T19:52:45.827Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Columns: TrialType, model, cond, SSD not defined, please define in: /events.json, /task-stopword_events.json,/run-1_events.json,/task-stopword_run-1_events.json,/sub-01/sub-01_events.json,/sub-01/sub-01_task-stopword_events.json,/sub-01/sub-01_run-1_events.json,/sub-01/sub-01_task-stopword_run-1_events.json,/sub-01/func/sub-01_events.json,/sub-01/func/sub-01_task-stopword_events.json,/sub-01/func/sub-01_run-1_events.json,/sub-01/func/sub-01_task-stopword_run-1_events.json",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Tabular file contains custom columns not described in a data dictionary",
+                        "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION"
+                    },
+                    {
+                        "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                        "code": 82,
+                        "file": {
+                            "name": "sub-01_task-stopword_run-2_events.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000007/sub-01/func/sub-01_task-stopword_run-2_events.tsv",
+                            "relativePath": "/sub-01/func/sub-01_task-stopword_run-2_events.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650502521,
+                                "size": 5126,
+                                "blocks": 16,
+                                "atimeMs": 1710529744690.6833,
+                                "mtimeMs": 1709314363525.1523,
+                                "ctimeMs": 1709322765826.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:04.691Z",
+                                "mtime": "2024-03-01T17:32:43.525Z",
+                                "ctime": "2024-03-01T19:52:45.827Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Columns: TrialType, model, cond, SSD not defined, please define in: /events.json, /task-stopword_events.json,/run-2_events.json,/task-stopword_run-2_events.json,/sub-01/sub-01_events.json,/sub-01/sub-01_task-stopword_events.json,/sub-01/sub-01_run-2_events.json,/sub-01/sub-01_task-stopword_run-2_events.json,/sub-01/func/sub-01_events.json,/sub-01/func/sub-01_task-stopword_events.json,/sub-01/func/sub-01_run-2_events.json,/sub-01/func/sub-01_task-stopword_run-2_events.json",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Tabular file contains custom columns not described in a data dictionary",
+                        "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION"
+                    },
+                    {
+                        "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                        "code": 82,
+                        "file": {
+                            "name": "sub-02_task-stopmanual_run-1_events.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000007/sub-02/func/sub-02_task-stopmanual_run-1_events.tsv",
+                            "relativePath": "/sub-02/func/sub-02_task-stopmanual_run-1_events.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650502531,
+                                "size": 7097,
+                                "blocks": 16,
+                                "atimeMs": 1710529744718.6833,
+                                "mtimeMs": 1709314363525.1523,
+                                "ctimeMs": 1709322765826.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:04.719Z",
+                                "mtime": "2024-03-01T17:32:43.525Z",
+                                "ctime": "2024-03-01T19:52:45.827Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Columns: TrialType, model, cond, Stimulus, SSD, Response, ReactionTime, CorrectGo, SuccStop not defined, please define in: /events.json, /task-stopmanual_events.json,/run-1_events.json,/task-stopmanual_run-1_events.json,/sub-02/sub-02_events.json,/sub-02/sub-02_task-stopmanual_events.json,/sub-02/sub-02_run-1_events.json,/sub-02/sub-02_task-stopmanual_run-1_events.json,/sub-02/func/sub-02_events.json,/sub-02/func/sub-02_task-stopmanual_events.json,/sub-02/func/sub-02_run-1_events.json,/sub-02/func/sub-02_task-stopmanual_run-1_events.json",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Tabular file contains custom columns not described in a data dictionary",
+                        "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION"
+                    },
+                    {
+                        "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                        "code": 82,
+                        "file": {
+                            "name": "sub-02_task-stopmanual_run-2_events.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000007/sub-02/func/sub-02_task-stopmanual_run-2_events.tsv",
+                            "relativePath": "/sub-02/func/sub-02_task-stopmanual_run-2_events.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650502534,
+                                "size": 7100,
+                                "blocks": 16,
+                                "atimeMs": 1710529744730.6833,
+                                "mtimeMs": 1709314363525.1523,
+                                "ctimeMs": 1709322765826.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:04.731Z",
+                                "mtime": "2024-03-01T17:32:43.525Z",
+                                "ctime": "2024-03-01T19:52:45.827Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Columns: TrialType, model, cond, Stimulus, SSD, Response, ReactionTime, CorrectGo, SuccStop not defined, please define in: /events.json, /task-stopmanual_events.json,/run-2_events.json,/task-stopmanual_run-2_events.json,/sub-02/sub-02_events.json,/sub-02/sub-02_task-stopmanual_events.json,/sub-02/sub-02_run-2_events.json,/sub-02/sub-02_task-stopmanual_run-2_events.json,/sub-02/func/sub-02_events.json,/sub-02/func/sub-02_task-stopmanual_events.json,/sub-02/func/sub-02_run-2_events.json,/sub-02/func/sub-02_task-stopmanual_run-2_events.json",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Tabular file contains custom columns not described in a data dictionary",
+                        "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION"
+                    },
+                    {
+                        "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                        "code": 82,
+                        "file": {
+                            "name": "sub-02_task-stopvocal_run-1_events.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000007/sub-02/func/sub-02_task-stopvocal_run-1_events.tsv",
+                            "relativePath": "/sub-02/func/sub-02_task-stopvocal_run-1_events.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650502537,
+                                "size": 5174,
+                                "blocks": 16,
+                                "atimeMs": 1710529744742.683,
+                                "mtimeMs": 1709314363525.1523,
+                                "ctimeMs": 1709322765826.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:04.743Z",
+                                "mtime": "2024-03-01T17:32:43.525Z",
+                                "ctime": "2024-03-01T19:52:45.827Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Columns: TrialType, model, cond, SSD not defined, please define in: /events.json, /task-stopvocal_events.json,/run-1_events.json,/task-stopvocal_run-1_events.json,/sub-02/sub-02_events.json,/sub-02/sub-02_task-stopvocal_events.json,/sub-02/sub-02_run-1_events.json,/sub-02/sub-02_task-stopvocal_run-1_events.json,/sub-02/func/sub-02_events.json,/sub-02/func/sub-02_task-stopvocal_events.json,/sub-02/func/sub-02_run-1_events.json,/sub-02/func/sub-02_task-stopvocal_run-1_events.json",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Tabular file contains custom columns not described in a data dictionary",
+                        "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION"
+                    }
+                ],
+                "additionalFileCount": 109,
+                "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                "code": 82
+            },
+            {
+                "key": "SUSPICIOUSLY_LONG_EVENT_DESIGN",
+                "severity": "warning",
+                "reason": "The onset of the last event is after the total duration of the corresponding scan. This design is suspiciously long. ",
+                "files": [
+                    {
+                        "key": "SUSPICIOUSLY_LONG_EVENT_DESIGN",
+                        "code": 85,
+                        "file": {
+                            "name": "sub-09_task-stopmanual_run-2_events.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000007/sub-09/func/sub-09_task-stopmanual_run-2_events.tsv",
+                            "relativePath": "/sub-09/func/sub-09_task-stopmanual_run-2_events.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650520608,
+                                "size": 7002,
+                                "blocks": 16,
+                                "atimeMs": 1710529745338.6807,
+                                "mtimeMs": 1709314363529.1523,
+                                "ctimeMs": 1709322765830.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:05.339Z",
+                                "mtime": "2024-03-01T17:32:43.529Z",
+                                "ctime": "2024-03-01T19:52:45.831Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "The onset of the last event is after the total duration of the corresponding scan. This design is suspiciously long. ",
+                        "helpUrl": "https://neurostars.org/search?q=SUSPICIOUSLY_LONG_EVENT_DESIGN"
+                    },
+                    {
+                        "key": "SUSPICIOUSLY_LONG_EVENT_DESIGN",
+                        "code": 85,
+                        "file": {
+                            "name": "sub-09_task-stopword_run-1_events.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000007/sub-09/func/sub-09_task-stopword_run-1_events.tsv",
+                            "relativePath": "/sub-09/func/sub-09_task-stopword_run-1_events.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650520611,
+                                "size": 5211,
+                                "blocks": 16,
+                                "atimeMs": 1710529745350.6807,
+                                "mtimeMs": 1709314363529.1523,
+                                "ctimeMs": 1709322765830.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:05.351Z",
+                                "mtime": "2024-03-01T17:32:43.529Z",
+                                "ctime": "2024-03-01T19:52:45.831Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "The onset of the last event is after the total duration of the corresponding scan. This design is suspiciously long. ",
+                        "helpUrl": "https://neurostars.org/search?q=SUSPICIOUSLY_LONG_EVENT_DESIGN"
+                    },
+                    {
+                        "key": "SUSPICIOUSLY_LONG_EVENT_DESIGN",
+                        "code": 85,
+                        "file": {
+                            "name": "sub-09_task-stopword_run-2_events.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000007/sub-09/func/sub-09_task-stopword_run-2_events.tsv",
+                            "relativePath": "/sub-09/func/sub-09_task-stopword_run-2_events.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650520614,
+                                "size": 5183,
+                                "blocks": 16,
+                                "atimeMs": 1710529745362.6804,
+                                "mtimeMs": 1709314363529.1523,
+                                "ctimeMs": 1709322765830.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:05.363Z",
+                                "mtime": "2024-03-01T17:32:43.529Z",
+                                "ctime": "2024-03-01T19:52:45.831Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "The onset of the last event is after the total duration of the corresponding scan. This design is suspiciously long. ",
+                        "helpUrl": "https://neurostars.org/search?q=SUSPICIOUSLY_LONG_EVENT_DESIGN"
+                    },
+                    {
+                        "key": "SUSPICIOUSLY_LONG_EVENT_DESIGN",
+                        "code": 85,
+                        "file": {
+                            "name": "sub-13_task-stopword_run-2_events.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000007/sub-13/func/sub-13_task-stopword_run-2_events.tsv",
+                            "relativePath": "/sub-13/func/sub-13_task-stopword_run-2_events.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650520713,
+                                "size": 5185,
+                                "blocks": 16,
+                                "atimeMs": 1710529745734.679,
+                                "mtimeMs": 1709314363533.1523,
+                                "ctimeMs": 1709322765834.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:05.735Z",
+                                "mtime": "2024-03-01T17:32:43.533Z",
+                                "ctime": "2024-03-01T19:52:45.835Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "The onset of the last event is after the total duration of the corresponding scan. This design is suspiciously long. ",
+                        "helpUrl": "https://neurostars.org/search?q=SUSPICIOUSLY_LONG_EVENT_DESIGN"
+                    },
+                    {
+                        "key": "SUSPICIOUSLY_LONG_EVENT_DESIGN",
+                        "code": 85,
+                        "file": {
+                            "name": "sub-18_task-stopvocal_run-1_events.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000007/sub-18/func/sub-18_task-stopvocal_run-1_events.tsv",
+                            "relativePath": "/sub-18/func/sub-18_task-stopvocal_run-1_events.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650520829,
+                                "size": 5194,
+                                "blocks": 16,
+                                "atimeMs": 1710529746162.677,
+                                "mtimeMs": 1709314363533.1523,
+                                "ctimeMs": 1709322765834.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:06.163Z",
+                                "mtime": "2024-03-01T17:32:43.533Z",
+                                "ctime": "2024-03-01T19:52:45.835Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "The onset of the last event is after the total duration of the corresponding scan. This design is suspiciously long. ",
+                        "helpUrl": "https://neurostars.org/search?q=SUSPICIOUSLY_LONG_EVENT_DESIGN"
+                    }
+                ],
+                "additionalFileCount": 0,
+                "helpUrl": "https://neurostars.org/search?q=SUSPICIOUSLY_LONG_EVENT_DESIGN",
+                "code": 85
+            }
+        ],
+        "ignored": []
+    },
+    "summary": {
+        "sessions": [],
+        "subjects": [
+            "01",
+            "02",
+            "03",
+            "04",
+            "05",
+            "06",
+            "07",
+            "08",
+            "09",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20"
+        ],
+        "subjectMetadata": [
+            {
+                "participantId": "01",
+                "age": 30
+            },
+            {
+                "participantId": "02",
+                "age": 34
+            },
+            {
+                "participantId": "03",
+                "age": 18
+            },
+            {
+                "participantId": "04",
+                "age": 22
+            },
+            {
+                "participantId": "05",
+                "age": 22
+            },
+            {
+                "participantId": "06",
+                "age": 19
+            },
+            {
+                "participantId": "07",
+                "age": 39
+            },
+            {
+                "participantId": "08",
+                "age": 19
+            },
+            {
+                "participantId": "09",
+                "age": 21
+            },
+            {
+                "participantId": "10",
+                "age": 20
+            },
+            {
+                "participantId": "11",
+                "age": 18
+            },
+            {
+                "participantId": "12",
+                "age": 22
+            },
+            {
+                "participantId": "13",
+                "age": 27
+            },
+            {
+                "participantId": "14",
+                "age": 22
+            },
+            {
+                "participantId": "15",
+                "age": 22
+            },
+            {
+                "participantId": "16",
+                "age": 27
+            },
+            {
+                "participantId": "17",
+                "age": 22
+            },
+            {
+                "participantId": "18",
+                "age": 32
+            },
+            {
+                "participantId": "19",
+                "age": 19
+            },
+            {
+                "participantId": "20",
+                "age": 20
+            }
+        ],
+        "tasks": [
+            "Stop Manual",
+            "Stop Vocal",
+            "Stop Word"
+        ],
+        "modalities": [
+            "MRI"
+        ],
+        "secondaryModalities": [
+            "MRI_Functional",
+            "MRI_Structural"
+        ],
+        "totalFiles": 442,
+        "size": 3499985912,
+        "dataProcessed": false,
+        "pet": null,
+        "dataTypes": [
+            "T1w",
+            "inplaneT2",
+            "bold",
+            "events"
+        ]
+    }
+}

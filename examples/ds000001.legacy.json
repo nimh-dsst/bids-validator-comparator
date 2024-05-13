@@ -1,0 +1,1361 @@
+{
+    "issues": {
+        "errors": [],
+        "warnings": [
+            {
+                "key": "SLICE_TIMING_NOT_DEFINED",
+                "severity": "warning",
+                "reason": "You should define 'SliceTiming' for this file. If you don't provide this information slice time correction will not be possible. 'Slice Timing' is the time at which each slice was acquired within each volume (frame) of the acquisition. Slice timing is not slice order -- rather, it is a list of times containing the time (in seconds) of each slice acquisition in relation to the beginning of volume acquisition.",
+                "files": [
+                    {
+                        "key": "SLICE_TIMING_NOT_DEFINED",
+                        "code": 13,
+                        "file": {
+                            "name": "sub-01_task-balloonanalogrisktask_run-01_bold.nii.gz",
+                            "path": "/mnt/nfs/home4T8/earlea/data/ds000001/sub-01/func/sub-01_task-balloonanalogrisktask_run-01_bold.nii.gz",
+                            "relativePath": "/sub-01/func/sub-01_task-balloonanalogrisktask_run-01_bold.nii.gz",
+                            "stats": {
+                                "dev": 63,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 42746970,
+                                "size": 47241449,
+                                "blocks": 92280,
+                                "atimeMs": 1710276493323.3525,
+                                "mtimeMs": 1710276496087.3428,
+                                "ctimeMs": 1710276496111.3428,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-12T20:48:13.323Z",
+                                "mtime": "2024-03-12T20:48:16.087Z",
+                                "ctime": "2024-03-12T20:48:16.111Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "You should define 'SliceTiming' for this file. If you don't provide this information slice time correction will not be possible. It can be included one of the following locations: /task-balloonanalogrisktask_bold.json, /task-balloonanalogrisktask_run-01_bold.json, /sub-01/sub-01_task-balloonanalogrisktask_bold.json, /sub-01/sub-01_task-balloonanalogrisktask_run-01_bold.json, /sub-01/func/sub-01_task-balloonanalogrisktask_bold.json, /sub-01/func/sub-01_task-balloonanalogrisktask_run-01_bold.json",
+                        "helpUrl": "https://neurostars.org/search?q=SLICE_TIMING_NOT_DEFINED"
+                    },
+                    {
+                        "key": "SLICE_TIMING_NOT_DEFINED",
+                        "code": 13,
+                        "file": {
+                            "name": "sub-01_task-balloonanalogrisktask_run-02_bold.nii.gz",
+                            "path": "/mnt/nfs/home4T8/earlea/data/ds000001/sub-01/func/sub-01_task-balloonanalogrisktask_run-02_bold.nii.gz",
+                            "relativePath": "/sub-01/func/sub-01_task-balloonanalogrisktask_run-02_bold.nii.gz",
+                            "stats": {
+                                "dev": 63,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 42746971,
+                                "size": 47282515,
+                                "blocks": 92360,
+                                "atimeMs": 1710276493339.3525,
+                                "mtimeMs": 1710276496215.3423,
+                                "ctimeMs": 1710276496223.3423,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-12T20:48:13.339Z",
+                                "mtime": "2024-03-12T20:48:16.215Z",
+                                "ctime": "2024-03-12T20:48:16.223Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "You should define 'SliceTiming' for this file. If you don't provide this information slice time correction will not be possible. It can be included one of the following locations: /task-balloonanalogrisktask_bold.json, /task-balloonanalogrisktask_run-02_bold.json, /sub-01/sub-01_task-balloonanalogrisktask_bold.json, /sub-01/sub-01_task-balloonanalogrisktask_run-02_bold.json, /sub-01/func/sub-01_task-balloonanalogrisktask_bold.json, /sub-01/func/sub-01_task-balloonanalogrisktask_run-02_bold.json",
+                        "helpUrl": "https://neurostars.org/search?q=SLICE_TIMING_NOT_DEFINED"
+                    },
+                    {
+                        "key": "SLICE_TIMING_NOT_DEFINED",
+                        "code": 13,
+                        "file": {
+                            "name": "sub-01_task-balloonanalogrisktask_run-03_bold.nii.gz",
+                            "path": "/mnt/nfs/home4T8/earlea/data/ds000001/sub-01/func/sub-01_task-balloonanalogrisktask_run-03_bold.nii.gz",
+                            "relativePath": "/sub-01/func/sub-01_task-balloonanalogrisktask_run-03_bold.nii.gz",
+                            "stats": {
+                                "dev": 63,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 42746972,
+                                "size": 47347339,
+                                "blocks": 92488,
+                                "atimeMs": 1710276493367.3525,
+                                "mtimeMs": 1710276496303.342,
+                                "ctimeMs": 1710276496315.342,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-12T20:48:13.367Z",
+                                "mtime": "2024-03-12T20:48:16.303Z",
+                                "ctime": "2024-03-12T20:48:16.315Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "You should define 'SliceTiming' for this file. If you don't provide this information slice time correction will not be possible. It can be included one of the following locations: /task-balloonanalogrisktask_bold.json, /task-balloonanalogrisktask_run-03_bold.json, /sub-01/sub-01_task-balloonanalogrisktask_bold.json, /sub-01/sub-01_task-balloonanalogrisktask_run-03_bold.json, /sub-01/func/sub-01_task-balloonanalogrisktask_bold.json, /sub-01/func/sub-01_task-balloonanalogrisktask_run-03_bold.json",
+                        "helpUrl": "https://neurostars.org/search?q=SLICE_TIMING_NOT_DEFINED"
+                    },
+                    {
+                        "key": "SLICE_TIMING_NOT_DEFINED",
+                        "code": 13,
+                        "file": {
+                            "name": "sub-02_task-balloonanalogrisktask_run-01_bold.nii.gz",
+                            "path": "/mnt/nfs/home4T8/earlea/data/ds000001/sub-02/func/sub-02_task-balloonanalogrisktask_run-01_bold.nii.gz",
+                            "relativePath": "/sub-02/func/sub-02_task-balloonanalogrisktask_run-01_bold.nii.gz",
+                            "stats": {
+                                "dev": 63,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 42746838,
+                                "size": 50786740,
+                                "blocks": 99208,
+                                "atimeMs": 1710276467147.4458,
+                                "mtimeMs": 1710276470231.4348,
+                                "ctimeMs": 1710276470247.4348,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-12T20:47:47.147Z",
+                                "mtime": "2024-03-12T20:47:50.231Z",
+                                "ctime": "2024-03-12T20:47:50.247Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "You should define 'SliceTiming' for this file. If you don't provide this information slice time correction will not be possible. It can be included one of the following locations: /task-balloonanalogrisktask_bold.json, /task-balloonanalogrisktask_run-01_bold.json, /sub-02/sub-02_task-balloonanalogrisktask_bold.json, /sub-02/sub-02_task-balloonanalogrisktask_run-01_bold.json, /sub-02/func/sub-02_task-balloonanalogrisktask_bold.json, /sub-02/func/sub-02_task-balloonanalogrisktask_run-01_bold.json",
+                        "helpUrl": "https://neurostars.org/search?q=SLICE_TIMING_NOT_DEFINED"
+                    },
+                    {
+                        "key": "SLICE_TIMING_NOT_DEFINED",
+                        "code": 13,
+                        "file": {
+                            "name": "sub-02_task-balloonanalogrisktask_run-02_bold.nii.gz",
+                            "path": "/mnt/nfs/home4T8/earlea/data/ds000001/sub-02/func/sub-02_task-balloonanalogrisktask_run-02_bold.nii.gz",
+                            "relativePath": "/sub-02/func/sub-02_task-balloonanalogrisktask_run-02_bold.nii.gz",
+                            "stats": {
+                                "dev": 63,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 42746840,
+                                "size": 50719855,
+                                "blocks": 99072,
+                                "atimeMs": 1710276467183.4456,
+                                "mtimeMs": 1710276470315.4346,
+                                "ctimeMs": 1710276470331.4346,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-12T20:47:47.183Z",
+                                "mtime": "2024-03-12T20:47:50.315Z",
+                                "ctime": "2024-03-12T20:47:50.331Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "You should define 'SliceTiming' for this file. If you don't provide this information slice time correction will not be possible. It can be included one of the following locations: /task-balloonanalogrisktask_bold.json, /task-balloonanalogrisktask_run-02_bold.json, /sub-02/sub-02_task-balloonanalogrisktask_bold.json, /sub-02/sub-02_task-balloonanalogrisktask_run-02_bold.json, /sub-02/func/sub-02_task-balloonanalogrisktask_bold.json, /sub-02/func/sub-02_task-balloonanalogrisktask_run-02_bold.json",
+                        "helpUrl": "https://neurostars.org/search?q=SLICE_TIMING_NOT_DEFINED"
+                    },
+                    {
+                        "key": "SLICE_TIMING_NOT_DEFINED",
+                        "code": 13,
+                        "file": {
+                            "name": "sub-02_task-balloonanalogrisktask_run-03_bold.nii.gz",
+                            "path": "/mnt/nfs/home4T8/earlea/data/ds000001/sub-02/func/sub-02_task-balloonanalogrisktask_run-03_bold.nii.gz",
+                            "relativePath": "/sub-02/func/sub-02_task-balloonanalogrisktask_run-03_bold.nii.gz",
+                            "stats": {
+                                "dev": 63,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 42746841,
+                                "size": 50733582,
+                                "blocks": 99104,
+                                "atimeMs": 1710276467243.4456,
+                                "mtimeMs": 1710276470399.4343,
+                                "ctimeMs": 1710276470411.434,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-12T20:47:47.243Z",
+                                "mtime": "2024-03-12T20:47:50.399Z",
+                                "ctime": "2024-03-12T20:47:50.411Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "You should define 'SliceTiming' for this file. If you don't provide this information slice time correction will not be possible. It can be included one of the following locations: /task-balloonanalogrisktask_bold.json, /task-balloonanalogrisktask_run-03_bold.json, /sub-02/sub-02_task-balloonanalogrisktask_bold.json, /sub-02/sub-02_task-balloonanalogrisktask_run-03_bold.json, /sub-02/func/sub-02_task-balloonanalogrisktask_bold.json, /sub-02/func/sub-02_task-balloonanalogrisktask_run-03_bold.json",
+                        "helpUrl": "https://neurostars.org/search?q=SLICE_TIMING_NOT_DEFINED"
+                    },
+                    {
+                        "key": "SLICE_TIMING_NOT_DEFINED",
+                        "code": 13,
+                        "file": {
+                            "name": "sub-03_task-balloonanalogrisktask_run-01_bold.nii.gz",
+                            "path": "/mnt/nfs/home4T8/earlea/data/ds000001/sub-03/func/sub-03_task-balloonanalogrisktask_run-01_bold.nii.gz",
+                            "relativePath": "/sub-03/func/sub-03_task-balloonanalogrisktask_run-01_bold.nii.gz",
+                            "stats": {
+                                "dev": 63,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 42747036,
+                                "size": 46171002,
+                                "blocks": 90192,
+                                "atimeMs": 1710276506503.3057,
+                                "mtimeMs": 1710276509411.2954,
+                                "ctimeMs": 1710276509419.2954,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-12T20:48:26.503Z",
+                                "mtime": "2024-03-12T20:48:29.411Z",
+                                "ctime": "2024-03-12T20:48:29.419Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "You should define 'SliceTiming' for this file. If you don't provide this information slice time correction will not be possible. It can be included one of the following locations: /task-balloonanalogrisktask_bold.json, /task-balloonanalogrisktask_run-01_bold.json, /sub-03/sub-03_task-balloonanalogrisktask_bold.json, /sub-03/sub-03_task-balloonanalogrisktask_run-01_bold.json, /sub-03/func/sub-03_task-balloonanalogrisktask_bold.json, /sub-03/func/sub-03_task-balloonanalogrisktask_run-01_bold.json",
+                        "helpUrl": "https://neurostars.org/search?q=SLICE_TIMING_NOT_DEFINED"
+                    },
+                    {
+                        "key": "SLICE_TIMING_NOT_DEFINED",
+                        "code": 13,
+                        "file": {
+                            "name": "sub-03_task-balloonanalogrisktask_run-02_bold.nii.gz",
+                            "path": "/mnt/nfs/home4T8/earlea/data/ds000001/sub-03/func/sub-03_task-balloonanalogrisktask_run-02_bold.nii.gz",
+                            "relativePath": "/sub-03/func/sub-03_task-balloonanalogrisktask_run-02_bold.nii.gz",
+                            "stats": {
+                                "dev": 63,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 42747038,
+                                "size": 46216265,
+                                "blocks": 90280,
+                                "atimeMs": 1710276506543.3054,
+                                "mtimeMs": 1710276509299.2957,
+                                "ctimeMs": 1710276509335.2957,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-12T20:48:26.543Z",
+                                "mtime": "2024-03-12T20:48:29.299Z",
+                                "ctime": "2024-03-12T20:48:29.335Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "You should define 'SliceTiming' for this file. If you don't provide this information slice time correction will not be possible. It can be included one of the following locations: /task-balloonanalogrisktask_bold.json, /task-balloonanalogrisktask_run-02_bold.json, /sub-03/sub-03_task-balloonanalogrisktask_bold.json, /sub-03/sub-03_task-balloonanalogrisktask_run-02_bold.json, /sub-03/func/sub-03_task-balloonanalogrisktask_bold.json, /sub-03/func/sub-03_task-balloonanalogrisktask_run-02_bold.json",
+                        "helpUrl": "https://neurostars.org/search?q=SLICE_TIMING_NOT_DEFINED"
+                    },
+                    {
+                        "key": "SLICE_TIMING_NOT_DEFINED",
+                        "code": 13,
+                        "file": {
+                            "name": "sub-03_task-balloonanalogrisktask_run-03_bold.nii.gz",
+                            "path": "/mnt/nfs/home4T8/earlea/data/ds000001/sub-03/func/sub-03_task-balloonanalogrisktask_run-03_bold.nii.gz",
+                            "relativePath": "/sub-03/func/sub-03_task-balloonanalogrisktask_run-03_bold.nii.gz",
+                            "stats": {
+                                "dev": 63,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 42747037,
+                                "size": 46216487,
+                                "blocks": 90280,
+                                "atimeMs": 1710276506511.3057,
+                                "mtimeMs": 1710276509331.2957,
+                                "ctimeMs": 1710276509355.2954,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-12T20:48:26.511Z",
+                                "mtime": "2024-03-12T20:48:29.331Z",
+                                "ctime": "2024-03-12T20:48:29.355Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "You should define 'SliceTiming' for this file. If you don't provide this information slice time correction will not be possible. It can be included one of the following locations: /task-balloonanalogrisktask_bold.json, /task-balloonanalogrisktask_run-03_bold.json, /sub-03/sub-03_task-balloonanalogrisktask_bold.json, /sub-03/sub-03_task-balloonanalogrisktask_run-03_bold.json, /sub-03/func/sub-03_task-balloonanalogrisktask_bold.json, /sub-03/func/sub-03_task-balloonanalogrisktask_run-03_bold.json",
+                        "helpUrl": "https://neurostars.org/search?q=SLICE_TIMING_NOT_DEFINED"
+                    },
+                    {
+                        "key": "SLICE_TIMING_NOT_DEFINED",
+                        "code": 13,
+                        "file": {
+                            "name": "sub-04_task-balloonanalogrisktask_run-01_bold.nii.gz",
+                            "path": "/mnt/nfs/home4T8/earlea/data/ds000001/sub-04/func/sub-04_task-balloonanalogrisktask_run-01_bold.nii.gz",
+                            "relativePath": "/sub-04/func/sub-04_task-balloonanalogrisktask_run-01_bold.nii.gz",
+                            "stats": {
+                                "dev": 63,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 42746927,
+                                "size": 47671181,
+                                "blocks": 93120,
+                                "atimeMs": 1710276484667.3835,
+                                "mtimeMs": 1710276487671.3728,
+                                "ctimeMs": 1710276487679.3728,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-12T20:48:04.667Z",
+                                "mtime": "2024-03-12T20:48:07.671Z",
+                                "ctime": "2024-03-12T20:48:07.679Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "You should define 'SliceTiming' for this file. If you don't provide this information slice time correction will not be possible. It can be included one of the following locations: /task-balloonanalogrisktask_bold.json, /task-balloonanalogrisktask_run-01_bold.json, /sub-04/sub-04_task-balloonanalogrisktask_bold.json, /sub-04/sub-04_task-balloonanalogrisktask_run-01_bold.json, /sub-04/func/sub-04_task-balloonanalogrisktask_bold.json, /sub-04/func/sub-04_task-balloonanalogrisktask_run-01_bold.json",
+                        "helpUrl": "https://neurostars.org/search?q=SLICE_TIMING_NOT_DEFINED"
+                    }
+                ],
+                "additionalFileCount": 38,
+                "helpUrl": "https://neurostars.org/search?q=SLICE_TIMING_NOT_DEFINED",
+                "code": 13
+            },
+            {
+                "key": "INCONSISTENT_PARAMETERS",
+                "severity": "warning",
+                "reason": "Not all subjects/sessions/runs have the same scanning parameters.",
+                "files": [
+                    {
+                        "key": "INCONSISTENT_PARAMETERS",
+                        "code": 39,
+                        "file": {
+                            "name": "sub-01_inplaneT2.nii.gz",
+                            "path": "/mnt/nfs/home4T8/earlea/data/ds000001/sub-01/anat/sub-01_inplaneT2.nii.gz",
+                            "relativePath": "/sub-01/anat/sub-01_inplaneT2.nii.gz",
+                            "stats": {
+                                "dev": 63,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 42746969,
+                                "size": 669578,
+                                "blocks": 1312,
+                                "atimeMs": 1710276493287.3528,
+                                "mtimeMs": 1710276493451.352,
+                                "ctimeMs": 1710276493459.352,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-12T20:48:13.287Z",
+                                "mtime": "2024-03-12T20:48:13.451Z",
+                                "ctime": "2024-03-12T20:48:13.459Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": " The most common set of dimensions is: 128,128,34 (voxels), This file has the dimensions: 128,128,33 (voxels).",
+                        "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_PARAMETERS"
+                    },
+                    {
+                        "key": "INCONSISTENT_PARAMETERS",
+                        "code": 39,
+                        "file": {
+                            "name": "sub-01_task-balloonanalogrisktask_run-01_bold.nii.gz",
+                            "path": "/mnt/nfs/home4T8/earlea/data/ds000001/sub-01/func/sub-01_task-balloonanalogrisktask_run-01_bold.nii.gz",
+                            "relativePath": "/sub-01/func/sub-01_task-balloonanalogrisktask_run-01_bold.nii.gz",
+                            "stats": {
+                                "dev": 63,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 42746970,
+                                "size": 47241449,
+                                "blocks": 92280,
+                                "atimeMs": 1710276493323.3525,
+                                "mtimeMs": 1710276496087.3428,
+                                "ctimeMs": 1710276496111.3428,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-12T20:48:13.323Z",
+                                "mtime": "2024-03-12T20:48:16.087Z",
+                                "ctime": "2024-03-12T20:48:16.111Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": " The most common set of dimensions is: 64,64,34,300 (voxels), This file has the dimensions: 64,64,33,300 (voxels).",
+                        "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_PARAMETERS"
+                    },
+                    {
+                        "key": "INCONSISTENT_PARAMETERS",
+                        "code": 39,
+                        "file": {
+                            "name": "sub-01_task-balloonanalogrisktask_run-02_bold.nii.gz",
+                            "path": "/mnt/nfs/home4T8/earlea/data/ds000001/sub-01/func/sub-01_task-balloonanalogrisktask_run-02_bold.nii.gz",
+                            "relativePath": "/sub-01/func/sub-01_task-balloonanalogrisktask_run-02_bold.nii.gz",
+                            "stats": {
+                                "dev": 63,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 42746971,
+                                "size": 47282515,
+                                "blocks": 92360,
+                                "atimeMs": 1710276493339.3525,
+                                "mtimeMs": 1710276496215.3423,
+                                "ctimeMs": 1710276496223.3423,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-12T20:48:13.339Z",
+                                "mtime": "2024-03-12T20:48:16.215Z",
+                                "ctime": "2024-03-12T20:48:16.223Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": " The most common set of dimensions is: 64,64,34,300 (voxels), This file has the dimensions: 64,64,33,300 (voxels).",
+                        "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_PARAMETERS"
+                    },
+                    {
+                        "key": "INCONSISTENT_PARAMETERS",
+                        "code": 39,
+                        "file": {
+                            "name": "sub-01_task-balloonanalogrisktask_run-03_bold.nii.gz",
+                            "path": "/mnt/nfs/home4T8/earlea/data/ds000001/sub-01/func/sub-01_task-balloonanalogrisktask_run-03_bold.nii.gz",
+                            "relativePath": "/sub-01/func/sub-01_task-balloonanalogrisktask_run-03_bold.nii.gz",
+                            "stats": {
+                                "dev": 63,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 42746972,
+                                "size": 47347339,
+                                "blocks": 92488,
+                                "atimeMs": 1710276493367.3525,
+                                "mtimeMs": 1710276496303.342,
+                                "ctimeMs": 1710276496315.342,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-12T20:48:13.367Z",
+                                "mtime": "2024-03-12T20:48:16.303Z",
+                                "ctime": "2024-03-12T20:48:16.315Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": " The most common set of dimensions is: 64,64,34,300 (voxels), This file has the dimensions: 64,64,33,300 (voxels).",
+                        "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_PARAMETERS"
+                    }
+                ],
+                "additionalFileCount": 0,
+                "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_PARAMETERS",
+                "code": 39
+            },
+            {
+                "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                "severity": "warning",
+                "reason": "Tabular file contains custom columns not described in a data dictionary",
+                "files": [
+                    {
+                        "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                        "code": 82,
+                        "file": {
+                            "name": "participants.tsv",
+                            "path": "/mnt/nfs/home4T8/earlea/data/ds000001/participants.tsv",
+                            "relativePath": "/participants.tsv",
+                            "stats": {
+                                "dev": 63,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 42750917,
+                                "size": 216,
+                                "blocks": 8,
+                                "atimeMs": 1710276095392.7693,
+                                "mtimeMs": 1710276095392.7693,
+                                "ctimeMs": 1710276095392.7693,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-12T20:41:35.393Z",
+                                "mtime": "2024-03-12T20:41:35.393Z",
+                                "ctime": "2024-03-12T20:41:35.393Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Columns: sex, age not defined, please define in: /participants.json",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Tabular file contains custom columns not described in a data dictionary",
+                        "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION"
+                    },
+                    {
+                        "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                        "code": 82,
+                        "file": {
+                            "name": "sub-01_task-balloonanalogrisktask_run-01_events.tsv",
+                            "path": "/mnt/nfs/home4T8/earlea/data/ds000001/sub-01/func/sub-01_task-balloonanalogrisktask_run-01_events.tsv",
+                            "relativePath": "/sub-01/func/sub-01_task-balloonanalogrisktask_run-01_events.tsv",
+                            "stats": {
+                                "dev": 63,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 42750968,
+                                "size": 8610,
+                                "blocks": 24,
+                                "atimeMs": 1710276095452.769,
+                                "mtimeMs": 1710276095452.769,
+                                "ctimeMs": 1710276095452.769,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-12T20:41:35.453Z",
+                                "mtime": "2024-03-12T20:41:35.453Z",
+                                "ctime": "2024-03-12T20:41:35.453Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Columns: cash_demean, control_pumps_demean, explode_demean, pumps_demean not defined, please define in: /events.json, /task-balloonanalogrisktask_events.json,/run-01_events.json,/task-balloonanalogrisktask_run-01_events.json,/sub-01/sub-01_events.json,/sub-01/sub-01_task-balloonanalogrisktask_events.json,/sub-01/sub-01_run-01_events.json,/sub-01/sub-01_task-balloonanalogrisktask_run-01_events.json,/sub-01/func/sub-01_events.json,/sub-01/func/sub-01_task-balloonanalogrisktask_events.json,/sub-01/func/sub-01_run-01_events.json,/sub-01/func/sub-01_task-balloonanalogrisktask_run-01_events.json",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Tabular file contains custom columns not described in a data dictionary",
+                        "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION"
+                    },
+                    {
+                        "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                        "code": 82,
+                        "file": {
+                            "name": "sub-01_task-balloonanalogrisktask_run-02_events.tsv",
+                            "path": "/mnt/nfs/home4T8/earlea/data/ds000001/sub-01/func/sub-01_task-balloonanalogrisktask_run-02_events.tsv",
+                            "relativePath": "/sub-01/func/sub-01_task-balloonanalogrisktask_run-02_events.tsv",
+                            "stats": {
+                                "dev": 63,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 42750970,
+                                "size": 8568,
+                                "blocks": 24,
+                                "atimeMs": 1710276095456.769,
+                                "mtimeMs": 1710276095456.769,
+                                "ctimeMs": 1710276095456.769,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-12T20:41:35.457Z",
+                                "mtime": "2024-03-12T20:41:35.457Z",
+                                "ctime": "2024-03-12T20:41:35.457Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Columns: cash_demean, control_pumps_demean, explode_demean, pumps_demean not defined, please define in: /events.json, /task-balloonanalogrisktask_events.json,/run-02_events.json,/task-balloonanalogrisktask_run-02_events.json,/sub-01/sub-01_events.json,/sub-01/sub-01_task-balloonanalogrisktask_events.json,/sub-01/sub-01_run-02_events.json,/sub-01/sub-01_task-balloonanalogrisktask_run-02_events.json,/sub-01/func/sub-01_events.json,/sub-01/func/sub-01_task-balloonanalogrisktask_events.json,/sub-01/func/sub-01_run-02_events.json,/sub-01/func/sub-01_task-balloonanalogrisktask_run-02_events.json",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Tabular file contains custom columns not described in a data dictionary",
+                        "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION"
+                    },
+                    {
+                        "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                        "code": 82,
+                        "file": {
+                            "name": "sub-01_task-balloonanalogrisktask_run-03_events.tsv",
+                            "path": "/mnt/nfs/home4T8/earlea/data/ds000001/sub-01/func/sub-01_task-balloonanalogrisktask_run-03_events.tsv",
+                            "relativePath": "/sub-01/func/sub-01_task-balloonanalogrisktask_run-03_events.tsv",
+                            "stats": {
+                                "dev": 63,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 42750972,
+                                "size": 8132,
+                                "blocks": 16,
+                                "atimeMs": 1710276095456.769,
+                                "mtimeMs": 1710276095456.769,
+                                "ctimeMs": 1710276095456.769,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-12T20:41:35.457Z",
+                                "mtime": "2024-03-12T20:41:35.457Z",
+                                "ctime": "2024-03-12T20:41:35.457Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Columns: cash_demean, control_pumps_demean, explode_demean, pumps_demean not defined, please define in: /events.json, /task-balloonanalogrisktask_events.json,/run-03_events.json,/task-balloonanalogrisktask_run-03_events.json,/sub-01/sub-01_events.json,/sub-01/sub-01_task-balloonanalogrisktask_events.json,/sub-01/sub-01_run-03_events.json,/sub-01/sub-01_task-balloonanalogrisktask_run-03_events.json,/sub-01/func/sub-01_events.json,/sub-01/func/sub-01_task-balloonanalogrisktask_events.json,/sub-01/func/sub-01_run-03_events.json,/sub-01/func/sub-01_task-balloonanalogrisktask_run-03_events.json",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Tabular file contains custom columns not described in a data dictionary",
+                        "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION"
+                    },
+                    {
+                        "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                        "code": 82,
+                        "file": {
+                            "name": "sub-02_task-balloonanalogrisktask_run-01_events.tsv",
+                            "path": "/mnt/nfs/home4T8/earlea/data/ds000001/sub-02/func/sub-02_task-balloonanalogrisktask_run-01_events.tsv",
+                            "relativePath": "/sub-02/func/sub-02_task-balloonanalogrisktask_run-01_events.tsv",
+                            "stats": {
+                                "dev": 63,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 42750976,
+                                "size": 9930,
+                                "blocks": 24,
+                                "atimeMs": 1710276095456.769,
+                                "mtimeMs": 1710276095456.769,
+                                "ctimeMs": 1710276095456.769,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-12T20:41:35.457Z",
+                                "mtime": "2024-03-12T20:41:35.457Z",
+                                "ctime": "2024-03-12T20:41:35.457Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Columns: cash_demean, control_pumps_demean, explode_demean, pumps_demean not defined, please define in: /events.json, /task-balloonanalogrisktask_events.json,/run-01_events.json,/task-balloonanalogrisktask_run-01_events.json,/sub-02/sub-02_events.json,/sub-02/sub-02_task-balloonanalogrisktask_events.json,/sub-02/sub-02_run-01_events.json,/sub-02/sub-02_task-balloonanalogrisktask_run-01_events.json,/sub-02/func/sub-02_events.json,/sub-02/func/sub-02_task-balloonanalogrisktask_events.json,/sub-02/func/sub-02_run-01_events.json,/sub-02/func/sub-02_task-balloonanalogrisktask_run-01_events.json",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Tabular file contains custom columns not described in a data dictionary",
+                        "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION"
+                    },
+                    {
+                        "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                        "code": 82,
+                        "file": {
+                            "name": "sub-02_task-balloonanalogrisktask_run-02_events.tsv",
+                            "path": "/mnt/nfs/home4T8/earlea/data/ds000001/sub-02/func/sub-02_task-balloonanalogrisktask_run-02_events.tsv",
+                            "relativePath": "/sub-02/func/sub-02_task-balloonanalogrisktask_run-02_events.tsv",
+                            "stats": {
+                                "dev": 63,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 42750978,
+                                "size": 9647,
+                                "blocks": 24,
+                                "atimeMs": 1710276095456.769,
+                                "mtimeMs": 1710276095456.769,
+                                "ctimeMs": 1710276095456.769,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-12T20:41:35.457Z",
+                                "mtime": "2024-03-12T20:41:35.457Z",
+                                "ctime": "2024-03-12T20:41:35.457Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Columns: cash_demean, control_pumps_demean, explode_demean, pumps_demean not defined, please define in: /events.json, /task-balloonanalogrisktask_events.json,/run-02_events.json,/task-balloonanalogrisktask_run-02_events.json,/sub-02/sub-02_events.json,/sub-02/sub-02_task-balloonanalogrisktask_events.json,/sub-02/sub-02_run-02_events.json,/sub-02/sub-02_task-balloonanalogrisktask_run-02_events.json,/sub-02/func/sub-02_events.json,/sub-02/func/sub-02_task-balloonanalogrisktask_events.json,/sub-02/func/sub-02_run-02_events.json,/sub-02/func/sub-02_task-balloonanalogrisktask_run-02_events.json",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Tabular file contains custom columns not described in a data dictionary",
+                        "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION"
+                    },
+                    {
+                        "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                        "code": 82,
+                        "file": {
+                            "name": "sub-02_task-balloonanalogrisktask_run-03_events.tsv",
+                            "path": "/mnt/nfs/home4T8/earlea/data/ds000001/sub-02/func/sub-02_task-balloonanalogrisktask_run-03_events.tsv",
+                            "relativePath": "/sub-02/func/sub-02_task-balloonanalogrisktask_run-03_events.tsv",
+                            "stats": {
+                                "dev": 63,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 42750980,
+                                "size": 9950,
+                                "blocks": 24,
+                                "atimeMs": 1710276095456.769,
+                                "mtimeMs": 1710276095456.769,
+                                "ctimeMs": 1710276095456.769,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-12T20:41:35.457Z",
+                                "mtime": "2024-03-12T20:41:35.457Z",
+                                "ctime": "2024-03-12T20:41:35.457Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Columns: cash_demean, control_pumps_demean, explode_demean, pumps_demean not defined, please define in: /events.json, /task-balloonanalogrisktask_events.json,/run-03_events.json,/task-balloonanalogrisktask_run-03_events.json,/sub-02/sub-02_events.json,/sub-02/sub-02_task-balloonanalogrisktask_events.json,/sub-02/sub-02_run-03_events.json,/sub-02/sub-02_task-balloonanalogrisktask_run-03_events.json,/sub-02/func/sub-02_events.json,/sub-02/func/sub-02_task-balloonanalogrisktask_events.json,/sub-02/func/sub-02_run-03_events.json,/sub-02/func/sub-02_task-balloonanalogrisktask_run-03_events.json",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Tabular file contains custom columns not described in a data dictionary",
+                        "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION"
+                    },
+                    {
+                        "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                        "code": 82,
+                        "file": {
+                            "name": "sub-03_task-balloonanalogrisktask_run-01_events.tsv",
+                            "path": "/mnt/nfs/home4T8/earlea/data/ds000001/sub-03/func/sub-03_task-balloonanalogrisktask_run-01_events.tsv",
+                            "relativePath": "/sub-03/func/sub-03_task-balloonanalogrisktask_run-01_events.tsv",
+                            "stats": {
+                                "dev": 63,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 42750984,
+                                "size": 8246,
+                                "blocks": 24,
+                                "atimeMs": 1710276095456.769,
+                                "mtimeMs": 1710276095456.769,
+                                "ctimeMs": 1710276095456.769,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-12T20:41:35.457Z",
+                                "mtime": "2024-03-12T20:41:35.457Z",
+                                "ctime": "2024-03-12T20:41:35.457Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Columns: cash_demean, control_pumps_demean, explode_demean, pumps_demean not defined, please define in: /events.json, /task-balloonanalogrisktask_events.json,/run-01_events.json,/task-balloonanalogrisktask_run-01_events.json,/sub-03/sub-03_events.json,/sub-03/sub-03_task-balloonanalogrisktask_events.json,/sub-03/sub-03_run-01_events.json,/sub-03/sub-03_task-balloonanalogrisktask_run-01_events.json,/sub-03/func/sub-03_events.json,/sub-03/func/sub-03_task-balloonanalogrisktask_events.json,/sub-03/func/sub-03_run-01_events.json,/sub-03/func/sub-03_task-balloonanalogrisktask_run-01_events.json",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Tabular file contains custom columns not described in a data dictionary",
+                        "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION"
+                    },
+                    {
+                        "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                        "code": 82,
+                        "file": {
+                            "name": "sub-03_task-balloonanalogrisktask_run-02_events.tsv",
+                            "path": "/mnt/nfs/home4T8/earlea/data/ds000001/sub-03/func/sub-03_task-balloonanalogrisktask_run-02_events.tsv",
+                            "relativePath": "/sub-03/func/sub-03_task-balloonanalogrisktask_run-02_events.tsv",
+                            "stats": {
+                                "dev": 63,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 42750986,
+                                "size": 9270,
+                                "blocks": 24,
+                                "atimeMs": 1710276095460.769,
+                                "mtimeMs": 1710276095460.769,
+                                "ctimeMs": 1710276095460.769,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-12T20:41:35.461Z",
+                                "mtime": "2024-03-12T20:41:35.461Z",
+                                "ctime": "2024-03-12T20:41:35.461Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Columns: cash_demean, control_pumps_demean, explode_demean, pumps_demean not defined, please define in: /events.json, /task-balloonanalogrisktask_events.json,/run-02_events.json,/task-balloonanalogrisktask_run-02_events.json,/sub-03/sub-03_events.json,/sub-03/sub-03_task-balloonanalogrisktask_events.json,/sub-03/sub-03_run-02_events.json,/sub-03/sub-03_task-balloonanalogrisktask_run-02_events.json,/sub-03/func/sub-03_events.json,/sub-03/func/sub-03_task-balloonanalogrisktask_events.json,/sub-03/func/sub-03_run-02_events.json,/sub-03/func/sub-03_task-balloonanalogrisktask_run-02_events.json",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Tabular file contains custom columns not described in a data dictionary",
+                        "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION"
+                    },
+                    {
+                        "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                        "code": 82,
+                        "file": {
+                            "name": "sub-03_task-balloonanalogrisktask_run-03_events.tsv",
+                            "path": "/mnt/nfs/home4T8/earlea/data/ds000001/sub-03/func/sub-03_task-balloonanalogrisktask_run-03_events.tsv",
+                            "relativePath": "/sub-03/func/sub-03_task-balloonanalogrisktask_run-03_events.tsv",
+                            "stats": {
+                                "dev": 63,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 42750988,
+                                "size": 9497,
+                                "blocks": 24,
+                                "atimeMs": 1710276095460.769,
+                                "mtimeMs": 1710276095460.769,
+                                "ctimeMs": 1710276095460.769,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-12T20:41:35.461Z",
+                                "mtime": "2024-03-12T20:41:35.461Z",
+                                "ctime": "2024-03-12T20:41:35.461Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Columns: cash_demean, control_pumps_demean, explode_demean, pumps_demean not defined, please define in: /events.json, /task-balloonanalogrisktask_events.json,/run-03_events.json,/task-balloonanalogrisktask_run-03_events.json,/sub-03/sub-03_events.json,/sub-03/sub-03_task-balloonanalogrisktask_events.json,/sub-03/sub-03_run-03_events.json,/sub-03/sub-03_task-balloonanalogrisktask_run-03_events.json,/sub-03/func/sub-03_events.json,/sub-03/func/sub-03_task-balloonanalogrisktask_events.json,/sub-03/func/sub-03_run-03_events.json,/sub-03/func/sub-03_task-balloonanalogrisktask_run-03_events.json",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Tabular file contains custom columns not described in a data dictionary",
+                        "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION"
+                    }
+                ],
+                "additionalFileCount": 39,
+                "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                "code": 82
+            },
+            {
+                "key": "SUSPICIOUSLY_LONG_EVENT_DESIGN",
+                "severity": "warning",
+                "reason": "The onset of the last event is after the total duration of the corresponding scan. This design is suspiciously long. ",
+                "files": [
+                    {
+                        "key": "SUSPICIOUSLY_LONG_EVENT_DESIGN",
+                        "code": 85,
+                        "file": {
+                            "name": "sub-01_task-balloonanalogrisktask_run-01_events.tsv",
+                            "path": "/mnt/nfs/home4T8/earlea/data/ds000001/sub-01/func/sub-01_task-balloonanalogrisktask_run-01_events.tsv",
+                            "relativePath": "/sub-01/func/sub-01_task-balloonanalogrisktask_run-01_events.tsv",
+                            "stats": {
+                                "dev": 63,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 42750968,
+                                "size": 8610,
+                                "blocks": 24,
+                                "atimeMs": 1710276095452.769,
+                                "mtimeMs": 1710276095452.769,
+                                "ctimeMs": 1710276095452.769,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-12T20:41:35.453Z",
+                                "mtime": "2024-03-12T20:41:35.453Z",
+                                "ctime": "2024-03-12T20:41:35.453Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "The onset of the last event is after the total duration of the corresponding scan. This design is suspiciously long. ",
+                        "helpUrl": "https://neurostars.org/search?q=SUSPICIOUSLY_LONG_EVENT_DESIGN"
+                    },
+                    {
+                        "key": "SUSPICIOUSLY_LONG_EVENT_DESIGN",
+                        "code": 85,
+                        "file": {
+                            "name": "sub-01_task-balloonanalogrisktask_run-02_events.tsv",
+                            "path": "/mnt/nfs/home4T8/earlea/data/ds000001/sub-01/func/sub-01_task-balloonanalogrisktask_run-02_events.tsv",
+                            "relativePath": "/sub-01/func/sub-01_task-balloonanalogrisktask_run-02_events.tsv",
+                            "stats": {
+                                "dev": 63,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 42750970,
+                                "size": 8568,
+                                "blocks": 24,
+                                "atimeMs": 1710276095456.769,
+                                "mtimeMs": 1710276095456.769,
+                                "ctimeMs": 1710276095456.769,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-12T20:41:35.457Z",
+                                "mtime": "2024-03-12T20:41:35.457Z",
+                                "ctime": "2024-03-12T20:41:35.457Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "The onset of the last event is after the total duration of the corresponding scan. This design is suspiciously long. ",
+                        "helpUrl": "https://neurostars.org/search?q=SUSPICIOUSLY_LONG_EVENT_DESIGN"
+                    },
+                    {
+                        "key": "SUSPICIOUSLY_LONG_EVENT_DESIGN",
+                        "code": 85,
+                        "file": {
+                            "name": "sub-01_task-balloonanalogrisktask_run-03_events.tsv",
+                            "path": "/mnt/nfs/home4T8/earlea/data/ds000001/sub-01/func/sub-01_task-balloonanalogrisktask_run-03_events.tsv",
+                            "relativePath": "/sub-01/func/sub-01_task-balloonanalogrisktask_run-03_events.tsv",
+                            "stats": {
+                                "dev": 63,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 42750972,
+                                "size": 8132,
+                                "blocks": 16,
+                                "atimeMs": 1710276095456.769,
+                                "mtimeMs": 1710276095456.769,
+                                "ctimeMs": 1710276095456.769,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-12T20:41:35.457Z",
+                                "mtime": "2024-03-12T20:41:35.457Z",
+                                "ctime": "2024-03-12T20:41:35.457Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "The onset of the last event is after the total duration of the corresponding scan. This design is suspiciously long. ",
+                        "helpUrl": "https://neurostars.org/search?q=SUSPICIOUSLY_LONG_EVENT_DESIGN"
+                    },
+                    {
+                        "key": "SUSPICIOUSLY_LONG_EVENT_DESIGN",
+                        "code": 85,
+                        "file": {
+                            "name": "sub-02_task-balloonanalogrisktask_run-03_events.tsv",
+                            "path": "/mnt/nfs/home4T8/earlea/data/ds000001/sub-02/func/sub-02_task-balloonanalogrisktask_run-03_events.tsv",
+                            "relativePath": "/sub-02/func/sub-02_task-balloonanalogrisktask_run-03_events.tsv",
+                            "stats": {
+                                "dev": 63,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 42750980,
+                                "size": 9950,
+                                "blocks": 24,
+                                "atimeMs": 1710276095456.769,
+                                "mtimeMs": 1710276095456.769,
+                                "ctimeMs": 1710276095456.769,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-12T20:41:35.457Z",
+                                "mtime": "2024-03-12T20:41:35.457Z",
+                                "ctime": "2024-03-12T20:41:35.457Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "The onset of the last event is after the total duration of the corresponding scan. This design is suspiciously long. ",
+                        "helpUrl": "https://neurostars.org/search?q=SUSPICIOUSLY_LONG_EVENT_DESIGN"
+                    },
+                    {
+                        "key": "SUSPICIOUSLY_LONG_EVENT_DESIGN",
+                        "code": 85,
+                        "file": {
+                            "name": "sub-03_task-balloonanalogrisktask_run-02_events.tsv",
+                            "path": "/mnt/nfs/home4T8/earlea/data/ds000001/sub-03/func/sub-03_task-balloonanalogrisktask_run-02_events.tsv",
+                            "relativePath": "/sub-03/func/sub-03_task-balloonanalogrisktask_run-02_events.tsv",
+                            "stats": {
+                                "dev": 63,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 42750986,
+                                "size": 9270,
+                                "blocks": 24,
+                                "atimeMs": 1710276095460.769,
+                                "mtimeMs": 1710276095460.769,
+                                "ctimeMs": 1710276095460.769,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-12T20:41:35.461Z",
+                                "mtime": "2024-03-12T20:41:35.461Z",
+                                "ctime": "2024-03-12T20:41:35.461Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "The onset of the last event is after the total duration of the corresponding scan. This design is suspiciously long. ",
+                        "helpUrl": "https://neurostars.org/search?q=SUSPICIOUSLY_LONG_EVENT_DESIGN"
+                    },
+                    {
+                        "key": "SUSPICIOUSLY_LONG_EVENT_DESIGN",
+                        "code": 85,
+                        "file": {
+                            "name": "sub-03_task-balloonanalogrisktask_run-03_events.tsv",
+                            "path": "/mnt/nfs/home4T8/earlea/data/ds000001/sub-03/func/sub-03_task-balloonanalogrisktask_run-03_events.tsv",
+                            "relativePath": "/sub-03/func/sub-03_task-balloonanalogrisktask_run-03_events.tsv",
+                            "stats": {
+                                "dev": 63,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 42750988,
+                                "size": 9497,
+                                "blocks": 24,
+                                "atimeMs": 1710276095460.769,
+                                "mtimeMs": 1710276095460.769,
+                                "ctimeMs": 1710276095460.769,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-12T20:41:35.461Z",
+                                "mtime": "2024-03-12T20:41:35.461Z",
+                                "ctime": "2024-03-12T20:41:35.461Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "The onset of the last event is after the total duration of the corresponding scan. This design is suspiciously long. ",
+                        "helpUrl": "https://neurostars.org/search?q=SUSPICIOUSLY_LONG_EVENT_DESIGN"
+                    },
+                    {
+                        "key": "SUSPICIOUSLY_LONG_EVENT_DESIGN",
+                        "code": 85,
+                        "file": {
+                            "name": "sub-04_task-balloonanalogrisktask_run-01_events.tsv",
+                            "path": "/mnt/nfs/home4T8/earlea/data/ds000001/sub-04/func/sub-04_task-balloonanalogrisktask_run-01_events.tsv",
+                            "relativePath": "/sub-04/func/sub-04_task-balloonanalogrisktask_run-01_events.tsv",
+                            "stats": {
+                                "dev": 63,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 42750992,
+                                "size": 8934,
+                                "blocks": 24,
+                                "atimeMs": 1710276095460.769,
+                                "mtimeMs": 1710276095460.769,
+                                "ctimeMs": 1710276095460.769,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-12T20:41:35.461Z",
+                                "mtime": "2024-03-12T20:41:35.461Z",
+                                "ctime": "2024-03-12T20:41:35.461Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "The onset of the last event is after the total duration of the corresponding scan. This design is suspiciously long. ",
+                        "helpUrl": "https://neurostars.org/search?q=SUSPICIOUSLY_LONG_EVENT_DESIGN"
+                    },
+                    {
+                        "key": "SUSPICIOUSLY_LONG_EVENT_DESIGN",
+                        "code": 85,
+                        "file": {
+                            "name": "sub-04_task-balloonanalogrisktask_run-02_events.tsv",
+                            "path": "/mnt/nfs/home4T8/earlea/data/ds000001/sub-04/func/sub-04_task-balloonanalogrisktask_run-02_events.tsv",
+                            "relativePath": "/sub-04/func/sub-04_task-balloonanalogrisktask_run-02_events.tsv",
+                            "stats": {
+                                "dev": 63,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 42750994,
+                                "size": 9293,
+                                "blocks": 24,
+                                "atimeMs": 1710276095460.769,
+                                "mtimeMs": 1710276095460.769,
+                                "ctimeMs": 1710276095460.769,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-12T20:41:35.461Z",
+                                "mtime": "2024-03-12T20:41:35.461Z",
+                                "ctime": "2024-03-12T20:41:35.461Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "The onset of the last event is after the total duration of the corresponding scan. This design is suspiciously long. ",
+                        "helpUrl": "https://neurostars.org/search?q=SUSPICIOUSLY_LONG_EVENT_DESIGN"
+                    },
+                    {
+                        "key": "SUSPICIOUSLY_LONG_EVENT_DESIGN",
+                        "code": 85,
+                        "file": {
+                            "name": "sub-04_task-balloonanalogrisktask_run-03_events.tsv",
+                            "path": "/mnt/nfs/home4T8/earlea/data/ds000001/sub-04/func/sub-04_task-balloonanalogrisktask_run-03_events.tsv",
+                            "relativePath": "/sub-04/func/sub-04_task-balloonanalogrisktask_run-03_events.tsv",
+                            "stats": {
+                                "dev": 63,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 42750996,
+                                "size": 9000,
+                                "blocks": 24,
+                                "atimeMs": 1710276095460.769,
+                                "mtimeMs": 1710276095460.769,
+                                "ctimeMs": 1710276095460.769,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-12T20:41:35.461Z",
+                                "mtime": "2024-03-12T20:41:35.461Z",
+                                "ctime": "2024-03-12T20:41:35.461Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "The onset of the last event is after the total duration of the corresponding scan. This design is suspiciously long. ",
+                        "helpUrl": "https://neurostars.org/search?q=SUSPICIOUSLY_LONG_EVENT_DESIGN"
+                    },
+                    {
+                        "key": "SUSPICIOUSLY_LONG_EVENT_DESIGN",
+                        "code": 85,
+                        "file": {
+                            "name": "sub-05_task-balloonanalogrisktask_run-01_events.tsv",
+                            "path": "/mnt/nfs/home4T8/earlea/data/ds000001/sub-05/func/sub-05_task-balloonanalogrisktask_run-01_events.tsv",
+                            "relativePath": "/sub-05/func/sub-05_task-balloonanalogrisktask_run-01_events.tsv",
+                            "stats": {
+                                "dev": 63,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 42751000,
+                                "size": 7313,
+                                "blocks": 16,
+                                "atimeMs": 1710276095460.769,
+                                "mtimeMs": 1710276095460.769,
+                                "ctimeMs": 1710276095460.769,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-12T20:41:35.461Z",
+                                "mtime": "2024-03-12T20:41:35.461Z",
+                                "ctime": "2024-03-12T20:41:35.461Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "The onset of the last event is after the total duration of the corresponding scan. This design is suspiciously long. ",
+                        "helpUrl": "https://neurostars.org/search?q=SUSPICIOUSLY_LONG_EVENT_DESIGN"
+                    }
+                ],
+                "additionalFileCount": 16,
+                "helpUrl": "https://neurostars.org/search?q=SUSPICIOUSLY_LONG_EVENT_DESIGN",
+                "code": 85
+            }
+        ],
+        "ignored": []
+    },
+    "summary": {
+        "sessions": [],
+        "subjects": [
+            "01",
+            "02",
+            "03",
+            "04",
+            "05",
+            "06",
+            "07",
+            "08",
+            "09",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16"
+        ],
+        "subjectMetadata": [
+            {
+                "participantId": "01",
+                "age": 26,
+                "sex": "F"
+            },
+            {
+                "participantId": "02",
+                "age": 24,
+                "sex": "M"
+            },
+            {
+                "participantId": "03",
+                "age": 27,
+                "sex": "F"
+            },
+            {
+                "participantId": "04",
+                "age": 20,
+                "sex": "F"
+            },
+            {
+                "participantId": "05",
+                "age": 22,
+                "sex": "M,"
+            },
+            {
+                "participantId": "06",
+                "age": 26,
+                "sex": "F"
+            },
+            {
+                "participantId": "07",
+                "age": 24,
+                "sex": "M"
+            },
+            {
+                "participantId": "08",
+                "age": 21,
+                "sex": "M"
+            },
+            {
+                "participantId": "09",
+                "age": 26,
+                "sex": "M"
+            },
+            {
+                "participantId": "10",
+                "age": 21,
+                "sex": "F"
+            },
+            {
+                "participantId": "11",
+                "age": 24,
+                "sex": "F"
+            },
+            {
+                "participantId": "12",
+                "age": 22,
+                "sex": "F"
+            },
+            {
+                "participantId": "13",
+                "age": 21,
+                "sex": "F"
+            },
+            {
+                "participantId": "14",
+                "age": 30,
+                "sex": "F"
+            },
+            {
+                "participantId": "15",
+                "age": 24,
+                "sex": "F"
+            },
+            {
+                "participantId": "16",
+                "age": 19,
+                "sex": "M"
+            }
+        ],
+        "tasks": [
+            "balloon analog risk task"
+        ],
+        "modalities": [
+            "MRI"
+        ],
+        "secondaryModalities": [
+            "MRI_Functional",
+            "MRI_Structural"
+        ],
+        "totalFiles": 133,
+        "size": 2416199965,
+        "dataProcessed": false,
+        "pet": null,
+        "dataTypes": [
+            "T1w",
+            "inplaneT2",
+            "bold",
+            "events"
+        ]
+    }
+}

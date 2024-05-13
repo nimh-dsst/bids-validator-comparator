@@ -1,0 +1,1370 @@
+{
+    "issues": {
+        "errors": [],
+        "warnings": [
+            {
+                "key": "SLICE_TIMING_NOT_DEFINED",
+                "severity": "warning",
+                "reason": "You should define 'SliceTiming' for this file. If you don't provide this information slice time correction will not be possible. 'Slice Timing' is the time at which each slice was acquired within each volume (frame) of the acquisition. Slice timing is not slice order -- rather, it is a list of times containing the time (in seconds) of each slice acquisition in relation to the beginning of volume acquisition.",
+                "files": [
+                    {
+                        "key": "SLICE_TIMING_NOT_DEFINED",
+                        "code": 13,
+                        "file": {
+                            "name": "sub-01_task-conditionalstopsignal_run-01_bold.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000008/sub-01/func/sub-01_task-conditionalstopsignal_run-01_bold.nii.gz",
+                            "relativePath": "/sub-01/func/sub-01_task-conditionalstopsignal_run-01_bold.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 655515823,
+                                "size": 24546460,
+                                "blocks": 47944,
+                                "atimeMs": 1710632622969.5503,
+                                "mtimeMs": 1710632624025.546,
+                                "ctimeMs": 1710632624041.546,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-16T23:43:42.970Z",
+                                "mtime": "2024-03-16T23:43:44.026Z",
+                                "ctime": "2024-03-16T23:43:44.042Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "You should define 'SliceTiming' for this file. If you don't provide this information slice time correction will not be possible. It can be included one of the following locations: /task-conditionalstopsignal_bold.json, /task-conditionalstopsignal_run-01_bold.json, /sub-01/sub-01_task-conditionalstopsignal_bold.json, /sub-01/sub-01_task-conditionalstopsignal_run-01_bold.json, /sub-01/func/sub-01_task-conditionalstopsignal_bold.json, /sub-01/func/sub-01_task-conditionalstopsignal_run-01_bold.json",
+                        "helpUrl": "https://neurostars.org/search?q=SLICE_TIMING_NOT_DEFINED"
+                    },
+                    {
+                        "key": "SLICE_TIMING_NOT_DEFINED",
+                        "code": 13,
+                        "file": {
+                            "name": "sub-01_task-conditionalstopsignal_run-02_bold.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000008/sub-01/func/sub-01_task-conditionalstopsignal_run-02_bold.nii.gz",
+                            "relativePath": "/sub-01/func/sub-01_task-conditionalstopsignal_run-02_bold.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 655515827,
+                                "size": 24546147,
+                                "blocks": 47944,
+                                "atimeMs": 1710632624201.5452,
+                                "mtimeMs": 1710632625093.5415,
+                                "ctimeMs": 1710632625109.5413,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-16T23:43:44.202Z",
+                                "mtime": "2024-03-16T23:43:45.094Z",
+                                "ctime": "2024-03-16T23:43:45.110Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "You should define 'SliceTiming' for this file. If you don't provide this information slice time correction will not be possible. It can be included one of the following locations: /task-conditionalstopsignal_bold.json, /task-conditionalstopsignal_run-02_bold.json, /sub-01/sub-01_task-conditionalstopsignal_bold.json, /sub-01/sub-01_task-conditionalstopsignal_run-02_bold.json, /sub-01/func/sub-01_task-conditionalstopsignal_bold.json, /sub-01/func/sub-01_task-conditionalstopsignal_run-02_bold.json",
+                        "helpUrl": "https://neurostars.org/search?q=SLICE_TIMING_NOT_DEFINED"
+                    },
+                    {
+                        "key": "SLICE_TIMING_NOT_DEFINED",
+                        "code": 13,
+                        "file": {
+                            "name": "sub-01_task-conditionalstopsignal_run-03_bold.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000008/sub-01/func/sub-01_task-conditionalstopsignal_run-03_bold.nii.gz",
+                            "relativePath": "/sub-01/func/sub-01_task-conditionalstopsignal_run-03_bold.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 655515831,
+                                "size": 24562540,
+                                "blocks": 47976,
+                                "atimeMs": 1710632625293.5405,
+                                "mtimeMs": 1710632626181.5369,
+                                "ctimeMs": 1710632626193.5369,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-16T23:43:45.294Z",
+                                "mtime": "2024-03-16T23:43:46.182Z",
+                                "ctime": "2024-03-16T23:43:46.194Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "You should define 'SliceTiming' for this file. If you don't provide this information slice time correction will not be possible. It can be included one of the following locations: /task-conditionalstopsignal_bold.json, /task-conditionalstopsignal_run-03_bold.json, /sub-01/sub-01_task-conditionalstopsignal_bold.json, /sub-01/sub-01_task-conditionalstopsignal_run-03_bold.json, /sub-01/func/sub-01_task-conditionalstopsignal_bold.json, /sub-01/func/sub-01_task-conditionalstopsignal_run-03_bold.json",
+                        "helpUrl": "https://neurostars.org/search?q=SLICE_TIMING_NOT_DEFINED"
+                    },
+                    {
+                        "key": "SLICE_TIMING_NOT_DEFINED",
+                        "code": 13,
+                        "file": {
+                            "name": "sub-01_task-stopsignal_run-01_bold.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000008/sub-01/func/sub-01_task-stopsignal_run-01_bold.nii.gz",
+                            "relativePath": "/sub-01/func/sub-01_task-stopsignal_run-01_bold.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 655515835,
+                                "size": 25363388,
+                                "blocks": 49544,
+                                "atimeMs": 1710632626365.5361,
+                                "mtimeMs": 1710632627293.5322,
+                                "ctimeMs": 1710632627305.5322,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-16T23:43:46.366Z",
+                                "mtime": "2024-03-16T23:43:47.294Z",
+                                "ctime": "2024-03-16T23:43:47.306Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "You should define 'SliceTiming' for this file. If you don't provide this information slice time correction will not be possible. It can be included one of the following locations: /task-stopsignal_bold.json, /task-stopsignal_run-01_bold.json, /sub-01/sub-01_task-stopsignal_bold.json, /sub-01/sub-01_task-stopsignal_run-01_bold.json, /sub-01/func/sub-01_task-stopsignal_bold.json, /sub-01/func/sub-01_task-stopsignal_run-01_bold.json",
+                        "helpUrl": "https://neurostars.org/search?q=SLICE_TIMING_NOT_DEFINED"
+                    },
+                    {
+                        "key": "SLICE_TIMING_NOT_DEFINED",
+                        "code": 13,
+                        "file": {
+                            "name": "sub-01_task-stopsignal_run-02_bold.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000008/sub-01/func/sub-01_task-stopsignal_run-02_bold.nii.gz",
+                            "relativePath": "/sub-01/func/sub-01_task-stopsignal_run-02_bold.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 655515839,
+                                "size": 25375702,
+                                "blocks": 49568,
+                                "atimeMs": 1710632627477.5315,
+                                "mtimeMs": 1710632628393.5276,
+                                "ctimeMs": 1710632628409.5273,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-16T23:43:47.478Z",
+                                "mtime": "2024-03-16T23:43:48.394Z",
+                                "ctime": "2024-03-16T23:43:48.410Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "You should define 'SliceTiming' for this file. If you don't provide this information slice time correction will not be possible. It can be included one of the following locations: /task-stopsignal_bold.json, /task-stopsignal_run-02_bold.json, /sub-01/sub-01_task-stopsignal_bold.json, /sub-01/sub-01_task-stopsignal_run-02_bold.json, /sub-01/func/sub-01_task-stopsignal_bold.json, /sub-01/func/sub-01_task-stopsignal_run-02_bold.json",
+                        "helpUrl": "https://neurostars.org/search?q=SLICE_TIMING_NOT_DEFINED"
+                    },
+                    {
+                        "key": "SLICE_TIMING_NOT_DEFINED",
+                        "code": 13,
+                        "file": {
+                            "name": "sub-01_task-stopsignal_run-03_bold.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000008/sub-01/func/sub-01_task-stopsignal_run-03_bold.nii.gz",
+                            "relativePath": "/sub-01/func/sub-01_task-stopsignal_run-03_bold.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 655515843,
+                                "size": 25382672,
+                                "blocks": 49576,
+                                "atimeMs": 1710632628569.5269,
+                                "mtimeMs": 1710632629481.523,
+                                "ctimeMs": 1710632629493.523,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-16T23:43:48.570Z",
+                                "mtime": "2024-03-16T23:43:49.482Z",
+                                "ctime": "2024-03-16T23:43:49.494Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "You should define 'SliceTiming' for this file. If you don't provide this information slice time correction will not be possible. It can be included one of the following locations: /task-stopsignal_bold.json, /task-stopsignal_run-03_bold.json, /sub-01/sub-01_task-stopsignal_bold.json, /sub-01/sub-01_task-stopsignal_run-03_bold.json, /sub-01/func/sub-01_task-stopsignal_bold.json, /sub-01/func/sub-01_task-stopsignal_run-03_bold.json",
+                        "helpUrl": "https://neurostars.org/search?q=SLICE_TIMING_NOT_DEFINED"
+                    },
+                    {
+                        "key": "SLICE_TIMING_NOT_DEFINED",
+                        "code": 13,
+                        "file": {
+                            "name": "sub-02_task-conditionalstopsignal_run-01_bold.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000008/sub-02/func/sub-02_task-conditionalstopsignal_run-01_bold.nii.gz",
+                            "relativePath": "/sub-02/func/sub-02_task-conditionalstopsignal_run-01_bold.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 655515888,
+                                "size": 25514569,
+                                "blocks": 49840,
+                                "atimeMs": 1710632631453.5146,
+                                "mtimeMs": 1710632632553.51,
+                                "ctimeMs": 1710632632569.51,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-16T23:43:51.454Z",
+                                "mtime": "2024-03-16T23:43:52.554Z",
+                                "ctime": "2024-03-16T23:43:52.570Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "You should define 'SliceTiming' for this file. If you don't provide this information slice time correction will not be possible. It can be included one of the following locations: /task-conditionalstopsignal_bold.json, /task-conditionalstopsignal_run-01_bold.json, /sub-02/sub-02_task-conditionalstopsignal_bold.json, /sub-02/sub-02_task-conditionalstopsignal_run-01_bold.json, /sub-02/func/sub-02_task-conditionalstopsignal_bold.json, /sub-02/func/sub-02_task-conditionalstopsignal_run-01_bold.json",
+                        "helpUrl": "https://neurostars.org/search?q=SLICE_TIMING_NOT_DEFINED"
+                    },
+                    {
+                        "key": "SLICE_TIMING_NOT_DEFINED",
+                        "code": 13,
+                        "file": {
+                            "name": "sub-02_task-conditionalstopsignal_run-02_bold.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000008/sub-02/func/sub-02_task-conditionalstopsignal_run-02_bold.nii.gz",
+                            "relativePath": "/sub-02/func/sub-02_task-conditionalstopsignal_run-02_bold.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 655515890,
+                                "size": 25528231,
+                                "blocks": 49864,
+                                "atimeMs": 1710632632701.5093,
+                                "mtimeMs": 1710632633665.5054,
+                                "ctimeMs": 1710632633677.5054,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-16T23:43:52.702Z",
+                                "mtime": "2024-03-16T23:43:53.666Z",
+                                "ctime": "2024-03-16T23:43:53.678Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "You should define 'SliceTiming' for this file. If you don't provide this information slice time correction will not be possible. It can be included one of the following locations: /task-conditionalstopsignal_bold.json, /task-conditionalstopsignal_run-02_bold.json, /sub-02/sub-02_task-conditionalstopsignal_bold.json, /sub-02/sub-02_task-conditionalstopsignal_run-02_bold.json, /sub-02/func/sub-02_task-conditionalstopsignal_bold.json, /sub-02/func/sub-02_task-conditionalstopsignal_run-02_bold.json",
+                        "helpUrl": "https://neurostars.org/search?q=SLICE_TIMING_NOT_DEFINED"
+                    },
+                    {
+                        "key": "SLICE_TIMING_NOT_DEFINED",
+                        "code": 13,
+                        "file": {
+                            "name": "sub-02_task-stopsignal_run-01_bold.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000008/sub-02/func/sub-02_task-stopsignal_run-01_bold.nii.gz",
+                            "relativePath": "/sub-02/func/sub-02_task-stopsignal_run-01_bold.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 655515892,
+                                "size": 26418845,
+                                "blocks": 51600,
+                                "atimeMs": 1710632633885.5044,
+                                "mtimeMs": 1710632634889.5002,
+                                "ctimeMs": 1710632634905.5,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-16T23:43:53.886Z",
+                                "mtime": "2024-03-16T23:43:54.890Z",
+                                "ctime": "2024-03-16T23:43:54.906Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "You should define 'SliceTiming' for this file. If you don't provide this information slice time correction will not be possible. It can be included one of the following locations: /task-stopsignal_bold.json, /task-stopsignal_run-01_bold.json, /sub-02/sub-02_task-stopsignal_bold.json, /sub-02/sub-02_task-stopsignal_run-01_bold.json, /sub-02/func/sub-02_task-stopsignal_bold.json, /sub-02/func/sub-02_task-stopsignal_run-01_bold.json",
+                        "helpUrl": "https://neurostars.org/search?q=SLICE_TIMING_NOT_DEFINED"
+                    },
+                    {
+                        "key": "SLICE_TIMING_NOT_DEFINED",
+                        "code": 13,
+                        "file": {
+                            "name": "sub-02_task-stopsignal_run-02_bold.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000008/sub-02/func/sub-02_task-stopsignal_run-02_bold.nii.gz",
+                            "relativePath": "/sub-02/func/sub-02_task-stopsignal_run-02_bold.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 655515894,
+                                "size": 26461164,
+                                "blocks": 51688,
+                                "atimeMs": 1710632635049.4995,
+                                "mtimeMs": 1710632636305.4941,
+                                "ctimeMs": 1710632636321.4941,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-16T23:43:55.049Z",
+                                "mtime": "2024-03-16T23:43:56.305Z",
+                                "ctime": "2024-03-16T23:43:56.321Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "You should define 'SliceTiming' for this file. If you don't provide this information slice time correction will not be possible. It can be included one of the following locations: /task-stopsignal_bold.json, /task-stopsignal_run-02_bold.json, /sub-02/sub-02_task-stopsignal_bold.json, /sub-02/sub-02_task-stopsignal_run-02_bold.json, /sub-02/func/sub-02_task-stopsignal_bold.json, /sub-02/func/sub-02_task-stopsignal_run-02_bold.json",
+                        "helpUrl": "https://neurostars.org/search?q=SLICE_TIMING_NOT_DEFINED"
+                    }
+                ],
+                "additionalFileCount": 68,
+                "helpUrl": "https://neurostars.org/search?q=SLICE_TIMING_NOT_DEFINED",
+                "code": 13
+            },
+            {
+                "key": "INCONSISTENT_SUBJECTS",
+                "severity": "warning",
+                "reason": "Not all subjects contain the same files. Each subject should contain the same number of files with the same naming unless some files are known to be missing.",
+                "files": [
+                    {
+                        "key": "INCONSISTENT_SUBJECTS",
+                        "code": 38,
+                        "file": {
+                            "relativePath": "/sub-02/func/sub-02_task-conditionalstopsignal_run-03_bold.nii.gz",
+                            "webkitRelativePath": "/sub-02/func/sub-02_task-conditionalstopsignal_run-03_bold.nii.gz",
+                            "name": "sub-02_task-conditionalstopsignal_run-03_bold.nii.gz",
+                            "path": "/sub-02/func/sub-02_task-conditionalstopsignal_run-03_bold.nii.gz"
+                        },
+                        "evidence": "Subject: sub-02; Missing file: sub-02_task-conditionalstopsignal_run-03_bold.nii.gz",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "This file is missing for subject sub-02, but is present for at least one other subject.",
+                        "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_SUBJECTS"
+                    },
+                    {
+                        "key": "INCONSISTENT_SUBJECTS",
+                        "code": 38,
+                        "file": {
+                            "relativePath": "/sub-02/func/sub-02_task-conditionalstopsignal_run-03_events.tsv",
+                            "webkitRelativePath": "/sub-02/func/sub-02_task-conditionalstopsignal_run-03_events.tsv",
+                            "name": "sub-02_task-conditionalstopsignal_run-03_events.tsv",
+                            "path": "/sub-02/func/sub-02_task-conditionalstopsignal_run-03_events.tsv"
+                        },
+                        "evidence": "Subject: sub-02; Missing file: sub-02_task-conditionalstopsignal_run-03_events.tsv",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "This file is missing for subject sub-02, but is present for at least one other subject.",
+                        "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_SUBJECTS"
+                    },
+                    {
+                        "key": "INCONSISTENT_SUBJECTS",
+                        "code": 38,
+                        "file": {
+                            "relativePath": "/sub-09/func/sub-09_task-conditionalstopsignal_run-01_bold.nii.gz",
+                            "webkitRelativePath": "/sub-09/func/sub-09_task-conditionalstopsignal_run-01_bold.nii.gz",
+                            "name": "sub-09_task-conditionalstopsignal_run-01_bold.nii.gz",
+                            "path": "/sub-09/func/sub-09_task-conditionalstopsignal_run-01_bold.nii.gz"
+                        },
+                        "evidence": "Subject: sub-09; Missing file: sub-09_task-conditionalstopsignal_run-01_bold.nii.gz",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "This file is missing for subject sub-09, but is present for at least one other subject.",
+                        "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_SUBJECTS"
+                    },
+                    {
+                        "key": "INCONSISTENT_SUBJECTS",
+                        "code": 38,
+                        "file": {
+                            "relativePath": "/sub-09/func/sub-09_task-conditionalstopsignal_run-01_events.tsv",
+                            "webkitRelativePath": "/sub-09/func/sub-09_task-conditionalstopsignal_run-01_events.tsv",
+                            "name": "sub-09_task-conditionalstopsignal_run-01_events.tsv",
+                            "path": "/sub-09/func/sub-09_task-conditionalstopsignal_run-01_events.tsv"
+                        },
+                        "evidence": "Subject: sub-09; Missing file: sub-09_task-conditionalstopsignal_run-01_events.tsv",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "This file is missing for subject sub-09, but is present for at least one other subject.",
+                        "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_SUBJECTS"
+                    },
+                    {
+                        "key": "INCONSISTENT_SUBJECTS",
+                        "code": 38,
+                        "file": {
+                            "relativePath": "/sub-09/func/sub-09_task-conditionalstopsignal_run-02_bold.nii.gz",
+                            "webkitRelativePath": "/sub-09/func/sub-09_task-conditionalstopsignal_run-02_bold.nii.gz",
+                            "name": "sub-09_task-conditionalstopsignal_run-02_bold.nii.gz",
+                            "path": "/sub-09/func/sub-09_task-conditionalstopsignal_run-02_bold.nii.gz"
+                        },
+                        "evidence": "Subject: sub-09; Missing file: sub-09_task-conditionalstopsignal_run-02_bold.nii.gz",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "This file is missing for subject sub-09, but is present for at least one other subject.",
+                        "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_SUBJECTS"
+                    },
+                    {
+                        "key": "INCONSISTENT_SUBJECTS",
+                        "code": 38,
+                        "file": {
+                            "relativePath": "/sub-09/func/sub-09_task-conditionalstopsignal_run-02_events.tsv",
+                            "webkitRelativePath": "/sub-09/func/sub-09_task-conditionalstopsignal_run-02_events.tsv",
+                            "name": "sub-09_task-conditionalstopsignal_run-02_events.tsv",
+                            "path": "/sub-09/func/sub-09_task-conditionalstopsignal_run-02_events.tsv"
+                        },
+                        "evidence": "Subject: sub-09; Missing file: sub-09_task-conditionalstopsignal_run-02_events.tsv",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "This file is missing for subject sub-09, but is present for at least one other subject.",
+                        "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_SUBJECTS"
+                    },
+                    {
+                        "key": "INCONSISTENT_SUBJECTS",
+                        "code": 38,
+                        "file": {
+                            "relativePath": "/sub-09/func/sub-09_task-conditionalstopsignal_run-03_bold.nii.gz",
+                            "webkitRelativePath": "/sub-09/func/sub-09_task-conditionalstopsignal_run-03_bold.nii.gz",
+                            "name": "sub-09_task-conditionalstopsignal_run-03_bold.nii.gz",
+                            "path": "/sub-09/func/sub-09_task-conditionalstopsignal_run-03_bold.nii.gz"
+                        },
+                        "evidence": "Subject: sub-09; Missing file: sub-09_task-conditionalstopsignal_run-03_bold.nii.gz",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "This file is missing for subject sub-09, but is present for at least one other subject.",
+                        "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_SUBJECTS"
+                    },
+                    {
+                        "key": "INCONSISTENT_SUBJECTS",
+                        "code": 38,
+                        "file": {
+                            "relativePath": "/sub-09/func/sub-09_task-conditionalstopsignal_run-03_events.tsv",
+                            "webkitRelativePath": "/sub-09/func/sub-09_task-conditionalstopsignal_run-03_events.tsv",
+                            "name": "sub-09_task-conditionalstopsignal_run-03_events.tsv",
+                            "path": "/sub-09/func/sub-09_task-conditionalstopsignal_run-03_events.tsv"
+                        },
+                        "evidence": "Subject: sub-09; Missing file: sub-09_task-conditionalstopsignal_run-03_events.tsv",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "This file is missing for subject sub-09, but is present for at least one other subject.",
+                        "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_SUBJECTS"
+                    },
+                    {
+                        "key": "INCONSISTENT_SUBJECTS",
+                        "code": 38,
+                        "file": {
+                            "relativePath": "/sub-11/func/sub-11_task-stopsignal_run-03_bold.nii.gz",
+                            "webkitRelativePath": "/sub-11/func/sub-11_task-stopsignal_run-03_bold.nii.gz",
+                            "name": "sub-11_task-stopsignal_run-03_bold.nii.gz",
+                            "path": "/sub-11/func/sub-11_task-stopsignal_run-03_bold.nii.gz"
+                        },
+                        "evidence": "Subject: sub-11; Missing file: sub-11_task-stopsignal_run-03_bold.nii.gz",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "This file is missing for subject sub-11, but is present for at least one other subject.",
+                        "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_SUBJECTS"
+                    },
+                    {
+                        "key": "INCONSISTENT_SUBJECTS",
+                        "code": 38,
+                        "file": {
+                            "relativePath": "/sub-12/func/sub-12_task-stopsignal_run-03_bold.nii.gz",
+                            "webkitRelativePath": "/sub-12/func/sub-12_task-stopsignal_run-03_bold.nii.gz",
+                            "name": "sub-12_task-stopsignal_run-03_bold.nii.gz",
+                            "path": "/sub-12/func/sub-12_task-stopsignal_run-03_bold.nii.gz"
+                        },
+                        "evidence": "Subject: sub-12; Missing file: sub-12_task-stopsignal_run-03_bold.nii.gz",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "This file is missing for subject sub-12, but is present for at least one other subject.",
+                        "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_SUBJECTS"
+                    }
+                ],
+                "additionalFileCount": 0,
+                "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_SUBJECTS",
+                "code": 38
+            },
+            {
+                "key": "INCONSISTENT_PARAMETERS",
+                "severity": "warning",
+                "reason": "Not all subjects/sessions/runs have the same scanning parameters.",
+                "files": [
+                    {
+                        "key": "INCONSISTENT_PARAMETERS",
+                        "code": 39,
+                        "file": {
+                            "name": "sub-04_T1w.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000008/sub-04/anat/sub-04_T1w.nii.gz",
+                            "relativePath": "/sub-04/anat/sub-04_T1w.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 655515887,
+                                "size": 3906447,
+                                "blocks": 7632,
+                                "atimeMs": 1710632647361.4478,
+                                "mtimeMs": 1710632647581.4468,
+                                "ctimeMs": 1710632647597.4465,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-16T23:44:07.361Z",
+                                "mtime": "2024-03-16T23:44:07.581Z",
+                                "ctime": "2024-03-16T23:44:07.597Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": " The most common set of dimensions is: 176,192,192 (voxels), This file has the dimensions: 160,192,192 (voxels).",
+                        "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_PARAMETERS"
+                    },
+                    {
+                        "key": "INCONSISTENT_PARAMETERS",
+                        "code": 39,
+                        "file": {
+                            "name": "sub-06_T1w.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000008/sub-06/anat/sub-06_T1w.nii.gz",
+                            "relativePath": "/sub-06/anat/sub-06_T1w.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 655515899,
+                                "size": 3217718,
+                                "blocks": 6288,
+                                "atimeMs": 1710632665349.3718,
+                                "mtimeMs": 1710632665513.371,
+                                "ctimeMs": 1710632665529.371,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-16T23:44:25.349Z",
+                                "mtime": "2024-03-16T23:44:25.513Z",
+                                "ctime": "2024-03-16T23:44:25.529Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": " The most common set of dimensions is: 176,192,192 (voxels), This file has the dimensions: 160,192,192 (voxels).",
+                        "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_PARAMETERS"
+                    },
+                    {
+                        "key": "INCONSISTENT_PARAMETERS",
+                        "code": 39,
+                        "file": {
+                            "name": "sub-10_T1w.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000008/sub-10/anat/sub-10_T1w.nii.gz",
+                            "relativePath": "/sub-10/anat/sub-10_T1w.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 655515926,
+                                "size": 5625434,
+                                "blocks": 10992,
+                                "atimeMs": 1710632688657.2737,
+                                "mtimeMs": 1710632689009.2722,
+                                "ctimeMs": 1710632689025.272,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-16T23:44:48.657Z",
+                                "mtime": "2024-03-16T23:44:49.009Z",
+                                "ctime": "2024-03-16T23:44:49.025Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": " The most common set of dimensions is: 176,192,192 (voxels), This file has the dimensions: 160,192,192 (voxels).",
+                        "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_PARAMETERS"
+                    },
+                    {
+                        "key": "INCONSISTENT_PARAMETERS",
+                        "code": 39,
+                        "file": {
+                            "name": "sub-10_inplaneT2.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000008/sub-10/anat/sub-10_inplaneT2.nii.gz",
+                            "relativePath": "/sub-10/anat/sub-10_inplaneT2.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 655515942,
+                                "size": 679670,
+                                "blocks": 1328,
+                                "atimeMs": 1710632689201.2712,
+                                "mtimeMs": 1710632689353.2708,
+                                "ctimeMs": 1710632689361.2708,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-16T23:44:49.201Z",
+                                "mtime": "2024-03-16T23:44:49.353Z",
+                                "ctime": "2024-03-16T23:44:49.361Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": " The most common set of dimensions is: 128,128,30 (voxels), This file has the dimensions: 128,128,33 (voxels). The most common resolution is: 1.56mm x 1.56mm x 5.00mm, This file has the resolution: 1.56mm x 1.56mm x 4.00mm.",
+                        "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_PARAMETERS"
+                    },
+                    {
+                        "key": "INCONSISTENT_PARAMETERS",
+                        "code": 39,
+                        "file": {
+                            "name": "sub-10_task-conditionalstopsignal_run-01_bold.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000008/sub-10/func/sub-10_task-conditionalstopsignal_run-01_bold.nii.gz",
+                            "relativePath": "/sub-10/func/sub-10_task-conditionalstopsignal_run-01_bold.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 655515950,
+                                "size": 28356986,
+                                "blocks": 55392,
+                                "atimeMs": 1710632689557.2698,
+                                "mtimeMs": 1710632690737.265,
+                                "ctimeMs": 1710632690749.265,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-16T23:44:49.557Z",
+                                "mtime": "2024-03-16T23:44:50.737Z",
+                                "ctime": "2024-03-16T23:44:50.749Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": " The most common set of dimensions is: 64,64,30,176 (voxels), This file has the dimensions: 64,64,33,176 (voxels). The most common resolution is: 3.13mm x 3.13mm x 5.00mm x 2.00s, This file has the resolution: 3.13mm x 3.13mm x 4.00mm x 2.00s.",
+                        "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_PARAMETERS"
+                    },
+                    {
+                        "key": "INCONSISTENT_PARAMETERS",
+                        "code": 39,
+                        "file": {
+                            "name": "sub-10_task-conditionalstopsignal_run-02_bold.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000008/sub-10/func/sub-10_task-conditionalstopsignal_run-02_bold.nii.gz",
+                            "relativePath": "/sub-10/func/sub-10_task-conditionalstopsignal_run-02_bold.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 655515952,
+                                "size": 28320489,
+                                "blocks": 55320,
+                                "atimeMs": 1710632690885.2642,
+                                "mtimeMs": 1710632691945.2598,
+                                "ctimeMs": 1710632691957.2598,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-16T23:44:50.885Z",
+                                "mtime": "2024-03-16T23:44:51.945Z",
+                                "ctime": "2024-03-16T23:44:51.957Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": " The most common set of dimensions is: 64,64,30,176 (voxels), This file has the dimensions: 64,64,33,176 (voxels). The most common resolution is: 3.13mm x 3.13mm x 5.00mm x 2.00s, This file has the resolution: 3.13mm x 3.13mm x 4.00mm x 2.00s.",
+                        "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_PARAMETERS"
+                    },
+                    {
+                        "key": "INCONSISTENT_PARAMETERS",
+                        "code": 39,
+                        "file": {
+                            "name": "sub-10_task-conditionalstopsignal_run-03_bold.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000008/sub-10/func/sub-10_task-conditionalstopsignal_run-03_bold.nii.gz",
+                            "relativePath": "/sub-10/func/sub-10_task-conditionalstopsignal_run-03_bold.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 655515954,
+                                "size": 28297470,
+                                "blocks": 55272,
+                                "atimeMs": 1710632692101.259,
+                                "mtimeMs": 1710632693137.2546,
+                                "ctimeMs": 1710632693153.2546,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-16T23:44:52.101Z",
+                                "mtime": "2024-03-16T23:44:53.137Z",
+                                "ctime": "2024-03-16T23:44:53.153Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": " The most common set of dimensions is: 64,64,30,176 (voxels), This file has the dimensions: 64,64,33,176 (voxels). The most common resolution is: 3.13mm x 3.13mm x 5.00mm x 2.00s, This file has the resolution: 3.13mm x 3.13mm x 4.00mm x 2.00s.",
+                        "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_PARAMETERS"
+                    },
+                    {
+                        "key": "INCONSISTENT_PARAMETERS",
+                        "code": 39,
+                        "file": {
+                            "name": "sub-10_task-stopsignal_run-01_bold.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000008/sub-10/func/sub-10_task-stopsignal_run-01_bold.nii.gz",
+                            "relativePath": "/sub-10/func/sub-10_task-stopsignal_run-01_bold.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 655515956,
+                                "size": 29300235,
+                                "blocks": 57232,
+                                "atimeMs": 1710632693277.2542,
+                                "mtimeMs": 1710632694357.2495,
+                                "ctimeMs": 1710632694369.2495,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-16T23:44:53.277Z",
+                                "mtime": "2024-03-16T23:44:54.357Z",
+                                "ctime": "2024-03-16T23:44:54.369Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": " The most common set of dimensions is: 64,64,30,182 (voxels), This file has the dimensions: 64,64,33,182 (voxels). The most common resolution is: 3.13mm x 3.13mm x 5.00mm x 2.00s, This file has the resolution: 3.13mm x 3.13mm x 4.00mm x 2.00s.",
+                        "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_PARAMETERS"
+                    },
+                    {
+                        "key": "INCONSISTENT_PARAMETERS",
+                        "code": 39,
+                        "file": {
+                            "name": "sub-10_task-stopsignal_run-02_bold.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000008/sub-10/func/sub-10_task-stopsignal_run-02_bold.nii.gz",
+                            "relativePath": "/sub-10/func/sub-10_task-stopsignal_run-02_bold.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 655515958,
+                                "size": 29285387,
+                                "blocks": 57200,
+                                "atimeMs": 1710632694501.249,
+                                "mtimeMs": 1710632695581.2444,
+                                "ctimeMs": 1710632695597.2444,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-16T23:44:54.501Z",
+                                "mtime": "2024-03-16T23:44:55.581Z",
+                                "ctime": "2024-03-16T23:44:55.597Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": " The most common set of dimensions is: 64,64,30,182 (voxels), This file has the dimensions: 64,64,33,182 (voxels). The most common resolution is: 3.13mm x 3.13mm x 5.00mm x 2.00s, This file has the resolution: 3.13mm x 3.13mm x 4.00mm x 2.00s.",
+                        "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_PARAMETERS"
+                    },
+                    {
+                        "key": "INCONSISTENT_PARAMETERS",
+                        "code": 39,
+                        "file": {
+                            "name": "sub-10_task-stopsignal_run-03_bold.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000008/sub-10/func/sub-10_task-stopsignal_run-03_bold.nii.gz",
+                            "relativePath": "/sub-10/func/sub-10_task-stopsignal_run-03_bold.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 655515960,
+                                "size": 29311839,
+                                "blocks": 57256,
+                                "atimeMs": 1710632695741.2437,
+                                "mtimeMs": 1710632696853.239,
+                                "ctimeMs": 1710632696869.239,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-16T23:44:55.741Z",
+                                "mtime": "2024-03-16T23:44:56.853Z",
+                                "ctime": "2024-03-16T23:44:56.869Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": " The most common set of dimensions is: 64,64,30,182 (voxels), This file has the dimensions: 64,64,33,182 (voxels). The most common resolution is: 3.13mm x 3.13mm x 5.00mm x 2.00s, This file has the resolution: 3.13mm x 3.13mm x 4.00mm x 2.00s.",
+                        "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_PARAMETERS"
+                    }
+                ],
+                "additionalFileCount": 30,
+                "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_PARAMETERS",
+                "code": 39
+            },
+            {
+                "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                "severity": "warning",
+                "reason": "Tabular file contains custom columns not described in a data dictionary",
+                "files": [
+                    {
+                        "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                        "code": 82,
+                        "file": {
+                            "name": "participants.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000008/participants.tsv",
+                            "relativePath": "/participants.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650520894,
+                                "size": 191,
+                                "blocks": 8,
+                                "atimeMs": 1710529747450.6714,
+                                "mtimeMs": 1709314364801.1497,
+                                "ctimeMs": 1709322765838.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:07.451Z",
+                                "mtime": "2024-03-01T17:32:44.801Z",
+                                "ctime": "2024-03-01T19:52:45.839Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Columns: sex, age not defined, please define in: /participants.json",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Tabular file contains custom columns not described in a data dictionary",
+                        "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION"
+                    },
+                    {
+                        "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                        "code": 82,
+                        "file": {
+                            "name": "sub-01_task-conditionalstopsignal_run-01_events.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000008/sub-01/func/sub-01_task-conditionalstopsignal_run-01_events.tsv",
+                            "relativePath": "/sub-01/func/sub-01_task-conditionalstopsignal_run-01_events.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650520975,
+                                "size": 6550,
+                                "blocks": 16,
+                                "atimeMs": 1710529747458.6714,
+                                "mtimeMs": 1709314364801.1497,
+                                "ctimeMs": 1709322765838.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:07.459Z",
+                                "mtime": "2024-03-01T17:32:44.801Z",
+                                "ctime": "2024-03-01T19:52:45.839Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Columns: TrialType, Stimulus, SSD, Response, CorrectGo, SuccStop not defined, please define in: /events.json, /task-conditionalstopsignal_events.json,/run-01_events.json,/task-conditionalstopsignal_run-01_events.json,/sub-01/sub-01_events.json,/sub-01/sub-01_task-conditionalstopsignal_events.json,/sub-01/sub-01_run-01_events.json,/sub-01/sub-01_task-conditionalstopsignal_run-01_events.json,/sub-01/func/sub-01_events.json,/sub-01/func/sub-01_task-conditionalstopsignal_events.json,/sub-01/func/sub-01_run-01_events.json,/sub-01/func/sub-01_task-conditionalstopsignal_run-01_events.json",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Tabular file contains custom columns not described in a data dictionary",
+                        "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION"
+                    },
+                    {
+                        "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                        "code": 82,
+                        "file": {
+                            "name": "sub-01_task-conditionalstopsignal_run-02_events.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000008/sub-01/func/sub-01_task-conditionalstopsignal_run-02_events.tsv",
+                            "relativePath": "/sub-01/func/sub-01_task-conditionalstopsignal_run-02_events.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650520977,
+                                "size": 6633,
+                                "blocks": 16,
+                                "atimeMs": 1710529747462.6714,
+                                "mtimeMs": 1709314364801.1497,
+                                "ctimeMs": 1709322765838.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:07.463Z",
+                                "mtime": "2024-03-01T17:32:44.801Z",
+                                "ctime": "2024-03-01T19:52:45.839Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Columns: TrialType, Stimulus, SSD, Response, CorrectGo, SuccStop not defined, please define in: /events.json, /task-conditionalstopsignal_events.json,/run-02_events.json,/task-conditionalstopsignal_run-02_events.json,/sub-01/sub-01_events.json,/sub-01/sub-01_task-conditionalstopsignal_events.json,/sub-01/sub-01_run-02_events.json,/sub-01/sub-01_task-conditionalstopsignal_run-02_events.json,/sub-01/func/sub-01_events.json,/sub-01/func/sub-01_task-conditionalstopsignal_events.json,/sub-01/func/sub-01_run-02_events.json,/sub-01/func/sub-01_task-conditionalstopsignal_run-02_events.json",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Tabular file contains custom columns not described in a data dictionary",
+                        "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION"
+                    },
+                    {
+                        "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                        "code": 82,
+                        "file": {
+                            "name": "sub-01_task-conditionalstopsignal_run-03_events.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000008/sub-01/func/sub-01_task-conditionalstopsignal_run-03_events.tsv",
+                            "relativePath": "/sub-01/func/sub-01_task-conditionalstopsignal_run-03_events.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650520979,
+                                "size": 6577,
+                                "blocks": 16,
+                                "atimeMs": 1710529747470.6714,
+                                "mtimeMs": 1709314364801.1497,
+                                "ctimeMs": 1709322765838.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:07.471Z",
+                                "mtime": "2024-03-01T17:32:44.801Z",
+                                "ctime": "2024-03-01T19:52:45.839Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Columns: TrialType, Stimulus, SSD, Response, CorrectGo, SuccStop not defined, please define in: /events.json, /task-conditionalstopsignal_events.json,/run-03_events.json,/task-conditionalstopsignal_run-03_events.json,/sub-01/sub-01_events.json,/sub-01/sub-01_task-conditionalstopsignal_events.json,/sub-01/sub-01_run-03_events.json,/sub-01/sub-01_task-conditionalstopsignal_run-03_events.json,/sub-01/func/sub-01_events.json,/sub-01/func/sub-01_task-conditionalstopsignal_events.json,/sub-01/func/sub-01_run-03_events.json,/sub-01/func/sub-01_task-conditionalstopsignal_run-03_events.json",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Tabular file contains custom columns not described in a data dictionary",
+                        "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION"
+                    },
+                    {
+                        "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                        "code": 82,
+                        "file": {
+                            "name": "sub-01_task-stopsignal_run-01_events.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000008/sub-01/func/sub-01_task-stopsignal_run-01_events.tsv",
+                            "relativePath": "/sub-01/func/sub-01_task-stopsignal_run-01_events.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650520981,
+                                "size": 5274,
+                                "blocks": 16,
+                                "atimeMs": 1710529747478.6714,
+                                "mtimeMs": 1709314364801.1497,
+                                "ctimeMs": 1709322765838.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:07.479Z",
+                                "mtime": "2024-03-01T17:32:44.801Z",
+                                "ctime": "2024-03-01T19:52:45.839Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Columns: TrialType, Stimulus, SSD, Response, CorrectGo, SuccStop not defined, please define in: /events.json, /task-stopsignal_events.json,/run-01_events.json,/task-stopsignal_run-01_events.json,/sub-01/sub-01_events.json,/sub-01/sub-01_task-stopsignal_events.json,/sub-01/sub-01_run-01_events.json,/sub-01/sub-01_task-stopsignal_run-01_events.json,/sub-01/func/sub-01_events.json,/sub-01/func/sub-01_task-stopsignal_events.json,/sub-01/func/sub-01_run-01_events.json,/sub-01/func/sub-01_task-stopsignal_run-01_events.json",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Tabular file contains custom columns not described in a data dictionary",
+                        "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION"
+                    },
+                    {
+                        "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                        "code": 82,
+                        "file": {
+                            "name": "sub-01_task-stopsignal_run-02_events.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000008/sub-01/func/sub-01_task-stopsignal_run-02_events.tsv",
+                            "relativePath": "/sub-01/func/sub-01_task-stopsignal_run-02_events.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650520983,
+                                "size": 5299,
+                                "blocks": 16,
+                                "atimeMs": 1710529747482.6714,
+                                "mtimeMs": 1709314364801.1497,
+                                "ctimeMs": 1709322765838.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:07.483Z",
+                                "mtime": "2024-03-01T17:32:44.801Z",
+                                "ctime": "2024-03-01T19:52:45.839Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Columns: TrialType, Stimulus, SSD, Response, CorrectGo, SuccStop not defined, please define in: /events.json, /task-stopsignal_events.json,/run-02_events.json,/task-stopsignal_run-02_events.json,/sub-01/sub-01_events.json,/sub-01/sub-01_task-stopsignal_events.json,/sub-01/sub-01_run-02_events.json,/sub-01/sub-01_task-stopsignal_run-02_events.json,/sub-01/func/sub-01_events.json,/sub-01/func/sub-01_task-stopsignal_events.json,/sub-01/func/sub-01_run-02_events.json,/sub-01/func/sub-01_task-stopsignal_run-02_events.json",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Tabular file contains custom columns not described in a data dictionary",
+                        "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION"
+                    },
+                    {
+                        "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                        "code": 82,
+                        "file": {
+                            "name": "sub-01_task-stopsignal_run-03_events.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000008/sub-01/func/sub-01_task-stopsignal_run-03_events.tsv",
+                            "relativePath": "/sub-01/func/sub-01_task-stopsignal_run-03_events.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650520985,
+                                "size": 5281,
+                                "blocks": 16,
+                                "atimeMs": 1710529747490.6711,
+                                "mtimeMs": 1709314364801.1497,
+                                "ctimeMs": 1709322765838.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:07.491Z",
+                                "mtime": "2024-03-01T17:32:44.801Z",
+                                "ctime": "2024-03-01T19:52:45.839Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Columns: TrialType, Stimulus, SSD, Response, CorrectGo, SuccStop not defined, please define in: /events.json, /task-stopsignal_events.json,/run-03_events.json,/task-stopsignal_run-03_events.json,/sub-01/sub-01_events.json,/sub-01/sub-01_task-stopsignal_events.json,/sub-01/sub-01_run-03_events.json,/sub-01/sub-01_task-stopsignal_run-03_events.json,/sub-01/func/sub-01_events.json,/sub-01/func/sub-01_task-stopsignal_events.json,/sub-01/func/sub-01_run-03_events.json,/sub-01/func/sub-01_task-stopsignal_run-03_events.json",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Tabular file contains custom columns not described in a data dictionary",
+                        "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION"
+                    },
+                    {
+                        "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                        "code": 82,
+                        "file": {
+                            "name": "sub-02_task-conditionalstopsignal_run-01_events.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000008/sub-02/func/sub-02_task-conditionalstopsignal_run-01_events.tsv",
+                            "relativePath": "/sub-02/func/sub-02_task-conditionalstopsignal_run-01_events.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650520992,
+                                "size": 6536,
+                                "blocks": 16,
+                                "atimeMs": 1710529747494.6711,
+                                "mtimeMs": 1709314364801.1497,
+                                "ctimeMs": 1709322765838.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:07.495Z",
+                                "mtime": "2024-03-01T17:32:44.801Z",
+                                "ctime": "2024-03-01T19:52:45.839Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Columns: TrialType, Stimulus, SSD, Response, CorrectGo, SuccStop not defined, please define in: /events.json, /task-conditionalstopsignal_events.json,/run-01_events.json,/task-conditionalstopsignal_run-01_events.json,/sub-02/sub-02_events.json,/sub-02/sub-02_task-conditionalstopsignal_events.json,/sub-02/sub-02_run-01_events.json,/sub-02/sub-02_task-conditionalstopsignal_run-01_events.json,/sub-02/func/sub-02_events.json,/sub-02/func/sub-02_task-conditionalstopsignal_events.json,/sub-02/func/sub-02_run-01_events.json,/sub-02/func/sub-02_task-conditionalstopsignal_run-01_events.json",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Tabular file contains custom columns not described in a data dictionary",
+                        "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION"
+                    },
+                    {
+                        "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                        "code": 82,
+                        "file": {
+                            "name": "sub-02_task-conditionalstopsignal_run-02_events.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000008/sub-02/func/sub-02_task-conditionalstopsignal_run-02_events.tsv",
+                            "relativePath": "/sub-02/func/sub-02_task-conditionalstopsignal_run-02_events.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650520994,
+                                "size": 6582,
+                                "blocks": 16,
+                                "atimeMs": 1710529747502.6711,
+                                "mtimeMs": 1709314364801.1497,
+                                "ctimeMs": 1709322765838.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:07.503Z",
+                                "mtime": "2024-03-01T17:32:44.801Z",
+                                "ctime": "2024-03-01T19:52:45.839Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Columns: TrialType, Stimulus, SSD, Response, CorrectGo, SuccStop not defined, please define in: /events.json, /task-conditionalstopsignal_events.json,/run-02_events.json,/task-conditionalstopsignal_run-02_events.json,/sub-02/sub-02_events.json,/sub-02/sub-02_task-conditionalstopsignal_events.json,/sub-02/sub-02_run-02_events.json,/sub-02/sub-02_task-conditionalstopsignal_run-02_events.json,/sub-02/func/sub-02_events.json,/sub-02/func/sub-02_task-conditionalstopsignal_events.json,/sub-02/func/sub-02_run-02_events.json,/sub-02/func/sub-02_task-conditionalstopsignal_run-02_events.json",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Tabular file contains custom columns not described in a data dictionary",
+                        "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION"
+                    },
+                    {
+                        "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                        "code": 82,
+                        "file": {
+                            "name": "sub-02_task-stopsignal_run-01_events.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000008/sub-02/func/sub-02_task-stopsignal_run-01_events.tsv",
+                            "relativePath": "/sub-02/func/sub-02_task-stopsignal_run-01_events.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650520996,
+                                "size": 5260,
+                                "blocks": 16,
+                                "atimeMs": 1710529747506.6711,
+                                "mtimeMs": 1709314364801.1497,
+                                "ctimeMs": 1709322765838.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:09:07.507Z",
+                                "mtime": "2024-03-01T17:32:44.801Z",
+                                "ctime": "2024-03-01T19:52:45.839Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Columns: TrialType, Stimulus, SSD, Response, CorrectGo, SuccStop not defined, please define in: /events.json, /task-stopsignal_events.json,/run-01_events.json,/task-stopsignal_run-01_events.json,/sub-02/sub-02_events.json,/sub-02/sub-02_task-stopsignal_events.json,/sub-02/sub-02_run-01_events.json,/sub-02/sub-02_task-stopsignal_run-01_events.json,/sub-02/func/sub-02_events.json,/sub-02/func/sub-02_task-stopsignal_events.json,/sub-02/func/sub-02_run-01_events.json,/sub-02/func/sub-02_task-stopsignal_run-01_events.json",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Tabular file contains custom columns not described in a data dictionary",
+                        "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION"
+                    }
+                ],
+                "additionalFileCount": 69,
+                "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                "code": 82
+            }
+        ],
+        "ignored": []
+    },
+    "summary": {
+        "sessions": [],
+        "subjects": [
+            "01",
+            "02",
+            "03",
+            "04",
+            "05",
+            "06",
+            "07",
+            "09",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"
+        ],
+        "subjectMetadata": [
+            {
+                "participantId": "01",
+                "age": 37,
+                "sex": "M"
+            },
+            {
+                "participantId": "02",
+                "age": 25,
+                "sex": "M"
+            },
+            {
+                "participantId": "03",
+                "age": 31,
+                "sex": "F"
+            },
+            {
+                "participantId": "04",
+                "age": 31,
+                "sex": "M"
+            },
+            {
+                "participantId": "05",
+                "age": 22,
+                "sex": "M"
+            },
+            {
+                "participantId": "06",
+                "age": 21,
+                "sex": "F"
+            },
+            {
+                "participantId": "07",
+                "age": 24,
+                "sex": "M"
+            },
+            {
+                "participantId": "09",
+                "age": 20,
+                "sex": "F"
+            },
+            {
+                "participantId": "10",
+                "age": 23,
+                "sex": "M"
+            },
+            {
+                "participantId": "11",
+                "age": 29,
+                "sex": "M"
+            },
+            {
+                "participantId": "12",
+                "age": 21,
+                "sex": "M"
+            },
+            {
+                "participantId": "13",
+                "age": 24,
+                "sex": "M"
+            },
+            {
+                "participantId": "14",
+                "age": 22,
+                "sex": "M"
+            },
+            {
+                "participantId": "15",
+                "age": 24,
+                "sex": "F"
+            }
+        ],
+        "tasks": [
+            "conditional stop signal",
+            "stop signal"
+        ],
+        "modalities": [
+            "MRI"
+        ],
+        "secondaryModalities": [
+            "MRI_Functional",
+            "MRI_Structural"
+        ],
+        "totalFiles": 192,
+        "size": 2160573807,
+        "dataProcessed": false,
+        "pet": null,
+        "dataTypes": [
+            "T1w",
+            "inplaneT2",
+            "bold",
+            "events"
+        ]
+    }
+}

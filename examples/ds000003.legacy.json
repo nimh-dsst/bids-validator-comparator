@@ -1,0 +1,609 @@
+{
+    "issues": {
+        "errors": [
+            {
+                "key": "JSON_SCHEMA_VALIDATION_ERROR",
+                "severity": "error",
+                "reason": "Invalid JSON file. The file is not formatted according the schema.",
+                "files": [
+                    {
+                        "key": "JSON_SCHEMA_VALIDATION_ERROR",
+                        "code": 55,
+                        "file": {
+                            "name": "dataset_description.json",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000003/dataset_description.json",
+                            "relativePath": "/dataset_description.json",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650447201,
+                                "size": 316,
+                                "blocks": 8,
+                                "atimeMs": 1710529739962.704,
+                                "mtimeMs": 1709314359729.1604,
+                                "ctimeMs": 1709322765774.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:08:59.963Z",
+                                "mtime": "2024-03-01T17:32:39.729Z",
+                                "ctime": "2024-03-01T19:52:45.775Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": ".Funding should be array",
+                        "line": null,
+                        "character": null,
+                        "severity": "error",
+                        "reason": "Invalid JSON file. The file is not formatted according the schema.",
+                        "helpUrl": "https://neurostars.org/search?q=JSON_SCHEMA_VALIDATION_ERROR"
+                    }
+                ],
+                "additionalFileCount": 0,
+                "helpUrl": "https://neurostars.org/search?q=JSON_SCHEMA_VALIDATION_ERROR",
+                "code": 55
+            }
+        ],
+        "warnings": [
+            {
+                "key": "SLICE_TIMING_NOT_DEFINED",
+                "severity": "warning",
+                "reason": "You should define 'SliceTiming' for this file. If you don't provide this information slice time correction will not be possible. 'Slice Timing' is the time at which each slice was acquired within each volume (frame) of the acquisition. Slice timing is not slice order -- rather, it is a list of times containing the time (in seconds) of each slice acquisition in relation to the beginning of volume acquisition.",
+                "files": [
+                    {
+                        "key": "SLICE_TIMING_NOT_DEFINED",
+                        "code": 13,
+                        "file": {
+                            "name": "sub-01_task-rhymejudgment_bold.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000003/sub-01/func/sub-01_task-rhymejudgment_bold.nii.gz",
+                            "relativePath": "/sub-01/func/sub-01_task-rhymejudgment_bold.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 656603255,
+                                "size": 25362403,
+                                "blocks": 49536,
+                                "atimeMs": 1710623450273.4014,
+                                "mtimeMs": 1710623451357.3972,
+                                "ctimeMs": 1710623451373.397,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-16T21:10:50.273Z",
+                                "mtime": "2024-03-16T21:10:51.357Z",
+                                "ctime": "2024-03-16T21:10:51.373Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "You should define 'SliceTiming' for this file. If you don't provide this information slice time correction will not be possible. It can be included one of the following locations: /task-rhymejudgment_bold.json, /sub-01/sub-01_task-rhymejudgment_bold.json, /sub-01/func/sub-01_task-rhymejudgment_bold.json",
+                        "helpUrl": "https://neurostars.org/search?q=SLICE_TIMING_NOT_DEFINED"
+                    },
+                    {
+                        "key": "SLICE_TIMING_NOT_DEFINED",
+                        "code": 13,
+                        "file": {
+                            "name": "sub-02_task-rhymejudgment_bold.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000003/sub-02/func/sub-02_task-rhymejudgment_bold.nii.gz",
+                            "relativePath": "/sub-02/func/sub-02_task-rhymejudgment_bold.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 656603290,
+                                "size": 26037942,
+                                "blocks": 50856,
+                                "atimeMs": 1710623453365.3894,
+                                "mtimeMs": 1710623454513.385,
+                                "ctimeMs": 1710623454529.385,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-16T21:10:53.365Z",
+                                "mtime": "2024-03-16T21:10:54.513Z",
+                                "ctime": "2024-03-16T21:10:54.529Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "You should define 'SliceTiming' for this file. If you don't provide this information slice time correction will not be possible. It can be included one of the following locations: /task-rhymejudgment_bold.json, /sub-02/sub-02_task-rhymejudgment_bold.json, /sub-02/func/sub-02_task-rhymejudgment_bold.json",
+                        "helpUrl": "https://neurostars.org/search?q=SLICE_TIMING_NOT_DEFINED"
+                    },
+                    {
+                        "key": "SLICE_TIMING_NOT_DEFINED",
+                        "code": 13,
+                        "file": {
+                            "name": "sub-03_task-rhymejudgment_bold.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000003/sub-03/func/sub-03_task-rhymejudgment_bold.nii.gz",
+                            "relativePath": "/sub-03/func/sub-03_task-rhymejudgment_bold.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 656603296,
+                                "size": 24884072,
+                                "blocks": 48608,
+                                "atimeMs": 1710623456613.377,
+                                "mtimeMs": 1710623457669.3728,
+                                "ctimeMs": 1710623457685.3728,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-16T21:10:56.613Z",
+                                "mtime": "2024-03-16T21:10:57.669Z",
+                                "ctime": "2024-03-16T21:10:57.685Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "You should define 'SliceTiming' for this file. If you don't provide this information slice time correction will not be possible. It can be included one of the following locations: /task-rhymejudgment_bold.json, /sub-03/sub-03_task-rhymejudgment_bold.json, /sub-03/func/sub-03_task-rhymejudgment_bold.json",
+                        "helpUrl": "https://neurostars.org/search?q=SLICE_TIMING_NOT_DEFINED"
+                    },
+                    {
+                        "key": "SLICE_TIMING_NOT_DEFINED",
+                        "code": 13,
+                        "file": {
+                            "name": "sub-04_task-rhymejudgment_bold.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000003/sub-04/func/sub-04_task-rhymejudgment_bold.nii.gz",
+                            "relativePath": "/sub-04/func/sub-04_task-rhymejudgment_bold.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 656603299,
+                                "size": 25910173,
+                                "blocks": 50608,
+                                "atimeMs": 1710623459749.365,
+                                "mtimeMs": 1710623460845.3606,
+                                "ctimeMs": 1710623460861.3606,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-16T21:10:59.749Z",
+                                "mtime": "2024-03-16T21:11:00.845Z",
+                                "ctime": "2024-03-16T21:11:00.861Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "You should define 'SliceTiming' for this file. If you don't provide this information slice time correction will not be possible. It can be included one of the following locations: /task-rhymejudgment_bold.json, /sub-04/sub-04_task-rhymejudgment_bold.json, /sub-04/func/sub-04_task-rhymejudgment_bold.json",
+                        "helpUrl": "https://neurostars.org/search?q=SLICE_TIMING_NOT_DEFINED"
+                    },
+                    {
+                        "key": "SLICE_TIMING_NOT_DEFINED",
+                        "code": 13,
+                        "file": {
+                            "name": "sub-05_task-rhymejudgment_bold.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000003/sub-05/func/sub-05_task-rhymejudgment_bold.nii.gz",
+                            "relativePath": "/sub-05/func/sub-05_task-rhymejudgment_bold.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 656603302,
+                                "size": 24727839,
+                                "blocks": 48304,
+                                "atimeMs": 1710623462781.3533,
+                                "mtimeMs": 1710623463777.3494,
+                                "ctimeMs": 1710623463789.3494,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-16T21:11:02.781Z",
+                                "mtime": "2024-03-16T21:11:03.777Z",
+                                "ctime": "2024-03-16T21:11:03.789Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "You should define 'SliceTiming' for this file. If you don't provide this information slice time correction will not be possible. It can be included one of the following locations: /task-rhymejudgment_bold.json, /sub-05/sub-05_task-rhymejudgment_bold.json, /sub-05/func/sub-05_task-rhymejudgment_bold.json",
+                        "helpUrl": "https://neurostars.org/search?q=SLICE_TIMING_NOT_DEFINED"
+                    },
+                    {
+                        "key": "SLICE_TIMING_NOT_DEFINED",
+                        "code": 13,
+                        "file": {
+                            "name": "sub-06_task-rhymejudgment_bold.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000003/sub-06/func/sub-06_task-rhymejudgment_bold.nii.gz",
+                            "relativePath": "/sub-06/func/sub-06_task-rhymejudgment_bold.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 656603305,
+                                "size": 25934325,
+                                "blocks": 50656,
+                                "atimeMs": 1710623465693.342,
+                                "mtimeMs": 1710623466801.3376,
+                                "ctimeMs": 1710623466817.3376,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-16T21:11:05.693Z",
+                                "mtime": "2024-03-16T21:11:06.801Z",
+                                "ctime": "2024-03-16T21:11:06.817Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "You should define 'SliceTiming' for this file. If you don't provide this information slice time correction will not be possible. It can be included one of the following locations: /task-rhymejudgment_bold.json, /sub-06/sub-06_task-rhymejudgment_bold.json, /sub-06/func/sub-06_task-rhymejudgment_bold.json",
+                        "helpUrl": "https://neurostars.org/search?q=SLICE_TIMING_NOT_DEFINED"
+                    },
+                    {
+                        "key": "SLICE_TIMING_NOT_DEFINED",
+                        "code": 13,
+                        "file": {
+                            "name": "sub-07_task-rhymejudgment_bold.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000003/sub-07/func/sub-07_task-rhymejudgment_bold.nii.gz",
+                            "relativePath": "/sub-07/func/sub-07_task-rhymejudgment_bold.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 656603308,
+                                "size": 25343356,
+                                "blocks": 49504,
+                                "atimeMs": 1710623468865.3298,
+                                "mtimeMs": 1710623469941.3254,
+                                "ctimeMs": 1710623469957.3254,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-16T21:11:08.865Z",
+                                "mtime": "2024-03-16T21:11:09.941Z",
+                                "ctime": "2024-03-16T21:11:09.957Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "You should define 'SliceTiming' for this file. If you don't provide this information slice time correction will not be possible. It can be included one of the following locations: /task-rhymejudgment_bold.json, /sub-07/sub-07_task-rhymejudgment_bold.json, /sub-07/func/sub-07_task-rhymejudgment_bold.json",
+                        "helpUrl": "https://neurostars.org/search?q=SLICE_TIMING_NOT_DEFINED"
+                    },
+                    {
+                        "key": "SLICE_TIMING_NOT_DEFINED",
+                        "code": 13,
+                        "file": {
+                            "name": "sub-08_task-rhymejudgment_bold.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000003/sub-08/func/sub-08_task-rhymejudgment_bold.nii.gz",
+                            "relativePath": "/sub-08/func/sub-08_task-rhymejudgment_bold.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 656603311,
+                                "size": 25552170,
+                                "blocks": 49912,
+                                "atimeMs": 1710623471845.318,
+                                "mtimeMs": 1710623472937.314,
+                                "ctimeMs": 1710623472953.314,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-16T21:11:11.845Z",
+                                "mtime": "2024-03-16T21:11:12.937Z",
+                                "ctime": "2024-03-16T21:11:12.953Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "You should define 'SliceTiming' for this file. If you don't provide this information slice time correction will not be possible. It can be included one of the following locations: /task-rhymejudgment_bold.json, /sub-08/sub-08_task-rhymejudgment_bold.json, /sub-08/func/sub-08_task-rhymejudgment_bold.json",
+                        "helpUrl": "https://neurostars.org/search?q=SLICE_TIMING_NOT_DEFINED"
+                    },
+                    {
+                        "key": "SLICE_TIMING_NOT_DEFINED",
+                        "code": 13,
+                        "file": {
+                            "name": "sub-09_task-rhymejudgment_bold.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000003/sub-09/func/sub-09_task-rhymejudgment_bold.nii.gz",
+                            "relativePath": "/sub-09/func/sub-09_task-rhymejudgment_bold.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 656603314,
+                                "size": 25070144,
+                                "blocks": 48968,
+                                "atimeMs": 1710623474845.3066,
+                                "mtimeMs": 1710623475905.3025,
+                                "ctimeMs": 1710623475921.3022,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-16T21:11:14.845Z",
+                                "mtime": "2024-03-16T21:11:15.905Z",
+                                "ctime": "2024-03-16T21:11:15.921Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "You should define 'SliceTiming' for this file. If you don't provide this information slice time correction will not be possible. It can be included one of the following locations: /task-rhymejudgment_bold.json, /sub-09/sub-09_task-rhymejudgment_bold.json, /sub-09/func/sub-09_task-rhymejudgment_bold.json",
+                        "helpUrl": "https://neurostars.org/search?q=SLICE_TIMING_NOT_DEFINED"
+                    },
+                    {
+                        "key": "SLICE_TIMING_NOT_DEFINED",
+                        "code": 13,
+                        "file": {
+                            "name": "sub-10_task-rhymejudgment_bold.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000003/sub-10/func/sub-10_task-rhymejudgment_bold.nii.gz",
+                            "relativePath": "/sub-10/func/sub-10_task-rhymejudgment_bold.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 656603317,
+                                "size": 25016543,
+                                "blocks": 48864,
+                                "atimeMs": 1710623477889.2947,
+                                "mtimeMs": 1710623478945.2905,
+                                "ctimeMs": 1710623478961.2905,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-16T21:11:17.889Z",
+                                "mtime": "2024-03-16T21:11:18.945Z",
+                                "ctime": "2024-03-16T21:11:18.961Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "You should define 'SliceTiming' for this file. If you don't provide this information slice time correction will not be possible. It can be included one of the following locations: /task-rhymejudgment_bold.json, /sub-10/sub-10_task-rhymejudgment_bold.json, /sub-10/func/sub-10_task-rhymejudgment_bold.json",
+                        "helpUrl": "https://neurostars.org/search?q=SLICE_TIMING_NOT_DEFINED"
+                    }
+                ],
+                "additionalFileCount": 3,
+                "helpUrl": "https://neurostars.org/search?q=SLICE_TIMING_NOT_DEFINED",
+                "code": 13
+            },
+            {
+                "key": "INCONSISTENT_PARAMETERS",
+                "severity": "warning",
+                "reason": "Not all subjects/sessions/runs have the same scanning parameters.",
+                "files": [
+                    {
+                        "key": "INCONSISTENT_PARAMETERS",
+                        "code": 39,
+                        "file": {
+                            "name": "sub-11_task-rhymejudgment_bold.nii.gz",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000003/sub-11/func/sub-11_task-rhymejudgment_bold.nii.gz",
+                            "relativePath": "/sub-11/func/sub-11_task-rhymejudgment_bold.nii.gz",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33056,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 656603320,
+                                "size": 24286225,
+                                "blocks": 47440,
+                                "atimeMs": 1710623480873.2832,
+                                "mtimeMs": 1710623481773.2795,
+                                "ctimeMs": 1710623481861.2793,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-16T21:11:20.873Z",
+                                "mtime": "2024-03-16T21:11:21.773Z",
+                                "ctime": "2024-03-16T21:11:21.861Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": null,
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": " The most common set of dimensions is: 64,64,33,160 (voxels), This file has the dimensions: 64,64,33,156 (voxels).",
+                        "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_PARAMETERS"
+                    }
+                ],
+                "additionalFileCount": 0,
+                "helpUrl": "https://neurostars.org/search?q=INCONSISTENT_PARAMETERS",
+                "code": 39
+            },
+            {
+                "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                "severity": "warning",
+                "reason": "Tabular file contains custom columns not described in a data dictionary",
+                "files": [
+                    {
+                        "key": "CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                        "code": 82,
+                        "file": {
+                            "name": "participants.tsv",
+                            "path": "/mnt/nfs/lever/data/openneuro/ds000003/participants.tsv",
+                            "relativePath": "/participants.tsv",
+                            "stats": {
+                                "dev": 68,
+                                "mode": 33200,
+                                "nlink": 1,
+                                "uid": 443704308,
+                                "gid": 100,
+                                "rdev": 0,
+                                "blksize": 1048576,
+                                "ino": 650447202,
+                                "size": 179,
+                                "blocks": 8,
+                                "atimeMs": 1710529739974.704,
+                                "mtimeMs": 1709314359729.1604,
+                                "ctimeMs": 1709322765774.7039,
+                                "birthtimeMs": 0,
+                                "atime": "2024-03-15T19:08:59.975Z",
+                                "mtime": "2024-03-01T17:32:39.729Z",
+                                "ctime": "2024-03-01T19:52:45.775Z",
+                                "birthtime": "1970-01-01T00:00:00.000Z"
+                            }
+                        },
+                        "evidence": "Columns: sex, age not defined, please define in: /participants.json",
+                        "line": null,
+                        "character": null,
+                        "severity": "warning",
+                        "reason": "Tabular file contains custom columns not described in a data dictionary",
+                        "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION"
+                    }
+                ],
+                "additionalFileCount": 0,
+                "helpUrl": "https://neurostars.org/search?q=CUSTOM_COLUMN_WITHOUT_DESCRIPTION",
+                "code": 82
+            }
+        ],
+        "ignored": []
+    },
+    "summary": {
+        "sessions": [],
+        "subjects": [
+            "01",
+            "02",
+            "03",
+            "04",
+            "05",
+            "06",
+            "07",
+            "08",
+            "09",
+            "10",
+            "11",
+            "12",
+            "13"
+        ],
+        "subjectMetadata": [
+            {
+                "participantId": "01",
+                "age": 25,
+                "sex": "M"
+            },
+            {
+                "participantId": "02",
+                "age": 18,
+                "sex": "M"
+            },
+            {
+                "participantId": "03",
+                "age": 22,
+                "sex": "F"
+            },
+            {
+                "participantId": "04",
+                "age": 25,
+                "sex": "F"
+            },
+            {
+                "participantId": "05",
+                "age": 22,
+                "sex": "M"
+            },
+            {
+                "participantId": "06",
+                "age": 38,
+                "sex": "M"
+            },
+            {
+                "participantId": "07",
+                "age": 36,
+                "sex": "M"
+            },
+            {
+                "participantId": "08",
+                "age": 19,
+                "sex": "M"
+            },
+            {
+                "participantId": "09",
+                "age": 20,
+                "sex": "M"
+            },
+            {
+                "participantId": "10",
+                "age": 19,
+                "sex": "F"
+            },
+            {
+                "participantId": "11",
+                "age": 21,
+                "sex": "F"
+            },
+            {
+                "participantId": "12",
+                "age": 19,
+                "sex": "M"
+            },
+            {
+                "participantId": "13",
+                "age": 29,
+                "sex": "F"
+            }
+        ],
+        "tasks": [
+            "rhyme judgment"
+        ],
+        "modalities": [
+            "MRI"
+        ],
+        "secondaryModalities": [
+            "MRI_Structural",
+            "MRI_Functional"
+        ],
+        "totalFiles": 57,
+        "size": 410092142,
+        "dataProcessed": false,
+        "pet": null,
+        "dataTypes": [
+            "T1w",
+            "inplaneT2",
+            "bold",
+            "events"
+        ]
+    }
+}

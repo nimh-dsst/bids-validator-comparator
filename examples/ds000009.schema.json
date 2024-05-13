@@ -1,0 +1,467 @@
+{
+    "issues": [
+        {
+            "key": "TOO_FEW_AUTHORS",
+            "severity": "warning",
+            "reason": "The 'Authors' field of 'dataset_description.json' should contain an array of values -\nwith one author per value.\nThis was triggered based on the presence of only one author field.\nPlease ignore if all contributors are already properly listed.\n",
+            "files": [
+                {
+                    "name": "dataset_description.json",
+                    "path": "/dataset_description.json",
+                    "evidence": "schema.rules.checks.hints.TooFewAuthors"
+                }
+            ]
+        },
+        {
+            "key": "EVENTS_TSV_MISSING",
+            "severity": "warning",
+            "reason": "Task scans should have a corresponding 'events.tsv' file.\nIf this is a resting state scan you can ignore this warning or rename the task to include the word \"rest\".\n",
+            "files": [
+                {
+                    "name": "task-stopsignal_bold.json",
+                    "path": "/task-stopsignal_bold.json",
+                    "evidence": "schema.rules.checks.events.EventsMissing"
+                },
+                {
+                    "name": "task-discounting_bold.json",
+                    "path": "/task-discounting_bold.json",
+                    "evidence": "schema.rules.checks.events.EventsMissing"
+                },
+                {
+                    "name": "task-emotionalregulation_bold.json",
+                    "path": "/task-emotionalregulation_bold.json",
+                    "evidence": "schema.rules.checks.events.EventsMissing"
+                },
+                {
+                    "name": "task-balloonanalogrisktask_bold.json",
+                    "path": "/task-balloonanalogrisktask_bold.json",
+                    "evidence": "schema.rules.checks.events.EventsMissing"
+                }
+            ]
+        },
+        {
+            "key": "TSV_VALUE_INCORRECT_TYPE",
+            "severity": "error",
+            "reason": "A value in a column did match the acceptable type for that column headers specified format.",
+            "files": [
+                {
+                    "name": "sub-01_task-discounting_events.tsv",
+                    "path": "/sub-01/func/sub-01_task-discounting_events.tsv",
+                    "evidence": "' 16.01' {\n  name: \"onset\",\n  display_name: \"Event onset\",\n  description: \"Onset (in seconds) of the event, measured from the beginning of the acquisition\\n\" +\n    \"of the first data po\"... 597 more characters,\n  type: \"number\",\n  unit: \"s\"\n}"
+                },
+                {
+                    "name": "sub-29_task-discounting_events.tsv",
+                    "path": "/sub-29/func/sub-29_task-discounting_events.tsv",
+                    "evidence": "' 16.01' {\n  name: \"onset\",\n  display_name: \"Event onset\",\n  description: \"Onset (in seconds) of the event, measured from the beginning of the acquisition\\n\" +\n    \"of the first data po\"... 597 more characters,\n  type: \"number\",\n  unit: \"s\"\n}"
+                },
+                {
+                    "name": "sub-11_task-discounting_events.tsv",
+                    "path": "/sub-11/func/sub-11_task-discounting_events.tsv",
+                    "evidence": "' 16.01' {\n  name: \"onset\",\n  display_name: \"Event onset\",\n  description: \"Onset (in seconds) of the event, measured from the beginning of the acquisition\\n\" +\n    \"of the first data po\"... 597 more characters,\n  type: \"number\",\n  unit: \"s\"\n}"
+                },
+                {
+                    "name": "sub-23_task-discounting_events.tsv",
+                    "path": "/sub-23/func/sub-23_task-discounting_events.tsv",
+                    "evidence": "' 16.01' {\n  name: \"onset\",\n  display_name: \"Event onset\",\n  description: \"Onset (in seconds) of the event, measured from the beginning of the acquisition\\n\" +\n    \"of the first data po\"... 597 more characters,\n  type: \"number\",\n  unit: \"s\"\n}"
+                },
+                {
+                    "name": "sub-06_task-discounting_events.tsv",
+                    "path": "/sub-06/func/sub-06_task-discounting_events.tsv",
+                    "evidence": "' 16.02' {\n  name: \"onset\",\n  display_name: \"Event onset\",\n  description: \"Onset (in seconds) of the event, measured from the beginning of the acquisition\\n\" +\n    \"of the first data po\"... 597 more characters,\n  type: \"number\",\n  unit: \"s\"\n}"
+                },
+                {
+                    "name": "sub-21_task-discounting_events.tsv",
+                    "path": "/sub-21/func/sub-21_task-discounting_events.tsv",
+                    "evidence": "' 16.01' {\n  name: \"onset\",\n  display_name: \"Event onset\",\n  description: \"Onset (in seconds) of the event, measured from the beginning of the acquisition\\n\" +\n    \"of the first data po\"... 597 more characters,\n  type: \"number\",\n  unit: \"s\"\n}"
+                },
+                {
+                    "name": "sub-26_task-discounting_events.tsv",
+                    "path": "/sub-26/func/sub-26_task-discounting_events.tsv",
+                    "evidence": "' 16.01' {\n  name: \"onset\",\n  display_name: \"Event onset\",\n  description: \"Onset (in seconds) of the event, measured from the beginning of the acquisition\\n\" +\n    \"of the first data po\"... 597 more characters,\n  type: \"number\",\n  unit: \"s\"\n}"
+                },
+                {
+                    "name": "sub-05_task-discounting_events.tsv",
+                    "path": "/sub-05/func/sub-05_task-discounting_events.tsv",
+                    "evidence": "' 16.01' {\n  name: \"onset\",\n  display_name: \"Event onset\",\n  description: \"Onset (in seconds) of the event, measured from the beginning of the acquisition\\n\" +\n    \"of the first data po\"... 597 more characters,\n  type: \"number\",\n  unit: \"s\"\n}"
+                },
+                {
+                    "name": "sub-10_task-discounting_events.tsv",
+                    "path": "/sub-10/func/sub-10_task-discounting_events.tsv",
+                    "evidence": "' 16.01' {\n  name: \"onset\",\n  display_name: \"Event onset\",\n  description: \"Onset (in seconds) of the event, measured from the beginning of the acquisition\\n\" +\n    \"of the first data po\"... 597 more characters,\n  type: \"number\",\n  unit: \"s\"\n}"
+                },
+                {
+                    "name": "sub-25_task-discounting_events.tsv",
+                    "path": "/sub-25/func/sub-25_task-discounting_events.tsv",
+                    "evidence": "' 16.01' {\n  name: \"onset\",\n  display_name: \"Event onset\",\n  description: \"Onset (in seconds) of the event, measured from the beginning of the acquisition\\n\" +\n    \"of the first data po\"... 597 more characters,\n  type: \"number\",\n  unit: \"s\"\n}"
+                },
+                {
+                    "name": "sub-17_task-discounting_events.tsv",
+                    "path": "/sub-17/func/sub-17_task-discounting_events.tsv",
+                    "evidence": "' 16.01' {\n  name: \"onset\",\n  display_name: \"Event onset\",\n  description: \"Onset (in seconds) of the event, measured from the beginning of the acquisition\\n\" +\n    \"of the first data po\"... 597 more characters,\n  type: \"number\",\n  unit: \"s\"\n}"
+                },
+                {
+                    "name": "sub-24_task-discounting_events.tsv",
+                    "path": "/sub-24/func/sub-24_task-discounting_events.tsv",
+                    "evidence": "' 16.01' {\n  name: \"onset\",\n  display_name: \"Event onset\",\n  description: \"Onset (in seconds) of the event, measured from the beginning of the acquisition\\n\" +\n    \"of the first data po\"... 597 more characters,\n  type: \"number\",\n  unit: \"s\"\n}"
+                },
+                {
+                    "name": "sub-16_task-discounting_events.tsv",
+                    "path": "/sub-16/func/sub-16_task-discounting_events.tsv",
+                    "evidence": "' 16.00' {\n  name: \"onset\",\n  display_name: \"Event onset\",\n  description: \"Onset (in seconds) of the event, measured from the beginning of the acquisition\\n\" +\n    \"of the first data po\"... 597 more characters,\n  type: \"number\",\n  unit: \"s\"\n}"
+                },
+                {
+                    "name": "sub-09_task-discounting_events.tsv",
+                    "path": "/sub-09/func/sub-09_task-discounting_events.tsv",
+                    "evidence": "' 16.02' {\n  name: \"onset\",\n  display_name: \"Event onset\",\n  description: \"Onset (in seconds) of the event, measured from the beginning of the acquisition\\n\" +\n    \"of the first data po\"... 597 more characters,\n  type: \"number\",\n  unit: \"s\"\n}"
+                },
+                {
+                    "name": "sub-28_task-discounting_events.tsv",
+                    "path": "/sub-28/func/sub-28_task-discounting_events.tsv",
+                    "evidence": "' 16.02' {\n  name: \"onset\",\n  display_name: \"Event onset\",\n  description: \"Onset (in seconds) of the event, measured from the beginning of the acquisition\\n\" +\n    \"of the first data po\"... 597 more characters,\n  type: \"number\",\n  unit: \"s\"\n}"
+                },
+                {
+                    "name": "sub-13_task-discounting_events.tsv",
+                    "path": "/sub-13/func/sub-13_task-discounting_events.tsv",
+                    "evidence": "' 16.01' {\n  name: \"onset\",\n  display_name: \"Event onset\",\n  description: \"Onset (in seconds) of the event, measured from the beginning of the acquisition\\n\" +\n    \"of the first data po\"... 597 more characters,\n  type: \"number\",\n  unit: \"s\"\n}"
+                },
+                {
+                    "name": "sub-03_task-discounting_events.tsv",
+                    "path": "/sub-03/func/sub-03_task-discounting_events.tsv",
+                    "evidence": "' 16.00' {\n  name: \"onset\",\n  display_name: \"Event onset\",\n  description: \"Onset (in seconds) of the event, measured from the beginning of the acquisition\\n\" +\n    \"of the first data po\"... 597 more characters,\n  type: \"number\",\n  unit: \"s\"\n}"
+                },
+                {
+                    "name": "sub-12_task-discounting_events.tsv",
+                    "path": "/sub-12/func/sub-12_task-discounting_events.tsv",
+                    "evidence": "' 16.01' {\n  name: \"onset\",\n  display_name: \"Event onset\",\n  description: \"Onset (in seconds) of the event, measured from the beginning of the acquisition\\n\" +\n    \"of the first data po\"... 597 more characters,\n  type: \"number\",\n  unit: \"s\"\n}"
+                },
+                {
+                    "name": "sub-07_task-discounting_events.tsv",
+                    "path": "/sub-07/func/sub-07_task-discounting_events.tsv",
+                    "evidence": "' 16.01' {\n  name: \"onset\",\n  display_name: \"Event onset\",\n  description: \"Onset (in seconds) of the event, measured from the beginning of the acquisition\\n\" +\n    \"of the first data po\"... 597 more characters,\n  type: \"number\",\n  unit: \"s\"\n}"
+                },
+                {
+                    "name": "sub-02_task-discounting_events.tsv",
+                    "path": "/sub-02/func/sub-02_task-discounting_events.tsv",
+                    "evidence": "' 16.01' {\n  name: \"onset\",\n  display_name: \"Event onset\",\n  description: \"Onset (in seconds) of the event, measured from the beginning of the acquisition\\n\" +\n    \"of the first data po\"... 597 more characters,\n  type: \"number\",\n  unit: \"s\"\n}"
+                },
+                {
+                    "name": "sub-18_task-discounting_events.tsv",
+                    "path": "/sub-18/func/sub-18_task-discounting_events.tsv",
+                    "evidence": "' 16.00' {\n  name: \"onset\",\n  display_name: \"Event onset\",\n  description: \"Onset (in seconds) of the event, measured from the beginning of the acquisition\\n\" +\n    \"of the first data po\"... 597 more characters,\n  type: \"number\",\n  unit: \"s\"\n}"
+                },
+                {
+                    "name": "sub-20_task-discounting_events.tsv",
+                    "path": "/sub-20/func/sub-20_task-discounting_events.tsv",
+                    "evidence": "' 16.00' {\n  name: \"onset\",\n  display_name: \"Event onset\",\n  description: \"Onset (in seconds) of the event, measured from the beginning of the acquisition\\n\" +\n    \"of the first data po\"... 597 more characters,\n  type: \"number\",\n  unit: \"s\"\n}"
+                },
+                {
+                    "name": "sub-04_task-discounting_events.tsv",
+                    "path": "/sub-04/func/sub-04_task-discounting_events.tsv",
+                    "evidence": "' 16.00' {\n  name: \"onset\",\n  display_name: \"Event onset\",\n  description: \"Onset (in seconds) of the event, measured from the beginning of the acquisition\\n\" +\n    \"of the first data po\"... 597 more characters,\n  type: \"number\",\n  unit: \"s\"\n}"
+                },
+                {
+                    "name": "sub-14_task-discounting_events.tsv",
+                    "path": "/sub-14/func/sub-14_task-discounting_events.tsv",
+                    "evidence": "' 16.01' {\n  name: \"onset\",\n  display_name: \"Event onset\",\n  description: \"Onset (in seconds) of the event, measured from the beginning of the acquisition\\n\" +\n    \"of the first data po\"... 597 more characters,\n  type: \"number\",\n  unit: \"s\"\n}"
+                }
+            ]
+        },
+        {
+            "key": "TSV_COLUMN_MISSING",
+            "severity": "error",
+            "reason": "A required column is missing",
+            "files": [
+                {
+                    "name": "sub-29_scans.tsv",
+                    "path": "/sub-29/sub-29_scans.tsv",
+                    "evidence": "Columns cited as index columns not in file: filename. schema.rules.tabular_data.modality_agnostic.Scans"
+                },
+                {
+                    "name": "sub-11_scans.tsv",
+                    "path": "/sub-11/sub-11_scans.tsv",
+                    "evidence": "Columns cited as index columns not in file: filename. schema.rules.tabular_data.modality_agnostic.Scans"
+                },
+                {
+                    "name": "sub-23_scans.tsv",
+                    "path": "/sub-23/sub-23_scans.tsv",
+                    "evidence": "Columns cited as index columns not in file: filename. schema.rules.tabular_data.modality_agnostic.Scans"
+                },
+                {
+                    "name": "sub-06_scans.tsv",
+                    "path": "/sub-06/sub-06_scans.tsv",
+                    "evidence": "Columns cited as index columns not in file: filename. schema.rules.tabular_data.modality_agnostic.Scans"
+                },
+                {
+                    "name": "sub-21_scans.tsv",
+                    "path": "/sub-21/sub-21_scans.tsv",
+                    "evidence": "Columns cited as index columns not in file: filename. schema.rules.tabular_data.modality_agnostic.Scans"
+                },
+                {
+                    "name": "sub-26_scans.tsv",
+                    "path": "/sub-26/sub-26_scans.tsv",
+                    "evidence": "Columns cited as index columns not in file: filename. schema.rules.tabular_data.modality_agnostic.Scans"
+                },
+                {
+                    "name": "sub-05_scans.tsv",
+                    "path": "/sub-05/sub-05_scans.tsv",
+                    "evidence": "Columns cited as index columns not in file: filename. schema.rules.tabular_data.modality_agnostic.Scans"
+                },
+                {
+                    "name": "sub-10_scans.tsv",
+                    "path": "/sub-10/sub-10_scans.tsv",
+                    "evidence": "Columns cited as index columns not in file: filename. schema.rules.tabular_data.modality_agnostic.Scans"
+                },
+                {
+                    "name": "sub-25_scans.tsv",
+                    "path": "/sub-25/sub-25_scans.tsv",
+                    "evidence": "Columns cited as index columns not in file: filename. schema.rules.tabular_data.modality_agnostic.Scans"
+                },
+                {
+                    "name": "sub-17_scans.tsv",
+                    "path": "/sub-17/sub-17_scans.tsv",
+                    "evidence": "Columns cited as index columns not in file: filename. schema.rules.tabular_data.modality_agnostic.Scans"
+                },
+                {
+                    "name": "sub-24_scans.tsv",
+                    "path": "/sub-24/sub-24_scans.tsv",
+                    "evidence": "Columns cited as index columns not in file: filename. schema.rules.tabular_data.modality_agnostic.Scans"
+                },
+                {
+                    "name": "sub-16_scans.tsv",
+                    "path": "/sub-16/sub-16_scans.tsv",
+                    "evidence": "Columns cited as index columns not in file: filename. schema.rules.tabular_data.modality_agnostic.Scans"
+                },
+                {
+                    "name": "sub-09_scans.tsv",
+                    "path": "/sub-09/sub-09_scans.tsv",
+                    "evidence": "Columns cited as index columns not in file: filename. schema.rules.tabular_data.modality_agnostic.Scans"
+                },
+                {
+                    "name": "sub-28_scans.tsv",
+                    "path": "/sub-28/sub-28_scans.tsv",
+                    "evidence": "Columns cited as index columns not in file: filename. schema.rules.tabular_data.modality_agnostic.Scans"
+                },
+                {
+                    "name": "sub-13_scans.tsv",
+                    "path": "/sub-13/sub-13_scans.tsv",
+                    "evidence": "Columns cited as index columns not in file: filename. schema.rules.tabular_data.modality_agnostic.Scans"
+                },
+                {
+                    "name": "sub-03_scans.tsv",
+                    "path": "/sub-03/sub-03_scans.tsv",
+                    "evidence": "Columns cited as index columns not in file: filename. schema.rules.tabular_data.modality_agnostic.Scans"
+                },
+                {
+                    "name": "sub-12_scans.tsv",
+                    "path": "/sub-12/sub-12_scans.tsv",
+                    "evidence": "Columns cited as index columns not in file: filename. schema.rules.tabular_data.modality_agnostic.Scans"
+                },
+                {
+                    "name": "sub-07_scans.tsv",
+                    "path": "/sub-07/sub-07_scans.tsv",
+                    "evidence": "Columns cited as index columns not in file: filename. schema.rules.tabular_data.modality_agnostic.Scans"
+                },
+                {
+                    "name": "sub-02_scans.tsv",
+                    "path": "/sub-02/sub-02_scans.tsv",
+                    "evidence": "Columns cited as index columns not in file: filename. schema.rules.tabular_data.modality_agnostic.Scans"
+                },
+                {
+                    "name": "sub-18_scans.tsv",
+                    "path": "/sub-18/sub-18_scans.tsv",
+                    "evidence": "Columns cited as index columns not in file: filename. schema.rules.tabular_data.modality_agnostic.Scans"
+                },
+                {
+                    "name": "sub-20_scans.tsv",
+                    "path": "/sub-20/sub-20_scans.tsv",
+                    "evidence": "Columns cited as index columns not in file: filename. schema.rules.tabular_data.modality_agnostic.Scans"
+                },
+                {
+                    "name": "sub-04_scans.tsv",
+                    "path": "/sub-04/sub-04_scans.tsv",
+                    "evidence": "Columns cited as index columns not in file: filename. schema.rules.tabular_data.modality_agnostic.Scans"
+                },
+                {
+                    "name": "sub-14_scans.tsv",
+                    "path": "/sub-14/sub-14_scans.tsv",
+                    "evidence": "Columns cited as index columns not in file: filename. schema.rules.tabular_data.modality_agnostic.Scans"
+                }
+            ]
+        }
+    ],
+    "summary": {
+        "sessions": [],
+        "subjects": [
+            "01",
+            "29",
+            "11",
+            "23",
+            "06",
+            "21",
+            "26",
+            "05",
+            "10",
+            "25",
+            "17",
+            "24",
+            "16",
+            "09",
+            "28",
+            "13",
+            "03",
+            "12",
+            "07",
+            "02",
+            "18",
+            "20",
+            "04",
+            "14"
+        ],
+        "subjectMetadata": [
+            {
+                "participantId": "01",
+                "age": 20,
+                "sex": "F"
+            },
+            {
+                "participantId": "02",
+                "age": 26,
+                "sex": "F"
+            },
+            {
+                "participantId": "03",
+                "age": 22,
+                "sex": "M"
+            },
+            {
+                "participantId": "04",
+                "age": 19,
+                "sex": "M"
+            },
+            {
+                "participantId": "05",
+                "age": 20,
+                "sex": "F"
+            },
+            {
+                "participantId": "06",
+                "age": 21,
+                "sex": "M"
+            },
+            {
+                "participantId": "07",
+                "age": 21,
+                "sex": "M"
+            },
+            {
+                "participantId": "09",
+                "age": 20,
+                "sex": "M"
+            },
+            {
+                "participantId": "10",
+                "age": 19,
+                "sex": "F"
+            },
+            {
+                "participantId": "11",
+                "age": 19,
+                "sex": "F"
+            },
+            {
+                "participantId": "12",
+                "age": 18,
+                "sex": "M"
+            },
+            {
+                "participantId": "13",
+                "age": 18,
+                "sex": "M"
+            },
+            {
+                "participantId": "14",
+                "age": 19,
+                "sex": "M"
+            },
+            {
+                "participantId": "16",
+                "age": 20,
+                "sex": "M"
+            },
+            {
+                "participantId": "17",
+                "age": 18,
+                "sex": "F"
+            },
+            {
+                "participantId": "18",
+                "age": 22,
+                "sex": "M"
+            },
+            {
+                "participantId": "20",
+                "age": 22,
+                "sex": "M"
+            },
+            {
+                "participantId": "21",
+                "age": 22,
+                "sex": "F"
+            },
+            {
+                "participantId": "23",
+                "age": 33,
+                "sex": "F"
+            },
+            {
+                "participantId": "24",
+                "age": 27,
+                "sex": "F"
+            },
+            {
+                "participantId": "25",
+                "age": 19,
+                "sex": "M"
+            },
+            {
+                "participantId": "26",
+                "age": 19,
+                "sex": "M"
+            },
+            {
+                "participantId": "28",
+                "age": 20,
+                "sex": "F"
+            },
+            {
+                "participantId": "29",
+                "age": 22,
+                "sex": "M"
+            }
+        ],
+        "tasks": [
+            "stop signal",
+            "discounting",
+            "emotional regulation",
+            "balloon analog risk task"
+        ],
+        "modalities": [
+            "MRI"
+        ],
+        "secondaryModalities": [
+            "MRI_Functional",
+            "MRI_Diffusion",
+            "MRI_Structural"
+        ],
+        "totalFiles": 658,
+        "size": 6372717095,
+        "dataProcessed": false,
+        "pet": {},
+        "dataTypes": [
+            "dwi",
+            "func",
+            "anat"
+        ],
+        "schemaVersion": "0.7.3-dev"
+    }
+}
