@@ -1,0 +1,34 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: bids-validator-comparator
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Eric
+    family-names: Earl
+    email: eric.earl@nih.gov
+    affiliation: >-
+      Data Science and Sharing Team, National Institute of
+      Mental Health, Bethesda, MD, USA
+    orcid: 'https://orcid.org/0000-0001-5512-0083'
+  - given-names: Anthony
+    family-names: Galassi
+    affiliation: >-
+      Center for Multimodal Neuroimaging, National Institute
+      of Mental Health, Bethesda, MD, USA
+    email: anthony.galassi@nih.gov
+    orcid: 'https://orcid.org/0000-0001-6550-4574'
+abstract: >-
+  A small set of scripts to BIDS-validate and compare
+  validator version outputs for OpenNeuro datasets.
+keywords:
+  - bids
+  - validator
+  - comparison
+  - datalad
+  - openneuro
+license: CC0-1.0
